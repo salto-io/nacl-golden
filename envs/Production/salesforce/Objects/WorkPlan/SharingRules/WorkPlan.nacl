@@ -1,6 +1,0 @@
-salesforce.SharingRules WorkPlan {
-  fullName = "WorkPlan"
-  _parent = [
-    salesforce.WorkPlan,
-  ]
-}

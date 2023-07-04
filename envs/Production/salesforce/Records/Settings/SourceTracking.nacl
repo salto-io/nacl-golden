@@ -1,4 +1,0 @@
-salesforce.SourceTrackingSettings {
-  fullName = "SourceTracking"
-  enableSourceTrackingSandboxes = "false"
-}

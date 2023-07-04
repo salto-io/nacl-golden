@@ -1,6 +1,0 @@
-salesforce.StaticResource documentation {
-  cacheControl = "Public"
-  contentType = "application/zip"
-  fullName = "documentation"
-  content = file("salesforce/Records/StaticResource/documentation.zip")
-}

@@ -1,9 +1,0 @@
-salesforce.Metadata_Driven_Trigger__mdt Metadata_Driven_Trigger_MDTAccountTriggerHandler@uuv {
-  label = "MDTAccountTriggerHandler"
-  protected = false
-  fullName = "Metadata_Driven_Trigger.MDTAccountTriggerHandler"
-  Class__c = "MDTAccountTriggerHandler"
-  Enabled__c = true
-  Execution_Order__c = 2
-  Object__c = "Account"
-}
