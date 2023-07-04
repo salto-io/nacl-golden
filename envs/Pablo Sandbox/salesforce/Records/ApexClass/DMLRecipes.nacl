@@ -1,0 +1,11 @@
+salesforce.ApexClass DMLRecipes {
+  apiVersion = 58
+  status = "Active"
+  fullName = "DMLRecipes"
+  content = file("salesforce/Records/ApexClass/DMLRecipes.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.Account
+    },
+  ]
+}
