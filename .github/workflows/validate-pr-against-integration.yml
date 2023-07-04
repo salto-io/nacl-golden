@@ -69,24 +69,26 @@ jobs:
           fi
 
       - name: Create temporary folder
-        id: create_temp_folder
+        id: create_delta
         run: |
-          mkdir temp_folder
+          mkdir delta
 
       - name: Copy relevant files
         id: copy_files
         run: |
           while IFS= read -r file; do
             if [[ $file == *".cls" ]]; then
-              cp $file temp_folder/
+              cp $file delta/
             fi
           done < changed_files.txt
 
       - name: Run Salesforce Code Analyzer
         id: run_analyzer
         run: |
-          if [[ -n $(ls -A temp_folder) ]]; then
+          if [[ -n $(ls -A delta) ]]; then
+            cd delta
             sfdx scanner:run --format sarif --target './**/*.cls' --category "Design,Best Practices,Performance" --outfile 'apexScanResults.sarif'
+            cd ..
           else
             echo "No .cls files found. Skipping code analysis."
           fi
@@ -95,4 +97,4 @@ jobs:
       - name: Upload SARIF file
         uses: github/codeql-action/upload-sarif@v1
         with:
-          sarif_file: apexScanResults.sarif
+          sarif_file: delta/apexScanResults.sarif
