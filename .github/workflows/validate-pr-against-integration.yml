@@ -32,4 +32,67 @@ jobs:
         env: 
           SALTO_API_TOKEN: ${{ secrets.SALTO_API_TOKEN }}
 
+  analyze_code:
+    runs-on: ubuntu-latest
 
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+       # Now Install Salesforce CLI
+      - name: "Install Salesforce CLI"
+        run: |
+          wget https://developer.salesforce.com/media/salesforce-cli/sfdx/channels/stable/sfdx-linux-x64.tar.xz
+          mkdir ~/sfdx
+          tar xJf sfdx-linux-x64.tar.xz -C ~/sfdx --strip-components 1
+          echo "$HOME/sfdx/bin" >> $GITHUB_PATH
+          ~/sfdx/bin/sfdx version
+
+      # Install java as it is required for the next step
+      - name: "Installing java"
+        run: |
+          sudo apt-get update
+          sudo apt install default-jdk
+
+      # Install SFDX scanner
+      - name: "Installing SFDX scanner"
+        run: sfdx plugins:install @salesforce/sfdx-scanner
+
+      - name: Identify changed files
+        id: file_changes
+        run: |
+          if [[ -n "${{ github.event.pull_request.head.sha }}" ]]; then
+            git fetch origin ${{ github.event.pull_request.head.sha }}
+            git diff --name-only ${{ github.event.pull_request.base.sha }}..${{ github.event.pull_request.head.sha }} > changed_files.txt
+          else
+            git diff --name-only ${{ github.event.pull_request.base.sha }} > changed_files.txt
+          fi
+
+      - name: Create temporary folder
+        id: create_temp_folder
+        run: |
+          mkdir temp_folder
+
+      - name: Copy relevant files
+        id: copy_files
+        run: |
+          while IFS= read -r file; do
+            if [[ $file == *".cls" ]]; then
+              cp $file temp_folder/
+            fi
+          done < changed_files.txt
+
+      - name: Run Salesforce Code Analyzer
+        id: run_analyzer
+        run: |
+          if [[ -n $(ls -A temp_folder) ]]; then
+            sfdx scanner:run --format sarif --target './**/*.cls' --category "Design,Best Practices,Performance" --outfile 'apexScanResults.sarif'
+          else
+            echo "No .cls files found. Skipping code analysis."
+          fi
+          
+      # Now we upload the .sarif file as explained in the previous step
+      - name: Upload SARIF file
+        uses: github/codeql-action/upload-sarif@v1
+        with:
+          sarif_file: changed-sources/apexScanResults.sarif
