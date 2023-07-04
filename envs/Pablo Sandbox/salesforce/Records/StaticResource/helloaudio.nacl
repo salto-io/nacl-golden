@@ -1,0 +1,6 @@
+salesforce.StaticResource helloaudio {
+  cacheControl = "Public"
+  contentType = "audio/x-m4a"
+  fullName = "helloaudio"
+  content = file("salesforce/Records/StaticResource/helloaudio.m4a")
+}

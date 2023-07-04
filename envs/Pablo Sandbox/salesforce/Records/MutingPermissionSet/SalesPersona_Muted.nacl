@@ -1,0 +1,4 @@
+salesforce.MutingPermissionSet SalesPersona_Muted {
+  fullName = "SalesPersona_Muted"
+  label = "SalesPersona Muted"
+}
