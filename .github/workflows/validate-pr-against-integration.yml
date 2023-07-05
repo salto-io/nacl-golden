@@ -88,6 +88,7 @@ jobs:
         uses: mitchspano/sfdx-scan-pull-request@v0.1.12
         with:
           severity-threshold: 4
+          report-mode: comments
           strictly-enforced-rules: '[{ "engine": "pmd", "category": "Performance", "rule": "AvoidDebugStatements" }]'
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
