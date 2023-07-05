@@ -77,6 +77,7 @@ jobs:
         id: copy_files
         run: |
           while IFS= read -r file; do
+            echo "$file has changes"
             if [[ $file == *".cls" ]]; then
               cp $file delta/
             fi
