@@ -1,10 +1,8 @@
 name: Validate changes on Integration sandbox
 on:
-  pull_request:
-    types:
-      - opened
-      - reopened
-      - synchronize
+  push:
+    branches:
+      - integration
 
 jobs:
   Validate:
