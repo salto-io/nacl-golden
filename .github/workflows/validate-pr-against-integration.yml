@@ -1,4 +1,4 @@
-name: Validate
+name: Validate changes on Integration sandbox
 on:
   pull_request:
     types:
