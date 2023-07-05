@@ -1,0 +1,17 @@
+salesforce.ApexClass BatchApexRecipes_Tests {
+  apiVersion = 58
+  status = "Active"
+  fullName = "BatchApexRecipes_Tests"
+  content = file("salesforce/Records/ApexClass/BatchApexRecipes_Tests.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.Account
+    },
+    {
+      reference = salesforce.ApexClass.instance.BatchApexRecipes
+    },
+    {
+      reference = salesforce.ApexClass.instance.TestFactory
+    },
+  ]
+}
