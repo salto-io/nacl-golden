@@ -382,6 +382,7 @@ salesforce.Profile Work_2Ecom_Only_User@pss {
       Website = "ReadWrite"
       YearStarted = "ReadOnly"
       deploy_me__c = "NoAccess"
+      testttt__c = "NoAccess"
     }
     Problem = {
       Category = "ReadWrite"
