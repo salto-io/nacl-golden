@@ -1,0 +1,11 @@
+salesforce.ApexClass RelatedCodeTabsController_Tests {
+  apiVersion = 58
+  status = "Active"
+  fullName = "RelatedCodeTabsController_Tests"
+  content = file("salesforce/Records/ApexClass/RelatedCodeTabsController_Tests.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.ApexClass.instance.RelatedCodeTabsController
+    },
+  ]
+}

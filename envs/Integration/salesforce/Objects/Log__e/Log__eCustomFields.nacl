@@ -1,0 +1,60 @@
+type salesforce.Log__e {
+  salesforce.LongTextArea Log_Message__c {
+    apiName = "Log__e.Log_Message__c"
+    externalId = false
+    isFilteringDisabled = false
+    isNameField = false
+    isSortingDisabled = false
+    label = "Log Message"
+    length = 131072
+    visibleLines = 3
+    createable = true
+    updateable = false
+    queryable = true
+  }
+  salesforce.Text Quiddity__c {
+    apiName = "Log__e.Quiddity__c"
+    externalId = false
+    isFilteringDisabled = false
+    isNameField = false
+    isSortingDisabled = false
+    label = "Quiddity"
+    length = 64
+    _required = true
+    unique = false
+    createable = true
+    updateable = false
+    caseSensitive = false
+    queryable = true
+  }
+  salesforce.Text Request_Id__c {
+    apiName = "Log__e.Request_Id__c"
+    externalId = false
+    isFilteringDisabled = false
+    isNameField = false
+    isSortingDisabled = false
+    label = "Request Id"
+    length = 255
+    _required = true
+    unique = false
+    createable = true
+    updateable = false
+    caseSensitive = false
+    queryable = true
+  }
+  salesforce.Text Severity__c {
+    apiName = "Log__e.Severity__c"
+    externalId = false
+    isFilteringDisabled = false
+    isNameField = false
+    isSortingDisabled = false
+    label = "Severity"
+    length = 255
+    _required = true
+    unique = false
+    createable = true
+    updateable = false
+    caseSensitive = false
+    queryable = true
+  }
+}

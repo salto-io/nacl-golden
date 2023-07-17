@@ -1,0 +1,14 @@
+salesforce.ApexClass RestClient_Tests {
+  apiVersion = 47
+  status = "Active"
+  fullName = "RestClient_Tests"
+  content = file("salesforce/Records/ApexClass/RestClient_Tests.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.ApexClass.instance.HttpCalloutMockFactory
+    },
+    {
+      reference = salesforce.ApexClass.instance.RestClient
+    },
+  ]
+}
