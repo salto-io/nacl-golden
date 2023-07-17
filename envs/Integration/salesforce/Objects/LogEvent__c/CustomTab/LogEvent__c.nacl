@@ -1,0 +1,8 @@
+salesforce.CustomTab LogEvent__c {
+  fullName = "LogEvent__c"
+  customObject = true
+  motif = "Custom45: Ticket"
+  _parent = [
+    salesforce.LogEvent__c,
+  ]
+}
