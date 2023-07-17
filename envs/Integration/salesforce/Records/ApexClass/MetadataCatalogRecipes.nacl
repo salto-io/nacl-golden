@@ -1,0 +1,6 @@
+salesforce.ApexClass MetadataCatalogRecipes {
+  apiVersion = 58
+  status = "Active"
+  fullName = "MetadataCatalogRecipes"
+  content = file("salesforce/Records/ApexClass/MetadataCatalogRecipes.cls")
+}
