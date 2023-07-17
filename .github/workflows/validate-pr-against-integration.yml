@@ -1,8 +1,8 @@
 name: Validate changes on Integration sandbox
 on:
-  push:
-    branches:
-      - integration
+  pull_request:
+    types:
+      - opened
 
 jobs:
   Validate:
