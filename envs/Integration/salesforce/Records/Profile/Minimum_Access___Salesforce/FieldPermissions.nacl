@@ -382,6 +382,7 @@ salesforce.Profile Minimum_Access___Salesforce@ssbs {
       Website = "NoAccess"
       YearStarted = "NoAccess"
       deploy_me__c = "NoAccess"
+      testttt__c = "NoAccess"
     }
     Problem = {
       Category = "ReadWrite"
