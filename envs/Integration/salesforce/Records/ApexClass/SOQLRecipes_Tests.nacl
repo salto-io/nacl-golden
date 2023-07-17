@@ -1,0 +1,47 @@
+salesforce.ApexClass SOQLRecipes_Tests {
+  apiVersion = 56
+  status = "Active"
+  fullName = "SOQLRecipes_Tests"
+  content = file("salesforce/Records/ApexClass/SOQLRecipes_Tests.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.Account
+    },
+    {
+      reference = salesforce.ApexClass.instance.SOQLRecipes
+    },
+    {
+      reference = salesforce.ApexClass.instance.TestDataHelpers
+    },
+    {
+      reference = salesforce.ApexClass.instance.TestFactory
+    },
+    {
+      reference = salesforce.ApexClass.instance.TriggerHandler
+    },
+    {
+      reference = salesforce.Contact
+    },
+    {
+      reference = salesforce.Junction_Demo_1__c
+    },
+    {
+      reference = salesforce.Junction_Demo_2__c
+    },
+    {
+      reference = salesforce.Junction__c
+    },
+    {
+      reference = salesforce.Junction__c.field.Parent2__c
+    },
+    {
+      reference = salesforce.Junction__c.field.parent1__c
+    },
+    {
+      reference = salesforce.Opportunity
+    },
+    {
+      reference = salesforce.User
+    },
+  ]
+}

@@ -1,0 +1,32 @@
+salesforce.ApexClass CustomRestEndpointRecipes_Tests {
+  apiVersion = 58
+  status = "Active"
+  fullName = "CustomRestEndpointRecipes_Tests"
+  content = file("salesforce/Records/ApexClass/CustomRestEndpointRecipes_Tests.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.Account
+    },
+    {
+      reference = salesforce.Account.field.ExternalSalesforceId__c
+    },
+    {
+      reference = salesforce.ApexClass.instance.CanTheUser
+    },
+    {
+      reference = salesforce.ApexClass.instance.CustomRestEndpointRecipes
+    },
+    {
+      reference = salesforce.ApexClass.instance.TestFactory
+    },
+    {
+      reference = salesforce.Contact
+    },
+    {
+      reference = salesforce.Contact.field.ExternalSalesforceId__c
+    },
+    {
+      reference = salesforce.User
+    },
+  ]
+}

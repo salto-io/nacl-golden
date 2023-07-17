@@ -1,0 +1,21 @@
+salesforce.PermissionSet Provides_Read_Access_to_Contact_and_Contact_Name_field {
+  fieldPermissions = {
+    Contact = {
+      AccountId = "ReadOnly"
+    }
+  }
+  hasActivationRequired = false
+  label = "Provides Read Access to Contact and Contact Name field"
+  objectPermissions = {
+    Contact = {
+      allowCreate = false
+      allowDelete = false
+      allowEdit = false
+      allowRead = true
+      modifyAllRecords = false
+      object = salesforce.Contact
+      viewAllRecords = false
+    }
+  }
+  fullName = "Provides_Read_Access_to_Contact_and_Contact_Name_field"
+}

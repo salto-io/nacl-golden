@@ -1,0 +1,11 @@
+salesforce.ApexClass BatchApexRecipes {
+  apiVersion = 58
+  status = "Active"
+  fullName = "BatchApexRecipes"
+  content = file("salesforce/Records/ApexClass/BatchApexRecipes.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.Account
+    },
+  ]
+}
