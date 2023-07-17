@@ -1,0 +1,92 @@
+name: Validate changes on Integration sandbox
+on:
+  pull_request:
+    types:
+      - opened
+
+jobs:
+  Validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Get branch name and save to env"
+        env:
+          IS_PR: ${{ github.EVENT_NAME == 'pull_request' }}
+        run: |
+          if ${IS_PR}; then
+            BRANCH_NAME="${GITHUB_HEAD_REF}"
+          else
+            BRANCH_NAME="${GITHUB_REF##*/}"
+          fi
+          echo "BRANCH_NAME=${BRANCH_NAME}" >> $GITHUB_ENV
+
+      - name: Install Salto CLI
+        run: |
+          curl https://cli.salto.io/release/1/linux-x64.tar.gz --output linux-x64.tar.gz
+          tar xvzf linux-x64.tar.gz
+        
+      - name: Run Deploy Validation
+        run: |
+          ./salto-cloud deployment validate -b ${BRANCH_NAME} -C 'salesforce.client.deploy.testLevel=RunLocalTests'
+        env: 
+          SALTO_API_TOKEN: ${{ secrets.SALTO_API_TOKEN }}
+
+  analyze_code:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+       # Now Install Salesforce CLI
+      - name: "Install Salesforce CLI"
+        run: |
+          wget https://developer.salesforce.com/media/salesforce-cli/sfdx/channels/stable/sfdx-linux-x64.tar.xz
+          mkdir ~/sfdx
+          tar xJf sfdx-linux-x64.tar.xz -C ~/sfdx --strip-components 1
+          echo "$HOME/sfdx/bin" >> $GITHUB_PATH
+          ~/sfdx/bin/sfdx version
+
+      # Install java as it is required for the next step
+      - name: "Installing java"
+        run: |
+          sudo apt-get update
+          sudo apt install default-jdk
+
+      # Install SFDX scanner
+      - name: "Installing SFDX scanner"
+        run: sfdx plugins:install @salesforce/sfdx-scanner
+
+      - name: Identify changed files
+        id: file_changes
+        run: |
+          if [[ -n "${{ github.event.pull_request.head.sha }}" ]]; then
+            git fetch origin ${{ github.event.pull_request.head.sha }}
+            git diff --name-only ${{ github.event.pull_request.base.sha }}..${{ github.event.pull_request.head.sha }} > changed_files.txt
+          else
+            git diff --name-only ${{ github.event.pull_request.base.sha }} > changed_files.txt
+          fi
+
+      - name: Create temporary folder
+        id: create_delta
+        run: |
+          mkdir delta
+
+      - name: Copy relevant files
+        id: copy_files
+        run: |
+          while IFS= read -r file; do
+            echo "$file has changes"
+            if [[ $file == *".cls" ]]; then
+              cp $file delta/
+            fi
+          done < changed_files.txt
+          cd delta
+
+      - name: Run SFDX Scanner - Report findings as comments
+        uses: mitchspano/sfdx-scan-pull-request@v0.1.12
+        with:
+          severity-threshold: 4
+          report-mode: comments
+          strictly-enforced-rules: '[{ "engine": "pmd", "category": "Performance", "rule": "AvoidDebugStatements" }]'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
