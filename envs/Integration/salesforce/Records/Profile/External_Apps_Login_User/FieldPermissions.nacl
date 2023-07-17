@@ -382,6 +382,7 @@ salesforce.Profile External_Apps_Login_User@s {
       Website = "ReadWrite"
       YearStarted = "ReadOnly"
       deploy_me__c = "NoAccess"
+      testttt__c = "NoAccess"
     }
     Problem = {
       Category = "ReadWrite"

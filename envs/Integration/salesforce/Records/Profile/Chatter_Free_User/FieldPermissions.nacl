@@ -382,6 +382,7 @@ salesforce.Profile Chatter_Free_User@s {
       Website = "ReadWrite"
       YearStarted = "ReadOnly"
       deploy_me__c = "NoAccess"
+      testttt__c = "NoAccess"
     }
     Problem = {
       Category = "ReadWrite"
