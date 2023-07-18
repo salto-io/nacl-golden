@@ -1,0 +1,26 @@
+salesforce.ApexClass DataFactoryForPackageInstalls {
+  apiVersion = 56
+  status = "Active"
+  fullName = "DataFactoryForPackageInstalls"
+  content = file("salesforce/Records/ApexClass/DataFactoryForPackageInstalls.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.ApexClass.instance.CanTheUser
+    },
+    {
+      reference = salesforce.Junction_Demo_1__c
+    },
+    {
+      reference = salesforce.Junction_Demo_2__c
+    },
+    {
+      reference = salesforce.Junction__c
+    },
+    {
+      reference = salesforce.Junction__c.field.Parent2__c
+    },
+    {
+      reference = salesforce.Junction__c.field.parent1__c
+    },
+  ]
+}
