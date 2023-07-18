@@ -1,0 +1,10 @@
+salesforce.NamedCredential HappySoup {
+  fullName = "HappySoup"
+  allowMergeFieldsInBody = false
+  allowMergeFieldsInHeader = false
+  endpoint = "https://dev-happysoup.io/auth"
+  generateAuthorizationHeader = true
+  label = "HappySoup"
+  principalType = "Anonymous"
+  protocol = "NoAuthentication"
+}

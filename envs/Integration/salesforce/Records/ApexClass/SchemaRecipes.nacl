@@ -1,0 +1,17 @@
+salesforce.ApexClass SchemaRecipes {
+  apiVersion = 56
+  status = "Active"
+  fullName = "SchemaRecipes"
+  content = file("salesforce/Records/ApexClass/SchemaRecipes.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.Account
+    },
+    {
+      reference = salesforce.Junction__c
+    },
+    {
+      reference = salesforce.Junction__c.field.parent1__c
+    },
+  ]
+}

@@ -1,0 +1,6 @@
+salesforce.ApexClass DeprecatedAPIVersionScanner_Tests {
+  apiVersion = 58
+  status = "Active"
+  fullName = "DeprecatedAPIVersionScanner_Tests"
+  content = file("salesforce/Records/ApexClass/DeprecatedAPIVersionScanner_Tests.cls")
+}
