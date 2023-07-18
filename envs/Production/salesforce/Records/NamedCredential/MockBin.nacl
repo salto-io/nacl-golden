@@ -1,0 +1,10 @@
+salesforce.NamedCredential MockBin {
+  fullName = "MockBin"
+  allowMergeFieldsInBody = false
+  allowMergeFieldsInHeader = false
+  endpoint = "http://mockbin.org/bin/"
+  generateAuthorizationHeader = true
+  label = "MockBin"
+  principalType = "Anonymous"
+  protocol = "NoAuthentication"
+}

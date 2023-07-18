@@ -1,0 +1,14 @@
+salesforce.ApexClass Log {
+  apiVersion = 58
+  status = "Active"
+  fullName = "Log"
+  content = file("salesforce/Records/ApexClass/Log.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.ApexClass.instance.LogMessage
+    },
+    {
+      reference = salesforce.ApexClass.instance.LogSeverity
+    },
+  ]
+}

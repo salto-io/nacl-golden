@@ -1,0 +1,6 @@
+salesforce.ApexClass MetadataTriggerService {
+  apiVersion = 58
+  status = "Active"
+  fullName = "MetadataTriggerService"
+  content = file("salesforce/Records/ApexClass/MetadataTriggerService.cls")
+}
