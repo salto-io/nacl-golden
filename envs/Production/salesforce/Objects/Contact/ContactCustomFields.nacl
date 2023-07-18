@@ -1,0 +1,89 @@
+type salesforce.Contact {
+  salesforce.Picklist AttendanceStatus__c {
+    apiName = "Contact.AttendanceStatus__c"
+    externalId = false
+    inlineHelpText = "This is only on Contact for expediency"
+    label = "Attendance Status"
+    valueSet = [
+      {
+        fullName = "Partial"
+        default = false
+        label = "Partial"
+      },
+      {
+        fullName = "Full"
+        default = false
+        label = "Full"
+      },
+      {
+        fullName = "Asleep"
+        default = false
+        label = "Asleep"
+      },
+      {
+        fullName = "Excused Absence"
+        default = false
+        label = "Excused Absence"
+      },
+      {
+        fullName = "Unexcused Absence"
+        default = false
+        label = "Unexcused Absence"
+      },
+    ]
+    sorted = false
+    restricted = true
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Text ExternalSalesforceId__c {
+    apiName = "Contact.ExternalSalesforceId__c"
+    externalId = true
+    label = "External Salesforce Id"
+    length = 18
+    unique = false
+    createable = true
+    updateable = true
+    caseSensitive = false
+    queryable = true
+  }
+  salesforce.Text Languages__c {
+    apiName = "Contact.Languages__c"
+    externalId = false
+    label = "Languages"
+    length = 100
+    unique = false
+    createable = true
+    updateable = true
+    caseSensitive = false
+    queryable = true
+  }
+  salesforce.Picklist Level__c {
+    apiName = "Contact.Level__c"
+    externalId = false
+    label = "Level"
+    valueSet = [
+      {
+        fullName = "Secondary"
+        default = false
+        label = "Secondary"
+      },
+      {
+        fullName = "Tertiary"
+        default = false
+        label = "Tertiary"
+      },
+      {
+        fullName = "Primary"
+        default = false
+        label = "Primary"
+      },
+    ]
+    sorted = false
+    restricted = false
+    createable = true
+    updateable = true
+    queryable = true
+  }
+}
