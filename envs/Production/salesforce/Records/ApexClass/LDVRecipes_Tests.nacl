@@ -1,0 +1,23 @@
+salesforce.ApexClass LDVRecipes_Tests {
+  apiVersion = 51
+  status = "Active"
+  fullName = "LDVRecipes_Tests"
+  content = file("salesforce/Records/ApexClass/LDVRecipes_Tests.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.Account
+    },
+    {
+      reference = salesforce.ApexClass.instance.FilesRecipes
+    },
+    {
+      reference = salesforce.ApexClass.instance.LDVRecipes
+    },
+    {
+      reference = salesforce.ApexClass.instance.TestFactory
+    },
+    {
+      reference = salesforce.ApexClass.instance.TriggerHandler
+    },
+  ]
+}

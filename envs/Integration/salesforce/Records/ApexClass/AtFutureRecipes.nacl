@@ -1,0 +1,6 @@
+salesforce.ApexClass AtFutureRecipes {
+  apiVersion = 58
+  status = "Active"
+  fullName = "AtFutureRecipes"
+  content = file("salesforce/Records/ApexClass/AtFutureRecipes.cls")
+}

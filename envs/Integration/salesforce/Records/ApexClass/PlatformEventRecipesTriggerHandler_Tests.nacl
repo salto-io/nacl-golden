@@ -1,0 +1,26 @@
+salesforce.ApexClass PlatformEventRecipesTriggerHandler_Tests {
+  apiVersion = 58
+  status = "Active"
+  fullName = "PlatformEventRecipesTriggerHandler_Tests"
+  content = file("salesforce/Records/ApexClass/PlatformEventRecipesTriggerHandler_Tests.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.Account
+    },
+    {
+      reference = salesforce.ApexClass.instance.TestFactory
+    },
+    {
+      reference = salesforce.Event_Recipes_Demo__e
+    },
+    {
+      reference = salesforce.Event_Recipes_Demo__e.field.accountId__c
+    },
+    {
+      reference = salesforce.Event_Recipes_Demo__e.field.title__c
+    },
+    {
+      reference = salesforce.Event_Recipes_Demo__e.field.url__c
+    },
+  ]
+}
