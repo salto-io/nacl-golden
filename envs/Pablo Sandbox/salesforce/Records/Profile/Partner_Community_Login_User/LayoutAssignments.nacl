@@ -1,0 +1,569 @@
+salesforce.Profile Partner_Community_Login_User@s {
+  layoutAssignments = {
+    Account_Account_Layout@bs = [
+      {
+        layout = salesforce.Layout.instance.Account_Account_Layout@bs
+      },
+    ]
+    AlternativePaymentMethod_Alternative_Payment_Method_Layout@bsss = [
+      {
+        layout = salesforce.Layout.instance.AlternativePaymentMethod_Alternative_Payment_Method_Layout@bsss
+      },
+    ]
+    ApiAnomalyEventStore_API_Anomaly_Event_Store_Layout@bssss = [
+      {
+        layout = salesforce.Layout.instance.ApiAnomalyEventStore_API_Anomaly_Event_Store_Layout@bssss
+      },
+    ]
+    Asset_Asset_Layout@bs = [
+      {
+        layout = salesforce.Layout.instance.Asset_Asset_Layout@bs
+      },
+    ]
+    AssetAction_Asset_Action_Layout@bss = [
+      {
+        layout = salesforce.Layout.instance.AssetAction_Asset_Action_Layout@bss
+      },
+    ]
+    AssetActionSource_Asset_Action_Source_Layout@bsss = [
+      {
+        layout = salesforce.Layout.instance.AssetActionSource_Asset_Action_Source_Layout@bsss
+      },
+    ]
+    AssetRelationship_Asset_Relationship_Layout@bss = [
+      {
+        layout = salesforce.Layout.instance.AssetRelationship_Asset_Relationship_Layout@bss
+      },
+    ]
+    AssetStatePeriod_Asset_State_Period_Layout@bsss = [
+      {
+        layout = salesforce.Layout.instance.AssetStatePeriod_Asset_State_Period_Layout@bsss
+      },
+    ]
+    AssociatedLocation_Associated_Location_Layout@bss = [
+      {
+        layout = salesforce.Layout.instance.AssociatedLocation_Associated_Location_Layout@bss
+      },
+    ]
+    AuthorizationForm_Authorization_Form_Layout@bss = [
+      {
+        layout = salesforce.Layout.instance.AuthorizationForm_Authorization_Form_Layout@bss
+      },
+    ]
+    AuthorizationFormConsent_Authorization_Form_Consent_Layout@bsss = [
+      {
+        layout = salesforce.Layout.instance.AuthorizationFormConsent_Authorization_Form_Consent_Layout@bsss
+      },
+    ]
+    AuthorizationFormDataUse_Authorization_Form_Data_Use_Layout@bssss = [
+      {
+        layout = salesforce.Layout.instance.AuthorizationFormDataUse_Authorization_Form_Data_Use_Layout@bssss
+      },
+    ]
+    AuthorizationFormText_Authorization_Form_Text_Layout@bsss = [
+      {
+        layout = salesforce.Layout.instance.AuthorizationFormText_Authorization_Form_Text_Layout@bsss
+      },
+    ]
+    Bucketed_Picklist_Value__mdt_Bucketed_Picklist_Value_Layout@uuuubsss = [
+      {
+        layout = salesforce.Layout.instance.Bucketed_Picklist_Value__mdt_Bucketed_Picklist_Value_Layout@uuuubsss
+      },
+    ]
+    Bucketed_Picklist__mdt_Bucketed_Picklist_Layout@uuubss = [
+      {
+        layout = salesforce.Layout.instance.Bucketed_Picklist__mdt_Bucketed_Picklist_Layout@uuubss
+      },
+    ]
+    BusinessBrand_Business_Brand_Layout@bss = [
+      {
+        layout = salesforce.Layout.instance.BusinessBrand_Business_Brand_Layout@bss
+      },
+    ]
+    Campaign_Campaign_Layout@bs = [
+      {
+        layout = salesforce.Layout.instance.Campaign_Campaign_Layout@bs
+      },
+    ]
+    CampaignMember_Campaign_Member_Page_Layout@bsss = [
+      {
+        layout = salesforce.Layout.instance.CampaignMember_Campaign_Member_Page_Layout@bsss
+      },
+    ]
+    CardPaymentMethod_Card_Payment_Method_Layout@bsss = [
+      {
+        layout = salesforce.Layout.instance.CardPaymentMethod_Card_Payment_Method_Layout@bsss
+      },
+    ]
+    Case_Case_Layout@bs = [
+      {
+        layout = salesforce.Layout.instance.Case_Case_Layout@bs
+      },
+    ]
+    CaseClose_Close_Case_Layout@bss = [
+      {
+        layout = salesforce.Layout.instance.CaseClose_Close_Case_Layout@bss
+      },
+    ]
+    CaseMilestone_Case_Milestone_Layout@bss = [
+      {
+        layout = salesforce.Layout.instance.CaseMilestone_Case_Milestone_Layout@bss
+      },
+    ]
+    CommunityMemberLayout_Community_Member_Layout@bss = [
+      {
+        layout = salesforce.Layout.instance.CommunityMemberLayout_Community_Member_Layout@bss
+      },
+    ]
+    ConsumptionRate_Consumption_Rate_Layout@bss = [
+      {
+        layout = salesforce.Layout.instance.ConsumptionRate_Consumption_Rate_Layout@bss
+      },
+    ]
+    ConsumptionSchedule_Consumption_Schedule_Layout@bss = [
+      {
+        layout = salesforce.Layout.instance.ConsumptionSchedule_Consumption_Schedule_Layout@bss
+      },
+    ]
+    Contact_Contact_Layout@bs = [
+      {
+        layout = salesforce.Layout.instance.Contact_Contact_Layout@bs
+      },
+    ]
+    ContactPointAddress_Contact_Point_Address_Layout@bsss = [
+      {
+        layout = salesforce.Layout.instance.ContactPointAddress_Contact_Point_Address_Layout@bsss
+      },
+    ]
+    ContactPointEmail_Contact_Point_Email_Layout@bsss = [
+      {
+        layout = salesforce.Layout.instance.ContactPointEmail_Contact_Point_Email_Layout@bsss
+      },
+    ]
+    ContactPointPhone_Contact_Point_Phone_Layout@bsss = [
+      {
+        layout = salesforce.Layout.instance.ContactPointPhone_Contact_Point_Phone_Layout@bsss
+      },
+    ]
+    ContactPointTypeConsent_Contact_Point_Type_Consent_Layout@bssss = [
+      {
+        layout = salesforce.Layout.instance.ContactPointTypeConsent_Contact_Point_Type_Consent_Layout@bssss
+      },
+    ]
+    ContentVersion_Content_Version_Layout@bss = [
+      {
+        layout = salesforce.Layout.instance.ContentVersion_Content_Version_Layout@bss
+      },
+    ]
+    Contract_Contract_Layout@bs = [
+      {
+        layout = salesforce.Layout.instance.Contract_Contract_Layout@bs
+      },
+    ]
+    ContractLineItem_Contract_Line_Item_Layout@bsss = [
+      {
+        layout = salesforce.Layout.instance.ContractLineItem_Contract_Line_Item_Layout@bsss
+      },
+    ]
+    CredentialStuffingEventStore_Credential_Stuffing_Event_Store_Layout@bssss = [
+      {
+        layout = salesforce.Layout.instance.CredentialStuffingEventStore_Credential_Stuffing_Event_Store_Layout@bssss
+      },
+    ]
+    CreditMemo_Credit_Memo_Layout@bss = [
+      {
+        layout = salesforce.Layout.instance.CreditMemo_Credit_Memo_Layout@bss
+      },
+    ]
+    CreditMemoLine_Credit_Memo_Line_Layout@bsss = [
+      {
+        layout = salesforce.Layout.instance.CreditMemoLine_Credit_Memo_Line_Layout@bsss
+      },
+    ]
+    Customer_Customer_Layout@bs = [
+      {
+        layout = salesforce.Layout.instance.Customer_Customer_Layout@bs
+      },
+    ]
+    DandBCompany_D_26B_Company_Layout@bpss = [
+      {
+        layout = salesforce.Layout.instance.DandBCompany_D_26B_Company_Layout@bpss
+      },
+    ]
+    DataUseLegalBasis_Data_Use_Legal_Basis_Layout@bssss = [
+      {
+        layout = salesforce.Layout.instance.DataUseLegalBasis_Data_Use_Legal_Basis_Layout@bssss
+      },
+    ]
+    DataUsePurpose_Data_Use_Purpose_Layout@bsss = [
+      {
+        layout = salesforce.Layout.instance.DataUsePurpose_Data_Use_Purpose_Layout@bsss
+      },
+    ]
+    DigitalWallet_Digital_Wallet_Layout@bss = [
+      {
+        layout = salesforce.Layout.instance.DigitalWallet_Digital_Wallet_Layout@bss
+      },
+    ]
+    Disabled_For__mdt_Disabled_For_Layout@uuubss = [
+      {
+        layout = salesforce.Layout.instance.Disabled_For__mdt_Disabled_For_Layout@uuubss
+      },
+    ]
+    DuplicateRecordSet_Duplicate_Record_Set_Layout@bsss = [
+      {
+        layout = salesforce.Layout.instance.DuplicateRecordSet_Duplicate_Record_Set_Layout@bsss
+      },
+    ]
+    EmailMessage_Email_Message_Layout@bss = [
+      {
+        layout = salesforce.Layout.instance.EmailMessage_Email_Message_Layout@bss
+      },
+    ]
+    Entitlement_Entitlement_Layout@bs = [
+      {
+        layout = salesforce.Layout.instance.Entitlement_Entitlement_Layout@bs
+      },
+    ]
+    EntityMilestone_Object_Milestone_Layout@bss = [
+      {
+        layout = salesforce.Layout.instance.EntityMilestone_Object_Milestone_Layout@bss
+      },
+    ]
+    Event_Event_Layout@bs = [
+      {
+        layout = salesforce.Layout.instance.Event_Event_Layout@bs
+      },
+    ]
+    FeedItem_Feed_Item_Layout@bss = [
+      {
+        layout = salesforce.Layout.instance.FeedItem_Feed_Item_Layout@bss
+      },
+    ]
+    FinanceBalanceSnapshot_Finance_Balance_Snapshot_Layout@bsss = [
+      {
+        layout = salesforce.Layout.instance.FinanceBalanceSnapshot_Finance_Balance_Snapshot_Layout@bsss
+      },
+    ]
+    FinanceTransaction_Finance_Transaction_Layout@bss = [
+      {
+        layout = salesforce.Layout.instance.FinanceTransaction_Finance_Transaction_Layout@bss
+      },
+    ]
+    Global_Global_Layout@bs = [
+      {
+        layout = salesforce.Layout.instance.Global_Global_Layout@bs
+      },
+    ]
+    Idea_Idea_Layout@bs = [
+      {
+        layout = salesforce.Layout.instance.Idea_Idea_Layout@bs
+      },
+    ]
+    Individual_Individual_Layout@bs = [
+      {
+        layout = salesforce.Layout.instance.Individual_Individual_Layout@bs
+      },
+    ]
+    Invoice_Invoice_Layout@bs = [
+      {
+        layout = salesforce.Layout.instance.Invoice_Invoice_Layout@bs
+      },
+    ]
+    InvoiceLine_Invoice_Line_Layout@bss = [
+      {
+        layout = salesforce.Layout.instance.InvoiceLine_Invoice_Line_Layout@bss
+      },
+    ]
+    Junction_Demo_1__c_Junction_Demo_1_Layout@uuuubsss = [
+      {
+        layout = salesforce.Layout.instance.Junction_Demo_1__c_Junction_Demo_1_Layout@uuuubsss
+      },
+    ]
+    Junction_Demo_2__c_Junction_Demo_2_Layout@uuuubsss = [
+      {
+        layout = salesforce.Layout.instance.Junction_Demo_2__c_Junction_Demo_2_Layout@uuuubsss
+      },
+    ]
+    Junction__c_Junction_Layout@uubs = [
+      {
+        layout = salesforce.Layout.instance.Junction__c_Junction_Layout@uubs
+      },
+    ]
+    Lead_Lead_Layout@bs = [
+      {
+        layout = salesforce.Layout.instance.Lead_Lead_Layout@bs
+      },
+    ]
+    LegalEntity_Legal_Entity_Layout@bss = [
+      {
+        layout = salesforce.Layout.instance.LegalEntity_Legal_Entity_Layout@bss
+      },
+    ]
+    Location_Location_Layout@bs = [
+      {
+        layout = salesforce.Layout.instance.Location_Location_Layout@bs
+      },
+    ]
+    LogEvent__c_Log_Event_Layout@uubss = [
+      {
+        layout = salesforce.Layout.instance.LogEvent__c_Log_Event_Layout@uubss
+      },
+    ]
+    Macro_Macro_Layout@bs = [
+      {
+        layout = salesforce.Layout.instance.Macro_Macro_Layout@bs
+      },
+    ]
+    Metadata_Driven_Trigger__mdt_Metadata_Driven_Trigger_Layout@uuuubsss = [
+      {
+        layout = salesforce.Layout.instance.Metadata_Driven_Trigger__mdt_Metadata_Driven_Trigger_Layout@uuuubsss
+      },
+    ]
+    Opportunity_Opportunity_Layout@bs = [
+      {
+        layout = salesforce.Layout.instance.Opportunity_Opportunity_Layout@bs
+      },
+    ]
+    OpportunityLineItem_Opportunity_Product_Layout@bss = [
+      {
+        layout = salesforce.Layout.instance.OpportunityLineItem_Opportunity_Product_Layout@bss
+      },
+    ]
+    Order_Order_Layout@bs = [
+      {
+        layout = salesforce.Layout.instance.Order_Order_Layout@bs
+      },
+    ]
+    OrderItem_Order_Product_Layout@bss = [
+      {
+        layout = salesforce.Layout.instance.OrderItem_Order_Product_Layout@bss
+      },
+    ]
+    Payment_Payment_Layout@bs = [
+      {
+        layout = salesforce.Layout.instance.Payment_Payment_Layout@bs
+      },
+    ]
+    PaymentAuthAdjustment_Payment_Authorization_Adjustment_Layout@bsss = [
+      {
+        layout = salesforce.Layout.instance.PaymentAuthAdjustment_Payment_Authorization_Adjustment_Layout@bsss
+      },
+    ]
+    PaymentAuthorization_Payment_Authorization_Layout@bss = [
+      {
+        layout = salesforce.Layout.instance.PaymentAuthorization_Payment_Authorization_Layout@bss
+      },
+    ]
+    PaymentGateway_Payment_Gateway_Layout@bss = [
+      {
+        layout = salesforce.Layout.instance.PaymentGateway_Payment_Gateway_Layout@bss
+      },
+    ]
+    PaymentGatewayLog_Payment_Gateway_Log_Layout@bsss = [
+      {
+        layout = salesforce.Layout.instance.PaymentGatewayLog_Payment_Gateway_Log_Layout@bsss
+      },
+    ]
+    PaymentGroup_Payment_Group_Layout@bss = [
+      {
+        layout = salesforce.Layout.instance.PaymentGroup_Payment_Group_Layout@bss
+      },
+    ]
+    PaymentLineInvoice_Payment_Line_Invoice_Layout@bsss = [
+      {
+        layout = salesforce.Layout.instance.PaymentLineInvoice_Payment_Line_Invoice_Layout@bsss
+      },
+    ]
+    Permission_Set_Group_Testing_Result__mdt_Permission_Set_Group_Testing_Result_Layout@uuuuuubsssss = [
+      {
+        layout = salesforce.Layout.instance.Permission_Set_Group_Testing_Result__mdt_Permission_Set_Group_Testing_Result_Layout@uuuuuubsssss
+      },
+    ]
+    Picklist_Bucket__mdt_Picklist_Bucket_Layout@uuubss = [
+      {
+        layout = salesforce.Layout.instance.Picklist_Bucket__mdt_Picklist_Bucket_Layout@uuubss
+      },
+    ]
+    Pricebook2_Price_Book_Layout@bss = [
+      {
+        layout = salesforce.Layout.instance.Pricebook2_Price_Book_Layout@bss
+      },
+    ]
+    PricebookEntry_Price_Book_Entry_Layout@bsss = [
+      {
+        layout = salesforce.Layout.instance.PricebookEntry_Price_Book_Entry_Layout@bsss
+      },
+    ]
+    ProcessException_Process_Exception_Layout@bss = [
+      {
+        layout = salesforce.Layout.instance.ProcessException_Process_Exception_Layout@bss
+      },
+    ]
+    Product2_Product_Layout@bs = [
+      {
+        layout = salesforce.Layout.instance.Product2_Product_Layout@bs
+      },
+    ]
+    ProductConsumptionSchedule_Product_Consumption_Schedule_Layout@bsss = [
+      {
+        layout = salesforce.Layout.instance.ProductConsumptionSchedule_Product_Consumption_Schedule_Layout@bsss
+      },
+    ]
+    QuickText_Quick_Text_Layout@bss = [
+      {
+        layout = salesforce.Layout.instance.QuickText_Quick_Text_Layout@bss
+      },
+    ]
+    Refund_Refund_Layout@bs = [
+      {
+        layout = salesforce.Layout.instance.Refund_Refund_Layout@bs
+      },
+    ]
+    RefundLinePayment_Refund_Line_Payment_Layout@bsss = [
+      {
+        layout = salesforce.Layout.instance.RefundLinePayment_Refund_Line_Payment_Layout@bsss
+      },
+    ]
+    ReportAnomalyEventStore_Report_Anomaly_Event_Store_Layout@bssss = [
+      {
+        layout = salesforce.Layout.instance.ReportAnomalyEventStore_Report_Anomaly_Event_Store_Layout@bssss
+      },
+    ]
+    Sample__c_Sample_Layout@uubs = [
+      {
+        layout = salesforce.Layout.instance.Sample__c_Sample_Layout@uubs
+      },
+    ]
+    Scorecard_Scorecard_Layout@bs = [
+      {
+        layout = salesforce.Layout.instance.Scorecard_Scorecard_Layout@bs
+      },
+    ]
+    ScorecardAssociation_Scorecard_Association_Layout@bss = [
+      {
+        layout = salesforce.Layout.instance.ScorecardAssociation_Scorecard_Association_Layout@bss
+      },
+    ]
+    ScorecardMetric_Scorecard_Metric_Layout@bss = [
+      {
+        layout = salesforce.Layout.instance.ScorecardMetric_Scorecard_Metric_Layout@bss
+      },
+    ]
+    Seller_Seller_Layout@bs = [
+      {
+        layout = salesforce.Layout.instance.Seller_Seller_Layout@bs
+      },
+    ]
+    ServiceContract_Service_Contract_Layout@bss = [
+      {
+        layout = salesforce.Layout.instance.ServiceContract_Service_Contract_Layout@bss
+      },
+    ]
+    SessionHijackingEventStore_Session_Hijacking_Event_Store_Layout@bssss = [
+      {
+        layout = salesforce.Layout.instance.SessionHijackingEventStore_Session_Hijacking_Event_Store_Layout@bssss
+      },
+    ]
+    SocialPersona_Social_Persona_Layout@bss = [
+      {
+        layout = salesforce.Layout.instance.SocialPersona_Social_Persona_Layout@bss
+      },
+    ]
+    Solution_Solution_Layout@bs = [
+      {
+        layout = salesforce.Layout.instance.Solution_Solution_Layout@bs
+      },
+    ]
+    Task_Task_Layout@bs = [
+      {
+        layout = salesforce.Layout.instance.Task_Task_Layout@bs
+      },
+    ]
+    ThreatDetectionFeedback_Threat_Detection_Feedback_Layout@bsss = [
+      {
+        layout = salesforce.Layout.instance.ThreatDetectionFeedback_Threat_Detection_Feedback_Layout@bsss
+      },
+    ]
+    User_User_Layout@bs = [
+      {
+        layout = salesforce.Layout.instance.User_User_Layout@bs
+      },
+    ]
+    UserAlt_User_Profile_Layout@bss = [
+      {
+        layout = salesforce.Layout.instance.UserAlt_User_Profile_Layout@bss
+      },
+    ]
+    UserProvAccount_User_Provisioning_Account_Layout@bsss = [
+      {
+        layout = salesforce.Layout.instance.UserProvAccount_User_Provisioning_Account_Layout@bsss
+      },
+    ]
+    UserProvisioningLog_User_Provisioning_Log_Layout@bsss = [
+      {
+        layout = salesforce.Layout.instance.UserProvisioningLog_User_Provisioning_Log_Layout@bsss
+      },
+    ]
+    UserProvisioningRequest_User_Provisioning_Request_Layout@bsss = [
+      {
+        layout = salesforce.Layout.instance.UserProvisioningRequest_User_Provisioning_Request_Layout@bsss
+      },
+    ]
+    WorkAccess_Access_Layout@bs = [
+      {
+        layout = salesforce.Layout.instance.WorkAccess_Access_Layout@bs
+      },
+    ]
+    WorkBadge_Badge_Received_Layout@bss = [
+      {
+        layout = salesforce.Layout.instance.WorkBadge_Badge_Received_Layout@bss
+      },
+    ]
+    WorkBadgeDefinition_Badge_Layout@bs = [
+      {
+        layout = salesforce.Layout.instance.WorkBadgeDefinition_Badge_Layout@bs
+      },
+    ]
+    WorkOrder_Work_Order_Layout@bss = [
+      {
+        layout = salesforce.Layout.instance.WorkOrder_Work_Order_Layout@bss
+      },
+    ]
+    WorkOrderLineItem_Work_Order_Line_Item_Layout@bssss = [
+      {
+        layout = salesforce.Layout.instance.WorkOrderLineItem_Work_Order_Line_Item_Layout@bssss
+      },
+    ]
+    WorkPlan_Work_Plan_Layout@bss = [
+      {
+        layout = salesforce.Layout.instance.WorkPlan_Work_Plan_Layout@bss
+      },
+    ]
+    WorkPlanTemplate_Work_Plan_Template_Layout@bsss = [
+      {
+        layout = salesforce.Layout.instance.WorkPlanTemplate_Work_Plan_Template_Layout@bsss
+      },
+    ]
+    WorkPlanTemplateEntry_Work_Plan_Template_Entry_Layout@bssss = [
+      {
+        layout = salesforce.Layout.instance.WorkPlanTemplateEntry_Work_Plan_Template_Entry_Layout@bssss
+      },
+    ]
+    WorkStep_Work_Step_Layout@bss = [
+      {
+        layout = salesforce.Layout.instance.WorkStep_Work_Step_Layout@bss
+      },
+    ]
+    WorkStepTemplate_Work_Step_Template_Layout@bsss = [
+      {
+        layout = salesforce.Layout.instance.WorkStepTemplate_Work_Step_Template_Layout@bsss
+      },
+    ]
+    WorkThanks_Thanks_Layout@bs = [
+      {
+        layout = salesforce.Layout.instance.WorkThanks_Thanks_Layout@bs
+      },
+    ]
+  }
+}

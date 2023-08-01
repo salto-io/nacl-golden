@@ -1,0 +1,14 @@
+salesforce.ApexClass IterationRecipes {
+  apiVersion = 58
+  status = "Active"
+  fullName = "IterationRecipes"
+  content = file("salesforce/Records/ApexClass/IterationRecipes.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.Account
+    },
+    {
+      reference = salesforce.ApexClass.instance.IterableApiClient
+    },
+  ]
+}
