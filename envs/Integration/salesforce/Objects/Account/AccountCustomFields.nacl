@@ -5,7 +5,7 @@ type salesforce.Account {
     label = "Active"
     valueSet = [
       {
-        fullName = "No"
+        fullName = "No7"
         default = false
         label = "No"
       },
@@ -160,5 +160,13 @@ type salesforce.Account {
     createable = true
     updateable = true
     queryable = true
+  }
+  salesforce.Text no_one_can_see_me__c {
+    apiName = "Account.no_one_can_see_me__c"
+    externalId = false
+    label = "no one can see me"
+    length = 200
+    unique = false
+    _hidden_value = true
   }
 }
