@@ -5,7 +5,7 @@ type salesforce.Account {
     label = "Active"
     valueSet = [
       {
-        fullName = "No"
+        fullName = "No7"
         default = false
         label = "No"
       },
