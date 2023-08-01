@@ -1,4 +1,4 @@
-name: Validate changes on UAT sandbox
+name: Validate changes on prod
 on:
   pull_request:
     types:
