@@ -150,7 +150,10 @@ type salesforce.Account {
     defaultValue = false
     externalId = false
     label = "deploy me"
-    _hidden_value = true
+    
+    createable = true
+    updateable = true
+    queryable = true
   }
   salesforce.Checkbox testttt__c {
     apiName = "Account.testttt__c"
@@ -160,5 +163,13 @@ type salesforce.Account {
     createable = true
     updateable = true
     queryable = true
+  }
+  salesforce.Text no_one_can_see_me__c {
+    apiName = "Account.no_one_can_see_me__c"
+    externalId = false
+    label = "no one can see me"
+    length = 200
+    unique = false
+    _hidden_value = true
   }
 }
