@@ -1,0 +1,12 @@
+salesforce.CspTrustedSite Salesforce {
+  fullName = "Salesforce"
+  context = "All"
+  endpointUrl = "https://I.lightning.force.com"
+  isActive = true
+  isApplicableToConnectSrc = true
+  isApplicableToFontSrc = false
+  isApplicableToFrameSrc = false
+  isApplicableToImgSrc = false
+  isApplicableToMediaSrc = true
+  isApplicableToStyleSrc = false
+}

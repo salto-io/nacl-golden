@@ -1,0 +1,512 @@
+salesforce.Profile External_Apps_Login_User@s {
+  classAccesses = {
+    AccountServiceLayer = {
+      apexClass = salesforce.ApexClass.instance.AccountServiceLayer
+      enabled = false
+    }
+    AccountServiceLayer_Tests = {
+      apexClass = salesforce.ApexClass.instance.AccountServiceLayer_Tests
+      enabled = false
+    }
+    AccountTriggerHandler = {
+      apexClass = salesforce.ApexClass.instance.AccountTriggerHandler
+      enabled = false
+    }
+    AccountTriggerHandler_Tests = {
+      apexClass = salesforce.ApexClass.instance.AccountTriggerHandler_Tests
+      enabled = false
+    }
+    ApexClassUtilities = {
+      apexClass = salesforce.ApexClass.instance.ApexClassUtilities
+      enabled = false
+    }
+    ApexClassUtilities_Tests = {
+      apexClass = salesforce.ApexClass.instance.ApexClassUtilities_Tests
+      enabled = false
+    }
+    ApiServiceRecipes = {
+      apexClass = salesforce.ApexClass.instance.ApiServiceRecipes
+      enabled = false
+    }
+    ApiServiceRecipesDataModel = {
+      apexClass = salesforce.ApexClass.instance.ApiServiceRecipesDataModel
+      enabled = false
+    }
+    ApiServiceRecipesDataModel_Tests = {
+      apexClass = salesforce.ApexClass.instance.ApiServiceRecipesDataModel_Tests
+      enabled = false
+    }
+    ApiServiceRecipes_Tests = {
+      apexClass = salesforce.ApexClass.instance.ApiServiceRecipes_Tests
+      enabled = false
+    }
+    AtFutureRecipes = {
+      apexClass = salesforce.ApexClass.instance.AtFutureRecipes
+      enabled = false
+    }
+    AtFutureRecipes_Tests = {
+      apexClass = salesforce.ApexClass.instance.AtFutureRecipes_Tests
+      enabled = false
+    }
+    AuraEnabledRecipes = {
+      apexClass = salesforce.ApexClass.instance.AuraEnabledRecipes
+      enabled = false
+    }
+    AuraEnabledRecipes_Tests = {
+      apexClass = salesforce.ApexClass.instance.AuraEnabledRecipes_Tests
+      enabled = false
+    }
+    BatchApexRecipes = {
+      apexClass = salesforce.ApexClass.instance.BatchApexRecipes
+      enabled = false
+    }
+    BatchApexRecipes_Tests = {
+      apexClass = salesforce.ApexClass.instance.BatchApexRecipes_Tests
+      enabled = false
+    }
+    CalloutRecipes = {
+      apexClass = salesforce.ApexClass.instance.CalloutRecipes
+      enabled = false
+    }
+    CalloutRecipes_Tests = {
+      apexClass = salesforce.ApexClass.instance.CalloutRecipes_Tests
+      enabled = false
+    }
+    CanTheUser = {
+      apexClass = salesforce.ApexClass.instance.CanTheUser
+      enabled = false
+    }
+    CanTheUser_Tests = {
+      apexClass = salesforce.ApexClass.instance.CanTheUser_Tests
+      enabled = false
+    }
+    CollectionUtils = {
+      apexClass = salesforce.ApexClass.instance.CollectionUtils
+      enabled = false
+    }
+    CollectionUtils_Tests = {
+      apexClass = salesforce.ApexClass.instance.CollectionUtils_Tests
+      enabled = false
+    }
+    CustomMetadataRecipes_Tests = {
+      apexClass = salesforce.ApexClass.instance.CustomMetadataRecipes_Tests
+      enabled = false
+    }
+    CustomMetadataUtilties = {
+      apexClass = salesforce.ApexClass.instance.CustomMetadataUtilties
+      enabled = false
+    }
+    CustomRestEndpointRecipes = {
+      apexClass = salesforce.ApexClass.instance.CustomRestEndpointRecipes
+      enabled = false
+    }
+    CustomRestEndpointRecipes_Tests = {
+      apexClass = salesforce.ApexClass.instance.CustomRestEndpointRecipes_Tests
+      enabled = false
+    }
+    DMLRecipes = {
+      apexClass = salesforce.ApexClass.instance.DMLRecipes
+      enabled = false
+    }
+    DMLRecipes_Tests = {
+      apexClass = salesforce.ApexClass.instance.DMLRecipes_Tests
+      enabled = false
+    }
+    DataFactoryForPackageInstalls = {
+      apexClass = salesforce.ApexClass.instance.DataFactoryForPackageInstalls
+      enabled = false
+    }
+    DataFactoryForPackageInstalls_Tests = {
+      apexClass = salesforce.ApexClass.instance.DataFactoryForPackageInstalls_Tests
+      enabled = false
+    }
+    DeployMeToo = {
+      apexClass = salesforce.ApexClass.instance.DeployMeToo
+      enabled = false
+    }
+    DeprecatedAPIVersionScanner_Tests = {
+      apexClass = salesforce.ApexClass.instance.DeprecatedAPIVersionScanner_Tests
+      enabled = false
+    }
+    DynamicSOQLRecipes = {
+      apexClass = salesforce.ApexClass.instance.DynamicSOQLRecipes
+      enabled = false
+    }
+    DynamicSOQLRecipes_Tests = {
+      apexClass = salesforce.ApexClass.instance.DynamicSOQLRecipes_Tests
+      enabled = false
+    }
+    EncryptionRecipes = {
+      apexClass = salesforce.ApexClass.instance.EncryptionRecipes
+      enabled = false
+    }
+    EncryptionRecipesTest = {
+      apexClass = salesforce.ApexClass.instance.EncryptionRecipesTest
+      enabled = false
+    }
+    FilesRecipes = {
+      apexClass = salesforce.ApexClass.instance.FilesRecipes
+      enabled = false
+    }
+    FilesRecipes_Tests = {
+      apexClass = salesforce.ApexClass.instance.FilesRecipes_Tests
+      enabled = false
+    }
+    FormattedRecipeDisplayController = {
+      apexClass = salesforce.ApexClass.instance.FormattedRecipeDisplayController
+      enabled = false
+    }
+    FormattedRecipeDisplayController_Tests = {
+      apexClass = salesforce.ApexClass.instance.FormattedRecipeDisplayController_Tests
+      enabled = false
+    }
+    HttpCalloutMockFactory = {
+      apexClass = salesforce.ApexClass.instance.HttpCalloutMockFactory
+      enabled = false
+    }
+    InboundEmailHandlerRecipes = {
+      apexClass = salesforce.ApexClass.instance.InboundEmailHandlerRecipes
+      enabled = false
+    }
+    InboundEmailHandlerRecipes_tests = {
+      apexClass = salesforce.ApexClass.instance.InboundEmailHandlerRecipes_tests
+      enabled = false
+    }
+    InvocableMethodRecipes = {
+      apexClass = salesforce.ApexClass.instance.InvocableMethodRecipes
+      enabled = false
+    }
+    InvocableMethodRecipes_Tests = {
+      apexClass = salesforce.ApexClass.instance.InvocableMethodRecipes_Tests
+      enabled = false
+    }
+    IterableApiClient = {
+      apexClass = salesforce.ApexClass.instance.IterableApiClient
+      enabled = false
+    }
+    IterationRecipes = {
+      apexClass = salesforce.ApexClass.instance.IterationRecipes
+      enabled = false
+    }
+    IterationRecipes_Tests = {
+      apexClass = salesforce.ApexClass.instance.IterationRecipes_Tests
+      enabled = false
+    }
+    LDVRecipes = {
+      apexClass = salesforce.ApexClass.instance.LDVRecipes
+      enabled = false
+    }
+    LDVRecipes_Tests = {
+      apexClass = salesforce.ApexClass.instance.LDVRecipes_Tests
+      enabled = false
+    }
+    ListSortingRecipes = {
+      apexClass = salesforce.ApexClass.instance.ListSortingRecipes
+      enabled = false
+    }
+    ListUtils = {
+      apexClass = salesforce.ApexClass.instance.ListUtils
+      enabled = false
+    }
+    Log = {
+      apexClass = salesforce.ApexClass.instance.Log
+      enabled = false
+    }
+    LogMessage = {
+      apexClass = salesforce.ApexClass.instance.LogMessage
+      enabled = false
+    }
+    LogSeverity = {
+      apexClass = salesforce.ApexClass.instance.LogSeverity
+      enabled = false
+    }
+    LogTriggerHandler = {
+      apexClass = salesforce.ApexClass.instance.LogTriggerHandler
+      enabled = false
+    }
+    Log_Tests = {
+      apexClass = salesforce.ApexClass.instance.Log_Tests
+      enabled = false
+    }
+    MDTAccountTriggerHandler = {
+      apexClass = salesforce.ApexClass.instance.MDTAccountTriggerHandler
+      enabled = false
+    }
+    MDTSecondAccountTriggerHandler = {
+      apexClass = salesforce.ApexClass.instance.MDTSecondAccountTriggerHandler
+      enabled = false
+    }
+    MetadataCatalogRecipes = {
+      apexClass = salesforce.ApexClass.instance.MetadataCatalogRecipes
+      enabled = false
+    }
+    MetadataCatalogRecipes_Tests = {
+      apexClass = salesforce.ApexClass.instance.MetadataCatalogRecipes_Tests
+      enabled = false
+    }
+    MetadataTriggerHandler = {
+      apexClass = salesforce.ApexClass.instance.MetadataTriggerHandler
+      enabled = false
+    }
+    MetadataTriggerHandler_Tests = {
+      apexClass = salesforce.ApexClass.instance.MetadataTriggerHandler_Tests
+      enabled = false
+    }
+    MetadataTriggerService = {
+      apexClass = salesforce.ApexClass.instance.MetadataTriggerService
+      enabled = false
+    }
+    MetadataTriggerService_Tests = {
+      apexClass = salesforce.ApexClass.instance.MetadataTriggerService_Tests
+      enabled = false
+    }
+    OrderAppMenu = {
+      apexClass = salesforce.ApexClass.instance.OrderAppMenu
+      enabled = false
+    }
+    OrderAppMenu_Tests = {
+      apexClass = salesforce.ApexClass.instance.OrderAppMenu_Tests
+      enabled = false
+    }
+    OrgShape = {
+      apexClass = salesforce.ApexClass.instance.OrgShape
+      enabled = false
+    }
+    OrgShape_Tests = {
+      apexClass = salesforce.ApexClass.instance.OrgShape_Tests
+      enabled = false
+    }
+    OrgToOrg = {
+      apexClass = salesforce.ApexClass.instance.OrgToOrg
+      enabled = false
+    }
+    PSGAdvancedTestingRecipes = {
+      apexClass = salesforce.ApexClass.instance.PSGAdvancedTestingRecipes
+      enabled = false
+    }
+    PSGTestingRecipes = {
+      apexClass = salesforce.ApexClass.instance.PSGTestingRecipes
+      enabled = false
+    }
+    PlatformCacheBuilderRecipes = {
+      apexClass = salesforce.ApexClass.instance.PlatformCacheBuilderRecipes
+      enabled = false
+    }
+    PlatformCacheBuilderRecipes_Tests = {
+      apexClass = salesforce.ApexClass.instance.PlatformCacheBuilderRecipes_Tests
+      enabled = false
+    }
+    PlatformCacheRecipes = {
+      apexClass = salesforce.ApexClass.instance.PlatformCacheRecipes
+      enabled = false
+    }
+    PlatformCacheRecipes_Tests = {
+      apexClass = salesforce.ApexClass.instance.PlatformCacheRecipes_Tests
+      enabled = false
+    }
+    PlatformEventRecipes = {
+      apexClass = salesforce.ApexClass.instance.PlatformEventRecipes
+      enabled = false
+    }
+    PlatformEventRecipesTriggerHandler = {
+      apexClass = salesforce.ApexClass.instance.PlatformEventRecipesTriggerHandler
+      enabled = false
+    }
+    PlatformEventRecipesTriggerHandler_Tests = {
+      apexClass = salesforce.ApexClass.instance.PlatformEventRecipesTriggerHandler_Tests
+      enabled = false
+    }
+    PlatformEventRecipes_Tests = {
+      apexClass = salesforce.ApexClass.instance.PlatformEventRecipes_Tests
+      enabled = false
+    }
+    QueueableChainingRecipes = {
+      apexClass = salesforce.ApexClass.instance.QueueableChainingRecipes
+      enabled = false
+    }
+    QueueableChainingRecipes_Tests = {
+      apexClass = salesforce.ApexClass.instance.QueueableChainingRecipes_Tests
+      enabled = false
+    }
+    QueueableRecipes = {
+      apexClass = salesforce.ApexClass.instance.QueueableRecipes
+      enabled = false
+    }
+    QueueableRecipes_Tests = {
+      apexClass = salesforce.ApexClass.instance.QueueableRecipes_Tests
+      enabled = false
+    }
+    QueueableWithCalloutRecipes = {
+      apexClass = salesforce.ApexClass.instance.QueueableWithCalloutRecipes
+      enabled = false
+    }
+    QueueableWithCalloutRecipes_Tests = {
+      apexClass = salesforce.ApexClass.instance.QueueableWithCalloutRecipes_Tests
+      enabled = false
+    }
+    QuiddityGuard = {
+      apexClass = salesforce.ApexClass.instance.QuiddityGuard
+      enabled = false
+    }
+    QuiddityGuard_Tests = {
+      apexClass = salesforce.ApexClass.instance.QuiddityGuard_Tests
+      enabled = false
+    }
+    QuiddityRecipes = {
+      apexClass = salesforce.ApexClass.instance.QuiddityRecipes
+      enabled = false
+    }
+    QuiddityRecipes_Tests = {
+      apexClass = salesforce.ApexClass.instance.QuiddityRecipes_Tests
+      enabled = false
+    }
+    RecipeTreeViewController = {
+      apexClass = salesforce.ApexClass.instance.RecipeTreeViewController
+      enabled = false
+    }
+    RecipeTreeViewController_Tests = {
+      apexClass = salesforce.ApexClass.instance.RecipeTreeViewController_Tests
+      enabled = false
+    }
+    RelatedCodeTabsController = {
+      apexClass = salesforce.ApexClass.instance.RelatedCodeTabsController
+      enabled = false
+    }
+    RelatedCodeTabsController_Tests = {
+      apexClass = salesforce.ApexClass.instance.RelatedCodeTabsController_Tests
+      enabled = false
+    }
+    RestClient = {
+      apexClass = salesforce.ApexClass.instance.RestClient
+      enabled = false
+    }
+    RestClient_Tests = {
+      apexClass = salesforce.ApexClass.instance.RestClient_Tests
+      enabled = false
+    }
+    SOQLRecipes = {
+      apexClass = salesforce.ApexClass.instance.SOQLRecipes
+      enabled = false
+    }
+    SOQLRecipes_Tests = {
+      apexClass = salesforce.ApexClass.instance.SOQLRecipes_Tests
+      enabled = false
+    }
+    SOSLRecipes = {
+      apexClass = salesforce.ApexClass.instance.SOSLRecipes
+      enabled = false
+    }
+    SOSLRecipes_Tests = {
+      apexClass = salesforce.ApexClass.instance.SOSLRecipes_Tests
+      enabled = false
+    }
+    SObjectStringFieldComparator = {
+      apexClass = salesforce.ApexClass.instance.SObjectStringFieldComparator
+      enabled = false
+    }
+    SObjectStringFieldComparator_Tests = {
+      apexClass = salesforce.ApexClass.instance.SObjectStringFieldComparator_Tests
+      enabled = false
+    }
+    Safely = {
+      apexClass = salesforce.ApexClass.instance.Safely
+      enabled = false
+    }
+    Safely_Tests = {
+      apexClass = salesforce.ApexClass.instance.Safely_Tests
+      enabled = false
+    }
+    SampleClass = {
+      apexClass = salesforce.ApexClass.instance.SampleClass
+      enabled = false
+    }
+    SampleHandler = {
+      apexClass = salesforce.ApexClass.instance.SampleHandler
+      enabled = false
+    }
+    ScheduledApexDemo = {
+      apexClass = salesforce.ApexClass.instance.ScheduledApexDemo
+      enabled = false
+    }
+    ScheduledApexDemo_Tests = {
+      apexClass = salesforce.ApexClass.instance.ScheduledApexDemo_Tests
+      enabled = false
+    }
+    ScheduledApexRecipes = {
+      apexClass = salesforce.ApexClass.instance.ScheduledApexRecipes
+      enabled = false
+    }
+    ScheduledApexRecipes_Tests = {
+      apexClass = salesforce.ApexClass.instance.ScheduledApexRecipes_Tests
+      enabled = false
+    }
+    SchemaRecipes = {
+      apexClass = salesforce.ApexClass.instance.SchemaRecipes
+      enabled = false
+    }
+    SortableAccount = {
+      apexClass = salesforce.ApexClass.instance.SortableAccount
+      enabled = false
+    }
+    SortableAccount_Tests = {
+      apexClass = salesforce.ApexClass.instance.SortableAccount_Tests
+      enabled = false
+    }
+    StripInaccessibleRecipes = {
+      apexClass = salesforce.ApexClass.instance.StripInaccessibleRecipes
+      enabled = false
+    }
+    StripInaccessibleRecipes_Tests = {
+      apexClass = salesforce.ApexClass.instance.StripInaccessibleRecipes_Tests
+      enabled = false
+    }
+    StubExample = {
+      apexClass = salesforce.ApexClass.instance.StubExample
+      enabled = false
+    }
+    StubExampleConsumer = {
+      apexClass = salesforce.ApexClass.instance.StubExampleConsumer
+      enabled = false
+    }
+    StubExample_Tests = {
+      apexClass = salesforce.ApexClass.instance.StubExample_Tests
+      enabled = false
+    }
+    StubbingRecipes_Tests = {
+      apexClass = salesforce.ApexClass.instance.StubbingRecipes_Tests
+      enabled = false
+    }
+    TestDataHelpers = {
+      apexClass = salesforce.ApexClass.instance.TestDataHelpers
+      enabled = false
+    }
+    TestDouble = {
+      apexClass = salesforce.ApexClass.instance.TestDouble
+      enabled = false
+    }
+    TestFactory = {
+      apexClass = salesforce.ApexClass.instance.TestFactory
+      enabled = false
+    }
+    TestHelper = {
+      apexClass = salesforce.ApexClass.instance.TestHelper
+      enabled = false
+    }
+    TriggerHandler = {
+      apexClass = salesforce.ApexClass.instance.TriggerHandler
+      enabled = false
+    }
+    TriggerHandler_Test = {
+      apexClass = salesforce.ApexClass.instance.TriggerHandler_Test
+      enabled = false
+    }
+    trlhdtips__tt_UtilController = {
+      apexClass = "trlhdtips__tt_UtilController"
+      enabled = false
+    }
+    trlhdtips__tt_UtilControllerTest = {
+      apexClass = "trlhdtips__tt_UtilControllerTest"
+      enabled = false
+    }
+  }
+}

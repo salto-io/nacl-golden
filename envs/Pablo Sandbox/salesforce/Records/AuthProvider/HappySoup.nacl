@@ -1,0 +1,9 @@
+salesforce.AuthProvider HappySoup {
+  fullName = "HappySoup"
+  friendlyName = "HappySoup"
+  includeOrgIdInIdentifier = false
+  providerType = "GitHub"
+  sendAccessTokenInHeader = true
+  sendClientCredentialsInHeader = false
+  sendSecretInApis = true
+}
