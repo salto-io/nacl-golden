@@ -1,0 +1,10 @@
+salesforce.PermissionSet ReadAccessToTradeStyle {
+  fieldPermissions = {
+    Account = {
+      Tradestyle = "ReadOnly"
+    }
+  }
+  hasActivationRequired = false
+  label = "Read Access to Trade Style"
+  fullName = "ReadAccessToTradeStyle"
+}

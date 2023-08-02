@@ -1,0 +1,14 @@
+type salesforce.Picklist_Bucket__mdt {
+  salesforce.MetadataRelationship Bucketed_Picklist__c {
+    apiName = "Picklist_Bucket__mdt.Bucketed_Picklist__c"
+    externalId = false
+    fieldManageability = "DeveloperControlled"
+    label = "Bucketed Picklist"
+    referenceTo = [
+      "Bucketed_Picklist__mdt",
+    ]
+    relationshipLabel = "Picklist Buckets"
+    relationshipName = "Picklist_Buckets"
+    unique = false
+  }
+}

@@ -1,0 +1,16 @@
+salesforce.Profile Force_2Ecom___App_Subscription_User@psbsss {
+  flowAccesses = {
+    Test = {
+      enabled = false
+      flow = salesforce.Flow.instance.Test
+    }
+    customer_satisfaction = {
+      enabled = false
+      flow = "customer_satisfaction"
+    }
+    net_promoter_score = {
+      enabled = false
+      flow = "net_promoter_score"
+    }
+  }
+}
