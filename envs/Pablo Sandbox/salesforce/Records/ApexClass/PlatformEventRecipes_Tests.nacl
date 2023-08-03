@@ -1,0 +1,32 @@
+salesforce.ApexClass PlatformEventRecipes_Tests {
+  apiVersion = 58
+  status = "Active"
+  fullName = "PlatformEventRecipes_Tests"
+  content = file("salesforce/Records/ApexClass/PlatformEventRecipes_Tests.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.Account
+    },
+    {
+      reference = salesforce.ApexClass.instance.PlatformEventRecipes
+    },
+    {
+      reference = salesforce.ApexClass.instance.TestFactory
+    },
+    {
+      reference = salesforce.Event_Recipes_Demo__e
+    },
+    {
+      reference = salesforce.Event_Recipes_Demo__e.field.accountId__c
+    },
+    {
+      reference = salesforce.Event_Recipes_Demo__e.field.title__c
+    },
+    {
+      reference = salesforce.Event_Recipes_Demo__e.field.url__c
+    },
+    {
+      reference = salesforce.User
+    },
+  ]
+}

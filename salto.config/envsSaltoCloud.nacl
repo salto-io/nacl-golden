@@ -1,0 +1,12 @@
+envs {
+  envsCloud = [
+    {
+      uuid = "9acd5bb6-aedd-4d2e-9e0c-4ca3305ab117"
+      folderName = "Pablo Sandbox"
+    },
+    {
+      uuid = "a6fff42a-4f64-4391-84c2-ed5578e2b447"
+      folderName = "UAT"
+    },
+  ]
+}

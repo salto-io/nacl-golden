@@ -1,0 +1,11 @@
+salesforce.ApexClass SampleHandler {
+  apiVersion = 58
+  status = "Active"
+  fullName = "SampleHandler"
+  content = file("salesforce/Records/ApexClass/SampleHandler.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.ApexClass.instance.TriggerHandler
+    },
+  ]
+}
