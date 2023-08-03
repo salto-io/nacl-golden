@@ -1,0 +1,17 @@
+salesforce.ApexClass SObjectStringFieldComparator_Tests {
+  apiVersion = 58
+  status = "Active"
+  fullName = "SObjectStringFieldComparator_Tests"
+  content = file("salesforce/Records/ApexClass/SObjectStringFieldComparator_Tests.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.Account
+    },
+    {
+      reference = salesforce.ApexClass.instance.ListUtils
+    },
+    {
+      reference = salesforce.ApexClass.instance.SObjectStringFieldComparator
+    },
+  ]
+}

@@ -1,0 +1,7 @@
+salesforce.Disabled_For__mdt Disabled_For_Disabled_for@uvu {
+  label = "Disabled for"
+  protected = false
+  fullName = "Disabled_For.Disabled_for"
+  Metadata_Driven_Trigger__c = "MDTAccountTriggerHandler"
+  User_Email__c = "foo@bar.com"
+}

@@ -1,0 +1,5 @@
+salesforce.Profile Salesforce_API_Only_System_Integrations@s {
+  fullName = "Salesforce API Only System Integrations"
+  custom = false
+  userLicense = "Salesforce Integration"
+}
