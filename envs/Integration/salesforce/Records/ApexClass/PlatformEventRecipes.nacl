@@ -1,0 +1,14 @@
+salesforce.ApexClass PlatformEventRecipes {
+  apiVersion = 58
+  status = "Active"
+  fullName = "PlatformEventRecipes"
+  content = file("salesforce/Records/ApexClass/PlatformEventRecipes.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.ApexClass.instance.CanTheUser
+    },
+    {
+      reference = salesforce.Event_Recipes_Demo__e
+    },
+  ]
+}

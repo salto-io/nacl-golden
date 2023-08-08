@@ -1,0 +1,12 @@
+envs {
+  envsCloud = [
+    {
+      uuid = "421e8580-6149-4ce8-a304-2d79afa136b2"
+      folderName = "Integration"
+    },
+    {
+      uuid = "a6fff42a-4f64-4391-84c2-ed5578e2b447"
+      folderName = "UAT"
+    },
+  ]
+}

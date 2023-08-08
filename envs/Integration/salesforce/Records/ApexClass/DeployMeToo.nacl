@@ -1,0 +1,14 @@
+salesforce.ApexClass DeployMeToo {
+  apiVersion = 56
+  status = "Active"
+  fullName = "DeployMeToo"
+  content = file("salesforce/Records/ApexClass/DeployMeToo.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.Account
+    },
+    {
+      reference = salesforce.Account.field.deploy_me__c
+    },
+  ]
+}

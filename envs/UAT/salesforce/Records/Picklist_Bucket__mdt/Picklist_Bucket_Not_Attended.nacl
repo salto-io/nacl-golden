@@ -1,0 +1,6 @@
+salesforce.Picklist_Bucket__mdt Picklist_Bucket_Not_Attended@uvu {
+  label = "Not Attended"
+  protected = false
+  fullName = "Picklist_Bucket.Not_Attended"
+  Bucketed_Picklist__c = "Attendance"
+}
