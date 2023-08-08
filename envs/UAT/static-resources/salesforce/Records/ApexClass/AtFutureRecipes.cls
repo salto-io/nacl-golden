@@ -16,7 +16,8 @@ public with sharing class AtFutureRecipes {
      */
     @testVisible
     private static Boolean testCircuitBreaker = false;
-    private static Boolean anotherLine = true;
+    private static Boolean WhatIsThis = true;
+    private static String what = 'Git is complicated';
   
     /**
      * @description Method demonstrates the @future annotation without the
