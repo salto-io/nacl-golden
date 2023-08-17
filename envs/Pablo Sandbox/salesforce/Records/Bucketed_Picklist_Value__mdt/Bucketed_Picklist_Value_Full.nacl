@@ -1,0 +1,7 @@
+salesforce.Bucketed_Picklist_Value__mdt Bucketed_Picklist_Value_Full@uuv {
+  label = "Full"
+  protected = false
+  fullName = "Bucketed_Picklist_Value.Full"
+  
+  Picklist_Bucket__c = "Attended"
+}

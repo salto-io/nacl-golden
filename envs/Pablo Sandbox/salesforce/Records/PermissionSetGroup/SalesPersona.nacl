@@ -1,0 +1,13 @@
+salesforce.PermissionSetGroup SalesPersona {
+  fullName = "SalesPersona"
+  hasActivationRequired = false
+  label = "SalesPersona"
+  permissionSets = [
+    salesforce.PermissionSet.instance.Apex_Recipes,
+    salesforce.PermissionSet.instance.Provides_Access_to_Actual_Cost_Field_on_Campaign,
+    salesforce.PermissionSet.instance.Provides_Create_Access_to_Contact_and_Contact_Email_Field,
+    salesforce.PermissionSet.instance.ReadAccessToTradeStyle,
+    "force__CommerceAdmin",
+  ]
+  status = "Updated"
+}

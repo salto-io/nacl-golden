@@ -1,0 +1,59 @@
+type salesforce.Disabled_For__mdt {
+  annotations {
+    serviceid apiName {
+    }
+    serviceid metadataType {
+    }
+    string label {
+    }
+    string pluralLabel {
+    }
+    hidden_string keyPrefix {
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  }
+  apiName = "Disabled_For__mdt"
+  metadataType = "CustomMetadata"
+  label = "Disabled For"
+  pluralLabel = "Disabled For"
+  
+}

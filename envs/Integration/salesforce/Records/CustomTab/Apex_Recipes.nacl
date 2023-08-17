@@ -1,0 +1,12 @@
+salesforce.CustomTab Apex_Recipes {
+  fullName = "Apex_Recipes"
+  description = "Created by Lightning App Builder"
+  flexiPage = "Apex_Recipes"
+  label = "Apex Recipes"
+  motif = "Custom51: Apple"
+  _generated_dependencies = [
+    {
+      reference = salesforce.LightningPage.instance.Apex_Recipes
+    },
+  ]
+}
