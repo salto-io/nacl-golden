@@ -1,0 +1,6 @@
+salesforce.SharingRules Junction_Demo_1__c {
+  fullName = "Junction_Demo_1__c"
+  _parent = [
+    salesforce.Junction_Demo_1__c,
+  ]
+}
