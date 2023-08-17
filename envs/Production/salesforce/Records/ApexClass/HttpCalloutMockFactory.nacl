@@ -1,6 +1,0 @@
-salesforce.ApexClass HttpCalloutMockFactory {
-  apiVersion = 58
-  status = "Active"
-  fullName = "HttpCalloutMockFactory"
-  content = file("salesforce/Records/ApexClass/HttpCalloutMockFactory.cls")
-}

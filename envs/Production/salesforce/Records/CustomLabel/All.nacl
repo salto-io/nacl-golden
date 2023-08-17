@@ -1,7 +1,0 @@
-salesforce.CustomLabel Github_username {
-  fullName = "Github_username"
-  language = "en_US"
-  protected = true
-  shortDescription = "Github username"
-  value = "trailheadapps"
-}

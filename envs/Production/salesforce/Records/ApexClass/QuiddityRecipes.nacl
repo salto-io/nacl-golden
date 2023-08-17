@@ -1,6 +1,0 @@
-salesforce.ApexClass QuiddityRecipes {
-  apiVersion = 58
-  status = "Active"
-  fullName = "QuiddityRecipes"
-  content = file("salesforce/Records/ApexClass/QuiddityRecipes.cls")
-}

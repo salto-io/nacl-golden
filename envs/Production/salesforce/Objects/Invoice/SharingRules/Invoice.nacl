@@ -1,6 +1,0 @@
-salesforce.SharingRules Invoice {
-  fullName = "Invoice"
-  _parent = [
-    salesforce.Invoice,
-  ]
-}

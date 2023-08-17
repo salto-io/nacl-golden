@@ -1,6 +1,0 @@
-salesforce.SharingRules FlowOrchestrationWorkItem {
-  fullName = "FlowOrchestrationWorkItem"
-  _parent = [
-    salesforce.FlowOrchestrationWorkItem,
-  ]
-}
