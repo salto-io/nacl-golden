@@ -1,6 +1,0 @@
-salesforce.ApexClass RestClient {
-  apiVersion = 58
-  status = "Active"
-  fullName = "RestClient"
-  content = file("salesforce/Records/ApexClass/RestClient.cls")
-}

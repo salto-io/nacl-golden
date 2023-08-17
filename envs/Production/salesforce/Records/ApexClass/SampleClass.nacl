@@ -1,6 +1,0 @@
-salesforce.ApexClass SampleClass {
-  apiVersion = 56
-  status = "Active"
-  fullName = "SampleClass"
-  content = file("salesforce/Records/ApexClass/SampleClass.cls")
-}

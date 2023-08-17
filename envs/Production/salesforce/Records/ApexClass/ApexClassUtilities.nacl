@@ -1,6 +1,0 @@
-salesforce.ApexClass ApexClassUtilities {
-  apiVersion = 58
-  status = "Active"
-  fullName = "ApexClassUtilities"
-  content = file("salesforce/Records/ApexClass/ApexClassUtilities.cls")
-}

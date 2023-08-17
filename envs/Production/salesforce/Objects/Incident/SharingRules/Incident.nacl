@@ -1,6 +1,0 @@
-salesforce.SharingRules Incident {
-  fullName = "Incident"
-  _parent = [
-    salesforce.Incident,
-  ]
-}
