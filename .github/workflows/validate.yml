@@ -5,7 +5,7 @@ on:
       - opened
 
 jobs:
-  Validate:
+  Validate_UAT:
     runs-on: ubuntu-latest
     steps:
       - name: Install Salto CLI
@@ -13,7 +13,7 @@ jobs:
           curl https://cli.salto.io/release/1/linux-x64.tar.gz --output linux-x64.tar.gz
           tar xvzf linux-x64.tar.gz
         
-      - name: Run Deploy Validation
+      - name: Run Deploy Validation on UAT
         run: |
           ./salto-cloud deployment validate -b ${{ github.event.pull_request.head.ref }} -C 'salesforce.client.deploy.testLevel=NoTestRun'
         env: 
