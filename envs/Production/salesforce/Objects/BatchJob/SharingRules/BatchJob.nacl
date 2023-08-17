@@ -1,6 +1,0 @@
-salesforce.SharingRules BatchJob {
-  fullName = "BatchJob"
-  _parent = [
-    salesforce.BatchJob,
-  ]
-}

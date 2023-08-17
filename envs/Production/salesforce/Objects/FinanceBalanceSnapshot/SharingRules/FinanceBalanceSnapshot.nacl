@@ -1,6 +1,0 @@
-salesforce.SharingRules FinanceBalanceSnapshot {
-  fullName = "FinanceBalanceSnapshot"
-  _parent = [
-    salesforce.FinanceBalanceSnapshot,
-  ]
-}

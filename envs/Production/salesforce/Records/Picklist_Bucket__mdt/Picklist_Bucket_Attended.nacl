@@ -1,6 +1,0 @@
-salesforce.Picklist_Bucket__mdt Picklist_Bucket_Attended@uv {
-  label = "Attended"
-  protected = false
-  fullName = "Picklist_Bucket.Attended"
-  Bucketed_Picklist__c = "Attendance"
-}
