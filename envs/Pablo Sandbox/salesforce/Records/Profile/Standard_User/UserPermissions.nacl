@@ -180,5 +180,9 @@ salesforce.Profile Standard {
       enabled = true
       name = "ViewSetup"
     }
+    CanAccessCE = {
+      enabled = true
+      name = "CanAccessCE"
+    }
   }
 }

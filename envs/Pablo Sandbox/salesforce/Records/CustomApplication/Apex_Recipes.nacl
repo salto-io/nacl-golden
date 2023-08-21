@@ -14,6 +14,7 @@ salesforce.CustomApplication Apex_Recipes {
   navType = "Standard"
   tabs = [
     salesforce.CustomTab.instance.Apex_Recipes,
+    salesforce.CustomTab.instance.Feature_Flags,
   ]
   uiType = "Lightning"
 }

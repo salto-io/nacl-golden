@@ -188,5 +188,9 @@ salesforce.Profile ContractManager {
       enabled = true
       name = "ViewSetup"
     }
+    CanAccessCE = {
+      enabled = true
+      name = "CanAccessCE"
+    }
   }
 }

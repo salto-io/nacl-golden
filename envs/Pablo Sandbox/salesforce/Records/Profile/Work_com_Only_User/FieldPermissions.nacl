@@ -729,5 +729,17 @@ salesforce.Profile Work_2Ecom_Only_User@pss {
     
     
     
+    MessagingEndUser = {
+      AccountId = "ReadWrite"
+      ContactId = "ReadWrite"
+      HasInitialResponseSent = "ReadWrite"
+      IsOptedOut = "ReadWrite"
+      LeadId = "ReadWrite"
+    }
+    MessagingSession = {
+      CaseId = "ReadWrite"
+      LeadId = "ReadWrite"
+      OpportunityId = "ReadWrite"
+    }
   }
 }

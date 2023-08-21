@@ -59,6 +59,10 @@ salesforce.Translations de {
     },
     {
       label = ""
+      name = "Feature_Flags"
+    },
+    {
+      label = ""
       name = "Get_Your_Login_Credentials"
     },
     {

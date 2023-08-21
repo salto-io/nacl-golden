@@ -732,5 +732,9 @@ salesforce.Profile Admin {
       enabled = true
       name = "WorkCalibrationUser"
     }
+    CanAccessCE = {
+      enabled = true
+      name = "CanAccessCE"
+    }
   }
 }

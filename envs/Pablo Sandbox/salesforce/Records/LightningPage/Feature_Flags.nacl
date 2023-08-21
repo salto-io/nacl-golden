@@ -1,0 +1,27 @@
+salesforce.LightningPage Feature_Flags {
+  flexiPageRegions = [
+    {
+      itemInstances = [
+        {
+          componentInstance = {
+            componentName = "flagsInLWC"
+            identifier = "c_flagsInLWC"
+          }
+        },
+      ]
+      name = "main"
+      type = "Region"
+    },
+  ]
+  masterLabel = "Feature Flags"
+  template = {
+    name = "flexipage:defaultAppHomeTemplate"
+  }
+  type = "AppPage"
+  fullName = "Feature_Flags"
+  _generated_dependencies = [
+    {
+      reference = salesforce.LightningComponentBundle.instance.flagsInLWC
+    },
+  ]
+}

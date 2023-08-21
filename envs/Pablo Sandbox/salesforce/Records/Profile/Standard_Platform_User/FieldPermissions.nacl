@@ -729,5 +729,17 @@ salesforce.Profile StandardAul {
     
     
     
+    MessagingEndUser = {
+      AccountId = "ReadWrite"
+      ContactId = "ReadWrite"
+      HasInitialResponseSent = "ReadWrite"
+      IsOptedOut = "ReadWrite"
+      LeadId = "ReadWrite"
+    }
+    MessagingSession = {
+      CaseId = "ReadWrite"
+      LeadId = "ReadWrite"
+      OpportunityId = "ReadWrite"
+    }
   }
 }

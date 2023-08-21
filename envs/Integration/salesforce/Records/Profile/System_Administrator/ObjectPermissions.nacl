@@ -875,5 +875,23 @@ salesforce.Profile Admin {
       object = "Sample__c"
       viewAllRecords = true
     }
+    MessagingEndUser = {
+      allowCreate = true
+      allowDelete = true
+      allowEdit = true
+      allowRead = true
+      modifyAllRecords = true
+      object = "MessagingEndUser"
+      viewAllRecords = true
+    }
+    MessagingSession = {
+      allowCreate = true
+      allowDelete = true
+      allowEdit = true
+      allowRead = true
+      modifyAllRecords = true
+      object = "MessagingSession"
+      viewAllRecords = true
+    }
   }
 }

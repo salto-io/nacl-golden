@@ -196,5 +196,9 @@ salesforce.Profile MarketingProfile {
       enabled = true
       name = "ViewSetup"
     }
+    CanAccessCE = {
+      enabled = true
+      name = "CanAccessCE"
+    }
   }
 }

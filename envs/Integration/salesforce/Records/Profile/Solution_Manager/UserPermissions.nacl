@@ -184,5 +184,9 @@ salesforce.Profile SolutionManager {
       enabled = true
       name = "ViewSetup"
     }
+    CanAccessCE = {
+      enabled = true
+      name = "CanAccessCE"
+    }
   }
 }

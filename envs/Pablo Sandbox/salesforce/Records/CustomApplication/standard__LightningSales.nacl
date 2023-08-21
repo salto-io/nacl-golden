@@ -12,6 +12,7 @@ salesforce.CustomApplication standard__LightningSales {
   navType = "Standard"
   tabs = [
     "standard-home",
+    salesforce.CustomTab.instance.Feature_Flags,
     "standard-Opportunity",
     "standard-Lead",
     "standard-Task",

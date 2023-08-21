@@ -722,5 +722,17 @@ salesforce.Profile Customer_Community_Plus_User@s {
     ChangeRequestRelatedItem = {
       Comment = "ReadWrite"
     }
+    MessagingSession = {
+      CaseId = "ReadWrite"
+      LeadId = "ReadWrite"
+      OpportunityId = "ReadWrite"
+    }
+    MessagingEndUser = {
+      AccountId = "ReadWrite"
+      ContactId = "ReadWrite"
+      HasInitialResponseSent = "ReadWrite"
+      IsOptedOut = "ReadWrite"
+      LeadId = "ReadWrite"
+    }
   }
 }

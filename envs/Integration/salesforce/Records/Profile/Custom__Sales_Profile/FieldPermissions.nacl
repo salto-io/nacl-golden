@@ -722,5 +722,17 @@ salesforce.Profile Custom_3A_Sales_Profile@pss {
     ChangeRequestRelatedItem = {
       Comment = "ReadWrite"
     }
+    MessagingSession = {
+      CaseId = "ReadWrite"
+      LeadId = "ReadWrite"
+      OpportunityId = "ReadWrite"
+    }
+    MessagingEndUser = {
+      AccountId = "ReadWrite"
+      ContactId = "ReadWrite"
+      HasInitialResponseSent = "ReadWrite"
+      IsOptedOut = "ReadWrite"
+      LeadId = "ReadWrite"
+    }
   }
 }

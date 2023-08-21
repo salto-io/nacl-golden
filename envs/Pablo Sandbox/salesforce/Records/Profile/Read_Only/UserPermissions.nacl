@@ -128,5 +128,9 @@ salesforce.Profile Read_Only@s {
       enabled = true
       name = "ViewSetup"
     }
+    CanAccessCE = {
+      enabled = true
+      name = "CanAccessCE"
+    }
   }
 }

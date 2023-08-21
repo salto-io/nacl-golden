@@ -98,6 +98,7 @@ type salesforce.Flow {
         "setup_service_experience__Create_Case",
         "setup_service_experience__Reset_Pwd",
         "setup_service_experience__Verify_Cust",
+        "setup_service_folmessaging__MSContact",
       ]
     }
     foreignKeyDomain = [
@@ -207,6 +208,7 @@ type salesforce.Flow {
         "setup_service_experience__Create_Case",
         "setup_service_experience__Reset_Pwd",
         "setup_service_experience__Verify_Cust",
+        "setup_service_folmessaging__MSContact",
       ]
     }
     foreignKeyDomain = [
