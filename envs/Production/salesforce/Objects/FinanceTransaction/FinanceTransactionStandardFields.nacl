@@ -124,6 +124,7 @@ type salesforce.FinanceTransaction {
       salesforce.PaymentLineInvoice,
       salesforce.Refund,
       salesforce.RefundLinePayment,
+      salesforce.Sample__c,
     ]
     label = "DestinationEntity ID"
     createable = true
@@ -572,6 +573,7 @@ type salesforce.FinanceTransaction {
       salesforce.Junction__c,
       salesforce.LegalEntity,
       salesforce.LogEvent__c,
+      salesforce.Sample__c,
     ]
     label = "Legal Entity ID"
     createable = true
@@ -777,6 +779,7 @@ type salesforce.FinanceTransaction {
       salesforce.PaymentLineInvoice,
       salesforce.Refund,
       salesforce.RefundLinePayment,
+      salesforce.Sample__c,
     ]
     label = "ParentReferenceEntity ID"
     createable = true
@@ -801,6 +804,7 @@ type salesforce.FinanceTransaction {
       salesforce.PaymentLineInvoice,
       salesforce.Refund,
       salesforce.RefundLinePayment,
+      salesforce.Sample__c,
     ]
     label = "ReferenceEntity ID"
     createable = true
@@ -1007,6 +1011,7 @@ type salesforce.FinanceTransaction {
       salesforce.PaymentLineInvoice,
       salesforce.Refund,
       salesforce.RefundLinePayment,
+      salesforce.Sample__c,
     ]
     label = "SourceEntity ID"
     createable = true

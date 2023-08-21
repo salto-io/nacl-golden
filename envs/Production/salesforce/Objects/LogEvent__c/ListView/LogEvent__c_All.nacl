@@ -3,9 +3,9 @@ salesforce.ListView LogEvent__c_All {
   columns = [
     "NAME",
     "CREATED_DATE",
-    salesforce.LogEvent__c.field.Quiddity__c,
-    salesforce.LogEvent__c.field.Request_Id__c,
-    salesforce.LogEvent__c.field.Severity__c,
+    "Quiddity__c",
+    "Request_Id__c",
+    "Severity__c",
   ]
   filterScope = "Everything"
   label = "All"

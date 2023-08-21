@@ -511,6 +511,7 @@ type salesforce.RecordAction {
       salesforce.PricebookEntry,
       salesforce.Problem,
       salesforce.Product2,
+      salesforce.Sample__c,
       salesforce.Scorecard,
       salesforce.ServiceContract,
       salesforce.User,

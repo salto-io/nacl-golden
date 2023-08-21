@@ -302,6 +302,7 @@ type salesforce.BriefcaseRule {
         "Refund",
         "RefundLinePayment",
         "ReportAnomalyEventStore",
+        "Sample__c",
         "Scorecard",
         "ScorecardAssociation",
         "ScorecardMetric",

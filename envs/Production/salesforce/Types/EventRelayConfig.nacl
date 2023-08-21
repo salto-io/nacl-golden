@@ -108,6 +108,7 @@ type salesforce.EventRelayConfig {
         "QuickTextChangeEvent",
         "RecommendationChangeEvent",
         "RecommendationReactionChangeEvent",
+        "Sample__ChangeEvent",
         "ServiceContractChangeEvent",
         "SlackAlertsEventChannel",
         "TaskChangeEvent",

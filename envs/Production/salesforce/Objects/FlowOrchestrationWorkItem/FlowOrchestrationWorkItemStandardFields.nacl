@@ -216,6 +216,7 @@ type salesforce.FlowOrchestrationWorkItem {
       salesforce.PromptError,
       salesforce.QuickText,
       salesforce.QuickTextUsage,
+      salesforce.Sample__c,
       salesforce.Seller,
       salesforce.ServiceContract,
       salesforce.Site,

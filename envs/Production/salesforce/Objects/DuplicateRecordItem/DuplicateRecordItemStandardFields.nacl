@@ -23,6 +23,7 @@ type salesforce.DuplicateRecordItem {
       salesforce.Junction__c,
       salesforce.Lead,
       salesforce.LogEvent__c,
+      salesforce.Sample__c,
     ]
     _required = true
     label = "Record ID"

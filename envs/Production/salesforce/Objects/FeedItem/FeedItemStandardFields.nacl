@@ -68,6 +68,7 @@ type salesforce.FeedItem {
       salesforce.Product2,
       "Report",
       salesforce.ReportAnomalyEventStore,
+      salesforce.Sample__c,
       salesforce.ServiceContract,
       salesforce.SessionHijackingEventStore,
       salesforce.Site,

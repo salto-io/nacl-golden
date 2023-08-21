@@ -485,6 +485,12 @@ type salesforce.Macro {
         default = false
       },
       {
+        fullName = "Sample__c"
+        isActive = true
+        label = "Sample"
+        default = false
+      },
+      {
         fullName = "ServiceContract"
         isActive = true
         label = "Service Contract"

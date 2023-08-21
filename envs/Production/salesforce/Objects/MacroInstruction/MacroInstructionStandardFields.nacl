@@ -1741,6 +1741,12 @@ type salesforce.MacroInstruction {
         default = false
       },
       {
+        fullName = "Tab.Sample__c"
+        isActive = true
+        label = "Active Sample Tab"
+        default = false
+      },
+      {
         fullName = "Tab.ServiceContract"
         isActive = true
         label = "Active Service Contract Tab"

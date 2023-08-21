@@ -343,6 +343,14 @@ salesforce.Translations zh_CN {
       ]
     },
     {
+      name = "EnableSalesEngagement"
+      promptVersions = [
+        {
+          name = "EnableSalesEngagement"
+        },
+      ]
+    },
+    {
       name = "X2StepWalkthroughonReports"
       promptVersions = [
         {
