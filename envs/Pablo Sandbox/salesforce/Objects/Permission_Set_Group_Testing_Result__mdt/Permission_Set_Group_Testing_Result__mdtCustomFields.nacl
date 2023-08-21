@@ -1,0 +1,58 @@
+type salesforce.Permission_Set_Group_Testing_Result__mdt {
+  salesforce.Text Expected_Exception_Match__c {
+    apiName = "Permission_Set_Group_Testing_Result__mdt.Expected_Exception_Match__c"
+    externalId = false
+    fieldManageability = "DeveloperControlled"
+    label = "Expected Exception Match"
+    length = 255
+    _required = true
+    unique = false
+    
+    
+    
+    
+    
+  }
+  salesforce.Text Failure_Log_Message__c {
+    apiName = "Permission_Set_Group_Testing_Result__mdt.Failure_Log_Message__c"
+    externalId = false
+    fieldManageability = "DeveloperControlled"
+    label = "Failure Log Message"
+    length = 255
+    _required = true
+    unique = false
+    
+    
+    
+    
+    
+  }
+  salesforce.Text Permission_Set_Group__c {
+    apiName = "Permission_Set_Group_Testing_Result__mdt.Permission_Set_Group__c"
+    externalId = false
+    fieldManageability = "DeveloperControlled"
+    label = "Permission Set Group"
+    length = 255
+    _required = true
+    unique = false
+    
+    
+    
+    
+    
+  }
+  salesforce.Text Test_Class_Method_Name__c {
+    apiName = "Permission_Set_Group_Testing_Result__mdt.Test_Class_Method_Name__c"
+    externalId = false
+    fieldManageability = "DeveloperControlled"
+    label = "Test Class Method Name"
+    length = 255
+    _required = true
+    unique = false
+    
+    
+    
+    
+    
+  }
+}

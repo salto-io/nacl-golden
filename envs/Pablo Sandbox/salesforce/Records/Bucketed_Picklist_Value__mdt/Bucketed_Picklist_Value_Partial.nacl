@@ -1,0 +1,7 @@
+salesforce.Bucketed_Picklist_Value__mdt Bucketed_Picklist_Value_Partial@uuv {
+  label = "Partial"
+  protected = false
+  fullName = "Bucketed_Picklist_Value.Partial"
+  
+  Picklist_Bucket__c = "Not_Attended"
+}

@@ -1,0 +1,7 @@
+salesforce.FeatureFlag__mdt FeatureFlag_enhancedQuoteCalculation@v {
+  label = "enhancedQuoteCalculation"
+  protected = false
+  fullName = "FeatureFlag.enhancedQuoteCalculation"
+  
+  Is_Active__c = true
+}

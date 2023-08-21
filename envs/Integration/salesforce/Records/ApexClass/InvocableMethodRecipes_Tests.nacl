@@ -1,0 +1,23 @@
+salesforce.ApexClass InvocableMethodRecipes_Tests {
+  apiVersion = 58
+  status = "Active"
+  fullName = "InvocableMethodRecipes_Tests"
+  content = file("salesforce/Records/ApexClass/InvocableMethodRecipes_Tests.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.Account
+    },
+    {
+      reference = salesforce.ApexClass.instance.InvocableMethodRecipes
+    },
+    {
+      reference = salesforce.ApexClass.instance.TestFactory
+    },
+    {
+      reference = salesforce.Contact
+    },
+    {
+      reference = salesforce.Task
+    },
+  ]
+}

@@ -1,0 +1,502 @@
+salesforce.Translations en_US {
+  fullName = "en_US"
+  customApplications = [
+    {
+      label = ""
+      name = "Apex_Recipes"
+    },
+    {
+      label = ""
+      name = "Playground_Starter"
+    },
+  ]
+  customLabels = [
+    {
+      label = ""
+      name = "Github_username"
+    },
+    {
+      label = ""
+      name = "trlhdtips__tt_BaseURL"
+    },
+    {
+      label = ""
+      name = "trlhdtips__tt_ConfimCancel"
+    },
+    {
+      label = ""
+      name = "trlhdtips__tt_ConfimOK"
+    },
+    {
+      label = ""
+      name = "trlhdtips__tt_EnterPackageId"
+    },
+    {
+      label = ""
+      name = "trlhdtips__tt_InvalidPackageId"
+    },
+    {
+      label = ""
+      name = "trlhdtips__tt_ResetPasswordFail"
+    },
+    {
+      label = ""
+      name = "trlhdtips__tt_ResetPasswordSuccess"
+    },
+    {
+      label = ""
+      name = "trlhdtips__tt_ResetPasswordTitle"
+    },
+    {
+      label = ""
+      name = "trlhdtips__tt_ResetPasswordWarning"
+    },
+  ]
+  customTabs = [
+    {
+      label = ""
+      name = "Apex_Recipes"
+    },
+    {
+      label = ""
+      name = "Get_Your_Login_Credentials"
+    },
+    {
+      label = ""
+      name = "Install_a_Package"
+    },
+    {
+      label = ""
+      name = "Welcome"
+    },
+  ]
+  flowDefinitions = [
+    {
+      flows = {
+      }
+      fullName = "Test"
+    },
+    {
+      flows = {
+        choices = [
+          {
+            name = "S_149a89f6_e93f_4402_b3c5_24148bee75c0"
+          },
+          {
+            name = "S_3792e0ac_4617_447c_b1de_9c5075f6b9d1"
+          },
+          {
+            name = "S_895a92c9_a675_4047_bd25_4b67d875a37b"
+          },
+          {
+            name = "S_a0e9d086_3411_4d8f_950d_f2758a33fc68"
+          },
+          {
+            name = "S_f6dcd3bd_2efc_4cdd_a3d5_4fb54e458aac"
+          },
+        ]
+        screens = {
+          fields = [
+            {
+              name = "S_55cf98c1_dc1a_4104_b385_89dab3632c94"
+            },
+            {
+              name = "S_62185e3d_591b_4ade_9910_383fb5ff11cf"
+            },
+          ]
+          name = "surveyQuestionPage"
+        }
+        textTemplates = [
+          {
+            name = "thankYouDescriptionTextTemplate"
+          },
+          {
+            name = "thankYouLabelTextTemplate"
+          },
+        ]
+      }
+      fullName = "customer_satisfaction"
+    },
+    {
+      flows = {
+        screens = {
+          fields = [
+            {
+              name = "S_50a1d272_b234_4f92_a8fe_fa15dc797af4"
+            },
+            {
+              name = "S_8b93e61a_35a5_435c_9c3d_30831d2252d6"
+            },
+          ]
+          name = "surveyQuestionPage"
+        }
+        textTemplates = [
+          {
+            name = "thankYouDescriptionTextTemplate"
+          },
+          {
+            name = "thankYouLabelTextTemplate"
+          },
+        ]
+      }
+      fullName = "net_promoter_score"
+    },
+  ]
+  prompts = [
+    {
+      name = "EinsteinPredictionBuilderSetupPagePrompt"
+      promptVersions = [
+        {
+          name = "Einstein Prediction Builder Setup Page Prompt"
+        },
+      ]
+    },
+    {
+      name = "NPSPLicenseDay1"
+      promptVersions = [
+        {
+          name = "NPSP License Day 1"
+        },
+      ]
+    },
+    {
+      name = "MeetingDigest"
+      promptVersions = [
+        {
+          name = "Meeting Digest"
+        },
+      ]
+    },
+    {
+      name = "EnablementExploreAnalyticsEnblAdmin"
+      promptVersions = [
+        {
+          name = "Explore Analytics"
+        },
+      ]
+    },
+    {
+      name = "ManageUsers"
+      promptVersions = [
+        {
+          name = "Manage Users"
+        },
+      ]
+    },
+    {
+      name = "X4StepWalkthroughonContact"
+      promptVersions = [
+        {
+          name = "4 Step Walkthrough on Contact Step 1"
+          stepNumber = 1
+        },
+        {
+          name = "4 Step Walkthrough on Contact Step 2"
+          stepNumber = 2
+        },
+        {
+          name = "4 Step Walkthrough on Contact Step 3"
+          stepNumber = 3
+        },
+        {
+          name = "4 Step Walkthrough on Contact Step 4"
+          stepNumber = 4
+        },
+      ]
+    },
+    {
+      name = "ProfilesPermSets"
+      promptVersions = [
+        {
+          name = "ProfilesPermSets Step 1"
+          stepNumber = 1
+        },
+        {
+          name = "ProfilesPermSets Step 2"
+          stepNumber = 2
+        },
+        {
+          name = "ProfilesPermSets Step 3"
+          stepNumber = 3
+        },
+      ]
+    },
+    {
+      name = "EnablementExploreMeasuresEnblAdmin"
+      promptVersions = [
+        {
+          name = "Explore Measures"
+        },
+      ]
+    },
+    {
+      name = "SalesPipelineInspectionWalkthrough"
+      promptVersions = [
+        {
+          name = "Pipeline Inspection: Sell Smarter Step 1"
+          stepNumber = 1
+        },
+        {
+          name = "Pipeline Inspection: Sell Smarter Step 2"
+          stepNumber = 2
+        },
+        {
+          name = "Pipeline Inspection: Sell Smarter Step 3"
+          stepNumber = 3
+        },
+        {
+          name = "Pipeline Inspection: Sell Smarter Step 4"
+          stepNumber = 4
+        },
+        {
+          name = "Pipeline Inspection: Sell Smarter Step 5"
+          stepNumber = 5
+        },
+        {
+          name = "Pipeline Inspection: Sell Smarter Step 6"
+          stepNumber = 6
+        },
+        {
+          name = "Pipeline Inspection: Sell Smarter Step 7"
+          stepNumber = 7
+        },
+      ]
+    },
+    {
+      name = "UnifiedAnalyticsHomeReportsUser"
+      promptVersions = [
+        {
+          name = "Unified Analytics Home Docked Prompt - Reports"
+        },
+      ]
+    },
+    {
+      name = "APIOnly"
+      promptVersions = [
+        {
+          name = "APIOnly"
+        },
+      ]
+    },
+    {
+      name = "EngagementAttributeTips"
+      promptVersions = [
+        {
+          name = "Engagement Attribute Tips"
+        },
+      ]
+    },
+    {
+      name = "ApexRecipesIntroWalkthrough"
+      promptVersions = [
+        {
+          name = "Apex Recipes Intro Walkthrough Step 1"
+          stepNumber = 1
+        },
+        {
+          name = "Apex Recipes Intro Walkthrough Step 2"
+          stepNumber = 2
+        },
+        {
+          name = "Apex Recipes Intro Walkthrough Step 3"
+          stepNumber = 3
+        },
+        {
+          name = "Apex Recipes Intro Walkthrough Step 4"
+          stepNumber = 4
+        },
+      ]
+    },
+    {
+      name = "IAGFeatureAdoption"
+      promptVersions = [
+        {
+          name = "IAG Feature Adoption Step 1"
+          stepNumber = 1
+        },
+        {
+          name = "IAG Feature Adoption Step 2"
+          stepNumber = 2
+        },
+      ]
+    },
+    {
+      name = "EnableSalesEngagement"
+      promptVersions = [
+        {
+          name = "EnableSalesEngagement"
+        },
+      ]
+    },
+    {
+      name = "CDPOnboardingInAppGuidance"
+      promptVersions = [
+        {
+          name = "CDP Onboarding InApp Guidance"
+        },
+      ]
+    },
+    {
+      name = "EnablementSwitchToProgramsEnblAdmin"
+      promptVersions = [
+        {
+          name = "Switch Between Measures and Programs Easily"
+        },
+      ]
+    },
+    {
+      name = "MFAAutoEnableAwarenessforCompliantOrgs"
+      promptVersions = [
+        {
+          name = "MFA Auto-Enable Awareness for Compliant Orgs"
+        },
+      ]
+    },
+    {
+      name = "LEX_CDN_ADOPTION"
+      promptVersions = [
+        {
+          name = "LEX CDN Adoption"
+        },
+      ]
+    },
+    {
+      name = "X2StepWalkthroughonReports"
+      promptVersions = [
+        {
+          name = "2 Step Walkthrough on Reports Step 1"
+          stepNumber = 1
+        },
+        {
+          name = "2 Step Walkthrough on Reports Step 2"
+          stepNumber = 2
+        },
+      ]
+    },
+    {
+      name = "ServiceIncidentManagementBroadcastUser"
+      promptVersions = [
+        {
+          name = "Incident Management Broadcast"
+        },
+      ]
+    },
+    {
+      name = "UnifiedAnalyticsHomeDashboardsUser"
+      promptVersions = [
+        {
+          name = "Unified Analytics Home Docked Prompt - Dashboards"
+        },
+      ]
+    },
+    {
+      name = "NPSPLicenseDay25"
+      promptVersions = [
+        {
+          name = "NPSP License Day 25"
+        },
+      ]
+    },
+    {
+      name = "SalesCoreQuoteAdminCpq"
+      promptVersions = [
+        {
+          name = "Sales Core Quote Admin to CPQ"
+        },
+      ]
+    },
+    {
+      name = "SalesHVSDialer"
+      promptVersions = [
+        {
+          name = "Sales HVS Dialer"
+        },
+      ]
+    },
+    {
+      name = "MFAAutoEnableAwarenessforNonCompliantOrgs"
+      promptVersions = [
+        {
+          name = "MFA Auto-Enable Awareness for Non-Compliant Orgs"
+        },
+      ]
+    },
+    {
+      name = "EnablementExploreProgramsEnblAdmin"
+      promptVersions = [
+        {
+          name = "Explore Programs"
+        },
+      ]
+    },
+    {
+      name = "NPSPLicenseDay20"
+      promptVersions = [
+        {
+          name = "NPSP License Day 20"
+        },
+      ]
+    },
+  ]
+  quickActions = [
+    {
+      label = ""
+      name = salesforce.QuickAction.instance.LogACall
+    },
+    {
+      label = ""
+      name = salesforce.QuickAction.instance.NewAccount
+    },
+    {
+      label = ""
+      name = salesforce.QuickAction.instance.NewCase
+    },
+    {
+      label = ""
+      name = salesforce.QuickAction.instance.NewContact
+    },
+    {
+      label = ""
+      name = salesforce.QuickAction.instance.NewEvent
+    },
+    {
+      label = ""
+      name = salesforce.QuickAction.instance.NewGroup
+    },
+    {
+      label = ""
+      name = salesforce.QuickAction.instance.NewLead
+    },
+    {
+      label = ""
+      name = salesforce.QuickAction.instance.NewNote
+    },
+    {
+      label = ""
+      name = salesforce.QuickAction.instance.NewOpportunity
+    },
+    {
+      label = ""
+      name = salesforce.QuickAction.instance.NewTask
+    },
+    {
+      label = ""
+      name = salesforce.QuickAction.instance.SendEmail
+    },
+  ]
+  reportTypes = {
+    description = ""
+    label = ""
+    name = "screen_flows_prebuilt_crt"
+    sections = [
+      {
+        label = ""
+        name = "Flow Interview Log Entries"
+      },
+      {
+        label = ""
+        name = "Flow Interview Logs"
+      },
+    ]
+  }
+}
