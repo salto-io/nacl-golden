@@ -398,6 +398,14 @@ salesforce.Translations fr {
       ]
     },
     {
+      name = "EnableSalesEngagement"
+      promptVersions = [
+        {
+          name = "EnableSalesEngagement"
+        },
+      ]
+    },
+    {
       name = "LEX_CDN_ADOPTION"
       promptVersions = [
         {

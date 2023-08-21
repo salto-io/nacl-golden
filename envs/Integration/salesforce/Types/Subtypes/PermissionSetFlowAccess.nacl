@@ -16,6 +16,7 @@ type salesforce.PermissionSetFlowAccess {
   boolean enabled {
   }
   string flow {
+    _required = true
   }
   metadataType = "PermissionSetFlowAccess"
 }

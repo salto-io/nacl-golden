@@ -28,4 +28,6 @@ type salesforce.DataWeaveResource {
   hasMetaFile = true
   dirName = "dw"
   metadataType = "DataWeaveResource"
+  boolean isGlobal {
+  }
 }

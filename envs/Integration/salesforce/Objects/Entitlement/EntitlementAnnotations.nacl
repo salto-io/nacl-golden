@@ -223,4 +223,6 @@ type salesforce.Entitlement {
       "ENTITLEMENT.STATUSINDICATOR",
     ]
   }
+  historyTrackedFields = {
+  }
 }

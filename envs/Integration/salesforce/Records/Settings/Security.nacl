@@ -67,6 +67,8 @@ salesforce.SecuritySettings {
     sessionTimeout = "TwoHours"
     sidToken3rdPartyAuraApp = false
     useLocalStorageForLogoutUrl = false
+    referrerPolicyDirective = "origin-when-cross-origin"
+    skipSFAWhenMFADirectUILogin = false
   }
   singleSignOnSettings = {
     enableCaseInsensitiveFederationID = false

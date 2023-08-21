@@ -345,6 +345,18 @@ salesforce.SearchSettings {
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
+        name = salesforce.MessagingEndUser
+        resultsPerPageCount = 25
+      },
+      {
+        enhancedLookupEnabled = false
+        lookupAutoCompleteEnabled = false
+        name = salesforce.MessagingSession
+        resultsPerPageCount = 25
+      },
+      {
+        enhancedLookupEnabled = false
+        lookupAutoCompleteEnabled = false
         name = "Note"
         resultsPerPageCount = 25
       },
@@ -401,6 +413,12 @@ salesforce.SearchSettings {
         lookupAutoCompleteEnabled = false
         name = "Report"
         resultsPerPageCount = 25
+      },
+      {
+        enhancedLookupEnabled = false
+        lookupAutoCompleteEnabled = false
+        name = salesforce.Sample__c
+        resultsPerPageCount = 0
       },
       {
         enhancedLookupEnabled = false

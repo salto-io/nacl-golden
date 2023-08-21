@@ -3,7 +3,7 @@ salesforce.PermissionSetGroup SalesPersona {
   hasActivationRequired = false
   label = "SalesPersona"
   permissionSets = [
-    "ReadAccessToTradeStyle",
+    salesforce.PermissionSet.instance.ReadAccessToTradeStyle,
   ]
   status = "Updated"
 }

@@ -16,6 +16,7 @@ type salesforce.PermissionSetExternalDataSourceAccess {
   boolean enabled {
   }
   string externalDataSource {
+    _required = true
   }
   metadataType = "PermissionSetExternalDataSourceAccess"
 }

@@ -79,4 +79,10 @@ settings salesforce.FieldServiceSettings {
   suffix = "settings"
   dirName = "settings"
   metadataType = "FieldServiceSettings"
+  boolean canPopulateGoogleAddress {
+  }
+  boolean canSendAppCenterCrashReports {
+  }
+  boolean canStoreMobileAnalytics {
+  }
 }

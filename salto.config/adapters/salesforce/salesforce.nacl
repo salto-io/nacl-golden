@@ -1,5 +1,9 @@
 salesforce {
   fetch = {
+    optionalFeatures = {
+      generateRefsInProfiles = false
+      fetchProfilesUsingReadApi = false
+    }
     metadata = {
       include = [
         {
@@ -29,12 +33,6 @@ salesforce {
         },
         {
           metadataType = "DocumentFolder"
-        },
-        {
-          metadataType = "Profile"
-        },
-        {
-          metadataType = "PermissionSet"
         },
         {
           metadataType = "SiteDotCom"

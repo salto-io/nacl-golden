@@ -117,4 +117,6 @@ type salesforce.AuthProvider {
   suffix = "authprovider"
   dirName = "authproviders"
   metadataType = "AuthProvider"
+  boolean requireMfa {
+  }
 }

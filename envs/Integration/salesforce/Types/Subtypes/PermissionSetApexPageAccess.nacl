@@ -14,6 +14,7 @@ type salesforce.PermissionSetApexPageAccess {
     }
   }
   string apexPage {
+    _required = true
   }
   boolean enabled {
   }

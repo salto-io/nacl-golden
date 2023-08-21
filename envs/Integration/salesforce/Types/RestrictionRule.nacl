@@ -47,4 +47,6 @@ type salesforce.RestrictionRule {
   suffix = "rule"
   dirName = "restrictionRules"
   metadataType = "RestrictionRule"
+  string dataspaceScope {
+  }
 }

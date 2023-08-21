@@ -16,7 +16,7 @@ type salesforce.EmbeddedServiceMenuItem {
   string channel {
     foreignKeyDomain = [
       salesforce.EmbeddedServiceConfig,
-      "MessagingChannel",
+      salesforce.MessagingChannel,
     ]
   }
   string channelType {

@@ -112,4 +112,8 @@ type salesforce.SessionSettings {
   boolean useLocalStorageForLogoutUrl {
   }
   metadataType = "SessionSettings"
+  string referrerPolicyDirective {
+  }
+  boolean skipSFAWhenMFADirectUILogin {
+  }
 }

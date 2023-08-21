@@ -387,4 +387,14 @@ type salesforce.PaymentAuthorization {
     queryable = true
     _hidden_value = true
   }
+  salesforce.Text PaymentIntentGuid {
+    apiName = "PaymentAuthorization.PaymentIntentGuid"
+    length = 255
+    label = "Payment Intent Guid"
+    createable = true
+    updateable = false
+    unique = false
+    caseSensitive = false
+    queryable = true
+  }
 }

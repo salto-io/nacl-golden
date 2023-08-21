@@ -142,6 +142,7 @@ type salesforce.ContactRequest {
       salesforce.Junction__c,
       salesforce.LogEvent__c,
       salesforce.Opportunity,
+      salesforce.Sample__c,
       salesforce.WorkOrder,
     ]
     label = "Related To ID"

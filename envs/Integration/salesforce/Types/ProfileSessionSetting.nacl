@@ -21,7 +21,7 @@ type salesforce.ProfileSessionSetting {
   }
   string profile {
     foreignKeyDomain = [
-      "Profile",
+      salesforce.Profile,
     ]
   }
   string requiredSessionLevel {

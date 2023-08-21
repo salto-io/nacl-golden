@@ -55,7 +55,7 @@ type salesforce.AppProfileActionOverride {
   }
   string profile {
     foreignKeyDomain = [
-      "Profile",
+      salesforce.Profile,
     ]
   }
   metadataType = "AppProfileActionOverride"

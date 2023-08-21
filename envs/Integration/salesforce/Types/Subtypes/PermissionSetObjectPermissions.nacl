@@ -24,6 +24,7 @@ type salesforce.PermissionSetObjectPermissions {
   boolean modifyAllRecords {
   }
   string object {
+    _required = true
   }
   boolean viewAllRecords {
   }

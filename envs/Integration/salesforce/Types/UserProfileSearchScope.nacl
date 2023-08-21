@@ -19,7 +19,7 @@ type salesforce.UserProfileSearchScope {
   }
   string profile {
     foreignKeyDomain = [
-      "Profile",
+      salesforce.Profile,
     ]
   }
   string internalId {

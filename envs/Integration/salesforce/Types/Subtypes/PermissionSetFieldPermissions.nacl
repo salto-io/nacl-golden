@@ -16,6 +16,7 @@ type salesforce.PermissionSetFieldPermissions {
   boolean editable {
   }
   string field {
+    _required = true
   }
   boolean readable {
   }

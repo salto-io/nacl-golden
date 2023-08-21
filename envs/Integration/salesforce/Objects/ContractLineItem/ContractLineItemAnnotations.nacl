@@ -157,4 +157,6 @@ type salesforce.ContractLineItem {
       "ASSET.NAME",
     ]
   }
+  historyTrackedFields = {
+  }
 }

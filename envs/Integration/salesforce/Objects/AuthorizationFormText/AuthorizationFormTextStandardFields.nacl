@@ -270,12 +270,6 @@ type salesforce.AuthorizationFormText {
         default = false
       },
       {
-        fullName = "sh_ME_USD"
-        isActive = true
-        label = "Montenegrin (Montenegro, USD)"
-        default = false
-      },
-      {
         fullName = "az_AZ"
         isActive = true
         label = "Azerbaijani (Azerbaijan)"
@@ -1765,12 +1759,6 @@ type salesforce.AuthorizationFormText {
         fullName = "en_SL"
         isActive = true
         label = "English (Sierra Leone)"
-        default = false
-      },
-      {
-        fullName = "sh_ME_USD"
-        isActive = true
-        label = "Montenegrin (Montenegro, USD)"
         default = false
       },
       {

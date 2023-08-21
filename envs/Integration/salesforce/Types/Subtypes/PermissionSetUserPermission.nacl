@@ -16,6 +16,7 @@ type salesforce.PermissionSetUserPermission {
   boolean enabled {
   }
   string name {
+    _required = true
   }
   metadataType = "PermissionSetUserPermission"
 }

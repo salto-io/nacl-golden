@@ -16,6 +16,7 @@ type salesforce.PermissionSetCustomMetadataTypeAccess {
   boolean enabled {
   }
   string name {
+    _required = true
   }
   metadataType = "PermissionSetCustomMetadataTypeAccess"
 }

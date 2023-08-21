@@ -16,6 +16,7 @@ type salesforce.PermissionSetCustomPermissions {
   boolean enabled {
   }
   string name {
+    _required = true
   }
   metadataType = "PermissionSetCustomPermissions"
 }

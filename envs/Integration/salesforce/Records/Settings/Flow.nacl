@@ -24,4 +24,5 @@ salesforce.FlowSettings {
   isManageFlowRequiredForAutomationCharts = false
   isSupportRollbackOnErrorForApexInvocableActionsEnabled = "false"
   isTimeResumedInSameRunContext = "true"
+  enableEmailSimpleRespectProfiles = "false"
 }

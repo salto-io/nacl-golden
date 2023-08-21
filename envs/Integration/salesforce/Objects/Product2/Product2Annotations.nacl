@@ -144,6 +144,20 @@ type salesforce.Product2 {
       type = "Default"
     },
     {
+      actionName = "PreviewProductAction"
+      type = "Default"
+    },
+    {
+      actionName = "PreviewProductAction"
+      formFactor = "Large"
+      type = "Default"
+    },
+    {
+      actionName = "PreviewProductAction"
+      formFactor = "Small"
+      type = "Default"
+    },
+    {
       actionName = "SaveEdit"
       type = "Default"
     },
@@ -213,5 +227,7 @@ type salesforce.Product2 {
       "PRODUCT2.DESCRIPTION",
       "PRODUCT2.FAMILY",
     ]
+  }
+  historyTrackedFields = {
   }
 }

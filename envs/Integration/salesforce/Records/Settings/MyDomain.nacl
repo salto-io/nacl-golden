@@ -17,4 +17,5 @@ salesforce.MyDomainSettings {
   useEnhancedDomainsInSandbox = "true"
   useStabilizedMyDomainHostnames = true
   useStabilizedSandboxMyDomainHostnames = true
+  enableEdgeDuringRollout = "true"
 }
