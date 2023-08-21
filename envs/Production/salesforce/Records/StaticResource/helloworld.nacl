@@ -1,0 +1,6 @@
+salesforce.StaticResource helloworld {
+  cacheControl = "Public"
+  contentType = "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  fullName = "helloworld"
+  content = file("salesforce/Records/StaticResource/helloworld.docx")
+}

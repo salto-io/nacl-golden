@@ -1,0 +1,14 @@
+salesforce.ApexClass InvocableMethodRecipes {
+  apiVersion = 58
+  status = "Active"
+  fullName = "InvocableMethodRecipes"
+  content = file("salesforce/Records/ApexClass/InvocableMethodRecipes.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.Contact
+    },
+    {
+      reference = salesforce.Task
+    },
+  ]
+}

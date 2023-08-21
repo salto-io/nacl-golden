@@ -1,0 +1,16 @@
+envs {
+  envs = [
+    {
+      name = "7224fd73-df78-48e4-82bf-bbf5faefbab9-Integration"
+      accountToServiceName = {
+        salesforce = "salesforce"
+      }
+    },
+    {
+      name = "Production"
+      accountToServiceName = {
+        salesforce = "salesforce"
+      }
+    },
+  ]
+}

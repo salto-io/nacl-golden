@@ -1,0 +1,15 @@
+salesforce.ListView LogEvent__c_All {
+  fullName = "LogEvent__c.All"
+  columns = [
+    "NAME",
+    "CREATED_DATE",
+    salesforce.LogEvent__c.field.Quiddity__c,
+    salesforce.LogEvent__c.field.Request_Id__c,
+    salesforce.LogEvent__c.field.Severity__c,
+  ]
+  filterScope = "Everything"
+  label = "All"
+  _parent = [
+    salesforce.LogEvent__c,
+  ]
+}
