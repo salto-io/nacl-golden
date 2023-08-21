@@ -1,0 +1,28 @@
+salesforce.LightningComponentBundle relatedCodeTabs {
+  apiVersion = 58
+  isExposed = false
+  fullName = "relatedCodeTabs"
+  lwcResources = {
+    lwcResource = {
+      relatedCodeTabs_js@v = {
+        source = file("salesforce/Records/LightningComponentBundle/relatedCodeTabs/relatedCodeTabs.js")
+        filePath = "lwc/relatedCodeTabs/relatedCodeTabs.js"
+      }
+      relatedCodeTabs_html@v = {
+        source = file("salesforce/Records/LightningComponentBundle/relatedCodeTabs/relatedCodeTabs.html")
+        filePath = "lwc/relatedCodeTabs/relatedCodeTabs.html"
+      }
+    }
+  }
+  _generated_dependencies = [
+    {
+      reference = salesforce.ApexClass.instance.RelatedCodeTabsController
+    },
+    {
+      reference = salesforce.LightningComponentBundle.instance.formattedDocsViewer
+    },
+    {
+      reference = salesforce.LightningComponentBundle.instance.formattedRecipeDisplay
+    },
+  ]
+}
