@@ -33,9 +33,13 @@ type salesforce.EventRelayConfig {
         "CampaignMemberChangeEvent",
         "CampaignMemberStatusChangeEvent",
         "CaseChangeEvent",
+        "CaseRelatedIssueChangeEvent",
         "ChangeDataCaptureDiffeoStandard",
         "ChangeDataStandardSales",
         "ChangeEvents",
+        "ChangeRequestChangeEvent",
+        "ChangeRequestRelatedIssueChangeEvent",
+        "ChangeRequestRelatedItemChangeEvent",
         "CommSubscriptionConsentChangeEvent",
         "CommerceChangeEvents",
         "CommerceSearchIncrementalIndex",
@@ -73,6 +77,7 @@ type salesforce.EventRelayConfig {
         "GlobalIdentityStandard",
         "HighVolumePriming",
         "IncidentChangeEvent",
+        "IncidentRelatedItemChangeEvent",
         "IndividualChangeEvent",
         "IsotopeStandardChangeEvents",
         "Junction_Demo_1__ChangeEvent",
@@ -86,6 +91,7 @@ type salesforce.EventRelayConfig {
         "LogEvent__ChangeEvent",
         "MacroChangeEvent",
         "MacroInstructionChangeEvent",
+        "ManagedContentVariantChangeEvent",
         "Merchandising",
         "OpportunityChangeEvent",
         "OpportunityContactRoleChangeEvent",
@@ -96,6 +102,8 @@ type salesforce.EventRelayConfig {
         "Pricebook2ChangeEvent",
         "PricebookEntryChangeEvent",
         "ProblemChangeEvent",
+        "ProblemIncidentChangeEvent",
+        "ProblemRelatedItemChangeEvent",
         "Product2ChangeEvent",
         "QuickTextChangeEvent",
         "RecommendationChangeEvent",
@@ -140,4 +148,6 @@ type salesforce.EventRelayConfig {
   suffix = "eventRelay"
   dirName = "eventRelays"
   metadataType = "EventRelayConfig"
+  string label {
+  }
 }

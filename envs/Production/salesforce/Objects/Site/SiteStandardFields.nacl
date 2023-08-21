@@ -423,4 +423,28 @@ type salesforce.Site {
     queryable = true
     _hidden_value = true
   }
+  salesforce.Checkbox OptionsIsSiteGAIntegrationMigrated {
+    apiName = "Site.OptionsIsSiteGAIntegrationMigrated"
+    label = "isSiteGAIntegrationMigrated"
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Checkbox OptionsIsSiteDataCloudIntegrationEnabled {
+    apiName = "Site.OptionsIsSiteDataCloudIntegrationEnabled"
+    label = "IsSiteDataCloudIntegrationEnabled"
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Checkbox OptionsIsSiteGAIntegrationEnabled {
+    apiName = "Site.OptionsIsSiteGAIntegrationEnabled"
+    label = "IsSiteGAIntegrationEnabled"
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+  }
 }

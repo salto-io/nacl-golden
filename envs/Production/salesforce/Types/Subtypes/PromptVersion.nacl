@@ -195,4 +195,19 @@ type salesforce.PromptVersion {
   string videoLink {
   }
   metadataType = "PromptVersion"
+  string experience {
+    _restriction = {
+      enforce_value = false
+      values = [
+        "Lightning",
+        "Site",
+      ]
+    }
+  }
+  string experienceContext {
+    foreignKeyDomain = [
+      "CommunityTemplateDefinition",
+      salesforce.CustomSite,
+    ]
+  }
 }

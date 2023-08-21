@@ -169,4 +169,6 @@ type salesforce.PricebookEntry {
       "PRODUCT2.FAMILY_ENUM",
     ]
   }
+  historyTrackedFields = {
+  }
 }

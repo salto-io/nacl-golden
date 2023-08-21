@@ -207,4 +207,6 @@ type salesforce.ServiceContract {
       "CONTRACT.STATUSINDICATOR",
     ]
   }
+  historyTrackedFields = {
+  }
 }

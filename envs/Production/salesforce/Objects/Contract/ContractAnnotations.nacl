@@ -260,4 +260,24 @@ type salesforce.Contract {
   topicsForObjects = {
     enableTopics = true
   }
+  historyTrackedFields = {
+    AccountId = salesforce.Contract.field.AccountId
+    BillingAddress = salesforce.Contract.field.BillingAddress
+    CompanySignedDate = salesforce.Contract.field.CompanySignedDate
+    CompanySignedId = salesforce.Contract.field.CompanySignedId
+    ContractTerm = salesforce.Contract.field.ContractTerm
+    CustomerSignedDate = salesforce.Contract.field.CustomerSignedDate
+    CustomerSignedId = salesforce.Contract.field.CustomerSignedId
+    CustomerSignedTitle = salesforce.Contract.field.CustomerSignedTitle
+    Description = salesforce.Contract.field.Description
+    EndDate = salesforce.Contract.field.EndDate
+    Name = salesforce.Contract.field.Name
+    OwnerExpirationNotice = salesforce.Contract.field.OwnerExpirationNotice
+    OwnerId = salesforce.Contract.field.OwnerId
+    Pricebook2Id = salesforce.Contract.field.Pricebook2Id
+    ShippingAddress = salesforce.Contract.field.ShippingAddress
+    SpecialTerms = salesforce.Contract.field.SpecialTerms
+    StartDate = salesforce.Contract.field.StartDate
+    Status = salesforce.Contract.field.Status
+  }
 }

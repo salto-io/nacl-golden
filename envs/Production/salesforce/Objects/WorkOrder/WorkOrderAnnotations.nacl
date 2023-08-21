@@ -232,4 +232,6 @@ type salesforce.WorkOrder {
   topicsForObjects = {
     enableTopics = false
   }
+  historyTrackedFields = {
+  }
 }

@@ -179,4 +179,6 @@ type salesforce.Task {
   topicsForObjects = {
     enableTopics = true
   }
+  historyTrackedFields = {
+  }
 }

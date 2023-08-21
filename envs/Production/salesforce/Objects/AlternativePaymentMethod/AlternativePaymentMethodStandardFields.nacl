@@ -18,17 +18,35 @@ type salesforce.AlternativePaymentMethod {
     unique = false
     queryable = true
   }
-  salesforce.Unknown BillingFirstName {
+  salesforce.Text BillingFirstName {
     apiName = "AlternativePaymentMethod.BillingFirstName"
-    _hidden_value = true
+    length = 255
+    label = "First name of the person tied to billing address"
+    createable = true
+    updateable = true
+    unique = false
+    caseSensitive = false
+    queryable = true
   }
-  salesforce.Unknown BillingLastName {
+  salesforce.Text BillingLastName {
     apiName = "AlternativePaymentMethod.BillingLastName"
-    _hidden_value = true
+    length = 255
+    label = "Last name of the person tied to billing address"
+    createable = true
+    updateable = true
+    unique = false
+    caseSensitive = false
+    queryable = true
   }
-  salesforce.Unknown BillingName {
+  salesforce.Text BillingName {
     apiName = "AlternativePaymentMethod.BillingName"
-    _hidden_value = true
+    length = 255
+    label = "Name of the person tied to billing address"
+    createable = true
+    updateable = true
+    unique = false
+    caseSensitive = false
+    queryable = true
   }
   salesforce.LongTextArea Comments {
     apiName = "AlternativePaymentMethod.Comments"

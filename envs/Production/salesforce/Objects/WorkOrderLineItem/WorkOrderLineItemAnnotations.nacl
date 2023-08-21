@@ -212,4 +212,6 @@ type salesforce.WorkOrderLineItem {
   topicsForObjects = {
     enableTopics = false
   }
+  historyTrackedFields = {
+  }
 }

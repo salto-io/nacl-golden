@@ -3736,12 +3736,6 @@ type salesforce.User {
         default = false
       },
       {
-        fullName = "sh_ME_USD"
-        isActive = true
-        label = "Montenegrin (Montenegro, USD)"
-        default = false
-      },
-      {
         fullName = "sh_ME"
         isActive = true
         label = "Montenegrin (Montenegro)"
@@ -4854,13 +4848,7 @@ type salesforce.User {
     updateable = true
     queryable = true
   }
-  salesforce.Checkbox UserPreferencesHideLegacyRetirementModal {
-    apiName = "User.UserPreferencesHideLegacyRetirementModal"
-    label = "HideLegacyRetirementModal"
-    createable = true
-    updateable = true
-    queryable = true
-  }
+  
   salesforce.Checkbox UserPreferencesJigsawListUser {
     apiName = "User.UserPreferencesJigsawListUser"
     label = "JigsawListUser"

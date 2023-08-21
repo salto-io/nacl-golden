@@ -61,4 +61,6 @@ salesforce.AnalyticsSettings {
   recipeStagedDataPref = "false"
   replaceBlankMeasuresWithNulls = false
   turnOnTimeZones = false
+  bundleCachingOptOut = "false"
+  isDiscoveryOptimizationEnabled = "false"
 }
