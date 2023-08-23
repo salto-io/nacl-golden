@@ -1,0 +1,12 @@
+salesforce.CustomTab Feature_Flags {
+  fullName = "Feature_Flags"
+  description = "Created by Lightning App Builder"
+  flexiPage = "Feature_Flags"
+  label = "Feature Flags"
+  motif = "Custom26: Flag"
+  _generated_dependencies = [
+    {
+      reference = salesforce.LightningPage.instance.Feature_Flags
+    },
+  ]
+}

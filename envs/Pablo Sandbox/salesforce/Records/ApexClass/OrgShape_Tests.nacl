@@ -1,0 +1,11 @@
+salesforce.ApexClass OrgShape_Tests {
+  apiVersion = 58
+  status = "Active"
+  fullName = "OrgShape_Tests"
+  content = file("salesforce/Records/ApexClass/OrgShape_Tests.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.ApexClass.instance.OrgShape
+    },
+  ]
+}
