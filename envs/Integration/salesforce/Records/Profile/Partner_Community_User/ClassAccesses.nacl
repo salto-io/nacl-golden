@@ -502,5 +502,13 @@ salesforce.Profile Partner_Community_User@s {
     }
     
     
+    FeatureFlags = {
+      apexClass = "FeatureFlags"
+      enabled = false
+    }
+    IFeatureFlagProvider = {
+      apexClass = "IFeatureFlagProvider"
+      enabled = false
+    }
   }
 }
