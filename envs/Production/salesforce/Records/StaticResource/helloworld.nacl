@@ -3,4 +3,5 @@ salesforce.StaticResource helloworld {
   contentType = "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
   fullName = "helloworld"
   content = file("salesforce/Records/StaticResource/helloworld.docx")
+  _alias = "helloworld"
 }

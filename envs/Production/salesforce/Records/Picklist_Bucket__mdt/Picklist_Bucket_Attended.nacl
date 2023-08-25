@@ -3,4 +3,5 @@ salesforce.Picklist_Bucket__mdt Picklist_Bucket_Attended@uv {
   protected = false
   fullName = "Picklist_Bucket.Attended"
   Bucketed_Picklist__c = "Attendance"
+  _alias = "Attended"
 }

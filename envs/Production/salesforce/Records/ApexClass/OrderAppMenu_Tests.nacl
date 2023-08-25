@@ -8,4 +8,5 @@ salesforce.ApexClass OrderAppMenu_Tests {
       reference = salesforce.ApexClass.instance.OrderAppMenu
     },
   ]
+  _alias = "OrderAppMenu_Tests"
 }

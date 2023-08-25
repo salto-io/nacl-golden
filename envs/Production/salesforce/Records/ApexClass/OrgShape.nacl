@@ -3,4 +3,5 @@ salesforce.ApexClass OrgShape {
   status = "Active"
   fullName = "OrgShape"
   content = file("salesforce/Records/ApexClass/OrgShape.cls")
+  _alias = "OrgShape"
 }

@@ -17,4 +17,5 @@ salesforce.ApexClass AuraEnabledRecipes_Tests {
       reference = salesforce.User
     },
   ]
+  _alias = "AuraEnabledRecipes_Tests"
 }

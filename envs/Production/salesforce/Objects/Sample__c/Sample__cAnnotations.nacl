@@ -261,4 +261,5 @@ type salesforce.Sample__c {
   topicsForObjects = {
     enableTopics = false
   }
+  _alias = "Sample"
 }

@@ -8,4 +8,5 @@ salesforce.ApexClass OrderAppMenu {
       reference = salesforce.ApexClass.instance.CollectionUtils
     },
   ]
+  _alias = "OrderAppMenu"
 }

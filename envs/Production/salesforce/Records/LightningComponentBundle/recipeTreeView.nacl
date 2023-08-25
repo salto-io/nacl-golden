@@ -28,4 +28,5 @@ salesforce.LightningComponentBundle recipeTreeView {
       reference = salesforce.LightningComponentBundle.instance.errorPanel
     },
   ]
+  _alias = "recipeTreeView"
 }

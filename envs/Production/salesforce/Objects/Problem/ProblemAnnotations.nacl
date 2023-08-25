@@ -206,4 +206,5 @@ type salesforce.Problem {
   }
   feedHistoryTrackedFields = {
   }
+  _alias = "Problem"
 }

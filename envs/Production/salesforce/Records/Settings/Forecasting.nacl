@@ -2619,4 +2619,5 @@ salesforce.ForecastingSettings {
   globalQuotasSettings = {
     showQuotas = false
   }
+  _alias = "Forecasting"
 }

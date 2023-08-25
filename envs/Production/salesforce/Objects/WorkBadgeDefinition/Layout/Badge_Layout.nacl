@@ -113,4 +113,5 @@ salesforce.Layout WorkBadgeDefinition_Badge_Layout@bs {
   _parent = [
     salesforce.WorkBadgeDefinition,
   ]
+  _alias = "WorkBadgeDefinition-Badge Layout"
 }

@@ -11,4 +11,5 @@ salesforce.ApexClass PlatformEventRecipes {
       reference = salesforce.Event_Recipes_Demo__e
     },
   ]
+  _alias = "PlatformEventRecipes"
 }

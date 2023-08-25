@@ -23,4 +23,5 @@ salesforce.ApexClass DataFactoryForPackageInstalls {
       reference = salesforce.Junction__c.field.parent1__c
     },
   ]
+  _alias = "DataFactoryForPackageInstalls"
 }

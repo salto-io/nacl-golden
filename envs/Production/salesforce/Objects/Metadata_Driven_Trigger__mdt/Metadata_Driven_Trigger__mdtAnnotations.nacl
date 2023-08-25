@@ -15,4 +15,5 @@ type salesforce.Metadata_Driven_Trigger__mdt {
   metadataType = "CustomMetadata"
   label = "Metadata Driven Trigger"
   pluralLabel = "Metadata Driven Triggerss"
+  _alias = "Metadata Driven Trigger"
 }

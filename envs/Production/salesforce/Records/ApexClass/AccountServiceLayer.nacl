@@ -8,4 +8,5 @@ salesforce.ApexClass AccountServiceLayer {
       reference = salesforce.Account
     },
   ]
+  _alias = "AccountServiceLayer"
 }

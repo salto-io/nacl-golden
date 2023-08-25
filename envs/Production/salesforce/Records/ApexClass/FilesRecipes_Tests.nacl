@@ -17,4 +17,5 @@ salesforce.ApexClass FilesRecipes_Tests {
       reference = salesforce.ContentVersion
     },
   ]
+  _alias = "FilesRecipes_Tests"
 }

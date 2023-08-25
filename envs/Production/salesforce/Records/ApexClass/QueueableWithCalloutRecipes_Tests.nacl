@@ -17,4 +17,5 @@ salesforce.ApexClass QueueableWithCalloutRecipes_Tests {
       reference = salesforce.ApexClass.instance.TestFactory
     },
   ]
+  _alias = "QueueableWithCalloutRecipes_Tests"
 }

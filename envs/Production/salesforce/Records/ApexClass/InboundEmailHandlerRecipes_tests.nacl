@@ -26,4 +26,5 @@ salesforce.ApexClass InboundEmailHandlerRecipes_tests {
       reference = salesforce.EmailMessage
     },
   ]
+  _alias = "InboundEmailHandlerRecipes_tests"
 }

@@ -8,4 +8,5 @@ salesforce.ApexClass DMLRecipes {
       reference = salesforce.Account
     },
   ]
+  _alias = "DMLRecipes"
 }

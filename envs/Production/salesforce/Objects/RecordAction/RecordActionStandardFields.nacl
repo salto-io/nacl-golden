@@ -261,6 +261,12 @@ type salesforce.RecordAction {
         default = false
       },
       {
+        fullName = "setup_service_folmessaging__MSContact"
+        isActive = true
+        label = "setup_service_folmessaging__MSContact"
+        default = false
+      },
+      {
         fullName = "Test"
         isActive = true
         label = "Test"
@@ -401,6 +407,12 @@ type salesforce.RecordAction {
         default = false
       },
       {
+        fullName = "setup_service_folmessaging__MSContact"
+        isActive = true
+        label = "setup_service_folmessaging__MSContact"
+        default = false
+      },
+      {
         fullName = "Test"
         isActive = true
         label = "Test"
@@ -505,6 +517,7 @@ type salesforce.RecordAction {
       salesforce.Lead,
       salesforce.Location,
       salesforce.LogEvent__c,
+      salesforce.MessagingSession,
       salesforce.Opportunity,
       salesforce.Order,
       salesforce.Pricebook2,

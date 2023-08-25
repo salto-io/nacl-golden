@@ -4,4 +4,5 @@ salesforce.Bucketed_Picklist__mdt Bucketed_Picklist_Attendance@uv {
   fullName = "Bucketed_Picklist.Attendance"
   Field__c = "AttendanceStatus__c"
   Object__c = "Contact"
+  _alias = "Attendance"
 }

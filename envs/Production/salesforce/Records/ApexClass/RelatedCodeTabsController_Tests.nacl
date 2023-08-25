@@ -8,4 +8,5 @@ salesforce.ApexClass RelatedCodeTabsController_Tests {
       reference = salesforce.ApexClass.instance.RelatedCodeTabsController
     },
   ]
+  _alias = "RelatedCodeTabsController_Tests"
 }

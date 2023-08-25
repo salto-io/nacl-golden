@@ -10,4 +10,5 @@ salesforce.LanguageSettings {
   enableTranslationWorkbench = true
   useLanguageFallback = false
   enableLanguageExtensionPackage = "false"
+  _alias = "Language"
 }

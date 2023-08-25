@@ -7,4 +7,5 @@ salesforce.NamedCredential MockBin {
   label = "MockBin"
   principalType = "Anonymous"
   protocol = "NoAuthentication"
+  _alias = "MockBin"
 }

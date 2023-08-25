@@ -5,4 +5,5 @@ salesforce.ListView DataUseLegalBasis_All_DataUseLegalBases {
   _parent = [
     salesforce.DataUseLegalBasis,
   ]
+  _alias = "All Data Use Legal Bases"
 }

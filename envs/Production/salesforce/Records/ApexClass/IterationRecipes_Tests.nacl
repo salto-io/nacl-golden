@@ -17,4 +17,5 @@ salesforce.ApexClass IterationRecipes_Tests {
       reference = salesforce.ApexClass.instance.IterationRecipes
     },
   ]
+  _alias = "IterationRecipes_Tests"
 }

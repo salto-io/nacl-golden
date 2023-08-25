@@ -206,4 +206,5 @@ type salesforce.Incident {
   }
   feedHistoryTrackedFields = {
   }
+  _alias = "Incident"
 }

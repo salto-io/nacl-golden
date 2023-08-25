@@ -14,4 +14,5 @@ salesforce.ApexClass DMLRecipes_Tests {
       reference = salesforce.ApexClass.instance.TestDataHelpers
     },
   ]
+  _alias = "DMLRecipes_Tests"
 }

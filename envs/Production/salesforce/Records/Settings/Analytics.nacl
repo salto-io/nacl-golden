@@ -63,4 +63,5 @@ salesforce.AnalyticsSettings {
   turnOnTimeZones = false
   bundleCachingOptOut = "false"
   isDiscoveryOptimizationEnabled = "false"
+  _alias = "Analytics"
 }

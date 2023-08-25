@@ -32,5 +32,11 @@ salesforce.StandardValueSet QuickTextChannel {
       default = false
       label = "Task"
     },
+    {
+      fullName = "Messaging"
+      default = false
+      label = "Messaging"
+    },
   ]
+  _alias = "QuickTextChannel"
 }

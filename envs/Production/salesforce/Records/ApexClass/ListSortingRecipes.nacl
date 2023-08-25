@@ -17,4 +17,5 @@ salesforce.ApexClass ListSortingRecipes {
       reference = salesforce.ApexClass.instance.SortableAccount
     },
   ]
+  _alias = "ListSortingRecipes"
 }

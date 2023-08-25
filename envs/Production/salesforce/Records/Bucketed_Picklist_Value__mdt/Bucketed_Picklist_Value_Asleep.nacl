@@ -3,4 +3,5 @@ salesforce.Bucketed_Picklist_Value__mdt Bucketed_Picklist_Value_Asleep@uuv {
   protected = false
   fullName = "Bucketed_Picklist_Value.Asleep"
   Picklist_Bucket__c = "Attended"
+  _alias = "Asleep"
 }

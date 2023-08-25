@@ -8,4 +8,5 @@ salesforce.ApexClass MetadataCatalogRecipes_Tests {
       reference = salesforce.ApexClass.instance.MetadataCatalogRecipes
     },
   ]
+  _alias = "MetadataCatalogRecipes_Tests"
 }

@@ -17,4 +17,5 @@ salesforce.ApexClass MetadataTriggerHandler_Tests {
       reference = salesforce.ApexClass.instance.TestHelper
     },
   ]
+  _alias = "MetadataTriggerHandler_Tests"
 }

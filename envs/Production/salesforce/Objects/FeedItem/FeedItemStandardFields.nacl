@@ -57,6 +57,7 @@ type salesforce.FeedItem {
       salesforce.Location,
       salesforce.LocationGroup,
       salesforce.LogEvent__c,
+      salesforce.MessagingSession,
       salesforce.Opportunity,
       salesforce.Order,
       salesforce.OrderItem,

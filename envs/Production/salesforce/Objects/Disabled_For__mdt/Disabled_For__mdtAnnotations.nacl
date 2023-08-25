@@ -15,4 +15,5 @@ type salesforce.Disabled_For__mdt {
   metadataType = "CustomMetadata"
   label = "Disabled For"
   pluralLabel = "Disabled For"
+  _alias = "Disabled For"
 }

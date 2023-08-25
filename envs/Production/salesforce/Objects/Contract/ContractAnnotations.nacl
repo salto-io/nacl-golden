@@ -280,4 +280,5 @@ type salesforce.Contract {
     StartDate = salesforce.Contract.field.StartDate
     Status = salesforce.Contract.field.Status
   }
+  _alias = "Contract"
 }

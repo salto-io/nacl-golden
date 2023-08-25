@@ -8,4 +8,5 @@ salesforce.ApexClass FilesRecipes {
       reference = salesforce.ContentVersion
     },
   ]
+  _alias = "FilesRecipes"
 }

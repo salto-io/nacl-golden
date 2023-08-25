@@ -8,4 +8,5 @@ salesforce.ValidationRule User_NoUsernameChangesAllowed {
   _parent = [
     salesforce.User,
   ]
+  _alias = "User.NoUsernameChangesAllowed"
 }

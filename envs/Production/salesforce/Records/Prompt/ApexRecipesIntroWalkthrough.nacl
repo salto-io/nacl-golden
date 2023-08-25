@@ -79,4 +79,5 @@ salesforce.Prompt ApexRecipesIntroWalkthrough {
       versionNumber = 1
     },
   ]
+  _alias = "ApexRecipesIntroWalkthrough"
 }

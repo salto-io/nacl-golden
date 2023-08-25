@@ -11,4 +11,5 @@ salesforce.ApexClass DataFactoryForPackageInstalls_Tests {
       reference = salesforce.Junction__c
     },
   ]
+  _alias = "DataFactoryForPackageInstalls_Tests"
 }

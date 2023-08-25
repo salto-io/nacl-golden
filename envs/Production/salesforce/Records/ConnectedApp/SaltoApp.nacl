@@ -2,4 +2,5 @@ salesforce.ConnectedApp SaltoApp {
   fullName = "SaltoApp"
   contactEmail = "pablo.gonzalez@salto.io"
   label = "SaltoApp"
+  _alias = "SaltoApp"
 }

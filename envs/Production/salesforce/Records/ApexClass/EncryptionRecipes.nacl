@@ -3,4 +3,5 @@ salesforce.ApexClass EncryptionRecipes {
   status = "Active"
   fullName = "EncryptionRecipes"
   content = file("salesforce/Records/ApexClass/EncryptionRecipes.cls")
+  _alias = "EncryptionRecipes"
 }

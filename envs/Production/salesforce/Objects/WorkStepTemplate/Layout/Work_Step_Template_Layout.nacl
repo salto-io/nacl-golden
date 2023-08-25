@@ -126,4 +126,5 @@ salesforce.Layout WorkStepTemplate_Work_Step_Template_Layout@bsss {
   _parent = [
     salesforce.WorkStepTemplate,
   ]
+  _alias = "WorkStepTemplate-Work Step Template Layout"
 }

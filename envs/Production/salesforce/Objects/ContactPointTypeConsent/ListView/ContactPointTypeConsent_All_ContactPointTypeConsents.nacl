@@ -5,4 +5,5 @@ salesforce.ListView ContactPointTypeConsent_All_ContactPointTypeConsents {
   _parent = [
     salesforce.ContactPointTypeConsent,
   ]
+  _alias = "All Contact Point Type Consents"
 }

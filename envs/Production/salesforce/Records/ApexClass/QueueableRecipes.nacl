@@ -8,4 +8,5 @@ salesforce.ApexClass QueueableRecipes {
       reference = salesforce.Account
     },
   ]
+  _alias = "QueueableRecipes"
 }

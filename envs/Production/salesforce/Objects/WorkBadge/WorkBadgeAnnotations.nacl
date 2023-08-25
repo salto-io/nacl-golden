@@ -162,4 +162,5 @@ type salesforce.WorkBadge {
       "Recipient",
     ]
   }
+  _alias = "Badge Received"
 }

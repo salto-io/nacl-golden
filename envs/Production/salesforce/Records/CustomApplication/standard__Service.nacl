@@ -16,4 +16,5 @@ salesforce.CustomApplication standard__Service {
     "standard-report",
     "standard-Dashboard",
   ]
+  _alias = "standard__Service"
 }

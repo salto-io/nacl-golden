@@ -3,4 +3,5 @@ salesforce.StaticResource documentation {
   contentType = "application/zip"
   fullName = "documentation"
   content = file("salesforce/Records/StaticResource/documentation.zip")
+  _alias = "documentation"
 }

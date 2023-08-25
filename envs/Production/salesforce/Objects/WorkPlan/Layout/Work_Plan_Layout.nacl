@@ -131,4 +131,5 @@ salesforce.Layout WorkPlan_Work_Plan_Layout@bss {
   _parent = [
     salesforce.WorkPlan,
   ]
+  _alias = "WorkPlan-Work Plan Layout"
 }
