@@ -66,4 +66,5 @@ salesforce.Layout Sample__c_Sample_Layout@uubs {
   _parent = [
     salesforce.Sample__c,
   ]
+  _alias = "Sample__c-Sample Layout"
 }

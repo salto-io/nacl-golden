@@ -99,4 +99,5 @@ salesforce.Layout Permission_Set_Group_Testing_Result__mdt_Permission_Set_Group_
   showRunAssignmentRulesCheckbox = false
   showSubmitAndAttachButton = false
   fullName = "Permission_Set_Group_Testing_Result__mdt-Permission Set Group Testing Result Layout"
+  _alias = "Permission_Set_Group_Testing_Result__mdt-Permission Set Group Testing Result Layout"
 }

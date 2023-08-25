@@ -17,4 +17,5 @@ salesforce.ApexClass PlatformCacheBuilderRecipes_Tests {
       reference = salesforce.ApexClass.instance.TestFactory
     },
   ]
+  _alias = "PlatformCacheBuilderRecipes_Tests"
 }

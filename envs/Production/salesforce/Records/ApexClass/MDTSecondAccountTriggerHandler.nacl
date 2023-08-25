@@ -11,4 +11,5 @@ salesforce.ApexClass MDTSecondAccountTriggerHandler {
       reference = salesforce.ApexClass.instance.TriggerHandler
     },
   ]
+  _alias = "MDTSecondAccountTriggerHandler"
 }

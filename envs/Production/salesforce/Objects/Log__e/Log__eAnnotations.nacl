@@ -96,4 +96,5 @@ type salesforce.Log__e {
   label = "Log"
   pluralLabel = "Logs"
   deploymentStatus = "Deployed"
+  _alias = "Log"
 }

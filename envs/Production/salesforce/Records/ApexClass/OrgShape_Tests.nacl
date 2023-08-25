@@ -8,4 +8,5 @@ salesforce.ApexClass OrgShape_Tests {
       reference = salesforce.ApexClass.instance.OrgShape
     },
   ]
+  _alias = "OrgShape_Tests"
 }

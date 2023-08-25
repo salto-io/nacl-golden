@@ -3,4 +3,5 @@ salesforce.ApexClass LogSeverity {
   status = "Active"
   fullName = "LogSeverity"
   content = file("salesforce/Records/ApexClass/LogSeverity.cls")
+  _alias = "LogSeverity"
 }

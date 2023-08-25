@@ -3,6 +3,7 @@ salesforce.AccountIntelligenceSettings {
   enableAccountLogos = false
   enableAutomatedAccountFields = false
   enableNewsStories = false
+  _alias = "AccountIntelligence"
 }
 salesforce.AccountSettings {
   fullName = "Account"
@@ -11,6 +12,7 @@ salesforce.AccountSettings {
   enableContactHistoryTracking = false
   enableRelateContactToMultipleAccounts = false
   showViewHierarchyLink = true
+  _alias = "Account"
 }
 salesforce.ActionsSettings {
   fullName = "Actions"
@@ -18,6 +20,7 @@ salesforce.ActionsSettings {
   enableMdpEnabled = true
   enableOfflineWebLinks = "false"
   enableThirdPartyActions = false
+  _alias = "Actions"
 }
 salesforce.ActivitiesSettings {
   fullName = "Activities"
@@ -46,6 +49,7 @@ salesforce.ActivitiesSettings {
   showHomePageHoverLinksForEvents = true
   showMyTasksHoverLinks = true
   enableCalendarHomeLWC = false
+  _alias = "Activities"
 }
 salesforce.AddressSettings {
   fullName = "Address"
@@ -5392,9 +5396,11 @@ salesforce.AddressSettings {
       },
     ]
   }
+  _alias = "Address"
 }
 salesforce.Ai4mSettings {
   fullName = "Ai4m"
+  _alias = "Ai4m"
 }
 salesforce.AnalyticsSettings {
   fullName = "Analytics"
@@ -5461,6 +5467,7 @@ salesforce.AnalyticsSettings {
   turnOnTimeZones = false
   bundleCachingOptOut = "false"
   isDiscoveryOptimizationEnabled = "false"
+  _alias = "Analytics"
 }
 salesforce.ApexSettings {
   fullName = "Apex"
@@ -5479,26 +5486,32 @@ salesforce.ApexSettings {
   enableNonCertifiedApexMdCrud = false
   enableRestrictCommunityExecAnon = "false"
   enableSecureNoArgConstructorPref = false
+  _alias = "Apex"
 }
 salesforce.AppAnalyticsSettings {
   fullName = "AppAnalytics"
   enableSimulationMode = "false"
+  _alias = "AppAnalytics"
 }
 salesforce.AppExperienceSettings {
   fullName = "AppExperience"
   doesHideAllAppsInAppLauncher = false
+  _alias = "AppExperience"
 }
 salesforce.ArchiveSettings {
   fullName = "Archive"
+  _alias = "Archive"
 }
 salesforce.BlockchainSettings {
   fullName = "Blockchain"
   enableBcp = "false"
   enableEtpNft = "false"
+  _alias = "Blockchain"
 }
 salesforce.BotSettings {
   fullName = "Bot"
   enableBots = false
+  _alias = "Bot"
 }
 salesforce.BusinessHoursSettings {
   fullName = "BusinessHours"
@@ -5524,6 +5537,7 @@ salesforce.BusinessHoursSettings {
       wednesdayStartTime = "00:00:00.000Z"
     }
   }
+  _alias = "BusinessHours"
 }
 salesforce.CampaignSettings {
   fullName = "Campaign"
@@ -5533,6 +5547,7 @@ salesforce.CampaignSettings {
   enableCampaignHistoryTrackEnabled = false
   enableCampaignInfluence2 = false
   enableCampaignMemberTWCF = true
+  _alias = "Campaign"
 }
 salesforce.CaseSettings {
   fullName = "Case"
@@ -5579,6 +5594,7 @@ salesforce.CaseSettings {
     defaultResponseTemplate = "unfiled$public/SupportCaseCreatedWebInquiries"
     enableWebToCase = true
   }
+  _alias = "Case"
 }
 salesforce.ChatterEmailsMDSettings {
   fullName = "ChatterEmailsMD"
@@ -5588,6 +5604,7 @@ salesforce.ChatterEmailsMDSettings {
   enableDisplayAppDownloadBadges = "true"
   enableEmailReplyToChatter = "true"
   enableEmailToChatter = "true"
+  _alias = "ChatterEmailsMD"
 }
 salesforce.ChatterSettings {
   fullName = "Chatter"
@@ -5605,13 +5622,16 @@ salesforce.ChatterSettings {
   enableRichLinkPreviewsInFeed = true
   enableTodayRecsInFeed = true
   unlistedGroupsEnabled = false
+  _alias = "Chatter"
 }
 salesforce.CodeBuilderSettings {
   fullName = "CodeBuilder"
+  _alias = "CodeBuilder"
 }
 salesforce.CommerceSettings {
   fullName = "Commerce"
   commerceEnabled = "false"
+  _alias = "Commerce"
 }
 salesforce.CommunitiesSettings {
   fullName = "Communities"
@@ -5628,6 +5648,7 @@ salesforce.CommunitiesSettings {
   enableOotbProfExtUserOpsEnable = false
   enablePRMAccRelPref = false
   enableRelaxPartnerAccountFieldPref = false
+  _alias = "Communities"
 }
 salesforce.CompanySettings {
   fullName = "Company"
@@ -5636,10 +5657,12 @@ salesforce.CompanySettings {
     fiscalYearNameBasedOn = "endingMonth"
     startMonth = "January"
   }
+  _alias = "Company"
 }
 salesforce.ConnectedAppSettings {
   fullName = "ConnectedApp"
   enableSkipUserProvisioningWizardWelcomePage = false
+  _alias = "ConnectedApp"
 }
 salesforce.ContentSettings {
   fullName = "Content"
@@ -5663,30 +5686,37 @@ salesforce.ContentSettings {
   setValidContentTypeForAtchDocDownload = "false"
   skipContentAssetTriggers = false
   skipContentAssetTriggersOnDeploy = true
+  _alias = "Content"
 }
 salesforce.ContractSettings {
   fullName = "Contract"
   autoCalculateEndDate = true
   enableContractHistoryTracking = false
   notifyOwnersOnContractExpiration = false
+  _alias = "Contract"
 }
 salesforce.ConversationalIntelligenceSettings {
   fullName = "ConversationalIntelligence"
+  _alias = "ConversationalIntelligence"
 }
 salesforce.CurrencySettings {
   fullName = "Currency"
   enableMultiCurrency = false
   isMultiCurrencyActivationAllowed = false
+  _alias = "Currency"
 }
 salesforce.CustomAddressFieldSettings {
   fullName = "CustomAddressField"
   enableCustomAddressField = false
+  _alias = "CustomAddressField"
 }
 salesforce.CustomerDataPlatformSettings {
   fullName = "CustomerDataPlatform"
+  _alias = "CustomerDataPlatform"
 }
 salesforce.CustomizablePropensityScoringSettings {
   fullName = "CustomizablePropensityScoring"
+  _alias = "CustomizablePropensityScoring"
 }
 salesforce.DataDotComSettings {
   fullName = "DataDotCom"
@@ -5700,10 +5730,12 @@ salesforce.DataDotComSettings {
   enableDataDotComCleanEnabled = "true"
   enableDataDotComOptOutsEnabled = "false"
   enableDatacloudAPIEnabled = "true"
+  _alias = "DataDotCom"
 }
 salesforce.DeploymentSettings {
   fullName = "Deployment"
   doesSkipAsyncApexValidation = false
+  _alias = "Deployment"
 }
 salesforce.DevHubSettings {
   fullName = "DevHub"
@@ -5712,16 +5744,20 @@ salesforce.DevHubSettings {
   enableDevOpsCenterGA = "false"
   enableScratchOrgManagementPref = false
   enableShapeExportPref = "false"
+  _alias = "DevHub"
 }
 salesforce.DiscoverySettings {
   fullName = "Discovery"
+  _alias = "Discovery"
 }
 salesforce.DocumentChecklistSettings {
   fullName = "DocumentChecklist"
+  _alias = "DocumentChecklist"
 }
 salesforce.DynamicFormsSettings {
   fullName = "DynamicForms"
   enableFormsOnMobile = "false"
+  _alias = "DynamicForms"
 }
 salesforce.EACSettings {
   fullName = "EAC"
@@ -5733,9 +5769,11 @@ salesforce.EACSettings {
   enableInsightsInTimelineEacStd = false
   provisionProductivityFeatures = false
   syncInternalEvents = "true"
+  _alias = "EAC"
 }
 salesforce.EinsteinDocumentCaptureSettings {
   fullName = "EinsteinDocumentCapture"
+  _alias = "EinsteinDocumentCapture"
 }
 salesforce.EmailAdministrationSettings {
   fullName = "EmailAdministration"
@@ -5760,6 +5798,7 @@ salesforce.EmailAdministrationSettings {
   sendEmailsEvenWhenAutomationUpdatesSameRecord = false
   sendMassEmailNotification = true
   sendTextOnlySystemEmails = false
+  _alias = "EmailAdministration"
 }
 salesforce.EmailIntegrationSettings {
   fullName = "EmailIntegration"
@@ -5778,27 +5817,33 @@ salesforce.EmailIntegrationSettings {
   enableInboxMobileIntune = "false"
   enableProductivityFeatures = false
   enableSupplementalContactInfoInMobile = false
+  _alias = "EmailIntegration"
 }
 salesforce.EmailTemplateSettings {
   fullName = "EmailTemplate"
   enableTemplateEnhancedFolderPref = false
+  _alias = "EmailTemplate"
 }
 salesforce.EmployeeFieldAccessSettings {
   fullName = "EmployeeFieldAccess"
+  _alias = "EmployeeFieldAccess"
 }
 salesforce.EmployeeUserSettings {
   fullName = "EmployeeUser"
+  _alias = "EmployeeUser"
 }
 salesforce.EncryptionKeySettings {
   fullName = "EncryptionKey"
   canOptOutOfDerivationWithBYOK = false
   enableCacheOnlyKeys = false
   enableReplayDetection = false
+  _alias = "EncryptionKey"
 }
 salesforce.EnhancedNotesSettings {
   fullName = "EnhancedNotes"
   enableEnhancedNotes = false
   enableTasksOnEnhancedNotes = true
+  _alias = "EnhancedNotes"
 }
 salesforce.EntitlementSettings {
   fullName = "Entitlement"
@@ -5815,9 +5860,11 @@ salesforce.EntitlementSettings {
   entitlementLookupLimitedToSameAsset = false
   entitlementLookupLimitedToSameContact = false
   ignoreMilestoneBusinessHours = false
+  _alias = "Entitlement"
 }
 salesforce.EssentialsSettings {
   fullName = "Essentials"
+  _alias = "Essentials"
 }
 salesforce.EventSettings {
   fullName = "Event"
@@ -5828,18 +5875,22 @@ salesforce.EventSettings {
   enableLoginForensics = false
   enableStreamingApi = true
   enableTransactionSecurityPolicies = false
+  _alias = "Event"
 }
 salesforce.ExperienceBundleSettings {
   fullName = "ExperienceBundle"
+  _alias = "ExperienceBundle"
 }
 salesforce.ExternalClientAppSettings {
   fullName = "ExternalClientApp"
   enableExternalClientApps = "false"
+  _alias = "ExternalClientApp"
 }
 salesforce.FieldServiceSettings {
   fullName = "FieldService"
   enableWorkOrders = true
   fieldServiceOrgPref = false
+  _alias = "FieldService"
 }
 salesforce.FileUploadAndDownloadSecuritySettings {
   fullName = "FileUploadAndDownloadSecurity"
@@ -5976,12 +6027,14 @@ salesforce.FileUploadAndDownloadSecuritySettings {
     },
   ]
   noHtmlUploadAsAttachment = false
+  _alias = "FileUploadAndDownloadSecurity"
 }
 salesforce.FilesConnectSettings {
   fullName = "FilesConnect"
   enableContentHubAllowed = "true"
   enableContentHubCvtLinksAllowed = "true"
   enableContentHubEOSearchLayout = "false"
+  _alias = "FilesConnect"
 }
 salesforce.FlowSettings {
   fullName = "Flow"
@@ -6010,6 +6063,7 @@ salesforce.FlowSettings {
   isSupportRollbackOnErrorForApexInvocableActionsEnabled = "false"
   isTimeResumedInSameRunContext = "true"
   enableEmailSimpleRespectProfiles = "false"
+  _alias = "Flow"
 }
 salesforce.ForecastingSettings {
   fullName = "Forecasting"
@@ -8632,10 +8686,12 @@ salesforce.ForecastingSettings {
   globalQuotasSettings = {
     showQuotas = false
   }
+  _alias = "Forecasting"
 }
 salesforce.FormulaSettings {
   fullName = "Formula"
   enableDSTAwareDatevalue = "false"
+  _alias = "Formula"
 }
 salesforce.GoogleAppsSettings {
   fullName = "GoogleApps"
@@ -8647,6 +8703,7 @@ salesforce.GoogleAppsSettings {
   enableGoogleTalk = "false"
   googleAppsDomainLinked = "false"
   googleAppsDomainValidated = "false"
+  _alias = "GoogleApps"
 }
 salesforce.IdeasSettings {
   fullName = "Ideas"
@@ -8658,10 +8715,12 @@ salesforce.IdeasSettings {
   enableIdeasControllerExtensions = false
   enableIdeasReputation = false
   halfLife = 2
+  _alias = "Ideas"
 }
 salesforce.IdentityProviderSettings {
   fullName = "IdentityProvider"
   enableIdentityProvider = true
+  _alias = "IdentityProvider"
 }
 salesforce.IncidentMgmtSettings {
   fullName = "IncidentMgmt"
@@ -8670,32 +8729,39 @@ salesforce.IncidentMgmtSettings {
   enableIncidentMgmt = "true"
   enableSiteBannerBroadcastType = "false"
   enableSlackBroadcastType = "false"
+  _alias = "IncidentMgmt"
 }
 salesforce.IndustriesEinsteinFeatureSettings {
   fullName = "IndustriesEinsteinFeature"
   documentReaderConfidenceOrgValue = 0
+  _alias = "IndustriesEinsteinFeature"
 }
 salesforce.IndustriesSettings {
   fullName = "Industries"
   enableAccountScoreEnabled = "false"
   rlaEditIfAccHasEdit = "false"
+  _alias = "Industries"
 }
 salesforce.InvocableActionSettings {
   fullName = "InvocableAction"
   isPartialSaveAllowed = true
+  _alias = "InvocableAction"
 }
 salesforce.IoTSettings {
   fullName = "IoT"
   enableIoT = false
   enableIoTInsightsPilot = false
   enableIoTUsageEmail = false
+  _alias = "IoT"
 }
 salesforce.KnowledgeGenerationSettings {
   fullName = "KnowledgeGeneration"
+  _alias = "KnowledgeGeneration"
 }
 salesforce.KnowledgeSettings {
   fullName = "Knowledge"
   enableKnowledge = false
+  _alias = "Knowledge"
 }
 salesforce.LanguageSettings {
   fullName = "Language"
@@ -8709,6 +8775,7 @@ salesforce.LanguageSettings {
   enableTranslationWorkbench = true
   useLanguageFallback = false
   enableLanguageExtensionPackage = "false"
+  _alias = "Language"
 }
 salesforce.LeadConfigSettings {
   fullName = "LeadConfig"
@@ -8721,6 +8788,7 @@ salesforce.LeadConfigSettings {
   enableOrgWideMergeAndDelete = true
   shouldLeadConvertRequireValidation = true
   shouldSendNotificationEmailWhenLeadOwnerUpdatesViaApexInLEX = "false"
+  _alias = "LeadConfig"
 }
 salesforce.LightningExperienceSettings {
   fullName = "LightningExperience"
@@ -8761,24 +8829,29 @@ salesforce.LightningExperienceSettings {
   isLEXExtensionDarkModeOff = false
   isLEXExtensionLinkGrabberOff = false
   isLEXExtensionOff = false
+  _alias = "LightningExperience"
 }
 salesforce.LiveAgentSettings {
   fullName = "LiveAgent"
   enableLiveAgent = false
+  _alias = "LiveAgent"
 }
 salesforce.MacroSettings {
   fullName = "Macro"
   contextualMacroFiltering = "true"
   enableAdvancedSearch = false
   macrosInFolders = false
+  _alias = "Macro"
 }
 salesforce.MailMergeSettings {
   fullName = "MailMerge"
   enableExtendedMailMerge = "false"
   saveMailMergeDocsAsSalesforceDocs = "false"
+  _alias = "MailMerge"
 }
 salesforce.MeetingsSettings {
   fullName = "Meetings"
+  _alias = "Meetings"
 }
 salesforce.MobileSettings {
   fullName = "Mobile"
@@ -8790,6 +8863,7 @@ salesforce.MobileSettings {
   enablePopulateNameManuallyInToday = false
   enableS1EncryptedStoragePref2 = true
   enableS1OfflinePref = true
+  _alias = "Mobile"
 }
 salesforce.MyDomainSettings {
   fullName = "MyDomain"
@@ -8811,33 +8885,40 @@ salesforce.MyDomainSettings {
   useStabilizedMyDomainHostnames = true
   useStabilizedSandboxMyDomainHostnames = true
   enableEdgeDuringRollout = "true"
+  _alias = "MyDomain"
 }
 salesforce.NameSettings {
   fullName = "Name"
   enableMiddleName = false
   enableNameSuffix = false
+  _alias = "Name"
 }
 salesforce.NotificationsSettings {
   fullName = "Notifications"
   enableMobileAppPushNotifications = true
   enableNotifications = true
+  _alias = "Notifications"
 }
 salesforce.OauthOidcSettings {
   fullName = "OauthOidc"
   blockOAuthUnPwFlow = "false"
   blockOAuthUsrAgtFlow = "false"
   oAuthCdCrdtFlowEnable = "false"
+  _alias = "OauthOidc"
 }
 salesforce.ObjectLinkingSettings {
   fullName = "ObjectLinking"
+  _alias = "ObjectLinking"
 }
 salesforce.OmniChannelPricingSettings {
   fullName = "OmniChannelPricing"
+  _alias = "OmniChannelPricing"
 }
 salesforce.OmniChannelSettings {
   fullName = "OmniChannel"
   enableOmniChannel = false
   enableOmniSkillsRouting = false
+  _alias = "OmniChannel"
 }
 salesforce.OpportunitySettings {
   fullName = "Opportunity"
@@ -8854,10 +8935,12 @@ salesforce.OpportunitySettings {
   pushCountEnabled = "true"
   simpleOppCreateFromContact = "false"
   simpleOppCreateFromEvent = "false"
+  _alias = "Opportunity"
 }
 salesforce.OrderManagementSettings {
   fullName = "OrderManagement"
   enableOrderManagement = false
+  _alias = "OrderManagement"
 }
 salesforce.OrderSettings {
   fullName = "Order"
@@ -8868,6 +8951,7 @@ salesforce.OrderSettings {
   enableOrders = true
   enableReductionOrders = false
   enableZeroQuantity = false
+  _alias = "Order"
 }
 salesforce.OrgSettings {
   fullName = "Org"
@@ -8875,54 +8959,66 @@ salesforce.OrgSettings {
   enableMakeDeploymentsMandatory = "true"
   enableManageSelfServiceUsers = false
   enableRADeploymentAttributeOnly = "true"
+  _alias = "Org"
 }
 salesforce.PardotEinsteinSettings {
   fullName = "PardotEinstein"
+  _alias = "PardotEinstein"
 }
 salesforce.PardotSettings {
   fullName = "Pardot"
   enablePardotAppV1Enabled = false
+  _alias = "Pardot"
 }
 salesforce.PartyDataModelSettings {
   fullName = "PartyDataModel"
   enableAutoSelectIndividualOnMerge = false
   enableConsentManagement = "true"
   enableIndividualAutoCreate = false
+  _alias = "PartyDataModel"
 }
 salesforce.PathAssistantSettings {
   fullName = "PathAssistant"
   canOverrideAutoPathCollapseWithUserPref = false
   pathAssistantEnabled = false
+  _alias = "PathAssistant"
 }
 salesforce.PaymentsManagementEnabledSettings {
   fullName = "PaymentsManagementEnabled"
   paymentsManagementEnabled = "false"
+  _alias = "PaymentsManagementEnabled"
 }
 salesforce.PicklistSettings {
   fullName = "Picklist"
   isPicklistApiNameEditDisabled = false
+  _alias = "Picklist"
 }
 salesforce.PlatformEncryptionSettings {
   fullName = "PlatformEncryption"
   enableEventBusEncryption = false
   isMEKForEncryptionRequired = false
+  _alias = "PlatformEncryption"
 }
 salesforce.PlatformEventSettings {
   fullName = "PlatformEvent"
   enableEnhancedUsageMetrics = "false"
+  _alias = "PlatformEvent"
 }
 salesforce.PortalsSettings {
   fullName = "Portals"
   clickjackSSPLoginPage = "false"
   redirectPortalLoginToHttps = "false"
+  _alias = "Portals"
 }
 salesforce.PredictionBuilderSettings {
   fullName = "PredictionBuilder"
+  _alias = "PredictionBuilder"
 }
 salesforce.PrivacySettings {
   fullName = "Privacy"
   enableConsentEventStream = false
   enableDefaultMetadataValues = false
+  _alias = "Privacy"
 }
 salesforce.ProductSettings {
   fullName = "Product"
@@ -8930,17 +9026,20 @@ salesforce.ProductSettings {
   enableMySettings = true
   enableQuantitySchedule = false
   enableRevenueSchedule = false
+  _alias = "Product"
 }
 salesforce.QuickTextSettings {
   fullName = "QuickText"
   hideQuickTextUiInLtng = "false"
   lightningQuickTextEnabled = "true"
   quickTextsInFolders = "false"
+  _alias = "QuickText"
 }
 salesforce.QuoteSettings {
   fullName = "Quote"
   enableQuote = false
   enableQuotesWithoutOppEnabled = false
+  _alias = "Quote"
 }
 salesforce.RealTimeEventSettings {
   fullName = "RealTimeEvent"
@@ -9078,23 +9177,28 @@ salesforce.RealTimeEventSettings {
       isEnabled = false
     },
   ]
+  _alias = "RealTimeEvent"
 }
 salesforce.RecommendationBuilderSettings {
   fullName = "RecommendationBuilder"
   enableErbEnabledPref = "false"
   enableErbStartedPref = "false"
+  _alias = "RecommendationBuilder"
 }
 salesforce.RecordPageSettings {
   fullName = "RecordPage"
   enableActivityRelatedList = false
   enableFullRecordView = false
+  _alias = "RecordPage"
 }
 salesforce.RetailExecutionSettings {
   fullName = "RetailExecution"
+  _alias = "RetailExecution"
 }
 salesforce.SandboxSettings {
   fullName = "Sandbox"
   disableSandboxExpirationEmails = "false"
+  _alias = "Sandbox"
 }
 salesforce.SchemaSettings {
   fullName = "Schema"
@@ -9102,6 +9206,7 @@ salesforce.SchemaSettings {
   enableAdvancedCSSecurity = true
   enableListCustomSettingCreation = false
   enableSOSLOnCustomSettings = false
+  _alias = "Schema"
 }
 salesforce.SearchSettings {
   fullName = "Search"
@@ -9450,6 +9555,18 @@ salesforce.SearchSettings {
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
+        name = salesforce.MessagingEndUser
+        resultsPerPageCount = 25
+      },
+      {
+        enhancedLookupEnabled = false
+        lookupAutoCompleteEnabled = false
+        name = salesforce.MessagingSession
+        resultsPerPageCount = 25
+      },
+      {
+        enhancedLookupEnabled = false
+        lookupAutoCompleteEnabled = false
         name = "Note"
         resultsPerPageCount = 25
       },
@@ -9562,6 +9679,7 @@ salesforce.SearchSettings {
   sidebarLimitToItemsIOwnCheckboxEnabled = true
   singleSearchResultShortcutEnabled = true
   spellCorrectKnowledgeSearchEnabled = false
+  _alias = "Search"
 }
 salesforce.SecuritySettings {
   fullName = "Security"
@@ -9642,13 +9760,16 @@ salesforce.SecuritySettings {
     enableSamlLogin = true
     isLoginWithSalesforceCredentialsDisabled = false
   }
+  _alias = "Security"
 }
 salesforce.ServiceCloudVoiceSettings {
   fullName = "ServiceCloudVoice"
+  _alias = "ServiceCloudVoice"
 }
 salesforce.ServiceSetupAssistantSettings {
   fullName = "ServiceSetupAssistant"
   enableServiceSetupAssistant = "false"
+  _alias = "ServiceSetupAssistant"
 }
 salesforce.SharingSettings {
   fullName = "Sharing"
@@ -9665,11 +9786,13 @@ salesforce.SharingSettings {
   enableRestrictAccessLookupRecords = false
   enableSecureGuestAccess = false
   enableStandardReportVisibility = true
+  _alias = "Sharing"
 }
 salesforce.SiteSettings {
   fullName = "Site"
   enableProxyLoginICHeader = true
   enableTopicsInSites = false
+  _alias = "Site"
 }
 salesforce.SocialProfileSettings {
   fullName = "SocialProfile"
@@ -9678,19 +9801,23 @@ salesforce.SocialProfileSettings {
   isLinkedInSocialProfilesDisabled = false
   isTwitterSocialProfilesDisabled = false
   isYouTubeSocialProfilesDisabled = false
+  _alias = "SocialProfile"
 }
 salesforce.SourceTrackingSettings {
   fullName = "SourceTracking"
   enableSourceTrackingSandboxes = "false"
+  _alias = "SourceTracking"
 }
 salesforce.SurveySettings {
   fullName = "Survey"
   enableSurvey = "false"
+  _alias = "Survey"
 }
 salesforce.SystemNotificationSettings {
   fullName = "SystemNotification"
   disableDowntimeNotifications = "false"
   disableMaintenanceNotifications = "false"
+  _alias = "SystemNotification"
 }
 salesforce.Territory2Settings {
   fullName = "Territory2"
@@ -9702,14 +9829,17 @@ salesforce.Territory2Settings {
   t2ForecastAccessLevel = "Read"
   tm2BypassRealignAccInsert = false
   tm2EnableUserAssignmentLog = false
+  _alias = "Territory2"
 }
 salesforce.TrailheadSettings {
   fullName = "Trailhead"
   enableTrailheadInLexTerms = "false"
+  _alias = "Trailhead"
 }
 salesforce.TrialOrgSettings {
   fullName = "TrialOrg"
   enableSampleDataDeleted = false
+  _alias = "TrialOrg"
 }
 salesforce.UserEngagementSettings {
   fullName = "UserEngagement"
@@ -9742,6 +9872,7 @@ salesforce.UserEngagementSettings {
   isMeetTheAssistantDisabledInLightning = false
   isSmartNudgesDisabled = "false"
   optimizerAppEnabled = false
+  _alias = "UserEngagement"
 }
 salesforce.UserInterfaceSettings {
   fullName = "UserInterface"
@@ -9764,6 +9895,7 @@ salesforce.UserInterfaceSettings {
   enableQuickCreate = true
   enableRelatedListHovers = "true"
   enableTabOrganizer = "true"
+  _alias = "UserInterface"
 }
 salesforce.UserManagementSettings {
   fullName = "UserManagement"
@@ -9782,15 +9914,18 @@ salesforce.UserManagementSettings {
   psaExpirationUIEnabled = "true"
   restrictedProfileCloning = "false"
   userAccessPoliciesEnabled = "false"
+  _alias = "UserManagement"
 }
 salesforce.VoiceSettings {
   fullName = "Voice"
+  _alias = "Voice"
 }
 salesforce.WebToXSettings {
   fullName = "WebToX"
   shouldHideRecordInfoInEmail = "false"
   webToCaseSpamFilter = "false"
   webToLeadSpamFilter = "false"
+  _alias = "WebToX"
 }
 salesforce.WorkDotComSettings {
   fullName = "WorkDotCom"
@@ -9803,4 +9938,5 @@ salesforce.WorkDotComSettings {
   enableWorkCertification = "false"
   enableWorkCertificationNotification = "false"
   enableWorkThanksPref = "true"
+  _alias = "WorkDotCom"
 }

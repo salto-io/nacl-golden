@@ -17,4 +17,5 @@ salesforce.ApexClass DynamicSOQLRecipes_Tests {
       reference = salesforce.ApexClass.instance.TestDataHelpers
     },
   ]
+  _alias = "DynamicSOQLRecipes_Tests"
 }

@@ -127,4 +127,5 @@ salesforce.Layout WorkPlanTemplate_Work_Plan_Template_Layout@bsss {
   _parent = [
     salesforce.WorkPlanTemplate,
   ]
+  _alias = "WorkPlanTemplate-Work Plan Template Layout"
 }

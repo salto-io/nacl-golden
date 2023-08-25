@@ -66,4 +66,5 @@ salesforce.Layout Junction_Demo_1__c_Junction_Demo_1_Layout@uuuubsss {
   _parent = [
     salesforce.Junction_Demo_1__c,
   ]
+  _alias = "Junction_Demo_1__c-Junction Demo 1 Layout"
 }

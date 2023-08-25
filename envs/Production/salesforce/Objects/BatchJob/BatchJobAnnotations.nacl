@@ -183,4 +183,5 @@ type salesforce.BatchJob {
       "EndTime",
     ]
   }
+  _alias = "Batch Job"
 }

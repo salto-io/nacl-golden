@@ -11,4 +11,5 @@ salesforce.ApexClass CanTheUser_Tests {
       reference = salesforce.ApexClass.instance.CanTheUser
     },
   ]
+  _alias = "CanTheUser_Tests"
 }

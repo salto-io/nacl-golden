@@ -64,4 +64,5 @@ salesforce.Flow Test {
       objectType = salesforce.Account
     },
   ]
+  _alias = "Test"
 }

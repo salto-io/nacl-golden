@@ -751,6 +751,30 @@ type salesforce.MacroInstruction {
         default = false
       },
       {
+        fullName = "Field.MessagingEndUser.MessagingConsentStatus"
+        isActive = true
+        label = "Messaging Consent Status"
+        default = false
+      },
+      {
+        fullName = "Field.MessagingEndUser.Name"
+        isActive = true
+        label = "Messaging User Name"
+        default = false
+      },
+      {
+        fullName = "Field.MessagingEndUser.Name.begin"
+        isActive = true
+        label = "Messaging User Name"
+        default = false
+      },
+      {
+        fullName = "Field.MessagingEndUser.Name.end"
+        isActive = true
+        label = "Messaging User Name"
+        default = false
+      },
+      {
         fullName = "Field.Note.Body"
         isActive = true
         label = "Body"
@@ -1201,6 +1225,12 @@ type salesforce.MacroInstruction {
         default = false
       },
       {
+        fullName = "QuickAction.MessagingEndUser._UpdateMessagingEndUser"
+        isActive = true
+        label = "Update Messaging User Action"
+        default = false
+      },
+      {
         fullName = "QuickAction.NewAccount"
         isActive = true
         label = "New Account Action"
@@ -1630,6 +1660,18 @@ type salesforce.MacroInstruction {
         fullName = "Tab.LogEvent__c"
         isActive = true
         label = "Active Log Event Tab"
+        default = false
+      },
+      {
+        fullName = "Tab.MessagingEndUser"
+        isActive = true
+        label = "Active Messaging User Tab"
+        default = false
+      },
+      {
+        fullName = "Tab.MessagingSession"
+        isActive = true
+        label = "Active Messaging Session Tab"
         default = false
       },
       {

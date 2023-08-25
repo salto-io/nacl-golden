@@ -3,4 +3,5 @@ salesforce.Picklist_Bucket__mdt Picklist_Bucket_Not_Attended@uvu {
   protected = false
   fullName = "Picklist_Bucket.Not_Attended"
   Bucketed_Picklist__c = "Attendance"
+  _alias = "Not Attended"
 }

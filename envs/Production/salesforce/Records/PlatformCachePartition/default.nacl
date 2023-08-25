@@ -18,4 +18,5 @@ salesforce.PlatformCachePartition default {
       cacheType = "Session"
     },
   ]
+  _alias = "default"
 }

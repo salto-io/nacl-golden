@@ -89,4 +89,5 @@ salesforce.Layout Bucketed_Picklist__mdt_Bucketed_Picklist_Layout@uuubss {
   showRunAssignmentRulesCheckbox = false
   showSubmitAndAttachButton = false
   fullName = "Bucketed_Picklist__mdt-Bucketed Picklist Layout"
+  _alias = "Bucketed_Picklist__mdt-Bucketed Picklist Layout"
 }

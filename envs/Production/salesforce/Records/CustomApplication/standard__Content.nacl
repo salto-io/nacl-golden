@@ -13,4 +13,5 @@ salesforce.CustomApplication standard__Content {
     "standard-ContentSearch",
     "standard-ContentSubscriptions",
   ]
+  _alias = "standard__Content"
 }

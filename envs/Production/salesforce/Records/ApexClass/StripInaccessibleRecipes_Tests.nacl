@@ -23,4 +23,5 @@ salesforce.ApexClass StripInaccessibleRecipes_Tests {
       reference = salesforce.User
     },
   ]
+  _alias = "StripInaccessibleRecipes_Tests"
 }

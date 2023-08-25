@@ -3,4 +3,5 @@ salesforce.ApexClass SampleClass {
   status = "Active"
   fullName = "SampleClass"
   content = file("salesforce/Records/ApexClass/SampleClass.cls")
+  _alias = "SampleClass"
 }

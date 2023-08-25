@@ -17,4 +17,5 @@ salesforce.ApexClass CalloutRecipes {
       reference = salesforce.Contact
     },
   ]
+  _alias = "CalloutRecipes"
 }

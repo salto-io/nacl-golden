@@ -11,4 +11,5 @@ salesforce.ApexClass AtFutureRecipes_Tests {
       reference = salesforce.ApexClass.instance.HttpCalloutMockFactory
     },
   ]
+  _alias = "AtFutureRecipes_Tests"
 }

@@ -8,4 +8,5 @@ salesforce.ApexClass AuraEnabledRecipes {
       reference = salesforce.Account
     },
   ]
+  _alias = "AuraEnabledRecipes"
 }

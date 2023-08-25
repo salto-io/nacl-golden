@@ -26,4 +26,5 @@ salesforce.ApexClass Log_Tests {
       reference = salesforce.LogEvent__c.field.Severity__c
     },
   ]
+  _alias = "Log_Tests"
 }

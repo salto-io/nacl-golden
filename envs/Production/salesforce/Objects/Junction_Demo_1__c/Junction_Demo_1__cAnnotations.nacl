@@ -262,4 +262,5 @@ type salesforce.Junction_Demo_1__c {
   topicsForObjects = {
     enableTopics = false
   }
+  _alias = "Junction Demo 1"
 }

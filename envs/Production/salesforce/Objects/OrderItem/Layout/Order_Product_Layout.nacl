@@ -110,4 +110,5 @@ salesforce.Layout OrderItem_Order_Product_Layout@bss {
   _parent = [
     salesforce.OrderItem,
   ]
+  _alias = "OrderItem-Order Product Layout"
 }

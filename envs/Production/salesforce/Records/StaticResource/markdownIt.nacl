@@ -3,4 +3,5 @@ salesforce.StaticResource markdownIt {
   contentType = "text/javascript"
   fullName = "markdownIt"
   content = file("salesforce/Records/StaticResource/markdownIt.resource")
+  _alias = "markdownIt"
 }

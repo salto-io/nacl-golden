@@ -17,4 +17,5 @@ salesforce.ApexClass AccountTriggerHandler_Tests {
       reference = salesforce.Task
     },
   ]
+  _alias = "AccountTriggerHandler_Tests"
 }

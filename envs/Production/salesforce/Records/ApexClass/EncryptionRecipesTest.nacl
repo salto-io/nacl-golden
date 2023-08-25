@@ -8,4 +8,5 @@ salesforce.ApexClass EncryptionRecipesTest {
       reference = salesforce.ApexClass.instance.EncryptionRecipes
     },
   ]
+  _alias = "EncryptionRecipesTest"
 }

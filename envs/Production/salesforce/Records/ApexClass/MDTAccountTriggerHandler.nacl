@@ -11,4 +11,5 @@ salesforce.ApexClass MDTAccountTriggerHandler {
       reference = salesforce.ApexClass.instance.TriggerHandler
     },
   ]
+  _alias = "MDTAccountTriggerHandler"
 }

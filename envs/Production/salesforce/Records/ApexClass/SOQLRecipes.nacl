@@ -29,4 +29,5 @@ salesforce.ApexClass SOQLRecipes {
       reference = salesforce.Opportunity
     },
   ]
+  _alias = "SOQLRecipes"
 }

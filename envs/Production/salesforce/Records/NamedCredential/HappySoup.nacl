@@ -7,4 +7,5 @@ salesforce.NamedCredential HappySoup {
   label = "HappySoup"
   principalType = "Anonymous"
   protocol = "NoAuthentication"
+  _alias = "HappySoup"
 }

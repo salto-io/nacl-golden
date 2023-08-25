@@ -29,4 +29,5 @@ salesforce.ApexClass PlatformEventRecipes_Tests {
       reference = salesforce.User
     },
   ]
+  _alias = "PlatformEventRecipes_Tests"
 }

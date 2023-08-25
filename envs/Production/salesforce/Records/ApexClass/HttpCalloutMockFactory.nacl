@@ -3,4 +3,5 @@ salesforce.ApexClass HttpCalloutMockFactory {
   status = "Active"
   fullName = "HttpCalloutMockFactory"
   content = file("salesforce/Records/ApexClass/HttpCalloutMockFactory.cls")
+  _alias = "HttpCalloutMockFactory"
 }

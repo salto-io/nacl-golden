@@ -3,4 +3,5 @@ salesforce.ApexClass TestHelper {
   status = "Active"
   fullName = "TestHelper"
   content = file("salesforce/Records/ApexClass/TestHelper.cls")
+  _alias = "TestHelper"
 }

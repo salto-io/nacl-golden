@@ -11,4 +11,5 @@ salesforce.ApexClass CanTheUser {
       reference = salesforce.ApexClass.instance.PlatformCacheRecipes
     },
   ]
+  _alias = "CanTheUser"
 }

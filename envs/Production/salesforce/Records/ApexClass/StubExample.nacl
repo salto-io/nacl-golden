@@ -3,4 +3,5 @@ salesforce.ApexClass StubExample {
   status = "Active"
   fullName = "StubExample"
   content = file("salesforce/Records/ApexClass/StubExample.cls")
+  _alias = "StubExample"
 }

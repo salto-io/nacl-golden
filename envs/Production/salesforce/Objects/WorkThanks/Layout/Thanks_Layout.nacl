@@ -55,4 +55,5 @@ salesforce.Layout WorkThanks_Thanks_Layout@bs {
   _parent = [
     salesforce.WorkThanks,
   ]
+  _alias = "WorkThanks-Thanks Layout"
 }
