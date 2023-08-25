@@ -161,4 +161,5 @@ type salesforce.BatchJobPartFailedRecord {
   compactLayoutAssignment = "SYSTEM"
   enableFeeds = false
   externalSharingModel = "ControlledByParent"
+  _alias = "Batch Job Part Failed Record"
 }

@@ -8,4 +8,5 @@ salesforce.ApexClass MetadataTriggerService_Tests {
       reference = salesforce.ApexClass.instance.MetadataTriggerService
     },
   ]
+  _alias = "MetadataTriggerService_Tests"
 }

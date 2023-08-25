@@ -226,4 +226,5 @@ salesforce.EscalationRules Case {
       },
     ]
   }
+  _alias = "Case"
 }

@@ -307,4 +307,5 @@ type salesforce.Case {
     Subject = salesforce.Case.field.Subject
     Type = salesforce.Case.field.Type
   }
+  _alias = "Case"
 }

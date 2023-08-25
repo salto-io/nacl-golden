@@ -8,4 +8,5 @@ salesforce.ApexClass FormattedRecipeDisplayController_Tests {
       reference = salesforce.ApexClass.instance.FormattedRecipeDisplayController
     },
   ]
+  _alias = "FormattedRecipeDisplayController_Tests"
 }

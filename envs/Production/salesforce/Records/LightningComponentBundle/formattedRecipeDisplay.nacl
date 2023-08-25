@@ -31,4 +31,5 @@ salesforce.LightningComponentBundle formattedRecipeDisplay {
       reference = salesforce.StaticResource.instance.highlight
     },
   ]
+  _alias = "formattedRecipeDisplay"
 }

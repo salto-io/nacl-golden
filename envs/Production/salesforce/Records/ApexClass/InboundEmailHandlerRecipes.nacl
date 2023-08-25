@@ -17,4 +17,5 @@ salesforce.ApexClass InboundEmailHandlerRecipes {
       reference = salesforce.EmailMessage
     },
   ]
+  _alias = "InboundEmailHandlerRecipes"
 }

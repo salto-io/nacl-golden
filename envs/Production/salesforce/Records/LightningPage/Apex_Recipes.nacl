@@ -24,4 +24,5 @@ salesforce.LightningPage Apex_Recipes {
       reference = salesforce.LightningComponentBundle.instance.apexRecipesContainer
     },
   ]
+  _alias = "Apex_Recipes"
 }

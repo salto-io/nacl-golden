@@ -23,4 +23,5 @@ salesforce.ApexClass PlatformEventRecipesTriggerHandler_Tests {
       reference = salesforce.Event_Recipes_Demo__e.field.url__c
     },
   ]
+  _alias = "PlatformEventRecipesTriggerHandler_Tests"
 }

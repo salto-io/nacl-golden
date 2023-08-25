@@ -474,6 +474,12 @@ type salesforce.FlowOrchestrationWorkItem {
         label = "setup_service_experience__Verify_Cust"
         default = false
       },
+      {
+        fullName = "setup_service_folmessaging__MSContact"
+        isActive = true
+        label = "setup_service_folmessaging__MSContact"
+        default = false
+      },
     ]
     restricted = true
     label = "Screen Flow ID"

@@ -29,4 +29,5 @@ salesforce.ApexClass CustomRestEndpointRecipes_Tests {
       reference = salesforce.User
     },
   ]
+  _alias = "CustomRestEndpointRecipes_Tests"
 }

@@ -11,4 +11,5 @@ salesforce.ApexClass SOSLRecipes {
       reference = salesforce.Contact
     },
   ]
+  _alias = "SOSLRecipes"
 }

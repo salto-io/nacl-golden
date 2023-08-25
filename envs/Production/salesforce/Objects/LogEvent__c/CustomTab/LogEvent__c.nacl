@@ -5,4 +5,5 @@ salesforce.CustomTab LogEvent__c {
   _parent = [
     salesforce.LogEvent__c,
   ]
+  _alias = "LogEvent__c"
 }

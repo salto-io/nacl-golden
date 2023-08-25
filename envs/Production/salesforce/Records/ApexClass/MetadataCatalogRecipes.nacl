@@ -3,4 +3,5 @@ salesforce.ApexClass MetadataCatalogRecipes {
   status = "Active"
   fullName = "MetadataCatalogRecipes"
   content = file("salesforce/Records/ApexClass/MetadataCatalogRecipes.cls")
+  _alias = "MetadataCatalogRecipes"
 }

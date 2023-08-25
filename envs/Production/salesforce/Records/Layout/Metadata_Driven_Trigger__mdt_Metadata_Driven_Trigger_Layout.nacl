@@ -97,4 +97,5 @@ salesforce.Layout Metadata_Driven_Trigger__mdt_Metadata_Driven_Trigger_Layout@uu
   showRunAssignmentRulesCheckbox = false
   showSubmitAndAttachButton = false
   fullName = "Metadata_Driven_Trigger__mdt-Metadata Driven Trigger Layout"
+  _alias = "Metadata_Driven_Trigger__mdt-Metadata Driven Trigger Layout"
 }

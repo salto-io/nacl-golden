@@ -8,4 +8,5 @@ salesforce.ApexClass SObjectStringFieldComparator {
       reference = salesforce.ApexClass.instance.ListUtils
     },
   ]
+  _alias = "SObjectStringFieldComparator"
 }

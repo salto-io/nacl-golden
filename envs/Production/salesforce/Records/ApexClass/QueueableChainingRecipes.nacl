@@ -11,4 +11,5 @@ salesforce.ApexClass QueueableChainingRecipes {
       reference = salesforce.ApexClass.instance.QueueableRecipes
     },
   ]
+  _alias = "QueueableChainingRecipes"
 }

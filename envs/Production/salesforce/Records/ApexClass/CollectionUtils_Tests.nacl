@@ -17,4 +17,5 @@ salesforce.ApexClass CollectionUtils_Tests {
       reference = salesforce.Contact
     },
   ]
+  _alias = "CollectionUtils_Tests"
 }

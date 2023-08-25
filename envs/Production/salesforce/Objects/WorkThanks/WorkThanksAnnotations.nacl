@@ -104,4 +104,5 @@ type salesforce.WorkThanks {
   ]
   enableFeeds = false
   externalSharingModel = "Private"
+  _alias = "Thanks"
 }

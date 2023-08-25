@@ -1,5 +1,8 @@
 salesforce {
   fetch = {
+    optionalFeatures = {
+      skipAliases = false
+    }
     metadata = {
       include = [
         {

@@ -11,4 +11,5 @@ salesforce.ApexClass Log {
       reference = salesforce.ApexClass.instance.LogSeverity
     },
   ]
+  _alias = "Log"
 }

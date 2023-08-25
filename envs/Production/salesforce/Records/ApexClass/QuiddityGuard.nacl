@@ -3,4 +3,5 @@ salesforce.ApexClass QuiddityGuard {
   status = "Active"
   fullName = "QuiddityGuard"
   content = file("salesforce/Records/ApexClass/QuiddityGuard.cls")
+  _alias = "QuiddityGuard"
 }

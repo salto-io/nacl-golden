@@ -499,4 +499,5 @@ salesforce.Translations zh_CN {
       },
     ]
   }
+  _alias = "zh_CN"
 }

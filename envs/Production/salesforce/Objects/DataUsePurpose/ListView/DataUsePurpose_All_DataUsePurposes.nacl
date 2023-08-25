@@ -5,4 +5,5 @@ salesforce.ListView DataUsePurpose_All_DataUsePurposes {
   _parent = [
     salesforce.DataUsePurpose,
   ]
+  _alias = "All Data Use Purposes"
 }

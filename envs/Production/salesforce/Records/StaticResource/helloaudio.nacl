@@ -3,4 +3,5 @@ salesforce.StaticResource helloaudio {
   contentType = "audio/x-m4a"
   fullName = "helloaudio"
   content = file("salesforce/Records/StaticResource/helloaudio.m4a")
+  _alias = "helloaudio"
 }

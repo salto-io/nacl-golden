@@ -14,4 +14,5 @@ salesforce.ApexClass BatchApexRecipes_Tests {
       reference = salesforce.ApexClass.instance.TestFactory
     },
   ]
+  _alias = "BatchApexRecipes_Tests"
 }

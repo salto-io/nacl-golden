@@ -8,4 +8,5 @@ salesforce.ApexClass IterableApiClient {
       reference = salesforce.ApexClass.instance.RestClient
     },
   ]
+  _alias = "IterableApiClient"
 }

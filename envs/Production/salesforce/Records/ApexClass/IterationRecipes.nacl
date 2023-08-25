@@ -11,4 +11,5 @@ salesforce.ApexClass IterationRecipes {
       reference = salesforce.ApexClass.instance.IterableApiClient
     },
   ]
+  _alias = "IterationRecipes"
 }

@@ -8,4 +8,5 @@ salesforce.ApexClass PlatformCacheRecipes_Tests {
       reference = salesforce.ApexClass.instance.PlatformCacheRecipes
     },
   ]
+  _alias = "PlatformCacheRecipes_Tests"
 }

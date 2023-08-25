@@ -82,4 +82,5 @@ salesforce.Layout LogEvent__c_Log_Event_Layout@uubss {
   _parent = [
     salesforce.LogEvent__c,
   ]
+  _alias = "LogEvent__c-Log Event Layout"
 }

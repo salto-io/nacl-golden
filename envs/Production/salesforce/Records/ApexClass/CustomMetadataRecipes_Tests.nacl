@@ -17,4 +17,5 @@ salesforce.ApexClass CustomMetadataRecipes_Tests {
       reference = salesforce.Contact.field.AttendanceStatus__c
     },
   ]
+  _alias = "CustomMetadataRecipes_Tests"
 }

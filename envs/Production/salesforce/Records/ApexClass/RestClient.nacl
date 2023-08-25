@@ -3,4 +3,5 @@ salesforce.ApexClass RestClient {
   status = "Active"
   fullName = "RestClient"
   content = file("salesforce/Records/ApexClass/RestClient.cls")
+  _alias = "RestClient"
 }

@@ -26,4 +26,5 @@ salesforce.ApexClass Safely_Tests {
       reference = salesforce.User
     },
   ]
+  _alias = "Safely_Tests"
 }

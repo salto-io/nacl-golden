@@ -8,4 +8,5 @@ salesforce.StandardValueSet Product2Family {
       label = "None"
     },
   ]
+  _alias = "Product2Family"
 }
