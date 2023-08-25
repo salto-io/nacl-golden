@@ -148,4 +148,13 @@ type salesforce.Account {
     updateable = true
     queryable = true
   }
+  salesforce.Checkbox testttt__c {
+    apiName = "Account.testttt__c"
+    defaultValue = false
+    externalId = false
+    label = "testttt"
+    createable = true
+    updateable = true
+    queryable = true
+  }
 }
