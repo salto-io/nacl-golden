@@ -1,0 +1,11 @@
+salesforce.ApexClass TriggerHandler_Test {
+  apiVersion = 58
+  status = "Active"
+  fullName = "TriggerHandler_Test"
+  content = file("salesforce/Records/ApexClass/TriggerHandler_Test.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.ApexClass.instance.TriggerHandler
+    },
+  ]
+}
