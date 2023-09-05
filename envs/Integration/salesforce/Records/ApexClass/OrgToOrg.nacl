@@ -1,0 +1,14 @@
+salesforce.ApexClass OrgToOrg {
+  apiVersion = 56
+  status = "Active"
+  fullName = "OrgToOrg"
+  content = file("salesforce/Records/ApexClass/OrgToOrg.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.Account
+    },
+    {
+      reference = salesforce.Account.field.deploy_me__c
+    },
+  ]
+}
