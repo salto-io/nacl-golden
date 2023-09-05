@@ -381,7 +381,7 @@ salesforce.Profile MarketingProfile {
       UpsellOpportunity__c = "ReadWrite"
       Website = "ReadWrite"
       YearStarted = "ReadOnly"
-      deploy_me__c = "NoAccess"
+      deploy_me__c = "ReadWrite"
       testttt__c = "NoAccess"
     }
     Problem = {
