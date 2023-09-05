@@ -3207,6 +3207,12 @@ settings salesforce.Organization {
         isActive = true
       },
       {
+        fullName = "America/Santiago"
+        default = false
+        label = "(GMT-03:00) Chile Summer Time (America/Santiago)"
+        isActive = true
+      },
+      {
         fullName = "America/Sao_Paulo"
         default = false
         label = "(GMT-03:00) Brasilia Standard Time (America/Sao_Paulo)"
@@ -3495,12 +3501,6 @@ settings salesforce.Organization {
         isActive = true
       },
       {
-        fullName = "America/Santiago"
-        default = false
-        label = "(GMT-04:00) Chile Standard Time (America/Santiago)"
-        isActive = true
-      },
-      {
         fullName = "America/Santo_Domingo"
         default = false
         label = "(GMT-04:00) Atlantic Standard Time (America/Santo_Domingo)"
@@ -3693,6 +3693,12 @@ settings salesforce.Organization {
         isActive = true
       },
       {
+        fullName = "Pacific/Easter"
+        default = false
+        label = "(GMT-05:00) Easter Island Summer Time (Pacific/Easter)"
+        isActive = true
+      },
+      {
         fullName = "America/Bahia_Banderas"
         default = false
         label = "(GMT-06:00) Central Standard Time (America/Bahia_Banderas)"
@@ -3804,12 +3810,6 @@ settings salesforce.Organization {
         fullName = "America/Yellowknife"
         default = false
         label = "(GMT-06:00) Mountain Daylight Time (America/Yellowknife)"
-        isActive = true
-      },
-      {
-        fullName = "Pacific/Easter"
-        default = false
-        label = "(GMT-06:00) Easter Island Standard Time (Pacific/Easter)"
         isActive = true
       },
       {
