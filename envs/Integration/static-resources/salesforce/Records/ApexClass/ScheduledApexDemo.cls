@@ -21,5 +21,11 @@ public with sharing class ScheduledApexDemo {
             'how to separate the logic from the schedule'
         );
         this.counter++;
+
+        List<Account> accounts = [
+            SELECT Id, Salto_is_the_best__c
+            FROM Account
+            LIMIT 1
+        ];
     }
 }

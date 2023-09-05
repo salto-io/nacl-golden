@@ -161,4 +161,13 @@ type salesforce.Account {
     updateable = true
     queryable = true
   }
+  salesforce.Checkbox Salto_is_the_best__c {
+    apiName = "Account.Salto_is_the_best__c"
+    defaultValue = false
+    externalId = false
+    label = "Salto is the best"
+    createable = true
+    updateable = true
+    queryable = true
+  }
 }
