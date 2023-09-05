@@ -1,0 +1,14 @@
+salesforce.ApexClass SortableAccount_Tests {
+  apiVersion = 58
+  status = "Active"
+  fullName = "SortableAccount_Tests"
+  content = file("salesforce/Records/ApexClass/SortableAccount_Tests.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.Account
+    },
+    {
+      reference = salesforce.ApexClass.instance.SortableAccount
+    },
+  ]
+}
