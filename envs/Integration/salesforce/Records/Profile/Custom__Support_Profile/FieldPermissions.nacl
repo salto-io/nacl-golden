@@ -383,6 +383,7 @@ salesforce.Profile Custom_3A_Support_Profile@pss {
       YearStarted = "ReadOnly"
       deploy_me__c = "NoAccess"
       testttt__c = "ReadWrite"
+      Salto_is_the_best__c = "ReadWrite"
     }
     Problem = {
       Category = "ReadWrite"

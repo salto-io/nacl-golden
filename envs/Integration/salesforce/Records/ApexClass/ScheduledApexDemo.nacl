@@ -3,4 +3,12 @@ salesforce.ApexClass ScheduledApexDemo {
   status = "Active"
   fullName = "ScheduledApexDemo"
   content = file("salesforce/Records/ApexClass/ScheduledApexDemo.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.Account
+    },
+    {
+      reference = salesforce.Account.field.Salto_is_the_best__c
+    },
+  ]
 }
