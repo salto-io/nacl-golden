@@ -115,4 +115,13 @@ type salesforce.Case {
     updateable = true
     queryable = true
   }
+  salesforce.Date My_Date__c {
+    apiName = "Case.My_Date__c"
+    externalId = false
+    label = "My Date"
+    trackTrending = false
+    createable = true
+    updateable = true
+    queryable = true
+  }
 }
