@@ -171,12 +171,6 @@ type salesforce.DigitalWallet {
         default = false
       },
       {
-        fullName = "Other"
-        isActive = true
-        label = "Other"
-        default = false
-      },
-      {
         fullName = "BanContact"
         isActive = true
         label = "Bancontact"
@@ -237,9 +231,21 @@ type salesforce.DigitalWallet {
         default = false
       },
       {
+        fullName = "Other"
+        isActive = true
+        label = "Other"
+        default = false
+      },
+      {
         fullName = "PayPal"
         isActive = true
         label = "Paypal"
+        default = false
+      },
+      {
+        fullName = "SepaDebit"
+        isActive = true
+        label = "SEPA Debit"
         default = false
       },
       {
@@ -252,12 +258,6 @@ type salesforce.DigitalWallet {
         fullName = "Venmo"
         isActive = true
         label = "Venmo"
-        default = false
-      },
-      {
-        fullName = "SepaDebit"
-        isActive = true
-        label = "SEPA Debit"
         default = false
       },
       {

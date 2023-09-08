@@ -383,6 +383,7 @@ salesforce.Profile Partner_App_Subscription_User@s {
       YearStarted = "ReadOnly"
       deploy_me__c = "NoAccess"
       testttt__c = "NoAccess"
+      Salto_is_the_best__c = "NoAccess"
     }
     Problem = {
       Category = "ReadWrite"
