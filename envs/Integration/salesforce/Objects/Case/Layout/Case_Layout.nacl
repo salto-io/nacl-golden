@@ -87,6 +87,10 @@ salesforce.Layout Case_Case_Layout@bs {
               behavior = "Edit"
               field = salesforce.Case.field.Reason
             },
+            {
+              behavior = "Edit"
+              field = salesforce.Case.field.My_Date__c
+            },
           ]
         },
         {

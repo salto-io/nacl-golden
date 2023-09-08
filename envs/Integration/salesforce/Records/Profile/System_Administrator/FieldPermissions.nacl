@@ -580,6 +580,7 @@ salesforce.Profile Admin {
       SuppliedName = "ReadOnly"
       SuppliedPhone = "ReadOnly"
       Type = "ReadWrite"
+      My_Date__c = "ReadWrite"
     }
     Contact = {
       AccountId = "ReadWrite"
