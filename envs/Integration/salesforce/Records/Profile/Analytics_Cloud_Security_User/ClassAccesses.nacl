@@ -1,0 +1,506 @@
+salesforce.Profile Analytics_Cloud_Security_User@s {
+  classAccesses = {
+    AccountServiceLayer = {
+      apexClass = "AccountServiceLayer"
+      enabled = false
+    }
+    AccountServiceLayer_Tests = {
+      apexClass = "AccountServiceLayer_Tests"
+      enabled = false
+    }
+    AccountTriggerHandler = {
+      apexClass = "AccountTriggerHandler"
+      enabled = false
+    }
+    AccountTriggerHandler_Tests = {
+      apexClass = "AccountTriggerHandler_Tests"
+      enabled = false
+    }
+    ApexClassUtilities = {
+      apexClass = "ApexClassUtilities"
+      enabled = false
+    }
+    ApexClassUtilities_Tests = {
+      apexClass = "ApexClassUtilities_Tests"
+      enabled = false
+    }
+    ApiServiceRecipes = {
+      apexClass = "ApiServiceRecipes"
+      enabled = false
+    }
+    ApiServiceRecipesDataModel = {
+      apexClass = "ApiServiceRecipesDataModel"
+      enabled = false
+    }
+    ApiServiceRecipesDataModel_Tests = {
+      apexClass = "ApiServiceRecipesDataModel_Tests"
+      enabled = false
+    }
+    ApiServiceRecipes_Tests = {
+      apexClass = "ApiServiceRecipes_Tests"
+      enabled = false
+    }
+    AtFutureRecipes = {
+      apexClass = "AtFutureRecipes"
+      enabled = false
+    }
+    AtFutureRecipes_Tests = {
+      apexClass = "AtFutureRecipes_Tests"
+      enabled = false
+    }
+    AuraEnabledRecipes = {
+      apexClass = "AuraEnabledRecipes"
+      enabled = false
+    }
+    AuraEnabledRecipes_Tests = {
+      apexClass = "AuraEnabledRecipes_Tests"
+      enabled = false
+    }
+    BatchApexRecipes = {
+      apexClass = "BatchApexRecipes"
+      enabled = false
+    }
+    BatchApexRecipes_Tests = {
+      apexClass = "BatchApexRecipes_Tests"
+      enabled = false
+    }
+    CalloutRecipes = {
+      apexClass = "CalloutRecipes"
+      enabled = false
+    }
+    CalloutRecipes_Tests = {
+      apexClass = "CalloutRecipes_Tests"
+      enabled = false
+    }
+    CanTheUser = {
+      apexClass = "CanTheUser"
+      enabled = false
+    }
+    CanTheUser_Tests = {
+      apexClass = "CanTheUser_Tests"
+      enabled = false
+    }
+    CollectionUtils = {
+      apexClass = "CollectionUtils"
+      enabled = false
+    }
+    CollectionUtils_Tests = {
+      apexClass = "CollectionUtils_Tests"
+      enabled = false
+    }
+    CustomMetadataRecipes_Tests = {
+      apexClass = "CustomMetadataRecipes_Tests"
+      enabled = false
+    }
+    CustomMetadataUtilties = {
+      apexClass = "CustomMetadataUtilties"
+      enabled = false
+    }
+    CustomRestEndpointRecipes = {
+      apexClass = "CustomRestEndpointRecipes"
+      enabled = false
+    }
+    CustomRestEndpointRecipes_Tests = {
+      apexClass = "CustomRestEndpointRecipes_Tests"
+      enabled = false
+    }
+    DMLRecipes = {
+      apexClass = "DMLRecipes"
+      enabled = false
+    }
+    DMLRecipes_Tests = {
+      apexClass = "DMLRecipes_Tests"
+      enabled = false
+    }
+    DataFactoryForPackageInstalls = {
+      apexClass = "DataFactoryForPackageInstalls"
+      enabled = false
+    }
+    DataFactoryForPackageInstalls_Tests = {
+      apexClass = "DataFactoryForPackageInstalls_Tests"
+      enabled = false
+    }
+    DeployMeToo = {
+      apexClass = "DeployMeToo"
+      enabled = false
+    }
+    DeprecatedAPIVersionScanner_Tests = {
+      apexClass = "DeprecatedAPIVersionScanner_Tests"
+      enabled = false
+    }
+    DynamicSOQLRecipes = {
+      apexClass = "DynamicSOQLRecipes"
+      enabled = false
+    }
+    DynamicSOQLRecipes_Tests = {
+      apexClass = "DynamicSOQLRecipes_Tests"
+      enabled = false
+    }
+    EncryptionRecipes = {
+      apexClass = "EncryptionRecipes"
+      enabled = false
+    }
+    EncryptionRecipesTest = {
+      apexClass = "EncryptionRecipesTest"
+      enabled = false
+    }
+    FilesRecipes = {
+      apexClass = "FilesRecipes"
+      enabled = false
+    }
+    FilesRecipes_Tests = {
+      apexClass = "FilesRecipes_Tests"
+      enabled = false
+    }
+    FormattedRecipeDisplayController = {
+      apexClass = "FormattedRecipeDisplayController"
+      enabled = false
+    }
+    FormattedRecipeDisplayController_Tests = {
+      apexClass = "FormattedRecipeDisplayController_Tests"
+      enabled = false
+    }
+    HttpCalloutMockFactory = {
+      apexClass = "HttpCalloutMockFactory"
+      enabled = false
+    }
+    InboundEmailHandlerRecipes = {
+      apexClass = "InboundEmailHandlerRecipes"
+      enabled = false
+    }
+    InboundEmailHandlerRecipes_tests = {
+      apexClass = "InboundEmailHandlerRecipes_tests"
+      enabled = false
+    }
+    InvocableMethodRecipes = {
+      apexClass = "InvocableMethodRecipes"
+      enabled = false
+    }
+    InvocableMethodRecipes_Tests = {
+      apexClass = "InvocableMethodRecipes_Tests"
+      enabled = false
+    }
+    IterableApiClient = {
+      apexClass = "IterableApiClient"
+      enabled = false
+    }
+    IterationRecipes = {
+      apexClass = "IterationRecipes"
+      enabled = false
+    }
+    IterationRecipes_Tests = {
+      apexClass = "IterationRecipes_Tests"
+      enabled = false
+    }
+    LDVRecipes = {
+      apexClass = "LDVRecipes"
+      enabled = false
+    }
+    LDVRecipes_Tests = {
+      apexClass = "LDVRecipes_Tests"
+      enabled = false
+    }
+    ListSortingRecipes = {
+      apexClass = "ListSortingRecipes"
+      enabled = false
+    }
+    ListUtils = {
+      apexClass = "ListUtils"
+      enabled = false
+    }
+    Log = {
+      apexClass = "Log"
+      enabled = false
+    }
+    LogMessage = {
+      apexClass = "LogMessage"
+      enabled = false
+    }
+    LogSeverity = {
+      apexClass = "LogSeverity"
+      enabled = false
+    }
+    LogTriggerHandler = {
+      apexClass = "LogTriggerHandler"
+      enabled = false
+    }
+    Log_Tests = {
+      apexClass = "Log_Tests"
+      enabled = false
+    }
+    MDTAccountTriggerHandler = {
+      apexClass = "MDTAccountTriggerHandler"
+      enabled = false
+    }
+    MDTSecondAccountTriggerHandler = {
+      apexClass = "MDTSecondAccountTriggerHandler"
+      enabled = false
+    }
+    MetadataCatalogRecipes = {
+      apexClass = "MetadataCatalogRecipes"
+      enabled = false
+    }
+    MetadataCatalogRecipes_Tests = {
+      apexClass = "MetadataCatalogRecipes_Tests"
+      enabled = false
+    }
+    MetadataTriggerHandler = {
+      apexClass = "MetadataTriggerHandler"
+      enabled = false
+    }
+    MetadataTriggerHandler_Tests = {
+      apexClass = "MetadataTriggerHandler_Tests"
+      enabled = false
+    }
+    MetadataTriggerService = {
+      apexClass = "MetadataTriggerService"
+      enabled = false
+    }
+    MetadataTriggerService_Tests = {
+      apexClass = "MetadataTriggerService_Tests"
+      enabled = false
+    }
+    OrderAppMenu = {
+      apexClass = "OrderAppMenu"
+      enabled = false
+    }
+    OrderAppMenu_Tests = {
+      apexClass = "OrderAppMenu_Tests"
+      enabled = false
+    }
+    OrgShape = {
+      apexClass = "OrgShape"
+      enabled = false
+    }
+    OrgShape_Tests = {
+      apexClass = "OrgShape_Tests"
+      enabled = false
+    }
+    OrgToOrg = {
+      apexClass = "OrgToOrg"
+      enabled = false
+    }
+    PSGAdvancedTestingRecipes = {
+      apexClass = "PSGAdvancedTestingRecipes"
+      enabled = false
+    }
+    PSGTestingRecipes = {
+      apexClass = "PSGTestingRecipes"
+      enabled = false
+    }
+    PlatformCacheBuilderRecipes = {
+      apexClass = "PlatformCacheBuilderRecipes"
+      enabled = false
+    }
+    PlatformCacheBuilderRecipes_Tests = {
+      apexClass = "PlatformCacheBuilderRecipes_Tests"
+      enabled = false
+    }
+    PlatformCacheRecipes = {
+      apexClass = "PlatformCacheRecipes"
+      enabled = false
+    }
+    PlatformCacheRecipes_Tests = {
+      apexClass = "PlatformCacheRecipes_Tests"
+      enabled = false
+    }
+    PlatformEventRecipes = {
+      apexClass = "PlatformEventRecipes"
+      enabled = false
+    }
+    PlatformEventRecipesTriggerHandler = {
+      apexClass = "PlatformEventRecipesTriggerHandler"
+      enabled = false
+    }
+    PlatformEventRecipesTriggerHandler_Tests = {
+      apexClass = "PlatformEventRecipesTriggerHandler_Tests"
+      enabled = false
+    }
+    PlatformEventRecipes_Tests = {
+      apexClass = "PlatformEventRecipes_Tests"
+      enabled = false
+    }
+    QueueableChainingRecipes = {
+      apexClass = "QueueableChainingRecipes"
+      enabled = false
+    }
+    QueueableChainingRecipes_Tests = {
+      apexClass = "QueueableChainingRecipes_Tests"
+      enabled = false
+    }
+    QueueableRecipes = {
+      apexClass = "QueueableRecipes"
+      enabled = false
+    }
+    QueueableRecipes_Tests = {
+      apexClass = "QueueableRecipes_Tests"
+      enabled = false
+    }
+    QueueableWithCalloutRecipes = {
+      apexClass = "QueueableWithCalloutRecipes"
+      enabled = false
+    }
+    QueueableWithCalloutRecipes_Tests = {
+      apexClass = "QueueableWithCalloutRecipes_Tests"
+      enabled = false
+    }
+    QuiddityGuard = {
+      apexClass = "QuiddityGuard"
+      enabled = false
+    }
+    QuiddityGuard_Tests = {
+      apexClass = "QuiddityGuard_Tests"
+      enabled = false
+    }
+    QuiddityRecipes = {
+      apexClass = "QuiddityRecipes"
+      enabled = false
+    }
+    QuiddityRecipes_Tests = {
+      apexClass = "QuiddityRecipes_Tests"
+      enabled = false
+    }
+    RecipeTreeViewController = {
+      apexClass = "RecipeTreeViewController"
+      enabled = false
+    }
+    RecipeTreeViewController_Tests = {
+      apexClass = "RecipeTreeViewController_Tests"
+      enabled = false
+    }
+    RelatedCodeTabsController = {
+      apexClass = "RelatedCodeTabsController"
+      enabled = false
+    }
+    RelatedCodeTabsController_Tests = {
+      apexClass = "RelatedCodeTabsController_Tests"
+      enabled = false
+    }
+    RestClient = {
+      apexClass = "RestClient"
+      enabled = false
+    }
+    RestClient_Tests = {
+      apexClass = "RestClient_Tests"
+      enabled = false
+    }
+    SOQLRecipes = {
+      apexClass = "SOQLRecipes"
+      enabled = false
+    }
+    SOQLRecipes_Tests = {
+      apexClass = "SOQLRecipes_Tests"
+      enabled = false
+    }
+    SOSLRecipes = {
+      apexClass = "SOSLRecipes"
+      enabled = false
+    }
+    SOSLRecipes_Tests = {
+      apexClass = "SOSLRecipes_Tests"
+      enabled = false
+    }
+    SObjectStringFieldComparator = {
+      apexClass = "SObjectStringFieldComparator"
+      enabled = false
+    }
+    SObjectStringFieldComparator_Tests = {
+      apexClass = "SObjectStringFieldComparator_Tests"
+      enabled = false
+    }
+    Safely = {
+      apexClass = "Safely"
+      enabled = false
+    }
+    Safely_Tests = {
+      apexClass = "Safely_Tests"
+      enabled = false
+    }
+    SampleClass = {
+      apexClass = "SampleClass"
+      enabled = false
+    }
+    SampleHandler = {
+      apexClass = "SampleHandler"
+      enabled = false
+    }
+    ScheduledApexDemo = {
+      apexClass = "ScheduledApexDemo"
+      enabled = false
+    }
+    ScheduledApexDemo_Tests = {
+      apexClass = "ScheduledApexDemo_Tests"
+      enabled = false
+    }
+    ScheduledApexRecipes = {
+      apexClass = "ScheduledApexRecipes"
+      enabled = false
+    }
+    ScheduledApexRecipes_Tests = {
+      apexClass = "ScheduledApexRecipes_Tests"
+      enabled = false
+    }
+    SchemaRecipes = {
+      apexClass = "SchemaRecipes"
+      enabled = false
+    }
+    SortableAccount = {
+      apexClass = "SortableAccount"
+      enabled = false
+    }
+    SortableAccount_Tests = {
+      apexClass = "SortableAccount_Tests"
+      enabled = false
+    }
+    StripInaccessibleRecipes = {
+      apexClass = "StripInaccessibleRecipes"
+      enabled = false
+    }
+    StripInaccessibleRecipes_Tests = {
+      apexClass = "StripInaccessibleRecipes_Tests"
+      enabled = false
+    }
+    StubExample = {
+      apexClass = "StubExample"
+      enabled = false
+    }
+    StubExampleConsumer = {
+      apexClass = "StubExampleConsumer"
+      enabled = false
+    }
+    StubExample_Tests = {
+      apexClass = "StubExample_Tests"
+      enabled = false
+    }
+    StubbingRecipes_Tests = {
+      apexClass = "StubbingRecipes_Tests"
+      enabled = false
+    }
+    TestDataHelpers = {
+      apexClass = "TestDataHelpers"
+      enabled = false
+    }
+    TestDouble = {
+      apexClass = "TestDouble"
+      enabled = false
+    }
+    TestFactory = {
+      apexClass = "TestFactory"
+      enabled = false
+    }
+    TestHelper = {
+      apexClass = "TestHelper"
+      enabled = false
+    }
+    TriggerHandler = {
+      apexClass = "TriggerHandler"
+      enabled = false
+    }
+    TriggerHandler_Test = {
+      apexClass = "TriggerHandler_Test"
+      enabled = false
+    }
+    
+    
+  }
+}

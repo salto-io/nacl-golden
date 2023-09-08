@@ -1,0 +1,67 @@
+salesforce.Flow Test {
+  fullName = "Test"
+  apiVersion = 51
+  interviewLabel = "Test {!$Flow.CurrentDateTime}"
+  label = "Test"
+  processMetadataValues = [
+    {
+      name = "BuilderType"
+      value = {
+        stringValue = "LightningFlowBuilder"
+      }
+    },
+    {
+      name = "CanvasMode"
+      value = {
+        stringValue = "AUTO_LAYOUT_CANVAS"
+      }
+    },
+    {
+      name = "OriginBuilderType"
+      value = {
+        stringValue = "LightningFlowBuilder"
+      }
+    },
+  ]
+  processType = "Flow"
+  recordLookups = [
+    {
+      name = "getAccount"
+      label = "getAccount"
+      locationX = 176
+      locationY = 158
+      assignNullValuesIfNoRecordsFound = false
+      filterLogic = "and"
+      filters = [
+        {
+          field = salesforce.Account.field.Id
+          operator = "EqualTo"
+          value = {
+            stringValue = "0018A00000buJJrQAM"
+          }
+        },
+      ]
+      getFirstRecordOnly = false
+      object = salesforce.Account
+      storeOutputAutomatically = true
+    },
+  ]
+  start = {
+    locationX = 50
+    locationY = 0
+    connector = {
+      targetReference = "getAccount"
+    }
+  }
+  status = "Draft"
+  variables = [
+    {
+      name = "getAccountOutput"
+      dataType = "SObject"
+      isCollection = true
+      isInput = false
+      isOutput = false
+      objectType = salesforce.Account
+    },
+  ]
+}
