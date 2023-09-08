@@ -1,0 +1,14 @@
+salesforce.ApexClass TestDataHelpers {
+  apiVersion = 58
+  status = "Active"
+  fullName = "TestDataHelpers"
+  content = file("salesforce/Records/ApexClass/TestDataHelpers.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.Account
+    },
+    {
+      reference = salesforce.Contact
+    },
+  ]
+}
