@@ -1,0 +1,16 @@
+salesforce.Profile Salesforce_API_Only_System_Integrations@s {
+  flowAccesses = {
+    Test = {
+      enabled = false
+      flow = "Test"
+    }
+    customer_satisfaction = {
+      enabled = false
+      flow = "customer_satisfaction"
+    }
+    net_promoter_score = {
+      enabled = false
+      flow = "net_promoter_score"
+    }
+  }
+}
