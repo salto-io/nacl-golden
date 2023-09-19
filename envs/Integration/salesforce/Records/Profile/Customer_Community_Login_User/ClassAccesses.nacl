@@ -502,5 +502,13 @@ salesforce.Profile Customer_Community_Login_User@s {
     }
     
     
+    FeatureFlagProvider = {
+      apexClass = "FeatureFlagProvider"
+      enabled = false
+    }
+    FeatureFlagsMock = {
+      apexClass = "FeatureFlagsMock"
+      enabled = false
+    }
   }
 }
