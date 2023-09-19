@@ -1,0 +1,15 @@
+salesforce.ApexTrigger PlatformEventRecipesTrigger {
+  apiVersion = 58
+  status = "Active"
+  fullName = "PlatformEventRecipesTrigger"
+  content = file("salesforce/Records/ApexTrigger/PlatformEventRecipesTrigger.trigger")
+  _generated_dependencies = [
+    {
+      reference = salesforce.ApexClass.instance.PlatformEventRecipesTriggerHandler
+    },
+    {
+      reference = salesforce.Event_Recipes_Demo__e
+    },
+  ]
+  _alias = "PlatformEventRecipesTrigger"
+}

@@ -1,0 +1,22 @@
+salesforce.MyDomainSettings {
+  fullName = "MyDomain"
+  canOnlyLoginWithMyDomainUrl = false
+  doesApiLoginRequireOrgDomain = false
+  domainPartition = "trailblaze"
+  enableNativeBrowserForAuthOnAndroid = false
+  enableNativeBrowserForAuthOnIos = false
+  enableShareBrowserSessionAndroidForAuth = "false"
+  enableShareBrowserSessionIOSForAuth = "false"
+  logRedirections = "false"
+  myDomainName = "mindful-raccoon-9nfd0m-dev-ed"
+  myDomainSuffix = "MySalesforce"
+  redirectForceComSiteUrls = "true"
+  redirectPriorMyDomain = "true"
+  use3rdPartyCookieBlockingCompatibleHostnames = "true"
+  useEdge = false
+  useEnhancedDomainsInSandbox = "true"
+  useStabilizedMyDomainHostnames = true
+  useStabilizedSandboxMyDomainHostnames = true
+  enableEdgeDuringRollout = "true"
+  _alias = "MyDomain"
+}

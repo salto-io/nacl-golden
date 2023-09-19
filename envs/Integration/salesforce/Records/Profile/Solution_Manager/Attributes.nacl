@@ -1,0 +1,6 @@
+salesforce.Profile SolutionManager {
+  fullName = "SolutionManager"
+  custom = false
+  userLicense = "Salesforce"
+  _alias = "SolutionManager"
+}
