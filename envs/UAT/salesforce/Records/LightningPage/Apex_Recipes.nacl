@@ -1,0 +1,28 @@
+salesforce.LightningPage Apex_Recipes {
+  fullName = "Apex_Recipes"
+  flexiPageRegions = [
+    {
+      itemInstances = [
+        {
+          componentInstance = {
+            componentName = "apexRecipesContainer"
+            identifier = "apexRecipesContainer"
+          }
+        },
+      ]
+      name = "main"
+      type = "Region"
+    },
+  ]
+  masterLabel = "Apex Recipes"
+  template = {
+    name = "flexipage:defaultAppHomeTemplate"
+  }
+  type = "AppPage"
+  _generated_dependencies = [
+    {
+      reference = salesforce.LightningComponentBundle.instance.apexRecipesContainer
+    },
+  ]
+  _alias = "Apex_Recipes"
+}
