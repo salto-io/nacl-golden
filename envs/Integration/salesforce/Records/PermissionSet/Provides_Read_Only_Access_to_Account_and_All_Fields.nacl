@@ -1,0 +1,41 @@
+salesforce.PermissionSet Provides_Read_Only_Access_to_Account_and_All_Fields {
+  fieldPermissions = {
+    Account = {
+      AccountNumber = "ReadOnly"
+      AccountSource = "ReadOnly"
+      AnnualRevenue = "ReadOnly"
+      BillingAddress = "ReadOnly"
+      Description = "ReadOnly"
+      ExternalSalesforceId__c = "ReadOnly"
+      Fax = "ReadOnly"
+      Industry = "ReadOnly"
+      NumberOfEmployees = "ReadOnly"
+      Ownership = "ReadOnly"
+      ParentId = "ReadOnly"
+      Phone = "ReadOnly"
+      Rating = "ReadOnly"
+      ShippingAddress = "ReadOnly"
+      Sic = "ReadOnly"
+      SicDesc = "ReadOnly"
+      Site = "ReadOnly"
+      TickerSymbol = "ReadOnly"
+      Type = "ReadOnly"
+      Website = "ReadOnly"
+    }
+  }
+  hasActivationRequired = false
+  label = "Provides Read Only Access to Account and all fields"
+  objectPermissions = {
+    Account = {
+      allowCreate = false
+      allowDelete = false
+      allowEdit = false
+      allowRead = true
+      modifyAllRecords = false
+      object = salesforce.Account
+      viewAllRecords = false
+    }
+  }
+  fullName = "Provides_Read_Only_Access_to_Account_and_All_Fields"
+  _alias = "Provides Read Only Access to Account and all fields"
+}

@@ -1,0 +1,6 @@
+salesforce.Profile Minimum_Access___Salesforce@ssbs {
+  fullName = "Minimum Access - Salesforce"
+  custom = false
+  userLicense = "Salesforce"
+  _alias = "Minimum Access - Salesforce"
+}
