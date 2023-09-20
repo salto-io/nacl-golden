@@ -1,0 +1,10 @@
+salesforce.Metadata_Driven_Trigger__mdt Metadata_Driven_Trigger_MDTSecondAccountTriggerHandler@uuv {
+  label = "MDTSecondAccountTriggerHandler"
+  protected = false
+  fullName = "Metadata_Driven_Trigger.MDTSecondAccountTriggerHandler"
+  Class__c = "MDTSecondAccountTriggerHandler"
+  Enabled__c = true
+  Execution_Order__c = 3
+  Object__c = "Account"
+  _alias = "MDTSecondAccountTriggerHandler"
+}

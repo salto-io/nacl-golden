@@ -1,0 +1,21 @@
+salesforce.ApexClass AuraEnabledRecipes_Tests {
+  apiVersion = 58
+  status = "Active"
+  fullName = "AuraEnabledRecipes_Tests"
+  content = file("salesforce/Records/ApexClass/AuraEnabledRecipes_Tests.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.Account
+    },
+    {
+      reference = salesforce.ApexClass.instance.AuraEnabledRecipes
+    },
+    {
+      reference = salesforce.ApexClass.instance.TestFactory
+    },
+    {
+      reference = salesforce.User
+    },
+  ]
+  _alias = "AuraEnabledRecipes_Tests"
+}

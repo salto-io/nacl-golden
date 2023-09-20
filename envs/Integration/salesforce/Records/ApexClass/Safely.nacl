@@ -1,0 +1,12 @@
+salesforce.ApexClass Safely {
+  apiVersion = 58
+  status = "Active"
+  fullName = "Safely"
+  content = file("salesforce/Records/ApexClass/Safely.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.ApexClass.instance.CanTheUser
+    },
+  ]
+  _alias = "Safely"
+}

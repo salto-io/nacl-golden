@@ -1,0 +1,7 @@
+salesforce.Bucketed_Picklist_Value__mdt Bucketed_Picklist_Value_Excused_Absence@uuvu {
+  label = "Excused Absence"
+  protected = false
+  fullName = "Bucketed_Picklist_Value.Excused_Absence"
+  Picklist_Bucket__c = "Not_Attended"
+  _alias = "Excused Absence"
+}
