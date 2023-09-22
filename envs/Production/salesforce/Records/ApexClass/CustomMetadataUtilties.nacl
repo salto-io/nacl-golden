@@ -3,4 +3,5 @@ salesforce.ApexClass CustomMetadataUtilties {
   status = "Active"
   fullName = "CustomMetadataUtilties"
   content = file("salesforce/Records/ApexClass/CustomMetadataUtilties.cls")
+  _alias = "CustomMetadataUtilties"
 }

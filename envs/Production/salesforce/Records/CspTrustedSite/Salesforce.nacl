@@ -9,4 +9,5 @@ salesforce.CspTrustedSite Salesforce {
   isApplicableToImgSrc = false
   isApplicableToMediaSrc = true
   isApplicableToStyleSrc = false
+  _alias = "Salesforce"
 }

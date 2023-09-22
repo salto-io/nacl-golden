@@ -239,4 +239,5 @@ type salesforce.Opportunity {
     OwnerId = salesforce.Opportunity.field.OwnerId
     StageName = salesforce.Opportunity.field.StageName
   }
+  _alias = "Opportunity"
 }

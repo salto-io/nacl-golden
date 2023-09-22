@@ -212,4 +212,7 @@ type salesforce.WorkOrderLineItem {
   topicsForObjects = {
     enableTopics = false
   }
+  historyTrackedFields = {
+  }
+  _alias = "Work Order Line Item"
 }

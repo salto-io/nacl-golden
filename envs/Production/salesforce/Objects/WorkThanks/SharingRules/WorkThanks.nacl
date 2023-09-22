@@ -3,4 +3,5 @@ salesforce.SharingRules WorkThanks {
   _parent = [
     salesforce.WorkThanks,
   ]
+  _alias = "WorkThanks"
 }

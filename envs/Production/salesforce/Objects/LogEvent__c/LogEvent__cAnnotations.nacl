@@ -262,4 +262,5 @@ type salesforce.LogEvent__c {
   topicsForObjects = {
     enableTopics = false
   }
+  _alias = "Log Event"
 }

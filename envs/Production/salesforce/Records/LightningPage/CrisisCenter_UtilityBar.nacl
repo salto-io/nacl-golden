@@ -26,4 +26,5 @@ salesforce.LightningPage CrisisCenter_UtilityBar {
     name = "one:utilityBarTemplateDesktop"
   }
   type = "UtilityBar"
+  _alias = "CrisisCenter_UtilityBar"
 }

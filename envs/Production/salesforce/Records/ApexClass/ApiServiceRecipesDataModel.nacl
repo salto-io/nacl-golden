@@ -3,4 +3,5 @@ salesforce.ApexClass ApiServiceRecipesDataModel {
   status = "Active"
   fullName = "ApiServiceRecipesDataModel"
   content = file("salesforce/Records/ApexClass/ApiServiceRecipesDataModel.cls")
+  _alias = "ApiServiceRecipesDataModel"
 }

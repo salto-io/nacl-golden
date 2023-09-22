@@ -11,4 +11,5 @@ salesforce.ApexClass MetadataTriggerHandler {
       reference = salesforce.ApexClass.instance.TriggerHandler
     },
   ]
+  _alias = "MetadataTriggerHandler"
 }

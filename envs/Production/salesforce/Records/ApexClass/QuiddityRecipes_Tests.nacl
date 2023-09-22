@@ -11,4 +11,5 @@ salesforce.ApexClass QuiddityRecipes_Tests {
       reference = salesforce.ApexClass.instance.QuiddityRecipes
     },
   ]
+  _alias = "QuiddityRecipes_Tests"
 }

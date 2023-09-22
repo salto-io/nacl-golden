@@ -52,4 +52,5 @@ salesforce.Layout WorkAccess_Access_Layout@bs {
   showRunAssignmentRulesCheckbox = false
   showSubmitAndAttachButton = false
   fullName = "WorkAccess-Access Layout"
+  _alias = "WorkAccess-Access Layout"
 }

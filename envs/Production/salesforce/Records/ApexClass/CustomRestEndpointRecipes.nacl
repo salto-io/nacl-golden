@@ -20,4 +20,5 @@ salesforce.ApexClass CustomRestEndpointRecipes {
       reference = salesforce.Contact.field.ExternalSalesforceId__c
     },
   ]
+  _alias = "CustomRestEndpointRecipes"
 }

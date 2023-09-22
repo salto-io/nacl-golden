@@ -20,4 +20,5 @@ salesforce.LightningPage LightningSales_UtilityBar {
     name = "one:utilityBarTemplateDesktop"
   }
   type = "UtilityBar"
+  _alias = "LightningSales_UtilityBar"
 }

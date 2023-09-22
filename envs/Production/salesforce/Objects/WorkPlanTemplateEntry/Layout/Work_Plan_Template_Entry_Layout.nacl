@@ -93,4 +93,5 @@ salesforce.Layout WorkPlanTemplateEntry_Work_Plan_Template_Entry_Layout@bssss {
   _parent = [
     salesforce.WorkPlanTemplateEntry,
   ]
+  _alias = "WorkPlanTemplateEntry-Work Plan Template Entry Layout"
 }

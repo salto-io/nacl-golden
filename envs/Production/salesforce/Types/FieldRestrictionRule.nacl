@@ -60,6 +60,7 @@ type salesforce.FieldRestrictionRule {
         "Lead",
         "LogEvent__c",
         "Opportunity",
+        "Sample__c",
         "Task",
         "User",
       ]

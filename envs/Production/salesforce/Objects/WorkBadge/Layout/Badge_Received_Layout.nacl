@@ -84,4 +84,5 @@ salesforce.Layout WorkBadge_Badge_Received_Layout@bss {
   _parent = [
     salesforce.WorkBadge,
   ]
+  _alias = "WorkBadge-Badge Received Layout"
 }

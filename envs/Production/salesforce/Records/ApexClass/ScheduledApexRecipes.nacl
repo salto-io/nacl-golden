@@ -8,4 +8,5 @@ salesforce.ApexClass ScheduledApexRecipes {
       reference = salesforce.ApexClass.instance.ScheduledApexDemo
     },
   ]
+  _alias = "ScheduledApexRecipes"
 }

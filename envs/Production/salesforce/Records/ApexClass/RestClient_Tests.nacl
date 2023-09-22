@@ -11,4 +11,5 @@ salesforce.ApexClass RestClient_Tests {
       reference = salesforce.ApexClass.instance.RestClient
     },
   ]
+  _alias = "RestClient_Tests"
 }

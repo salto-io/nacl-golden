@@ -11,4 +11,5 @@ salesforce.ApexTrigger LogTrigger {
       reference = salesforce.Log__e
     },
   ]
+  _alias = "LogTrigger"
 }

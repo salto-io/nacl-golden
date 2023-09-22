@@ -3,4 +3,5 @@ salesforce.ApexClass QuiddityRecipes {
   status = "Active"
   fullName = "QuiddityRecipes"
   content = file("salesforce/Records/ApexClass/QuiddityRecipes.cls")
+  _alias = "QuiddityRecipes"
 }

@@ -221,4 +221,7 @@ type salesforce.Event {
   topicsForObjects = {
     enableTopics = true
   }
+  historyTrackedFields = {
+  }
+  _alias = "Event"
 }

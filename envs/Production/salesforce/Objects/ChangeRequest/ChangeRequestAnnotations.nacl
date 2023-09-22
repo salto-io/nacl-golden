@@ -206,4 +206,5 @@ type salesforce.ChangeRequest {
   }
   feedHistoryTrackedFields = {
   }
+  _alias = "Change Request"
 }

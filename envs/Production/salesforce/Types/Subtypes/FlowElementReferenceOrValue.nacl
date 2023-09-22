@@ -30,4 +30,10 @@ type salesforce.FlowElementReferenceOrValue {
   string stringValue {
   }
   metadataType = "FlowElementReferenceOrValue"
+  string formulaExpression {
+  }
+  string setupReference {
+  }
+  string setupReferenceType {
+  }
 }

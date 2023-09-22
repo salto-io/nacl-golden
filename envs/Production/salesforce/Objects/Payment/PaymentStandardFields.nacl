@@ -508,4 +508,14 @@ type salesforce.Payment {
     queryable = true
     _hidden_value = true
   }
+  salesforce.Text PaymentIntentGuid {
+    apiName = "Payment.PaymentIntentGuid"
+    length = 255
+    label = "Payment Intent Guid"
+    createable = true
+    updateable = false
+    unique = false
+    caseSensitive = false
+    queryable = true
+  }
 }

@@ -17,4 +17,5 @@ salesforce.ApexClass ApiServiceRecipes_Tests {
       reference = salesforce.ApexClass.instance.HttpCalloutMockFactory
     },
   ]
+  _alias = "ApiServiceRecipes_Tests"
 }

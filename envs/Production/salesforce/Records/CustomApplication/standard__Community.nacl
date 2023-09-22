@@ -16,4 +16,5 @@ salesforce.CustomApplication standard__Community {
     "standard-report",
     "standard-Dashboard",
   ]
+  _alias = "standard__Community"
 }

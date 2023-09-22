@@ -3,4 +3,5 @@ salesforce.ApexClass ApexClassUtilities {
   status = "Active"
   fullName = "ApexClassUtilities"
   content = file("salesforce/Records/ApexClass/ApexClassUtilities.cls")
+  _alias = "ApexClassUtilities"
 }

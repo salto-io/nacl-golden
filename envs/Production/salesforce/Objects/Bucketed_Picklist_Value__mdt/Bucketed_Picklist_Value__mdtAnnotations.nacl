@@ -15,4 +15,5 @@ type salesforce.Bucketed_Picklist_Value__mdt {
   metadataType = "CustomMetadata"
   label = "Bucketed Picklist Value"
   pluralLabel = "Bucketed Picklist Values"
+  _alias = "Bucketed Picklist Value"
 }

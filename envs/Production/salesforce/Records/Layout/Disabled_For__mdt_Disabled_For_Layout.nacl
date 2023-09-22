@@ -79,4 +79,5 @@ salesforce.Layout Disabled_For__mdt_Disabled_For_Layout@uuubss {
   showRunAssignmentRulesCheckbox = false
   showSubmitAndAttachButton = false
   fullName = "Disabled_For__mdt-Disabled For Layout"
+  _alias = "Disabled_For__mdt-Disabled For Layout"
 }

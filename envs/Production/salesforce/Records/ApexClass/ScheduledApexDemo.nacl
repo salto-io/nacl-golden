@@ -3,4 +3,5 @@ salesforce.ApexClass ScheduledApexDemo {
   status = "Active"
   fullName = "ScheduledApexDemo"
   content = file("salesforce/Records/ApexClass/ScheduledApexDemo.cls")
+  _alias = "ScheduledApexDemo"
 }

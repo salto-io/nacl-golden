@@ -286,4 +286,24 @@ type salesforce.Order {
   topicsForObjects = {
     enableTopics = true
   }
+  historyTrackedFields = {
+    BillToContactId = salesforce.Order.field.BillToContactId
+    BillingAddress = salesforce.Order.field.BillingAddress
+    CompanyAuthorizedById = salesforce.Order.field.CompanyAuthorizedById
+    CompanyAuthorizedDate = salesforce.Order.field.CompanyAuthorizedDate
+    CustomerAuthorizedById = salesforce.Order.field.CustomerAuthorizedById
+    CustomerAuthorizedDate = salesforce.Order.field.CustomerAuthorizedDate
+    Description = salesforce.Order.field.Description
+    EffectiveDate = salesforce.Order.field.EffectiveDate
+    Name = salesforce.Order.field.Name
+    OrderReferenceNumber = salesforce.Order.field.OrderReferenceNumber
+    PoDate = salesforce.Order.field.PoDate
+    PoNumber = salesforce.Order.field.PoNumber
+    ShipToContactId = salesforce.Order.field.ShipToContactId
+    ShippingAddress = salesforce.Order.field.ShippingAddress
+    Status = salesforce.Order.field.Status
+    TotalAmount = salesforce.Order.field.TotalAmount
+    Type = salesforce.Order.field.Type
+  }
+  _alias = "Order"
 }

@@ -15,7 +15,7 @@ type salesforce.ContactCenterChannel {
   }
   string channel {
     foreignKeyDomain = [
-      "MessagingChannel",
+      salesforce.MessagingChannel,
     ]
   }
   metadataType = "ContactCenterChannel"

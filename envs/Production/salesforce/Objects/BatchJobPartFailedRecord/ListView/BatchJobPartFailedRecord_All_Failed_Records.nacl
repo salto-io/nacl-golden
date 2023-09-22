@@ -10,4 +10,5 @@ salesforce.ListView BatchJobPartFailedRecord_All_Failed_Records {
   _parent = [
     salesforce.BatchJobPartFailedRecord,
   ]
+  _alias = "All Failed Records"
 }

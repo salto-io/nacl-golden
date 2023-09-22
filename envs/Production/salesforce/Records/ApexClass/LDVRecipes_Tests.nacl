@@ -20,4 +20,5 @@ salesforce.ApexClass LDVRecipes_Tests {
       reference = salesforce.ApexClass.instance.TriggerHandler
     },
   ]
+  _alias = "LDVRecipes_Tests"
 }

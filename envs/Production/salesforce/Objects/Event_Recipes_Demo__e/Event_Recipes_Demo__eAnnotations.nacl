@@ -96,4 +96,5 @@ type salesforce.Event_Recipes_Demo__e {
   label = "Event Recipes Demo"
   pluralLabel = "Event Recipes Demo"
   deploymentStatus = "Deployed"
+  _alias = "Event Recipes Demo"
 }

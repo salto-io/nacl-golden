@@ -5343,4 +5343,5 @@ salesforce.AddressSettings {
       },
     ]
   }
+  _alias = "Address"
 }

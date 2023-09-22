@@ -8,4 +8,5 @@ salesforce.ApexClass SortableAccount {
       reference = salesforce.Account
     },
   ]
+  _alias = "SortableAccount"
 }

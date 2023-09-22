@@ -23,4 +23,5 @@ salesforce.ApexClass LogMessage {
       reference = salesforce.Log__e.field.Severity__c
     },
   ]
+  _alias = "LogMessage"
 }

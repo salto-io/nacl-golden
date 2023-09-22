@@ -6,4 +6,5 @@ salesforce.PermissionSetGroup SalesPersona {
     "ReadAccessToTradeStyle",
   ]
   status = "Updated"
+  _alias = "SalesPersona"
 }

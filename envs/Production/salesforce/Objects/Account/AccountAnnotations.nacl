@@ -321,4 +321,5 @@ type salesforce.Account {
     Name = salesforce.Account.field.Name
     OwnerId = salesforce.Account.field.OwnerId
   }
+  _alias = "Account"
 }

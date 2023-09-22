@@ -12,4 +12,5 @@ salesforce.CustomApplication standard__DataManager {
     "standard-AnalyticsDataManager",
   ]
   uiType = "Lightning"
+  _alias = "Data Manager (standard)"
 }

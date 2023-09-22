@@ -365,6 +365,18 @@ type salesforce.Macro {
         default = false
       },
       {
+        fullName = "MessagingSession"
+        isActive = true
+        label = "Messaging Session"
+        default = false
+      },
+      {
+        fullName = "MessagingEndUser"
+        isActive = true
+        label = "Messaging User"
+        default = false
+      },
+      {
         fullName = "EntityMilestone"
         isActive = true
         label = "Object Milestone"
@@ -482,6 +494,12 @@ type salesforce.Macro {
         fullName = "ReportAnomalyEventStore"
         isActive = true
         label = "Report Anomaly Event Store"
+        default = false
+      },
+      {
+        fullName = "Sample__c"
+        isActive = true
+        label = "Sample"
         default = false
       },
       {

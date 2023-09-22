@@ -343,6 +343,14 @@ salesforce.Translations es_MX {
       ]
     },
     {
+      name = "EnableSalesEngagement"
+      promptVersions = [
+        {
+          name = "EnableSalesEngagement"
+        },
+      ]
+    },
+    {
       name = "X2StepWalkthroughonReports"
       promptVersions = [
         {
@@ -491,4 +499,5 @@ salesforce.Translations es_MX {
       },
     ]
   }
+  _alias = "es_MX"
 }

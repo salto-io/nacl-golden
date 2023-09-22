@@ -290,6 +290,7 @@ type salesforce.FinanceBalanceSnapshot {
       salesforce.Junction__c,
       salesforce.LegalEntity,
       salesforce.LogEvent__c,
+      salesforce.Sample__c,
     ]
     label = "Legal Entity ID"
     createable = false
@@ -352,6 +353,7 @@ type salesforce.FinanceBalanceSnapshot {
       salesforce.PaymentLineInvoice,
       salesforce.Refund,
       salesforce.RefundLinePayment,
+      salesforce.Sample__c,
     ]
     label = "ReferenceEntity ID"
     createable = false

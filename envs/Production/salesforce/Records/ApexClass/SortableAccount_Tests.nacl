@@ -11,4 +11,5 @@ salesforce.ApexClass SortableAccount_Tests {
       reference = salesforce.ApexClass.instance.SortableAccount
     },
   ]
+  _alias = "SortableAccount_Tests"
 }

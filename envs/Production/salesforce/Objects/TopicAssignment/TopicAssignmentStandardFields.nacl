@@ -40,6 +40,7 @@ type salesforce.TopicAssignment {
       salesforce.Opportunity,
       salesforce.Order,
       salesforce.Problem,
+      salesforce.Sample__c,
       salesforce.Solution,
       salesforce.Task,
       salesforce.WorkOrder,

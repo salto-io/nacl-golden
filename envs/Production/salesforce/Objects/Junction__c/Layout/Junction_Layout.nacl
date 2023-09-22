@@ -74,4 +74,5 @@ salesforce.Layout Junction__c_Junction_Layout@uubs {
   _parent = [
     salesforce.Junction__c,
   ]
+  _alias = "Junction__c-Junction Layout"
 }

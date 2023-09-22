@@ -8,4 +8,5 @@ salesforce.ApexClass TriggerHandler_Test {
       reference = salesforce.ApexClass.instance.TriggerHandler
     },
   ]
+  _alias = "TriggerHandler_Test"
 }

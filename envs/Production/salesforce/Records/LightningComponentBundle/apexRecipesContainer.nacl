@@ -28,4 +28,5 @@ salesforce.LightningComponentBundle apexRecipesContainer {
       reference = salesforce.LightningComponentBundle.instance.relatedCodeTabs
     },
   ]
+  _alias = "apexRecipesContainer"
 }

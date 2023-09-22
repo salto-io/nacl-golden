@@ -11,4 +11,5 @@ salesforce.ApexClass ApiServiceRecipes {
       reference = salesforce.ApexClass.instance.RestClient
     },
   ]
+  _alias = "ApiServiceRecipes"
 }

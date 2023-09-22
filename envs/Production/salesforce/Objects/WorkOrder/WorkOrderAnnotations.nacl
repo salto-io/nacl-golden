@@ -232,4 +232,7 @@ type salesforce.WorkOrder {
   topicsForObjects = {
     enableTopics = false
   }
+  historyTrackedFields = {
+  }
+  _alias = "Work Order"
 }

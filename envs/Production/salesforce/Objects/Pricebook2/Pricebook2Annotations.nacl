@@ -215,4 +215,7 @@ type salesforce.Pricebook2 {
       "PRICEBOOK2.IS_ACTIVE",
     ]
   }
+  historyTrackedFields = {
+  }
+  _alias = "Price Book"
 }

@@ -8,4 +8,5 @@ salesforce.ApexClass RelatedCodeTabsController {
       reference = salesforce.ApexClass.instance.ApexClassUtilities
     },
   ]
+  _alias = "RelatedCodeTabsController"
 }

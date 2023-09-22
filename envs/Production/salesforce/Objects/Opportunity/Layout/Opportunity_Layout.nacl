@@ -313,4 +313,5 @@ salesforce.Layout Opportunity_Opportunity_Layout@bs {
   _parent = [
     salesforce.Opportunity,
   ]
+  _alias = "Opportunity-Opportunity Layout"
 }

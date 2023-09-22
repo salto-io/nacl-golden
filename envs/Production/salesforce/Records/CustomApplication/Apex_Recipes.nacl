@@ -16,4 +16,5 @@ salesforce.CustomApplication Apex_Recipes {
     salesforce.CustomTab.instance.Apex_Recipes,
   ]
   uiType = "Lightning"
+  _alias = "Apex Recipes"
 }

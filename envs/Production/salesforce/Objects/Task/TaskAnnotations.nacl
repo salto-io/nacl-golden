@@ -179,4 +179,7 @@ type salesforce.Task {
   topicsForObjects = {
     enableTopics = true
   }
+  historyTrackedFields = {
+  }
+  _alias = "Task"
 }

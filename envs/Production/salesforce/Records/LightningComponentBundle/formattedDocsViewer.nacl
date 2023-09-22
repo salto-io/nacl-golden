@@ -25,4 +25,5 @@ salesforce.LightningComponentBundle formattedDocsViewer {
       reference = salesforce.StaticResource.instance.markdownIt
     },
   ]
+  _alias = "formattedDocsViewer"
 }

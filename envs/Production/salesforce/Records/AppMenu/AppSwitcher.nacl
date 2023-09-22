@@ -126,4 +126,5 @@ salesforce.AppMenu AppSwitcher {
       type = "ConnectedApp"
     },
   ]
+  _alias = "AppSwitcher"
 }

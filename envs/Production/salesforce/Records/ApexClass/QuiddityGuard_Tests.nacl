@@ -8,4 +8,5 @@ salesforce.ApexClass QuiddityGuard_Tests {
       reference = salesforce.ApexClass.instance.QuiddityGuard
     },
   ]
+  _alias = "QuiddityGuard_Tests"
 }

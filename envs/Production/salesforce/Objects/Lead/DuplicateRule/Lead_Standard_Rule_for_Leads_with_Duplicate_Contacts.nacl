@@ -66,4 +66,5 @@ salesforce.DuplicateRule Lead_Standard_Rule_for_Leads_with_Duplicate_Contacts@vu
   _parent = [
     salesforce.Lead,
   ]
+  _alias = "Lead.Standard_Rule_for_Leads_with_Duplicate_Contacts"
 }

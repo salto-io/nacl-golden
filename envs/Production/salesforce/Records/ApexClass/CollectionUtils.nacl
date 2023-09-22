@@ -3,4 +3,5 @@ salesforce.ApexClass CollectionUtils {
   status = "Active"
   fullName = "CollectionUtils"
   content = file("salesforce/Records/ApexClass/CollectionUtils.cls")
+  _alias = "CollectionUtils"
 }

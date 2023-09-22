@@ -11,4 +11,5 @@ salesforce.ApexClass TestDataHelpers {
       reference = salesforce.Contact
     },
   ]
+  _alias = "TestDataHelpers"
 }

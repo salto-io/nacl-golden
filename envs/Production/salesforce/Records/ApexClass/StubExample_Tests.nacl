@@ -8,4 +8,5 @@ salesforce.ApexClass StubExample_Tests {
       reference = salesforce.ApexClass.instance.StubExample
     },
   ]
+  _alias = "StubExample_Tests"
 }

@@ -3,4 +3,5 @@ salesforce.ApexClass AtFutureRecipes {
   status = "Active"
   fullName = "AtFutureRecipes"
   content = file("salesforce/Records/ApexClass/AtFutureRecipes.cls")
+  _alias = "AtFutureRecipes"
 }

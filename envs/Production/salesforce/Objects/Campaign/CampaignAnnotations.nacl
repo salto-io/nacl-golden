@@ -240,4 +240,7 @@ type salesforce.Campaign {
   topicsForObjects = {
     enableTopics = true
   }
+  historyTrackedFields = {
+  }
+  _alias = "Campaign"
 }

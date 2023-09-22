@@ -169,4 +169,7 @@ type salesforce.PricebookEntry {
       "PRODUCT2.FAMILY_ENUM",
     ]
   }
+  historyTrackedFields = {
+  }
+  _alias = "Price Book Entry"
 }

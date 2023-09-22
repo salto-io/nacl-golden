@@ -8,4 +8,5 @@ salesforce.ApexClass Safely {
       reference = salesforce.ApexClass.instance.CanTheUser
     },
   ]
+  _alias = "Safely"
 }
