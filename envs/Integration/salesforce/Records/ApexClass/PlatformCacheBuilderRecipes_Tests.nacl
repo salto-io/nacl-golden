@@ -1,0 +1,21 @@
+salesforce.ApexClass PlatformCacheBuilderRecipes_Tests {
+  apiVersion = 58
+  status = "Active"
+  fullName = "PlatformCacheBuilderRecipes_Tests"
+  content = file("salesforce/Records/ApexClass/PlatformCacheBuilderRecipes_Tests.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.Account
+    },
+    {
+      reference = salesforce.ApexClass.instance.PlatformCacheBuilderRecipes
+    },
+    {
+      reference = salesforce.ApexClass.instance.PlatformCacheRecipes
+    },
+    {
+      reference = salesforce.ApexClass.instance.TestFactory
+    },
+  ]
+  _alias = "PlatformCacheBuilderRecipes_Tests"
+}

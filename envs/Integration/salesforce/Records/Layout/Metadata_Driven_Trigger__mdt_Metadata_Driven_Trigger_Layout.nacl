@@ -1,0 +1,101 @@
+salesforce.Layout Metadata_Driven_Trigger__mdt_Metadata_Driven_Trigger_Layout@uuuubsss {
+  layoutSections = [
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = true
+      label = "Information"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Required"
+              field = "MasterLabel"
+            },
+            {
+              behavior = "Required"
+              field = "DeveloperName"
+            },
+            {
+              behavior = "Required"
+              field = "Object__c"
+            },
+            {
+              behavior = "Required"
+              field = "Execution_Order__c"
+            },
+            {
+              behavior = "Required"
+              field = "Class__c"
+            },
+            {
+              behavior = "Edit"
+              field = "Enabled__c"
+            },
+          ]
+        },
+        {
+          layoutItems = [
+            {
+              behavior = "Edit"
+              field = "IsProtected"
+            },
+            {
+              behavior = "Required"
+              field = "NamespacePrefix"
+            },
+          ]
+        },
+      ]
+      style = "TwoColumnsTopToBottom"
+    },
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = true
+      label = "System Information"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Readonly"
+              field = "CreatedById"
+            },
+          ]
+        },
+        {
+          layoutItems = [
+            {
+              behavior = "Readonly"
+              field = "LastModifiedById"
+            },
+          ]
+        },
+      ]
+      style = "TwoColumnsTopToBottom"
+    },
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = false
+      style = "CustomLinks"
+    },
+  ]
+  relatedLists = [
+    {
+      fields = [
+        "MasterLabel",
+        "DeveloperName",
+        "NamespacePrefix",
+      ]
+      relatedList = "Disabled_For__mdt.Metadata_Driven_Trigger__c"
+    },
+  ]
+  showEmailCheckbox = false
+  showHighlightsPanel = false
+  showInteractionLogPanel = false
+  showRunAssignmentRulesCheckbox = false
+  showSubmitAndAttachButton = false
+  fullName = "Metadata_Driven_Trigger__mdt-Metadata Driven Trigger Layout"
+  _alias = "Metadata_Driven_Trigger__mdt-Metadata Driven Trigger Layout"
+}
