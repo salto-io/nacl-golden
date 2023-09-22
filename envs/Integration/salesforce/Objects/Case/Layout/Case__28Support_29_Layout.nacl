@@ -87,6 +87,10 @@ salesforce.Layout Case_Case__28Support_29_Layout@bspps {
               behavior = "Required"
               field = salesforce.Case.field.Type
             },
+            {
+              behavior = "Edit"
+              field = salesforce.Case.field.My_Date__c
+            },
           ]
         },
         {

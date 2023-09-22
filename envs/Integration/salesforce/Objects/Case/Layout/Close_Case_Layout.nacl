@@ -20,6 +20,10 @@ salesforce.Layout CaseClose_Close_Case_Layout@bss {
               behavior = "Edit"
               field = salesforce.Case.field.Comments
             },
+            {
+              behavior = "Edit"
+              field = salesforce.Case.field.My_Date__c
+            },
           ]
         },
       ]

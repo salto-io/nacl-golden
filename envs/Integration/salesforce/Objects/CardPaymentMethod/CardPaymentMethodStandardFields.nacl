@@ -351,6 +351,12 @@ type salesforce.CardPaymentMethod {
         default = false
       },
       {
+        fullName = "Other"
+        isActive = true
+        label = "Other"
+        default = false
+      },
+      {
         fullName = "ApplePay"
         isActive = true
         label = "Apple Pay"
@@ -414,12 +420,6 @@ type salesforce.CardPaymentMethod {
         fullName = "MasterCard"
         isActive = true
         label = "Master Card"
-        default = false
-      },
-      {
-        fullName = "Other"
-        isActive = true
-        label = "Other"
         default = false
       },
       {

@@ -1,9 +1,6 @@
 salesforce.Layout Account_Account_Layout@bs {
-  emailDefault = false
-  headers = [
-    "PersonalTagging",
-    "PublicTagging",
-  ]
+  
+  
   layoutSections = [
     {
       customLabel = false
@@ -44,6 +41,14 @@ salesforce.Layout Account_Account_Layout@bs {
             {
               behavior = "Edit"
               field = salesforce.Account.field.AnnualRevenue
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.Account.field.deploy_me__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.Account.field.testttt__c
             },
           ]
         },
@@ -199,7 +204,7 @@ salesforce.Layout Account_Account_Layout@bs {
       style = "OneColumn"
     },
     {
-      customLabel = false
+      customLabel = true
       detailHeading = false
       editHeading = false
       layoutColumns = [
@@ -216,6 +221,7 @@ salesforce.Layout Account_Account_Layout@bs {
         },
       ]
       style = "CustomLinks"
+      label = "Custom Links"
     },
   ]
   quickActionList = {
@@ -344,15 +350,24 @@ salesforce.Layout Account_Account_Layout@bs {
   relatedObjects = [
     "ParentId",
   ]
-  runAssignmentRulesDefault = false
-  showEmailCheckbox = true
+  
+  showEmailCheckbox = false
   showHighlightsPanel = false
   showInteractionLogPanel = false
-  showRunAssignmentRulesCheckbox = true
+  showRunAssignmentRulesCheckbox = false
   showSubmitAndAttachButton = false
   fullName = "Account-Account Layout"
   _parent = [
     salesforce.Account,
   ]
   _alias = "Account-Account Layout"
+  excludeButtons = [
+    "Submit",
+  ]
+  summaryLayout = {
+    masterLabel = "00h68000004Eu8f"
+    sizeX = 4
+    sizeY = 0
+    summaryLayoutStyle = "Default"
+  }
 }
