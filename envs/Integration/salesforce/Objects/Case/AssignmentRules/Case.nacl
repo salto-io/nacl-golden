@@ -5,7 +5,7 @@ salesforce.AssignmentRules Case {
       active = true
       ruleEntry = [
         {
-          assignedTo = "pgonzaleznetwork@resourceful-narwhal-a6d8er.com"
+          assignedTo = "pgonzaleznetwork@resourceful-narwhal-a6d8er.com6"
           assignedToType = "User"
           criteriaItems = [
             {
