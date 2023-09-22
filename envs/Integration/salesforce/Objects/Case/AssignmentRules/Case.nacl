@@ -5,7 +5,7 @@ salesforce.AssignmentRules Case {
       active = true
       ruleEntry = [
         {
-          assignedTo = "pgonzaleznetwork@mindful-raccoon-9nfd0m.com"
+          assignedTo = "pgonzaleznetwork@resourceful-narwhal-a6d8er.com6"
           assignedToType = "User"
           criteriaItems = [
             {
@@ -26,7 +26,7 @@ salesforce.AssignmentRules Case {
           ]
         },
         {
-          assignedTo = "pgonzaleznetwork@mindful-raccoon-9nfd0m.com"
+          assignedTo = "pgonzaleznetwork@resourceful-narwhal-a6d8er.com"
           assignedToType = "User"
           criteriaItems = [
             {
@@ -47,7 +47,7 @@ salesforce.AssignmentRules Case {
           ]
         },
         {
-          assignedTo = "pgonzaleznetwork@mindful-raccoon-9nfd0m.com"
+          assignedTo = "pgonzaleznetwork@resourceful-narwhal-a6d8er.com"
           assignedToType = "User"
           criteriaItems = [
             {
@@ -68,7 +68,7 @@ salesforce.AssignmentRules Case {
           ]
         },
         {
-          assignedTo = "pgonzaleznetwork@mindful-raccoon-9nfd0m.com"
+          assignedTo = "pgonzaleznetwork@resourceful-narwhal-a6d8er.com"
           assignedToType = "User"
           criteriaItems = [
             {
@@ -89,7 +89,7 @@ salesforce.AssignmentRules Case {
           ]
         },
         {
-          assignedTo = "pgonzaleznetwork@mindful-raccoon-9nfd0m.com"
+          assignedTo = "pgonzaleznetwork@resourceful-narwhal-a6d8er.com"
           assignedToType = "User"
           criteriaItems = [
             {

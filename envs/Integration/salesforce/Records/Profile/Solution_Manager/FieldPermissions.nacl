@@ -381,7 +381,7 @@ salesforce.Profile SolutionManager {
       UpsellOpportunity__c = "ReadWrite"
       Website = "ReadWrite"
       YearStarted = "ReadOnly"
-      deploy_me__c = "NoAccess"
+      deploy_me__c = "ReadWrite"
       testttt__c = "NoAccess"
       Salto_is_the_best__c = "NoAccess"
       no_one_can_see_me__c = "NoAccess"
