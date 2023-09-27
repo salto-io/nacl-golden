@@ -1,0 +1,16 @@
+salesforce.CustomApplication standard__LightningInstrumentation {
+  fullName = "standard__LightningInstrumentation"
+  formFactors = [
+    "Large",
+  ]
+  isNavAutoTempTabsDisabled = false
+  isNavPersonalizationDisabled = false
+  isNavTabPersistenceDisabled = false
+  label = "LightningInstrumentation"
+  navType = "Standard"
+  tabs = [
+    "standard-LightningInstrumentation",
+  ]
+  uiType = "Lightning"
+  _alias = "LightningInstrumentation (standard)"
+}

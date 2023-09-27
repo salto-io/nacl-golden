@@ -1,0 +1,17 @@
+salesforce.ApexClass TestFactory {
+  apiVersion = 58
+  status = "Active"
+  fullName = "TestFactory"
+  content = file("salesforce/Records/ApexClass/TestFactory.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.Case
+    },
+    {
+      reference = salesforce.Contact
+    },
+    {
+      reference = salesforce.User
+    },
+  ]
+}

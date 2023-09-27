@@ -1,0 +1,12 @@
+salesforce.ApexClass OrderAppMenu {
+  apiVersion = 58
+  status = "Active"
+  fullName = "OrderAppMenu"
+  content = file("salesforce/Records/ApexClass/OrderAppMenu.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.ApexClass.instance.CollectionUtils
+    },
+  ]
+  _alias = "OrderAppMenu"
+}
