@@ -1,0 +1,79 @@
+salesforce.Layout Bucketed_Picklist_Value__mdt_Bucketed_Picklist_Value_Layout@uuuubsss {
+  layoutSections = [
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = true
+      label = "Information"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Required"
+              field = "MasterLabel"
+            },
+            {
+              behavior = "Required"
+              field = "DeveloperName"
+            },
+            {
+              behavior = "Edit"
+              field = "Picklist_Bucket__c"
+            },
+          ]
+        },
+        {
+          layoutItems = [
+            {
+              behavior = "Edit"
+              field = "IsProtected"
+            },
+            {
+              behavior = "Required"
+              field = "NamespacePrefix"
+            },
+          ]
+        },
+      ]
+      style = "TwoColumnsTopToBottom"
+    },
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = true
+      label = "System Information"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Readonly"
+              field = "CreatedById"
+            },
+          ]
+        },
+        {
+          layoutItems = [
+            {
+              behavior = "Readonly"
+              field = "LastModifiedById"
+            },
+          ]
+        },
+      ]
+      style = "TwoColumnsTopToBottom"
+    },
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = false
+      style = "CustomLinks"
+    },
+  ]
+  showEmailCheckbox = false
+  showHighlightsPanel = false
+  showInteractionLogPanel = false
+  showRunAssignmentRulesCheckbox = false
+  showSubmitAndAttachButton = false
+  fullName = "Bucketed_Picklist_Value__mdt-Bucketed Picklist Value Layout"
+  _alias = "Bucketed_Picklist_Value__mdt-Bucketed Picklist Value Layout"
+}

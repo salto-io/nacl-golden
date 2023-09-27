@@ -1,0 +1,6 @@
+salesforce.Profile MarketingProfile {
+  fullName = "MarketingProfile"
+  custom = false
+  userLicense = "Salesforce"
+  _alias = "MarketingProfile"
+}

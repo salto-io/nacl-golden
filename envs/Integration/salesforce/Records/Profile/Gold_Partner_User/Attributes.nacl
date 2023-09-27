@@ -1,0 +1,6 @@
+salesforce.Profile Gold_Partner_User@s {
+  fullName = "Gold Partner User"
+  custom = false
+  userLicense = "Gold Partner"
+  _alias = "Gold Partner User"
+}
