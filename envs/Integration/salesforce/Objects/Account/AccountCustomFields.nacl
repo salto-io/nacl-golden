@@ -1,0 +1,185 @@
+type salesforce.Account {
+  salesforce.Picklist Active__c {
+    apiName = "Account.Active__c"
+    externalId = false
+    label = "Active"
+    valueSet = [
+      {
+        fullName = "No"
+        default = false
+        label = "No"
+      },
+      {
+        fullName = "Yes"
+        default = false
+        label = "Yes"
+      },
+    ]
+    sorted = false
+    restricted = false
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Picklist CustomerPriority__c {
+    apiName = "Account.CustomerPriority__c"
+    externalId = false
+    label = "Customer Priority"
+    valueSet = [
+      {
+        fullName = "High"
+        default = false
+        label = "High"
+      },
+      {
+        fullName = "Low"
+        default = false
+        label = "Low"
+      },
+      {
+        fullName = "Medium"
+        default = false
+        label = "Medium"
+      },
+    ]
+    sorted = false
+    restricted = false
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Text ExternalSalesforceId__c {
+    apiName = "Account.ExternalSalesforceId__c"
+    externalId = true
+    label = "External Salesforce Id"
+    length = 18
+    unique = false
+    _hidden_value = true
+  }
+  salesforce.Number NumberofLocations__c {
+    apiName = "Account.NumberofLocations__c"
+    externalId = false
+    label = "Number of Locations"
+    precision = 3
+    scale = 0
+    unique = false
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Date SLAExpirationDate__c {
+    apiName = "Account.SLAExpirationDate__c"
+    externalId = false
+    label = "SLA Expiration Date"
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Text SLASerialNumber__c {
+    apiName = "Account.SLASerialNumber__c"
+    externalId = false
+    label = "SLA Serial Number"
+    length = 10
+    unique = false
+    createable = true
+    updateable = true
+    caseSensitive = false
+    queryable = true
+  }
+  salesforce.Picklist SLA__c {
+    apiName = "Account.SLA__c"
+    externalId = false
+    label = "SLA"
+    valueSet = [
+      {
+        fullName = "Gold"
+        default = false
+        label = "Gold"
+      },
+      {
+        fullName = "Silver"
+        default = false
+        label = "Silver"
+      },
+      {
+        fullName = "Platinum"
+        default = false
+        label = "Platinum"
+      },
+      {
+        fullName = "Bronze"
+        default = false
+        label = "Bronze"
+      },
+    ]
+    sorted = false
+    restricted = false
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Picklist UpsellOpportunity__c {
+    apiName = "Account.UpsellOpportunity__c"
+    externalId = false
+    label = "Upsell Opportunity"
+    valueSet = [
+      {
+        fullName = "Maybe"
+        default = false
+        label = "Maybe"
+      },
+      {
+        fullName = "No"
+        default = false
+        label = "No"
+      },
+      {
+        fullName = "Yes"
+        default = false
+        label = "Yes"
+      },
+    ]
+    sorted = false
+    restricted = false
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Checkbox deploy_me__c {
+    apiName = "Account.deploy_me__c"
+    defaultValue = false
+    externalId = false
+    label = "deploy me"
+    _hidden_value = true
+  }
+  salesforce.Checkbox testttt__c {
+    apiName = "Account.testttt__c"
+    defaultValue = false
+    externalId = false
+    label = "testttt"
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Checkbox Salto_is_the_best__c {
+    apiName = "Account.Salto_is_the_best__c"
+    defaultValue = false
+    externalId = false
+    label = "Salto is the best"
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Text no_one_can_see_me__c {
+    apiName = "Account.no_one_can_see_me__c"
+    externalId = false
+    label = "no one can see me"
+    length = 200
+    unique = false
+    
+    createable = true
+    updateable = true
+    caseSensitive = false
+    queryable = true
+  }
+}

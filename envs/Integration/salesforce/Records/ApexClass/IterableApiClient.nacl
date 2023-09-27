@@ -1,0 +1,12 @@
+salesforce.ApexClass IterableApiClient {
+  apiVersion = 58
+  status = "Active"
+  fullName = "IterableApiClient"
+  content = file("salesforce/Records/ApexClass/IterableApiClient.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.ApexClass.instance.RestClient
+    },
+  ]
+  _alias = "IterableApiClient"
+}

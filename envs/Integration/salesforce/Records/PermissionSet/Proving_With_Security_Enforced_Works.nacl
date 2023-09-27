@@ -1,0 +1,17 @@
+salesforce.PermissionSet Proving_With_Security_Enforced_Works {
+  hasActivationRequired = false
+  label = "Proving With Security Enforced works"
+  objectPermissions = {
+    Account = {
+      allowCreate = false
+      allowDelete = false
+      allowEdit = false
+      allowRead = true
+      modifyAllRecords = false
+      object = salesforce.Account
+      viewAllRecords = false
+    }
+  }
+  fullName = "Proving_With_Security_Enforced_Works"
+  _alias = "Proving With Security Enforced works"
+}

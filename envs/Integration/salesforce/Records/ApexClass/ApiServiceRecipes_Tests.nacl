@@ -1,0 +1,21 @@
+salesforce.ApexClass ApiServiceRecipes_Tests {
+  apiVersion = 58
+  status = "Active"
+  fullName = "ApiServiceRecipes_Tests"
+  content = file("salesforce/Records/ApexClass/ApiServiceRecipes_Tests.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.ApexClass.instance.ApiServiceRecipes
+    },
+    {
+      reference = salesforce.ApexClass.instance.ApiServiceRecipesDataModel
+    },
+    {
+      reference = salesforce.ApexClass.instance.ApiServiceRecipesDataModel_Tests
+    },
+    {
+      reference = salesforce.ApexClass.instance.HttpCalloutMockFactory
+    },
+  ]
+  _alias = "ApiServiceRecipes_Tests"
+}

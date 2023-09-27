@@ -1,0 +1,12 @@
+salesforce.ApexClass SortableAccount {
+  apiVersion = 58
+  status = "Active"
+  fullName = "SortableAccount"
+  content = file("salesforce/Records/ApexClass/SortableAccount.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.Account
+    },
+  ]
+  _alias = "SortableAccount"
+}
