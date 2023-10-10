@@ -1,0 +1,27 @@
+salesforce.ApexClass LogMessage {
+  apiVersion = 58
+  status = "Active"
+  fullName = "LogMessage"
+  content = file("salesforce/Records/ApexClass/LogMessage.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.ApexClass.instance.LogSeverity
+    },
+    {
+      reference = salesforce.Log__e
+    },
+    {
+      reference = salesforce.Log__e.field.Log_Message__c
+    },
+    {
+      reference = salesforce.Log__e.field.Quiddity__c
+    },
+    {
+      reference = salesforce.Log__e.field.Request_Id__c
+    },
+    {
+      reference = salesforce.Log__e.field.Severity__c
+    },
+  ]
+  _alias = "LogMessage"
+}

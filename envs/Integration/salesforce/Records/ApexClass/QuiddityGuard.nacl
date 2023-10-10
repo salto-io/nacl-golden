@@ -1,0 +1,7 @@
+salesforce.ApexClass QuiddityGuard {
+  apiVersion = 58
+  status = "Active"
+  fullName = "QuiddityGuard"
+  content = file("salesforce/Records/ApexClass/QuiddityGuard.cls")
+  _alias = "QuiddityGuard"
+}

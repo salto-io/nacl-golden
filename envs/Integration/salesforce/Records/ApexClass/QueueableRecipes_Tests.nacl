@@ -1,0 +1,18 @@
+salesforce.ApexClass QueueableRecipes_Tests {
+  apiVersion = 58
+  status = "Active"
+  fullName = "QueueableRecipes_Tests"
+  content = file("salesforce/Records/ApexClass/QueueableRecipes_Tests.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.Account
+    },
+    {
+      reference = salesforce.ApexClass.instance.QueueableRecipes
+    },
+    {
+      reference = salesforce.ApexClass.instance.TestFactory
+    },
+  ]
+  _alias = "QueueableRecipes_Tests"
+}
