@@ -1,0 +1,6 @@
+salesforce.Profile StandardAul {
+  fullName = "StandardAul"
+  custom = false
+  userLicense = "Salesforce Platform"
+  _alias = "StandardAul"
+}
