@@ -1,0 +1,15 @@
+salesforce.ApexClass AtFutureRecipes_Tests {
+  apiVersion = 58
+  status = "Active"
+  fullName = "AtFutureRecipes_Tests"
+  content = file("salesforce/Records/ApexClass/AtFutureRecipes_Tests.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.ApexClass.instance.AtFutureRecipes
+    },
+    {
+      reference = salesforce.ApexClass.instance.HttpCalloutMockFactory
+    },
+  ]
+  _alias = "AtFutureRecipes_Tests"
+}
