@@ -150,7 +150,8 @@ type salesforce.Account {
     defaultValue = false
     externalId = false
     label = "deploy me"
-    _hidden_value = true
+    
+    updateable = true
   }
   salesforce.Checkbox testttt__c {
     apiName = "Account.testttt__c"
