@@ -1,0 +1,41 @@
+type salesforce.Metadata_Driven_Trigger__mdt {
+  salesforce.Text Class__c {
+    apiName = "Metadata_Driven_Trigger__mdt.Class__c"
+    externalId = false
+    fieldManageability = "SubscriberControlled"
+    label = "Class"
+    length = 255
+    _required = true
+    unique = false
+  }
+  salesforce.Checkbox Enabled__c {
+    apiName = "Metadata_Driven_Trigger__mdt.Enabled__c"
+    defaultValue = true
+    externalId = false
+    fieldManageability = "SubscriberControlled"
+    label = "Enabled"
+  }
+  salesforce.Number Execution_Order__c {
+    apiName = "Metadata_Driven_Trigger__mdt.Execution_Order__c"
+    externalId = false
+    fieldManageability = "SubscriberControlled"
+    label = "Execution Order"
+    precision = 18
+    _required = true
+    scale = 0
+    unique = false
+  }
+  salesforce.MetadataRelationship Object__c {
+    apiName = "Metadata_Driven_Trigger__mdt.Object__c"
+    externalId = false
+    fieldManageability = "SubscriberControlled"
+    label = "Object"
+    referenceTo = [
+      "EntityDefinition",
+    ]
+    relationshipLabel = "Metadata_Driven_Triggerss"
+    relationshipName = "Metadata_Driven_Triggerss"
+    _required = true
+    unique = false
+  }
+}
