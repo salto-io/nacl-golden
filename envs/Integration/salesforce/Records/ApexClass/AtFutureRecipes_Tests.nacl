@@ -1,5 +1,5 @@
 salesforce.ApexClass AtFutureRecipes_Tests {
-  apiVersion = 58
+  apiVersion = 57
   status = "Active"
   fullName = "AtFutureRecipes_Tests"
   content = file("salesforce/Records/ApexClass/AtFutureRecipes_Tests.cls")
