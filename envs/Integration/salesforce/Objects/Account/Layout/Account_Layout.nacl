@@ -45,6 +45,14 @@ salesforce.Layout Account_Account_Layout@bs {
               behavior = "Edit"
               field = salesforce.Account.field.AnnualRevenue
             },
+            {
+              behavior = "Edit"
+              field = salesforce.Account.field.deploy_me__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.Account.field.testttt__c
+            },
           ]
         },
         {
@@ -199,7 +207,7 @@ salesforce.Layout Account_Account_Layout@bs {
       style = "OneColumn"
     },
     {
-      customLabel = false
+      customLabel = true
       detailHeading = false
       editHeading = false
       layoutColumns = [
@@ -216,6 +224,7 @@ salesforce.Layout Account_Account_Layout@bs {
         },
       ]
       style = "CustomLinks"
+      label = "Custom Links"
     },
   ]
   quickActionList = {
@@ -348,7 +357,7 @@ salesforce.Layout Account_Account_Layout@bs {
   showEmailCheckbox = true
   showHighlightsPanel = false
   showInteractionLogPanel = false
-  showRunAssignmentRulesCheckbox = true
+  showRunAssignmentRulesCheckbox = false
   showSubmitAndAttachButton = false
   fullName = "Account-Account Layout"
   _parent = [
