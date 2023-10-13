@@ -1,0 +1,20 @@
+salesforce.CustomApplication Apex_Recipes {
+  fullName = "Apex_Recipes"
+  brand = {
+    headerColor = "#0070D2"
+    shouldOverrideOrgTheme = false
+  }
+  formFactors = [
+    "Large",
+  ]
+  isNavAutoTempTabsDisabled = false
+  isNavPersonalizationDisabled = true
+  isNavTabPersistenceDisabled = false
+  label = "Apex Recipes"
+  navType = "Standard"
+  tabs = [
+    salesforce.CustomTab.instance.Apex_Recipes,
+  ]
+  uiType = "Lightning"
+  _alias = "Apex Recipes"
+}
