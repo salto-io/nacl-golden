@@ -24,12 +24,12 @@ salesforce.EscalationRules Case {
           },
         ]
         escalationAction = {
-          assignedTo = "pgonzaleznetwork@resourceful-narwhal-a6d8er.com"
+          assignedTo = "pgonzaleznetwork@mindful-raccoon-9nfd0m.com"
           assignedToTemplate = salesforce.EmailTemplate.instance.unfiled_public_SupportEscalatedCaseReassignment@zcd
           assignedToType = "User"
           minutesToEscalation = 120
           notifyCaseOwner = false
-          notifyTo = "pgonzaleznetwork@resourceful-narwhal-a6d8er.com"
+          notifyTo = "pgonzaleznetwork@mindful-raccoon-9nfd0m.com"
           notifyToTemplate = "unfiled$public/SupportEscalatedCaseNotification"
           notifyEmail = "pablo.gonzalez@salto.io"
         }
@@ -56,12 +56,12 @@ salesforce.EscalationRules Case {
           },
         ]
         escalationAction = {
-          assignedTo = "pgonzaleznetwork@resourceful-narwhal-a6d8er.com"
+          assignedTo = "pgonzaleznetwork@mindful-raccoon-9nfd0m.com"
           assignedToTemplate = salesforce.EmailTemplate.instance.unfiled_public_SupportEscalatedCaseReassignment@zcd
           assignedToType = "User"
           minutesToEscalation = 360
           notifyCaseOwner = false
-          notifyTo = "pgonzaleznetwork@resourceful-narwhal-a6d8er.com"
+          notifyTo = "pgonzaleznetwork@mindful-raccoon-9nfd0m.com"
           notifyToTemplate = "unfiled$public/SupportEscalatedCaseNotification"
         }
         escalationStartTime = "CaseCreation"
@@ -86,12 +86,12 @@ salesforce.EscalationRules Case {
           },
         ]
         escalationAction = {
-          assignedTo = "pgonzaleznetwork@resourceful-narwhal-a6d8er.com"
+          assignedTo = "pgonzaleznetwork@mindful-raccoon-9nfd0m.com"
           assignedToTemplate = salesforce.EmailTemplate.instance.unfiled_public_SupportEscalatedCaseReassignment@zcd
           assignedToType = "User"
           minutesToEscalation = 240
           notifyCaseOwner = false
-          notifyTo = "pgonzaleznetwork@resourceful-narwhal-a6d8er.com"
+          notifyTo = "pgonzaleznetwork@mindful-raccoon-9nfd0m.com"
           notifyToTemplate = "unfiled$public/SupportEscalatedCaseNotification"
         }
         escalationStartTime = "CaseCreation"
@@ -121,12 +121,12 @@ salesforce.EscalationRules Case {
           },
         ]
         escalationAction = {
-          assignedTo = "pgonzaleznetwork@resourceful-narwhal-a6d8er.com"
+          assignedTo = "pgonzaleznetwork@mindful-raccoon-9nfd0m.com"
           assignedToTemplate = salesforce.EmailTemplate.instance.unfiled_public_SupportEscalatedCaseReassignment@zcd
           assignedToType = "User"
           minutesToEscalation = 480
           notifyCaseOwner = false
-          notifyTo = "pgonzaleznetwork@resourceful-narwhal-a6d8er.com"
+          notifyTo = "pgonzaleznetwork@mindful-raccoon-9nfd0m.com"
           notifyToTemplate = "unfiled$public/SupportEscalatedCaseNotification"
         }
         escalationStartTime = "CaseCreation"
@@ -146,12 +146,12 @@ salesforce.EscalationRules Case {
           },
         ]
         escalationAction = {
-          assignedTo = "pgonzaleznetwork@resourceful-narwhal-a6d8er.com"
+          assignedTo = "pgonzaleznetwork@mindful-raccoon-9nfd0m.com"
           assignedToTemplate = salesforce.EmailTemplate.instance.unfiled_public_SupportEscalatedCaseReassignment@zcd
           assignedToType = "User"
           minutesToEscalation = 720
           notifyCaseOwner = false
-          notifyTo = "pgonzaleznetwork@resourceful-narwhal-a6d8er.com"
+          notifyTo = "pgonzaleznetwork@mindful-raccoon-9nfd0m.com"
           notifyToTemplate = "unfiled$public/SupportEscalatedCaseNotification"
         }
         escalationStartTime = "CaseCreation"
@@ -171,12 +171,12 @@ salesforce.EscalationRules Case {
           },
         ]
         escalationAction = {
-          assignedTo = "pgonzaleznetwork@resourceful-narwhal-a6d8er.com"
+          assignedTo = "pgonzaleznetwork@mindful-raccoon-9nfd0m.com"
           assignedToTemplate = salesforce.EmailTemplate.instance.unfiled_public_SupportEscalatedCaseReassignment@zcd
           assignedToType = "User"
           minutesToEscalation = 1440
           notifyCaseOwner = false
-          notifyTo = "pgonzaleznetwork@resourceful-narwhal-a6d8er.com"
+          notifyTo = "pgonzaleznetwork@mindful-raccoon-9nfd0m.com"
           notifyToTemplate = "unfiled$public/SupportEscalatedCaseNotification"
         }
         escalationStartTime = "CaseCreation"
@@ -196,12 +196,12 @@ salesforce.EscalationRules Case {
           },
         ]
         escalationAction = {
-          assignedTo = "pgonzaleznetwork@resourceful-narwhal-a6d8er.com"
+          assignedTo = "pgonzaleznetwork@mindful-raccoon-9nfd0m.com"
           assignedToTemplate = salesforce.EmailTemplate.instance.unfiled_public_SupportEscalatedCaseReassignment@zcd
           assignedToType = "User"
           minutesToEscalation = 360
           notifyCaseOwner = false
-          notifyTo = "pgonzaleznetwork@resourceful-narwhal-a6d8er.com"
+          notifyTo = "pgonzaleznetwork@mindful-raccoon-9nfd0m.com"
           notifyToTemplate = "unfiled$public/SupportEscalatedCaseNotification"
         }
         escalationStartTime = "CaseCreation"
@@ -221,12 +221,12 @@ salesforce.EscalationRules Case {
           },
         ]
         escalationAction = {
-          assignedTo = "pgonzaleznetwork@resourceful-narwhal-a6d8er.com"
+          assignedTo = "pgonzaleznetwork@mindful-raccoon-9nfd0m.com"
           assignedToTemplate = salesforce.EmailTemplate.instance.unfiled_public_SupportEscalatedCaseReassignment@zcd
           assignedToType = "User"
           minutesToEscalation = 1080
           notifyCaseOwner = false
-          notifyTo = "pgonzaleznetwork@resourceful-narwhal-a6d8er.com"
+          notifyTo = "pgonzaleznetwork@mindful-raccoon-9nfd0m.com"
           notifyToTemplate = "unfiled$public/SupportEscalatedCaseNotification"
         }
         escalationStartTime = "CaseCreation"
