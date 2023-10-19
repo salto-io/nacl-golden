@@ -1,0 +1,22 @@
+salesforce.PermissionSet Provides_Access_to_Actual_Cost_Field_on_Campaign {
+  fieldPermissions = {
+    Campaign = {
+      ActualCost = "ReadOnly"
+    }
+  }
+  hasActivationRequired = false
+  label = "Provides Access to Actual Cost field on Campaigns"
+  objectPermissions = {
+    Campaign = {
+      allowCreate = false
+      allowDelete = false
+      allowEdit = false
+      allowRead = true
+      modifyAllRecords = false
+      object = salesforce.Campaign
+      viewAllRecords = false
+    }
+  }
+  fullName = "Provides_Access_to_Actual_Cost_Field_on_Campaign"
+  _alias = "Provides Access to Actual Cost field on Campaigns"
+}

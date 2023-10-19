@@ -1,0 +1,15 @@
+salesforce.ApexClass PSGAdvancedTestingRecipes {
+  apiVersion = 58
+  status = "Active"
+  fullName = "PSGAdvancedTestingRecipes"
+  content = file("salesforce/Records/ApexClass/PSGAdvancedTestingRecipes.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.ApexClass.instance.TestFactory
+    },
+    {
+      reference = salesforce.User
+    },
+  ]
+  _alias = "PSGAdvancedTestingRecipes"
+}

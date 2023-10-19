@@ -1,0 +1,6 @@
+salesforce.Profile PlatformPortal {
+  fullName = "PlatformPortal"
+  custom = false
+  userLicense = "Authenticated Website"
+  _alias = "PlatformPortal"
+}
