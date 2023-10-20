@@ -1,0 +1,7 @@
+salesforce.ApexClass LDVRecipes {
+  apiVersion = 51
+  status = "Active"
+  fullName = "LDVRecipes"
+  content = file("salesforce/Records/ApexClass/LDVRecipes.cls")
+  _alias = "LDVRecipes"
+}
