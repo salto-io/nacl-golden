@@ -1,11 +1,11 @@
-name: Validate changes on Integration sandbox
+name: CI - Int sandbox
 on:
   pull_request:
     types:
       - opened
 
 jobs:
-  Validate_Integration:
+  deployment_validation:
     runs-on: ubuntu-latest
     steps:    
       - name: Install Salto CLI
@@ -19,7 +19,7 @@ jobs:
         env: 
           SALTO_API_TOKEN: ${{ secrets.SALTO_API_TOKEN }}
 
-  Static_Code_Analysis:
+  static_code_analysis:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -52,7 +52,7 @@ jobs:
           strictly-enforced-rules: '[{ "engine": "pmd", "category": "Performance", "rule": "AvoidDebugStatements" }]'
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-  Provar_Regression_Testing:
+  Provar_regression_testing:
       # The type of runner that the job will run on
       runs-on: ubuntu-latest
       env:
