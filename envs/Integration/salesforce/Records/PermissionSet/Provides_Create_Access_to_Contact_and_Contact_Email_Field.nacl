@@ -1,0 +1,23 @@
+salesforce.PermissionSet Provides_Create_Access_to_Contact_and_Contact_Email_Field {
+  fieldPermissions = {
+    Contact = {
+      AccountId = "ReadWrite"
+      Email = "ReadWrite"
+    }
+  }
+  hasActivationRequired = false
+  label = "Provides create access to Contact and contact email field"
+  objectPermissions = {
+    Contact = {
+      allowCreate = true
+      allowDelete = false
+      allowEdit = false
+      allowRead = true
+      modifyAllRecords = false
+      object = salesforce.Contact
+      viewAllRecords = false
+    }
+  }
+  fullName = "Provides_Create_Access_to_Contact_and_Contact_Email_Field"
+  _alias = "Provides create access to Contact and contact email field"
+}

@@ -1,0 +1,19 @@
+type salesforce.Bucketed_Picklist_Value__mdt {
+  annotations {
+    serviceid apiName {
+    }
+    serviceid metadataType {
+    }
+    string label {
+    }
+    string pluralLabel {
+    }
+    hidden_string keyPrefix {
+    }
+  }
+  apiName = "Bucketed_Picklist_Value__mdt"
+  metadataType = "CustomMetadata"
+  label = "Bucketed Picklist Value"
+  pluralLabel = "Bucketed Picklist Values"
+  _alias = "Bucketed Picklist Value"
+}
