@@ -1,0 +1,10 @@
+salesforce.PermissionSetGroup SalesPersona {
+  fullName = "SalesPersona"
+  hasActivationRequired = false
+  label = "SalesPersona"
+  permissionSets = [
+    salesforce.PermissionSet.instance.ReadAccessToTradeStyle,
+  ]
+  status = "Updated"
+  _alias = "SalesPersona"
+}

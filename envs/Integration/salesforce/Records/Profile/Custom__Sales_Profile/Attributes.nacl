@@ -1,0 +1,6 @@
+salesforce.Profile Custom_3A_Sales_Profile@pss {
+  fullName = "Custom%3A Sales Profile"
+  custom = true
+  userLicense = "Salesforce"
+  _alias = "Custom%3A Sales Profile"
+}
