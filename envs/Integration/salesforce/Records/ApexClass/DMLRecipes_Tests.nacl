@@ -1,0 +1,18 @@
+salesforce.ApexClass DMLRecipes_Tests {
+  apiVersion = 58
+  status = "Active"
+  fullName = "DMLRecipes_Tests"
+  content = file("salesforce/Records/ApexClass/DMLRecipes_Tests.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.Account
+    },
+    {
+      reference = salesforce.ApexClass.instance.DMLRecipes
+    },
+    {
+      reference = salesforce.ApexClass.instance.TestDataHelpers
+    },
+  ]
+  _alias = "DMLRecipes_Tests"
+}

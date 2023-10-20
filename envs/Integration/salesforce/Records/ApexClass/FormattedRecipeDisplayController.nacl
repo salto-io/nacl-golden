@@ -1,0 +1,12 @@
+salesforce.ApexClass FormattedRecipeDisplayController {
+  apiVersion = 58
+  status = "Active"
+  fullName = "FormattedRecipeDisplayController"
+  content = file("salesforce/Records/ApexClass/FormattedRecipeDisplayController.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.ApexClass.instance.ApexClassUtilities
+    },
+  ]
+  _alias = "FormattedRecipeDisplayController"
+}
