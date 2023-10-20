@@ -1,0 +1,22 @@
+salesforce.PermissionSet Read_access_to_Account_Shipping_Address {
+  fieldPermissions = {
+    Account = {
+      ShippingAddress = "ReadOnly"
+    }
+  }
+  hasActivationRequired = false
+  label = "Read access to Account Shipping Address"
+  objectPermissions = {
+    Account = {
+      allowCreate = false
+      allowDelete = false
+      allowEdit = false
+      allowRead = true
+      modifyAllRecords = false
+      object = salesforce.Account
+      viewAllRecords = false
+    }
+  }
+  fullName = "Read_access_to_Account_Shipping_Address"
+  _alias = "Read access to Account Shipping Address"
+}

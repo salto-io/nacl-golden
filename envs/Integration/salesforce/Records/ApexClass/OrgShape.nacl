@@ -1,0 +1,7 @@
+salesforce.ApexClass OrgShape {
+  apiVersion = 58
+  status = "Active"
+  fullName = "OrgShape"
+  content = file("salesforce/Records/ApexClass/OrgShape.cls")
+  _alias = "OrgShape"
+}
