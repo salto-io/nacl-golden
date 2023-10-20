@@ -1,0 +1,6 @@
+salesforce.Profile Chatter_Moderator_User@s {
+  fullName = "Chatter Moderator User"
+  custom = false
+  userLicense = "Chatter Free"
+  _alias = "Chatter Moderator User"
+}

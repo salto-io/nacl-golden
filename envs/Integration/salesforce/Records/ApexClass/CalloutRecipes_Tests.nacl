@@ -1,0 +1,24 @@
+salesforce.ApexClass CalloutRecipes_Tests {
+  apiVersion = 58
+  status = "Active"
+  fullName = "CalloutRecipes_Tests"
+  content = file("salesforce/Records/ApexClass/CalloutRecipes_Tests.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.Account
+    },
+    {
+      reference = salesforce.ApexClass.instance.CalloutRecipes
+    },
+    {
+      reference = salesforce.ApexClass.instance.HttpCalloutMockFactory
+    },
+    {
+      reference = salesforce.ApexClass.instance.TestFactory
+    },
+    {
+      reference = salesforce.Contact
+    },
+  ]
+  _alias = "CalloutRecipes_Tests"
+}
