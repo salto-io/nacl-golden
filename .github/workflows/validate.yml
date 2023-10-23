@@ -45,7 +45,7 @@ jobs:
         run: sfdx plugins:install @salesforce/sfdx-scanner
 
       - name: Run SFDX Scanner - Report findings as comments
-        uses: mitchspano/sfdx-scan-pull-request@v0.1.12
+        uses: mitchspano/sfdx-scan-pull-request@v0.1.15
         with:
           severity-threshold: 4
           report-mode: comments
@@ -165,13 +165,13 @@ jobs:
           # For posting a simple plain text message
           payload: |
             {
-              "text": "Validation deployment finished in INT sandbox: ${{ job.status }}\n${{ github.event.pull_request.html_url || github.event.head_commit.url }}",
+              "text": "Deployment validation completed",
               "blocks": [
                 {
                   "type": "section",
                   "text": {
                     "type": "mrkdwn",
-                    "text": "Validation deployment finished in INT sandbox: ${{ job.status }}\n${{ github.event.pull_request.html_url || github.event.head_commit.url }}"
+                    "text": "*Org:* INT\n*Status:* ${{ job.status }}\n*Pull Request:* ${{ github.event.pull_request.html_url || github.event.head_commit.url }}"
                   }
                 }
               ]
