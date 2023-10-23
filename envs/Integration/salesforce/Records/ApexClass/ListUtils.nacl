@@ -1,0 +1,7 @@
+salesforce.ApexClass ListUtils {
+  apiVersion = 58
+  status = "Active"
+  fullName = "ListUtils"
+  content = file("salesforce/Records/ApexClass/ListUtils.cls")
+  _alias = "ListUtils"
+}

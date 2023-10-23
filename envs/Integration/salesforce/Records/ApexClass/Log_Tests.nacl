@@ -1,0 +1,30 @@
+salesforce.ApexClass Log_Tests {
+  apiVersion = 58
+  status = "Active"
+  fullName = "Log_Tests"
+  content = file("salesforce/Records/ApexClass/Log_Tests.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.ApexClass.instance.Log
+    },
+    {
+      reference = salesforce.ApexClass.instance.LogSeverity
+    },
+    {
+      reference = salesforce.LogEvent__c
+    },
+    {
+      reference = salesforce.LogEvent__c.field.Log_Data__c
+    },
+    {
+      reference = salesforce.LogEvent__c.field.Quiddity__c
+    },
+    {
+      reference = salesforce.LogEvent__c.field.Request_Id__c
+    },
+    {
+      reference = salesforce.LogEvent__c.field.Severity__c
+    },
+  ]
+  _alias = "Log_Tests"
+}
