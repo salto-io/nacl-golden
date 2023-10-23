@@ -1,0 +1,12 @@
+salesforce.ApexClass PlatformCacheBuilderRecipes {
+  apiVersion = 58
+  status = "Active"
+  fullName = "PlatformCacheBuilderRecipes"
+  content = file("salesforce/Records/ApexClass/PlatformCacheBuilderRecipes.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.Account
+    },
+  ]
+  _alias = "PlatformCacheBuilderRecipes"
+}

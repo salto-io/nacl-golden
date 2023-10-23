@@ -1,0 +1,15 @@
+salesforce.ApexClass DataFactoryForPackageInstalls_Tests {
+  apiVersion = 56
+  status = "Active"
+  fullName = "DataFactoryForPackageInstalls_Tests"
+  content = file("salesforce/Records/ApexClass/DataFactoryForPackageInstalls_Tests.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.ApexClass.instance.DataFactoryForPackageInstalls
+    },
+    {
+      reference = salesforce.Junction__c
+    },
+  ]
+  _alias = "DataFactoryForPackageInstalls_Tests"
+}

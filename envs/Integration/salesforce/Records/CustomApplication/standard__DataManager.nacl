@@ -1,0 +1,16 @@
+salesforce.CustomApplication standard__DataManager {
+  fullName = "standard__DataManager"
+  formFactors = [
+    "Large",
+  ]
+  isNavAutoTempTabsDisabled = false
+  isNavPersonalizationDisabled = false
+  isNavTabPersistenceDisabled = false
+  label = "Data Manager"
+  navType = "Standard"
+  tabs = [
+    "standard-AnalyticsDataManager",
+  ]
+  uiType = "Lightning"
+  _alias = "Data Manager (standard)"
+}
