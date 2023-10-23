@@ -1,0 +1,83 @@
+salesforce.Prompt ApexRecipesIntroWalkthrough {
+  fullName = "ApexRecipesIntroWalkthrough"
+  masterLabel = "Apex Recipes Intro Walkthrough"
+  promptVersions = [
+    {
+      body = "These recipes represent a succinct expression of how to solve a given problem, <i>correctly</i>, in Apex. <br/> Using the tree navigation on the left, click the <b>></b> next to <b>Data Recipes</b>, and then click on <b>SOQLRecipes</b>"
+      customApplication = salesforce.CustomApplication.instance.Apex_Recipes
+      delayDays = 1
+      dismissButtonLabel = "Close"
+      displayPosition = "TopCenter"
+      displayType = "FloatingPanel"
+      isPublished = true
+      masterLabel = "Apex Recipes Intro Walkthrough Step 1"
+      publishedDate = "2023-07-04"
+      shouldDisplayActionButton = false
+      shouldIgnoreGlobalDelay = false
+      startDate = "2020-10-07"
+      stepNumber = 1
+      targetPageKey1 = "Apex_Recipes"
+      targetPageType = "standard__navItemPage"
+      timesToDisplay = 1
+      title = "Welcome to Apex Recipes"
+      userAccess = "Everyone"
+      userProfileAccess = "Everyone"
+      versionNumber = 1
+    },
+    {
+      body = "After selecting a recipe you'll see at least three tabs. tabs: <i>a Recipe class, Test Class, and Documentation</i> <br/> Additionally, if there are any related classes, they will show as tabs on the right."
+      customApplication = salesforce.CustomApplication.instance.Apex_Recipes
+      dismissButtonLabel = "Close"
+      displayPosition = "BottomCenter"
+      displayType = "FloatingPanel"
+      isPublished = false
+      masterLabel = "Apex Recipes Intro Walkthrough Step 2"
+      shouldDisplayActionButton = false
+      shouldIgnoreGlobalDelay = false
+      stepNumber = 2
+      targetPageKey1 = "Apex_Recipes"
+      targetPageType = "standard__navItemPage"
+      title = "Recipe View"
+      userAccess = "Everyone"
+      userProfileAccess = "Everyone"
+      versionNumber = 1
+    },
+    {
+      body = "Click on the Documentation Tab. As you read through the documentation, you'll notice <i>example</i> blocks. These are syntax highlighted, and are self-contained execute-anonymous code snippets that exercise the recipe you're viewing."
+      customApplication = salesforce.CustomApplication.instance.Apex_Recipes
+      dismissButtonLabel = "Close"
+      displayPosition = "TopCenter"
+      displayType = "FloatingPanel"
+      isPublished = false
+      masterLabel = "Apex Recipes Intro Walkthrough Step 3"
+      shouldDisplayActionButton = false
+      shouldIgnoreGlobalDelay = false
+      stepNumber = 3
+      targetPageKey1 = "Apex_Recipes"
+      targetPageType = "standard__navItemPage"
+      title = "Executable Examples"
+      userAccess = "Everyone"
+      userProfileAccess = "Everyone"
+      versionNumber = 1
+    },
+    {
+      body = "Above the formatted recipe view is a <i>Make a suggestion on GitHub</i> button. Clicking this will open the current file in edit mode on GitHub. You can make suggested changes, and submit a pull request, all from your browser!"
+      customApplication = salesforce.CustomApplication.instance.Apex_Recipes
+      dismissButtonLabel = "Close"
+      displayPosition = "BottomCenter"
+      displayType = "FloatingPanel"
+      isPublished = false
+      masterLabel = "Apex Recipes Intro Walkthrough Step 4"
+      shouldDisplayActionButton = false
+      shouldIgnoreGlobalDelay = false
+      stepNumber = 4
+      targetPageKey1 = "Apex_Recipes"
+      targetPageType = "standard__navItemPage"
+      title = "Contributing"
+      userAccess = "Everyone"
+      userProfileAccess = "Everyone"
+      versionNumber = 1
+    },
+  ]
+  _alias = "ApexRecipesIntroWalkthrough"
+}
