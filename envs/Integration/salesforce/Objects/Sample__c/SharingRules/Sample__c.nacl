@@ -1,0 +1,7 @@
+salesforce.SharingRules Sample__c {
+  fullName = "Sample__c"
+  _parent = [
+    salesforce.Sample__c,
+  ]
+  _alias = "Sample__c"
+}
