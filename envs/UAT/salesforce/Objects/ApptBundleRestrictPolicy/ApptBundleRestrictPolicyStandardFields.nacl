@@ -1,0 +1,480 @@
+type salesforce.ApptBundleRestrictPolicy {
+  salesforce.MasterDetail BundlePolicyId {
+    apiName = "ApptBundleRestrictPolicy.BundlePolicyId"
+    relationshipName = "BundlePolicy"
+    referenceTo = [
+      salesforce.ApptBundlePolicy,
+    ]
+    _required = true
+    label = "Appointment Bundle Policy ID"
+    createable = true
+    updateable = false
+    queryable = true
+  }
+  salesforce.Checkbox DoesAllowEmpty {
+    apiName = "ApptBundleRestrictPolicy.DoesAllowEmpty"
+    inlineHelpText = "Allow a bundle member service appointment with an empty Restriction Field Name to be bundled."
+    label = "Allow Empty"
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Checkbox DoesRestrictAutomaticMode {
+    apiName = "ApptBundleRestrictPolicy.DoesRestrictAutomaticMode"
+    inlineHelpText = "Apply this restriction with automatic bundling."
+    label = "Restrict in Automatic Mode"
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Checkbox DoesRestrictManualMode {
+    apiName = "ApptBundleRestrictPolicy.DoesRestrictManualMode"
+    inlineHelpText = "Apply this restriction with manual bundling."
+    label = "Restrict in Manual Mode"
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Checkbox IsRestrictByDateOnly {
+    apiName = "ApptBundleRestrictPolicy.IsRestrictByDateOnly"
+    inlineHelpText = "Restriction Field Name must be of type Date/Time. Restrict bundle based on the calendar date only, ignoring the time of day."
+    label = "Restrict by Date Only"
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Text Name {
+    apiName = "ApptBundleRestrictPolicy.Name"
+    inlineHelpText = "Enter a unique name."
+    length = 255
+    _required = true
+    label = "Name"
+    createable = true
+    updateable = true
+    unique = false
+    caseSensitive = false
+    queryable = true
+  }
+  salesforce.Picklist RestrictionFieldName {
+    apiName = "ApptBundleRestrictPolicy.RestrictionFieldName"
+    inlineHelpText = "Select the bundle member service appointment field used to apply the restriction. Only bundle member service appointments with the same value can be bundled together."
+    valueSet = [
+      {
+        fullName = "ServiceAppointment.ActualDuration"
+        isActive = true
+        label = "Actual Duration (Minutes)"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.ActualEndTime"
+        isActive = true
+        label = "Actual End"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.ActualStartTime"
+        isActive = true
+        label = "Actual Start"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.ApptBookingInfoUrl"
+        isActive = true
+        label = "Appointment Booking URL"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.FSL__Appointment_Grade__c"
+        isActive = true
+        label = "Appointment Grade"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.ArrivalWindowEndTime"
+        isActive = true
+        label = "Arrival Window End"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.ArrivalWindowStartTime"
+        isActive = true
+        label = "Arrival Window Start"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.FSL__Auto_Schedule__c"
+        isActive = true
+        label = "Auto Schedule"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.City"
+        isActive = true
+        label = "City"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.ContactId"
+        isActive = true
+        label = "Contact ID"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.Country"
+        isActive = true
+        label = "Country"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.CreatedDate"
+        isActive = true
+        label = "Created Date"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.Description"
+        isActive = true
+        label = "Description"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.DueDate"
+        isActive = true
+        label = "Due Date"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.Duration"
+        isActive = true
+        label = "Duration"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.DurationInMinutes"
+        isActive = true
+        label = "Duration in Minutes"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.DurationType"
+        isActive = true
+        label = "Duration Type"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.EarliestStartTime"
+        isActive = true
+        label = "Earliest Start Permitted"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.FSL__Emergency__c"
+        isActive = true
+        label = "Emergency"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.FSL__GanttColor__c"
+        isActive = true
+        label = "Gantt Color"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.FSL__Gantt_Display_Date__c"
+        isActive = true
+        label = "Gantt Display Date"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.FSL__GanttIcon__c"
+        isActive = true
+        label = "Gantt Icon"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.FSL__GanttLabel__c"
+        isActive = true
+        label = "Gantt Label"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.GeocodeAccuracy"
+        isActive = true
+        label = "Geocode Accuracy"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.FSL__InJeopardy__c"
+        isActive = true
+        label = "In Jeopardy"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.FSL__InJeopardyReason__c"
+        isActive = true
+        label = "In Jeopardy Reason"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.FSL__IsFillInCandidate__c"
+        isActive = true
+        label = "Is Fill In Candidate"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.FSL__IsMultiDay__c"
+        isActive = true
+        label = "Is MultiDay"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.LastModifiedDate"
+        isActive = true
+        label = "Last Modified Date"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.FSL__Last_Updated_Epoch__c"
+        isActive = true
+        label = "Last Updated Epoch"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.Latitude"
+        isActive = true
+        label = "Latitude"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.Longitude"
+        isActive = true
+        label = "Longitude"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.FSL__MDS_Calculated_length__c"
+        isActive = true
+        label = "Multiday Work Calculated length"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.FSL__MDT_Operational_Time__c"
+        isActive = true
+        label = "Multiday Work Operational Time"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.IsOffsiteAppointment"
+        isActive = true
+        label = "Offsite Appointment"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.FSL__Pinned__c"
+        isActive = true
+        label = "Pinned"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.FSL__Prevent_Geocoding_For_Chatter_Actions__c"
+        isActive = true
+        label = "Prevent Geocoding For Chatter Actions"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.FSL__Related_Service__c"
+        isActive = true
+        label = "Related Service"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.FSL__Same_Day__c"
+        isActive = true
+        label = "Same Day"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.FSL__Same_Resource__c"
+        isActive = true
+        label = "Same Resource"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.FSL__Duration_In_Minutes__c"
+        isActive = true
+        label = "Scheduled Duration"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.SchedEndTime"
+        isActive = true
+        label = "Scheduled End"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.SchedStartTime"
+        isActive = true
+        label = "Scheduled Start"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.FSL__Schedule_Mode__c"
+        isActive = true
+        label = "Schedule Mode"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.FSL__Schedule_over_lower_priority_appointment__c"
+        isActive = true
+        label = "Schedule Over Lower Priority Appointment"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.FSL__Scheduling_Policy_Used__c"
+        isActive = true
+        label = "Scheduling Policy Used"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.ServiceNote"
+        isActive = true
+        label = "Service Note"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.State"
+        isActive = true
+        label = "State/Province"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.Status"
+        isActive = true
+        label = "Status"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.StatusCategory"
+        isActive = true
+        label = "Status Category"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.Street"
+        isActive = true
+        label = "Street"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.Subject"
+        isActive = true
+        label = "Subject"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.ServiceTerritoryId"
+        isActive = true
+        label = "Territory ID"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.FSL__Time_Dependency__c"
+        isActive = true
+        label = "Time Dependency"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.FSL__UpdatedByOptimization__c"
+        isActive = true
+        label = "UpdatedByOptimization"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.FSL__Use_Async_Logic__c"
+        isActive = true
+        label = "Use Async Logic"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.FSL__Virtual_Service_For_Chatter_Action__c"
+        isActive = true
+        label = "Virtual Service For Chatter Action (SLR)"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.PostalCode"
+        isActive = true
+        label = "Zip/Postal Code"
+        default = false
+      },
+    ]
+    restricted = true
+    label = "Restriction Field Name"
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  serviceid Id {
+    apiName = "ApptBundleRestrictPolicy.Id"
+    label = "Appointment Bundle Restriction Policy ID"
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Checkbox IsDeleted {
+    apiName = "ApptBundleRestrictPolicy.IsDeleted"
+    defaultValue = false
+    label = "Deleted"
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.DateTime CreatedDate {
+    apiName = "ApptBundleRestrictPolicy.CreatedDate"
+    label = "Created Date"
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Lookup CreatedById {
+    apiName = "ApptBundleRestrictPolicy.CreatedById"
+    relationshipName = "CreatedBy"
+    referenceTo = [
+      salesforce.User,
+    ]
+    label = "Created By ID"
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.DateTime LastModifiedDate {
+    apiName = "ApptBundleRestrictPolicy.LastModifiedDate"
+    label = "Last Modified Date"
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Lookup LastModifiedById {
+    apiName = "ApptBundleRestrictPolicy.LastModifiedById"
+    relationshipName = "LastModifiedBy"
+    referenceTo = [
+      salesforce.User,
+    ]
+    label = "Last Modified By ID"
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.DateTime SystemModstamp {
+    apiName = "ApptBundleRestrictPolicy.SystemModstamp"
+    label = "System Modstamp"
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+  }
+}

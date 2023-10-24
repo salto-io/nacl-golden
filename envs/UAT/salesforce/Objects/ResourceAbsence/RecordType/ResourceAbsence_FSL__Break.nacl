@@ -1,0 +1,79 @@
+salesforce.RecordType ResourceAbsence_FSL__Break {
+  fullName = "ResourceAbsence.FSL__Break"
+  active = true
+  label = "Break"
+  picklistValues = [
+    {
+      picklist = salesforce.ResourceAbsence.field.FSL__Estimated_Travel_Time_From_Source__c
+      values = [
+        {
+          fullName = "Aerial"
+          default = false
+        },
+        {
+          fullName = "None"
+          default = false
+        },
+        {
+          fullName = "Predictive"
+          default = false
+        },
+        {
+          fullName = "SLR"
+          default = false
+        },
+      ]
+    },
+    {
+      picklist = salesforce.ResourceAbsence.field.FSL__Estimated_Travel_Time_To_Source__c
+      values = [
+        {
+          fullName = "Aerial"
+          default = false
+        },
+        {
+          fullName = "None"
+          default = false
+        },
+        {
+          fullName = "Predictive"
+          default = false
+        },
+        {
+          fullName = "SLR"
+          default = false
+        },
+      ]
+    },
+    {
+      picklist = salesforce.ResourceAbsence.field.Type
+      values = [
+        {
+          fullName = "Medical"
+          default = false
+        },
+        {
+          fullName = "Meeting"
+          default = false
+        },
+        {
+          fullName = "Training"
+          default = false
+        },
+        {
+          fullName = "Vacation"
+          default = true
+        },
+      ]
+    },
+  ]
+  _parent = [
+    salesforce.ResourceAbsence,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.FSL
+    },
+  ]
+  _alias = "Break (FSL)"
+}

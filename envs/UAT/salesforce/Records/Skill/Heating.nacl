@@ -1,0 +1,5 @@
+salesforce.Skill Heating {
+  fullName = "Heating"
+  label = "Heating"
+  _alias = "Heating"
+}

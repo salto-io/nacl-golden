@@ -1,0 +1,6 @@
+salesforce.Group FIELD_SERVICE_Default {
+  fullName = "FIELD_SERVICE_Default"
+  doesIncludeBosses = true
+  name = "FIELD_SERVICE_Default"
+  _alias = "FIELD_SERVICE_Default"
+}

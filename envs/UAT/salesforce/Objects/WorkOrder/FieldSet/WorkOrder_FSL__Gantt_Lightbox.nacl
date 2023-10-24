@@ -1,0 +1,268 @@
+salesforce.FieldSet WorkOrder_FSL__Gantt_Lightbox {
+  fullName = "WorkOrder.FSL__Gantt_Lightbox"
+  availableFields = [
+    {
+      field = salesforce.WorkOrder.field.BusinessHoursId
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrder.field.CreatedById
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrder.field.CreatedDate
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrder.field.Discount
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrder.field.Duration
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrder.field.DurationType
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrder.field.EndDate
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrder.field.GrandTotal
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrder.field.Id
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrder.field.IsClosed
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrder.field.FSL__IsFillInCandidate__c
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrder.field.LastModifiedById
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrder.field.LastModifiedDate
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = "Latitude"
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrder.field.LocationId
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = "Longitude"
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrder.field.MaintenancePlanId
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrder.field.MinimumCrewSize
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrder.field.OwnerId
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrder.field.FSL__Prevent_Geocoding_For_Chatter_Actions__c
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrder.field.Pricebook2Id
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrder.field.RecommendedCrewSize
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrder.field.RootWorkOrderId
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrder.field.FSL__Scheduling_Priority__c
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrder.field.ServiceAppointmentCount
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrder.field.ServiceReportTemplateId
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrder.field.StartDate
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrder.field.StatusCategory
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrder.field.Subtotal
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrder.field.SuggestedMaintenanceDate
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrder.field.Tax
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrder.field.TotalPrice
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrder.field.FSL__VisitingHours__c
+      isFieldManaged = false
+      isRequired = false
+    },
+  ]
+  description = "Gantt Lightbox"
+  displayedFields = [
+    {
+      field = salesforce.WorkOrder.field.ServiceTerritoryId
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrder.field.Status
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrder.field.AccountId
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrder.field.WorkTypeId
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrder.field.Subject
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrder.field.ParentWorkOrderId
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrder.field.AssetId
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrder.field.CaseId
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrder.field.ContactId
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrder.field.Priority
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrder.field.Description
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrder.field.LineItemCount
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = "Street"
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = "City"
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = "State"
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = "PostalCode"
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = "Country"
+      isFieldManaged = false
+      isRequired = false
+    },
+  ]
+  label = "Gantt Lightbox"
+  _parent = [
+    salesforce.WorkOrder,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.FSL
+    },
+  ]
+  _alias = "Gantt Lightbox (FSL)"
+}

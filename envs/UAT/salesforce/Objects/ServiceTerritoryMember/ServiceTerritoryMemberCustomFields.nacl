@@ -1,0 +1,19 @@
+type salesforce.ServiceTerritoryMember {
+  salesforce.Geolocation FSL__Internal_SLR_HomeAddress_Geolocation__c {
+    apiName = "ServiceTerritoryMember.FSL__Internal_SLR_HomeAddress_Geolocation__c"
+    deprecated = false
+    displayLocationInDecimal = true
+    externalId = false
+    label = "Internal SLR HomeAddress Geolocation"
+    scale = 6
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+}

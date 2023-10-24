@@ -1,0 +1,64 @@
+type salesforce.Activity {
+  salesforce.FormulaNumber FSL__Count_of_Events__c {
+    apiName = "Activity.FSL__Count_of_Events__c"
+    deprecated = false
+    description = "Count of all events"
+    externalId = false
+    formula = "IF( IsTask,0,1)"
+    formulaTreatBlanksAs = "BlankAsZero"
+    inlineHelpText = "Count of all events"
+    label = "Count of Events"
+    precision = 18
+    scale = 0
+    unique = false
+    _hidden_value = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+  salesforce.FormulaNumber FSL__Count_of_Tasks__c {
+    apiName = "Activity.FSL__Count_of_Tasks__c"
+    deprecated = false
+    externalId = false
+    formula = "IF( IsTask,1,0)"
+    formulaTreatBlanksAs = "BlankAsZero"
+    label = "Count of Tasks"
+    precision = 18
+    scale = 0
+    unique = false
+    _hidden_value = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+  salesforce.Picklist FSL__Event_Type__c {
+    apiName = "Activity.FSL__Event_Type__c"
+    deprecated = false
+    externalId = false
+    label = "Event Type"
+    valueSet = [
+      {
+        fullName = "Service Appointment"
+        default = false
+        label = "Service Appointment"
+      },
+      {
+        fullName = "Resource Absence"
+        default = false
+        label = "Resource Absence"
+      },
+    ]
+    sorted = false
+    restricted = false
+    _hidden_value = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+}

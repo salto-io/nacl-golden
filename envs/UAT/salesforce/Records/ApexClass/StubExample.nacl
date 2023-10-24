@@ -1,0 +1,7 @@
+salesforce.ApexClass StubExample {
+  apiVersion = 58
+  status = "Active"
+  fullName = "StubExample"
+  content = file("salesforce/Records/ApexClass/StubExample.cls")
+  _alias = "StubExample"
+}

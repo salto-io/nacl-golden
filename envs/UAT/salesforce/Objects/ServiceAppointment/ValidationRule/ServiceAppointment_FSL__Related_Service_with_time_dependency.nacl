@@ -1,0 +1,16 @@
+salesforce.ValidationRule ServiceAppointment_FSL__Related_Service_with_time_dependency {
+  fullName = "ServiceAppointment.FSL__Related_Service_with_time_dependency"
+  active = true
+  description = "If related service is not empty then time dependency is not empty"
+  errorConditionFormula = "( !ISBLANK(FSL__Related_Service__c) && ( ISBLANK(TEXT(FSL__Time_Dependency__c)) && !FSL__Same_Day__c && !FSL__Same_Resource__c ) )"
+  errorMessage = "Select a valid dependency type. If the appointments must be assigned to the same resource, the dependency type can’t be Same Start."
+  _parent = [
+    salesforce.ServiceAppointment,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.FSL
+    },
+  ]
+  _alias = "ServiceAppointment.FSL__Related_Service_with_time_dependency"
+}
