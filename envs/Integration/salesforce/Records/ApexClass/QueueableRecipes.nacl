@@ -1,0 +1,12 @@
+salesforce.ApexClass QueueableRecipes {
+  apiVersion = 58
+  status = "Active"
+  fullName = "QueueableRecipes"
+  content = file("salesforce/Records/ApexClass/QueueableRecipes.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.Account
+    },
+  ]
+  _alias = "QueueableRecipes"
+}
