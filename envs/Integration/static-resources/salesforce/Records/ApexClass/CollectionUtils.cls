@@ -60,6 +60,8 @@ public with sharing class CollectionUtils {
      * @example
      * Contact[] contacts = [SELECT AccountId, firstName, lastName FROM Contact LIMIT 50];
      * Map<String, Contact> contactsByAccountId = (Map<String, Contact>) CollectionUtils.StringMapFromCollectionByKey('shippingStreet', contacts);
+     
+     This is a brand new comment
      */
     public static Map<String, SObject> stringMapFromCollectionByKey(
         String key,
