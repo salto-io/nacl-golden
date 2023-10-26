@@ -1,0 +1,24 @@
+salesforce.ApexClass CustomRestEndpointRecipes {
+  apiVersion = 58
+  status = "Active"
+  fullName = "CustomRestEndpointRecipes"
+  content = file("salesforce/Records/ApexClass/CustomRestEndpointRecipes.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.Account
+    },
+    {
+      reference = salesforce.Account.field.ExternalSalesforceId__c
+    },
+    {
+      reference = salesforce.ApexClass.instance.CanTheUser
+    },
+    {
+      reference = salesforce.Contact
+    },
+    {
+      reference = salesforce.Contact.field.ExternalSalesforceId__c
+    },
+  ]
+  _alias = "CustomRestEndpointRecipes"
+}
