@@ -382,7 +382,7 @@ salesforce.Profile Admin {
       UpsellOpportunity__c = "ReadWrite"
       Website = "ReadWrite"
       YearStarted = "ReadOnly"
-      deploy_me__c = "NoAccess"
+      deploy_me__c = "ReadWrite"
       testttt__c = "ReadWrite"
       Salto_is_the_best__c = "ReadWrite"
       no_one_can_see_me__c = "ReadWrite"
