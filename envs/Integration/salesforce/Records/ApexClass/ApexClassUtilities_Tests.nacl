@@ -8,4 +8,5 @@ salesforce.ApexClass ApexClassUtilities_Tests {
       reference = salesforce.ApexClass.instance.ApexClassUtilities
     },
   ]
+  _alias = "ApexClassUtilities_Tests"
 }

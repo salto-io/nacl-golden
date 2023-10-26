@@ -230,4 +230,5 @@ type salesforce.Product2 {
   }
   historyTrackedFields = {
   }
+  _alias = "Product"
 }

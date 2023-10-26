@@ -18,4 +18,5 @@ salesforce.PermissionSet Provides_Edit_Access_to_Accounts_Except_ShippingStreet 
     }
   }
   fullName = "Provides_Edit_Access_to_Accounts_Except_ShippingStreet"
+  _alias = "Provides edit access to Accounts except shippingStreet"
 }

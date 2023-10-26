@@ -44,4 +44,5 @@ salesforce.ApexClass SOQLRecipes_Tests {
       reference = salesforce.User
     },
   ]
+  _alias = "SOQLRecipes_Tests"
 }

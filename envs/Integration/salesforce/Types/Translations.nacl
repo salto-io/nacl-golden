@@ -33,7 +33,7 @@ type salesforce.Translations {
   }
   salesforce.PipelineInspMetricConfigTranslation pipelineInspMetricConfigs {
   }
-  "List<salesforce.PromptTranslation>" prompts {
+  salesforce.PromptTranslation prompts {
   }
   "List<salesforce.GlobalQuickActionTranslation>" quickActions {
   }

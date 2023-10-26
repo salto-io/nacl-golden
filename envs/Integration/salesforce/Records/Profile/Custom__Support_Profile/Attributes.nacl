@@ -2,4 +2,5 @@ salesforce.Profile Custom_3A_Support_Profile@pss {
   fullName = "Custom%3A Support Profile"
   custom = true
   userLicense = "Salesforce"
+  _alias = "Custom%3A Support Profile"
 }

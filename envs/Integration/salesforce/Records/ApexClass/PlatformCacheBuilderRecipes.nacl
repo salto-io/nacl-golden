@@ -8,4 +8,5 @@ salesforce.ApexClass PlatformCacheBuilderRecipes {
       reference = salesforce.Account
     },
   ]
+  _alias = "PlatformCacheBuilderRecipes"
 }

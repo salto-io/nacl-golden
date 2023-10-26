@@ -18,4 +18,5 @@ salesforce.PermissionSet Read_access_to_Account_Shipping_Address {
     }
   }
   fullName = "Read_access_to_Account_Shipping_Address"
+  _alias = "Read access to Account Shipping Address"
 }

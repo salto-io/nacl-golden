@@ -3,4 +3,5 @@ salesforce.Bucketed_Picklist_Value__mdt Bucketed_Picklist_Value_Unexcused_Absenc
   protected = false
   fullName = "Bucketed_Picklist_Value.Unexcused_Absence"
   Picklist_Bucket__c = "Not_Attended"
+  _alias = "Unexcused Absence"
 }

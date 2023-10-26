@@ -2,4 +2,5 @@ salesforce.Profile Analytics_Cloud_Integration_User@s {
   fullName = "Analytics Cloud Integration User"
   custom = false
   userLicense = "Analytics Cloud Integration User"
+  _alias = "Analytics Cloud Integration User"
 }

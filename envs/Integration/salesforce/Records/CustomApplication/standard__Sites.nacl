@@ -11,4 +11,5 @@ salesforce.CustomApplication standard__Sites {
     "standard-Chatter",
     "standard-Sites",
   ]
+  _alias = "standard__Sites"
 }

@@ -75,4 +75,5 @@ salesforce.Layout Bucketed_Picklist_Value__mdt_Bucketed_Picklist_Value_Layout@uu
   showRunAssignmentRulesCheckbox = false
   showSubmitAndAttachButton = false
   fullName = "Bucketed_Picklist_Value__mdt-Bucketed Picklist Value Layout"
+  _alias = "Bucketed_Picklist_Value__mdt-Bucketed Picklist Value Layout"
 }

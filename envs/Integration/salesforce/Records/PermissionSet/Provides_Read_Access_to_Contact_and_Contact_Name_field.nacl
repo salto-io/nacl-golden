@@ -18,4 +18,5 @@ salesforce.PermissionSet Provides_Read_Access_to_Contact_and_Contact_Name_field 
     }
   }
   fullName = "Provides_Read_Access_to_Contact_and_Contact_Name_field"
+  _alias = "Provides Read Access to Contact and Contact Name field"
 }

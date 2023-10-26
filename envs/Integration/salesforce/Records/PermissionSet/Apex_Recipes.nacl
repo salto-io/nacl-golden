@@ -218,4 +218,5 @@ salesforce.PermissionSet Apex_Recipes {
     },
   ]
   fullName = "Apex_Recipes"
+  _alias = "Apex Recipes"
 }

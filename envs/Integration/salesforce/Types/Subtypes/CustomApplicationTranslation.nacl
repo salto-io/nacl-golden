@@ -18,4 +18,6 @@ type salesforce.CustomApplicationTranslation {
   string name {
   }
   metadataType = "CustomApplicationTranslation"
+  string description {
+  }
 }

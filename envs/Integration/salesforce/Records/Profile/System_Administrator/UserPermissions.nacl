@@ -344,10 +344,7 @@ salesforce.Profile Admin {
       enabled = true
       name = "ManageContentTypes"
     }
-    ManageConvMiningReports = {
-      enabled = true
-      name = "ManageConvMiningReports"
-    }
+    
     ManageCustomPermissions = {
       enabled = true
       name = "ManageCustomPermissions"
@@ -735,6 +732,10 @@ salesforce.Profile Admin {
     CanAccessCE = {
       enabled = true
       name = "CanAccessCE"
+    }
+    AllowObjectDetectionTraining = {
+      enabled = true
+      name = "AllowObjectDetectionTraining"
     }
   }
 }

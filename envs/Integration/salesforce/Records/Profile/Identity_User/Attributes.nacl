@@ -2,4 +2,5 @@ salesforce.Profile Identity_User@s {
   fullName = "Identity User"
   custom = false
   userLicense = "Identity"
+  _alias = "Identity User"
 }

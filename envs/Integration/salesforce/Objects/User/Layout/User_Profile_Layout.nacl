@@ -125,4 +125,5 @@ salesforce.Layout UserAlt_User_Profile_Layout@bss {
   _parent = [
     salesforce.User,
   ]
+  _alias = "UserAlt-User Profile Layout"
 }

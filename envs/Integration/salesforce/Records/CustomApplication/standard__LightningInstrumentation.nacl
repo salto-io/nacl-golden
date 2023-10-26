@@ -12,4 +12,5 @@ salesforce.CustomApplication standard__LightningInstrumentation {
     "standard-LightningInstrumentation",
   ]
   uiType = "Lightning"
+  _alias = "LightningInstrumentation (standard)"
 }

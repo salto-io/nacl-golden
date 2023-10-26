@@ -2,4 +2,5 @@ salesforce.Profile Partner_Community_User@s {
   fullName = "Partner Community User"
   custom = false
   userLicense = "Partner Community"
+  _alias = "Partner Community User"
 }

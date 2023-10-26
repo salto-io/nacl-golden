@@ -142,302 +142,27 @@ salesforce.Translations pt_BR {
       fullName = "net_promoter_score"
     },
   ]
-  prompts = [
-    {
-      name = "EnablementSwitchToProgramsEnblAdmin"
-      promptVersions = [
-        {
-          name = "Switch Between Measures and Programs Easily"
-        },
-      ]
-    },
-    {
-      name = "EnablementExploreMeasuresEnblAdmin"
-      promptVersions = [
-        {
-          name = "Explore Measures"
-        },
-      ]
-    },
-    {
-      name = "EnablementExploreProgramsEnblAdmin"
-      promptVersions = [
-        {
-          name = "Explore Programs"
-        },
-      ]
-    },
-    {
-      name = "CDPOnboardingInAppGuidance"
-      promptVersions = [
-        {
-          name = "CDP Onboarding InApp Guidance"
-        },
-      ]
-    },
-    {
-      name = "X2StepWalkthroughonReports"
-      promptVersions = [
-        {
-          name = "2 Step Walkthrough on Reports Step 2"
-          stepNumber = 2
-        },
-        {
-          name = "2 Step Walkthrough on Reports Step 1"
-          stepNumber = 1
-        },
-      ]
-    },
-    {
-      name = "NPSPLicenseDay1"
-      promptVersions = [
-        {
-          name = "NPSP License Day 1"
-        },
-      ]
-    },
-    {
-      name = "NPSPLicenseDay20"
-      promptVersions = [
-        {
-          name = "NPSP License Day 20"
-        },
-      ]
-    },
-    {
-      name = "ApexRecipesIntroWalkthrough"
-      promptVersions = [
-        {
-          name = "Apex Recipes Intro Walkthrough Step 1"
-          stepNumber = 1
-        },
-        {
-          name = "Apex Recipes Intro Walkthrough Step 2"
-          stepNumber = 2
-        },
-        {
-          name = "Apex Recipes Intro Walkthrough Step 3"
-          stepNumber = 3
-        },
-        {
-          name = "Apex Recipes Intro Walkthrough Step 4"
-          stepNumber = 4
-        },
-      ]
-    },
-    {
-      name = "UnifiedAnalyticsHomeDashboardsUser"
-      promptVersions = [
-        {
-          name = "Unified Analytics Home Docked Prompt - Dashboards"
-        },
-      ]
-    },
-    {
-      name = "ServiceIncidentManagementBroadcastUser"
-      promptVersions = [
-        {
-          name = "Incident Management Broadcast"
-        },
-      ]
-    },
-    {
-      name = "IAGFeatureAdoption"
-      promptVersions = [
-        {
-          name = "IAG Feature Adoption Step 2"
-          stepNumber = 2
-        },
-        {
-          name = "IAG Feature Adoption Step 1"
-          stepNumber = 1
-        },
-      ]
-    },
-    {
-      name = "ProfilesPermSets"
-      promptVersions = [
-        {
-          name = "ProfilesPermSets Step 1"
-          stepNumber = 1
-        },
-        {
-          name = "ProfilesPermSets Step 2"
-          stepNumber = 2
-        },
-        {
-          name = "ProfilesPermSets Step 3"
-          stepNumber = 3
-        },
-      ]
-    },
-    {
-      name = "MFAAutoEnableAwarenessforNonCompliantOrgs"
-      promptVersions = [
-        {
-          name = "MFA Auto-Enable Awareness for Non-Compliant Orgs"
-        },
-      ]
-    },
-    {
-      name = "X4StepWalkthroughonContact"
-      promptVersions = [
-        {
-          name = "4 Step Walkthrough on Contact Step 3"
-          stepNumber = 3
-        },
-        {
-          name = "4 Step Walkthrough on Contact Step 4"
-          stepNumber = 4
-        },
-        {
-          name = "4 Step Walkthrough on Contact Step 1"
-          stepNumber = 1
-        },
-        {
-          name = "4 Step Walkthrough on Contact Step 2"
-          stepNumber = 2
-        },
-      ]
-    },
-    {
-      name = "SalesPipelineInspectionWalkthrough"
-      promptVersions = [
-        {
-          name = "Pipeline Inspection: Sell Smarter Step 3"
-          stepNumber = 3
-        },
-        {
-          name = "Pipeline Inspection: Sell Smarter Step 6"
-          stepNumber = 6
-        },
-        {
-          name = "Pipeline Inspection: Sell Smarter Step 1"
-          stepNumber = 1
-        },
-        {
-          name = "Pipeline Inspection: Sell Smarter Step 2"
-          stepNumber = 2
-        },
-        {
-          name = "Pipeline Inspection: Sell Smarter Step 4"
-          stepNumber = 4
-        },
-        {
-          name = "Pipeline Inspection: Sell Smarter Step 5"
-          stepNumber = 5
-        },
-        {
-          name = "Pipeline Inspection: Sell Smarter Step 7"
-          stepNumber = 7
-        },
-      ]
-    },
-    {
-      name = "ManageUsers"
-      promptVersions = [
-        {
-          name = "Manage Users"
-        },
-      ]
-    },
-    {
-      name = "NPSPLicenseDay25"
-      promptVersions = [
-        {
-          name = "NPSP License Day 25"
-        },
-      ]
-    },
-    {
-      name = "APIOnly"
-      promptVersions = [
-        {
-          name = "APIOnly"
-        },
-      ]
-    },
-    {
-      name = "EinsteinPredictionBuilderSetupPagePrompt"
-      promptVersions = [
-        {
-          name = "Einstein Prediction Builder Setup Page Prompt"
-        },
-      ]
-    },
-    {
-      name = "MeetingDigest"
-      promptVersions = [
-        {
-          name = "Meeting Digest"
-        },
-      ]
-    },
-    {
-      name = "EnablementExploreAnalyticsEnblAdmin"
-      promptVersions = [
-        {
-          name = "Explore Analytics"
-        },
-      ]
-    },
-    {
-      name = "EngagementAttributeTips"
-      promptVersions = [
-        {
-          name = "Engagement Attribute Tips"
-        },
-      ]
-    },
-    {
-      name = "MFAAutoEnableAwarenessforCompliantOrgs"
-      promptVersions = [
-        {
-          name = "MFA Auto-Enable Awareness for Compliant Orgs"
-        },
-      ]
-    },
-    {
-      name = "EnableSalesEngagement"
-      promptVersions = [
-        {
-          name = "EnableSalesEngagement"
-        },
-      ]
-    },
-    {
-      name = "LEX_CDN_ADOPTION"
-      promptVersions = [
-        {
-          name = "LEX CDN Adoption"
-        },
-      ]
-    },
-    {
-      name = "SalesCoreQuoteAdminCpq"
-      promptVersions = [
-        {
-          name = "Sales Core Quote Admin to CPQ"
-        },
-      ]
-    },
-    {
-      name = "UnifiedAnalyticsHomeReportsUser"
-      promptVersions = [
-        {
-          name = "Unified Analytics Home Docked Prompt - Reports"
-        },
-      ]
-    },
-    {
-      name = "SalesHVSDialer"
-      promptVersions = [
-        {
-          name = "Sales HVS Dialer"
-        },
-      ]
-    },
-  ]
+  prompts = {
+    name = "ApexRecipesIntroWalkthrough"
+    promptVersions = [
+      {
+        name = "Apex Recipes Intro Walkthrough Step 1"
+        stepNumber = 1
+      },
+      {
+        name = "Apex Recipes Intro Walkthrough Step 2"
+        stepNumber = 2
+      },
+      {
+        name = "Apex Recipes Intro Walkthrough Step 3"
+        stepNumber = 3
+      },
+      {
+        name = "Apex Recipes Intro Walkthrough Step 4"
+        stepNumber = 4
+      },
+    ]
+  }
   quickActions = [
     {
       label = ""
@@ -499,4 +224,5 @@ salesforce.Translations pt_BR {
       },
     ]
   }
+  _alias = "pt_BR"
 }

@@ -30,4 +30,5 @@ type salesforce.DataWeaveResource {
   metadataType = "DataWeaveResource"
   boolean isGlobal {
   }
+  suffix = "dwl"
 }

@@ -1,4 +1,5 @@
 salesforce.InstalledPackage trlhdtips {
   versionNumber = "1.9"
   fullName = "trlhdtips"
+  _alias = "trlhdtips"
 }

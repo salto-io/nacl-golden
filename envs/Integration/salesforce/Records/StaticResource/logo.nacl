@@ -3,4 +3,5 @@ salesforce.StaticResource logo {
   contentType = "image/png"
   fullName = "logo"
   content = file("salesforce/Records/StaticResource/logo.png")
+  _alias = "logo"
 }

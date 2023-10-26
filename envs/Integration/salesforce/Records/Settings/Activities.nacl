@@ -25,4 +25,5 @@ salesforce.ActivitiesSettings {
   showHomePageHoverLinksForEvents = true
   showMyTasksHoverLinks = true
   enableCalendarHomeLWC = false
+  _alias = "Activities"
 }

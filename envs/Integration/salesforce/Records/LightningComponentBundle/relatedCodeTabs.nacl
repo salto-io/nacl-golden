@@ -25,4 +25,5 @@ salesforce.LightningComponentBundle relatedCodeTabs {
       reference = salesforce.LightningComponentBundle.instance.formattedRecipeDisplay
     },
   ]
+  _alias = "relatedCodeTabs"
 }

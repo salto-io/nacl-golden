@@ -20,4 +20,5 @@ salesforce.ApexClass AccountServiceLayer_Tests {
       reference = salesforce.User
     },
   ]
+  _alias = "AccountServiceLayer_Tests"
 }

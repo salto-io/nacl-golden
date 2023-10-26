@@ -60,6 +60,8 @@ type salesforce.FieldRestrictionRule {
         "Lead",
         "LogEvent__c",
         "Opportunity",
+        "ProcessInstanceStep",
+        "ProcessInstanceWorkitem",
         "Sample__c",
         "Task",
         "User",

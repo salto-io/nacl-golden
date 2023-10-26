@@ -11,4 +11,5 @@ salesforce.ApexClass OrgToOrg {
       reference = salesforce.Account.field.deploy_me__c
     },
   ]
+  _alias = "OrgToOrg"
 }

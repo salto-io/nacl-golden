@@ -77,4 +77,5 @@ salesforce.SecuritySettings {
     enableSamlLogin = true
     isLoginWithSalesforceCredentialsDisabled = false
   }
+  _alias = "Security"
 }

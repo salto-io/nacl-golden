@@ -143,4 +143,5 @@ salesforce.Layout WorkStep_Work_Step_Layout@bss {
   _parent = [
     salesforce.WorkStep,
   ]
+  _alias = "WorkStep-Work Step Layout"
 }

@@ -8,4 +8,5 @@ salesforce.ApexClass BatchApexRecipes {
       reference = salesforce.Account
     },
   ]
+  _alias = "BatchApexRecipes"
 }

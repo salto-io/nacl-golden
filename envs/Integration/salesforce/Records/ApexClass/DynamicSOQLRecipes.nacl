@@ -11,4 +11,5 @@ salesforce.ApexClass DynamicSOQLRecipes {
       reference = salesforce.ApexClass.instance.QuiddityGuard
     },
   ]
+  _alias = "DynamicSOQLRecipes"
 }

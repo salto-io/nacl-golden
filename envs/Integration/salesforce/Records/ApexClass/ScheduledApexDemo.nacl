@@ -11,4 +11,5 @@ salesforce.ApexClass ScheduledApexDemo {
       reference = salesforce.Account.field.Salto_is_the_best__c
     },
   ]
+  _alias = "ScheduledApexDemo"
 }

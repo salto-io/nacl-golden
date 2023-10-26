@@ -25,4 +25,5 @@ salesforce.LightningComponentBundle errorPanel {
       reference = salesforce.LightningComponentBundle.instance.ldsUtils
     },
   ]
+  _alias = "errorPanel"
 }

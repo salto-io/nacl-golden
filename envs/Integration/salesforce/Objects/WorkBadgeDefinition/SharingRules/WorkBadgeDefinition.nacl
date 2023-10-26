@@ -3,4 +3,5 @@ salesforce.SharingRules WorkBadgeDefinition {
   _parent = [
     salesforce.WorkBadgeDefinition,
   ]
+  _alias = "WorkBadgeDefinition"
 }

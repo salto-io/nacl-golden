@@ -13,4 +13,5 @@ salesforce.PermissionSet Proving_With_User_Mode_Works {
     }
   }
   fullName = "Proving_With_User_Mode_Works"
+  _alias = "Proving With User Mode works"
 }

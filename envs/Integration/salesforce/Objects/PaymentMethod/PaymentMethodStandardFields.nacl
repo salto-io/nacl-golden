@@ -68,6 +68,12 @@ type salesforce.PaymentMethod {
     apiName = "PaymentMethod.PaymentMethodType"
     valueSet = [
       {
+        fullName = "ACH"
+        isActive = true
+        label = "ACH"
+        default = false
+      },
+      {
         fullName = "AfterpayClearpay"
         isActive = true
         label = "Afterpay / Clearpay"
@@ -80,21 +86,27 @@ type salesforce.PaymentMethod {
         default = false
       },
       {
-        fullName = "Other"
-        isActive = true
-        label = "Other"
-        default = false
-      },
-      {
         fullName = "ApplePay"
         isActive = true
         label = "Apple Pay"
         default = false
       },
       {
+        fullName = "BACS"
+        isActive = true
+        label = "Bacs"
+        default = false
+      },
+      {
         fullName = "BanContact"
         isActive = true
         label = "Bancontact"
+        default = false
+      },
+      {
+        fullName = "BECS"
+        isActive = true
+        label = "Becs"
         default = false
       },
       {
@@ -152,6 +164,12 @@ type salesforce.PaymentMethod {
         default = false
       },
       {
+        fullName = "Other"
+        isActive = true
+        label = "Other"
+        default = false
+      },
+      {
         fullName = "PayPal"
         isActive = true
         label = "Paypal"
@@ -201,7 +219,7 @@ type salesforce.PaymentMethod {
       {
         fullName = "InActive"
         isActive = true
-        label = "InActive"
+        label = "Inactive"
         default = false
       },
       {

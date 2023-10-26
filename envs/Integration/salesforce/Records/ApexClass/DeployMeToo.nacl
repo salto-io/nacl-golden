@@ -11,4 +11,5 @@ salesforce.ApexClass DeployMeToo {
       reference = salesforce.Account.field.deploy_me__c
     },
   ]
+  _alias = "DeployMeToo"
 }

@@ -84,5 +84,33 @@ salesforce.Profile Analytics_Cloud_Integration_User@s {
       enabled = true
       name = "WorkDotComUserPerm"
     }
+    AddDirectMessageMembers = {
+      enabled = true
+      name = "AddDirectMessageMembers"
+    }
+    RemoveDirectMessageMembers = {
+      enabled = true
+      name = "RemoveDirectMessageMembers"
+    }
+    ViewAllProfiles = {
+      enabled = true
+      name = "ViewAllProfiles"
+    }
+    ViewAllUsers = {
+      enabled = true
+      name = "ViewAllUsers"
+    }
+    ViewDeveloperName = {
+      enabled = true
+      name = "ViewDeveloperName"
+    }
+    ViewPublicDashboards = {
+      enabled = true
+      name = "ViewPublicDashboards"
+    }
+    ViewPublicReports = {
+      enabled = true
+      name = "ViewPublicReports"
+    }
   }
 }

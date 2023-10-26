@@ -74,6 +74,20 @@ type salesforce.AssetAction {
       type = "Default"
     },
     {
+      actionName = "Clone"
+      type = "Default"
+    },
+    {
+      actionName = "Clone"
+      formFactor = "Large"
+      type = "Default"
+    },
+    {
+      actionName = "Clone"
+      formFactor = "Small"
+      type = "Default"
+    },
+    {
       actionName = "Delete"
       type = "Default"
     },
@@ -189,4 +203,5 @@ type salesforce.AssetAction {
       "CategoryEnum",
     ]
   }
+  _alias = "Asset Action"
 }

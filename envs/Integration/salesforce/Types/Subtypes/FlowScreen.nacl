@@ -30,9 +30,12 @@ type salesforce.FlowScreen {
       enforce_value = false
       values = [
         "BackgroundStep",
+        "CreatePromptInstructions",
         "FilterCollectionProcessor",
         "InteractiveStep",
         "ManagedContentRoleInteractiveStep",
+        "ManagedContentVariantAutoPublishBackgroundStep",
+        "ManagedContentVariantAutoUnpublishBackgroundStep",
         "ManagedContentVariantSetLockBackgroundStep",
         "ManagedContentVariantSetReadyBackgroundStep",
         "MuleSoftStep",

@@ -37,4 +37,5 @@ salesforce.PermissionSet Provides_Read_Only_Access_to_Account_and_All_Fields {
     }
   }
   fullName = "Provides_Read_Only_Access_to_Account_and_All_Fields"
+  _alias = "Provides Read Only Access to Account and all fields"
 }

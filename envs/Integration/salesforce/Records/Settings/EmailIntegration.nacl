@@ -15,4 +15,5 @@ salesforce.EmailIntegrationSettings {
   enableInboxMobileIntune = "false"
   enableProductivityFeatures = false
   enableSupplementalContactInfoInMobile = false
+  _alias = "EmailIntegration"
 }

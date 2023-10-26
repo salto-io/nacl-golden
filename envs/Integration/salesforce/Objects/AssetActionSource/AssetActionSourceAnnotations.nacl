@@ -74,6 +74,20 @@ type salesforce.AssetActionSource {
       type = "Default"
     },
     {
+      actionName = "Clone"
+      type = "Default"
+    },
+    {
+      actionName = "Clone"
+      formFactor = "Large"
+      type = "Default"
+    },
+    {
+      actionName = "Clone"
+      formFactor = "Small"
+      type = "Default"
+    },
+    {
       actionName = "Delete"
       type = "Default"
     },
@@ -181,4 +195,5 @@ type salesforce.AssetActionSource {
     lookupPhoneDialogsAdditionalFields = "AssetAction"
     searchResultsAdditionalFields = "AssetAction"
   }
+  _alias = "Asset Action Source"
 }

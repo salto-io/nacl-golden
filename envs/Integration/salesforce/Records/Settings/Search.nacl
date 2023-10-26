@@ -469,4 +469,5 @@ salesforce.SearchSettings {
   sidebarLimitToItemsIOwnCheckboxEnabled = true
   singleSearchResultShortcutEnabled = true
   spellCorrectKnowledgeSearchEnabled = false
+  _alias = "Search"
 }

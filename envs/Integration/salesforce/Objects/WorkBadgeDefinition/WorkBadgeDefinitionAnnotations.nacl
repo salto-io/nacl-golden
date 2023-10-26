@@ -225,4 +225,5 @@ type salesforce.WorkBadgeDefinition {
       "CREATEDBY_USER.ALIAS",
     ]
   }
+  _alias = "Badge"
 }

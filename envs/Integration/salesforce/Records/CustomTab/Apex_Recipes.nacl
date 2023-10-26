@@ -9,4 +9,5 @@ salesforce.CustomTab Apex_Recipes {
       reference = salesforce.LightningPage.instance.Apex_Recipes
     },
   ]
+  _alias = "Apex Recipes"
 }

@@ -19,4 +19,5 @@ salesforce.PermissionSet Provides_Create_Access_to_Contact_and_Contact_Email_Fie
     }
   }
   fullName = "Provides_Create_Access_to_Contact_and_Contact_Email_Field"
+  _alias = "Provides create access to Contact and contact email field"
 }

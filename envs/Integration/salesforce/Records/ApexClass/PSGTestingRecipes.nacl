@@ -17,4 +17,5 @@ salesforce.ApexClass PSGTestingRecipes {
       reference = salesforce.User
     },
   ]
+  _alias = "PSGTestingRecipes"
 }

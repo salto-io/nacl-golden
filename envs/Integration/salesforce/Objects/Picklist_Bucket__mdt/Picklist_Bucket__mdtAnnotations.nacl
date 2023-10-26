@@ -15,4 +15,5 @@ type salesforce.Picklist_Bucket__mdt {
   metadataType = "CustomMetadata"
   label = "Picklist Bucket"
   pluralLabel = "Picklist Buckets"
+  _alias = "Picklist Bucket"
 }

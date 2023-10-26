@@ -7,4 +7,5 @@ salesforce.PermissionSet ReadAccessToTradeStyle {
   hasActivationRequired = false
   label = "Read Access to Trade Style"
   fullName = "ReadAccessToTradeStyle"
+  _alias = "Read Access to Trade Style"
 }

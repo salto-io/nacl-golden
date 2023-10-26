@@ -20,4 +20,5 @@ salesforce.ApexClass InvocableMethodRecipes_Tests {
       reference = salesforce.Task
     },
   ]
+  _alias = "InvocableMethodRecipes_Tests"
 }

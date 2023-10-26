@@ -652,5 +652,212 @@ salesforce.Profile Analytics_Cloud_Integration_User@s {
       object = "Sample__c"
       viewAllRecords = true
     }
+    ChangeRequest = {
+      allowCreate = false
+      allowDelete = false
+      allowEdit = false
+      allowRead = true
+      modifyAllRecords = false
+      object = "ChangeRequest"
+      viewAllRecords = true
+    }
+    CommSubscription = {
+      allowCreate = false
+      allowDelete = false
+      allowEdit = false
+      allowRead = true
+      modifyAllRecords = false
+      object = "CommSubscription"
+      viewAllRecords = true
+    }
+    CommSubscriptionChannelType = {
+      allowCreate = false
+      allowDelete = false
+      allowEdit = false
+      allowRead = true
+      modifyAllRecords = false
+      object = "CommSubscriptionChannelType"
+      viewAllRecords = true
+    }
+    CommSubscriptionConsent = {
+      allowCreate = false
+      allowDelete = false
+      allowEdit = false
+      allowRead = true
+      modifyAllRecords = false
+      object = "CommSubscriptionConsent"
+      viewAllRecords = true
+    }
+    CommSubscriptionTiming = {
+      allowCreate = false
+      allowDelete = false
+      allowEdit = false
+      allowRead = true
+      modifyAllRecords = false
+      object = "CommSubscriptionTiming"
+      viewAllRecords = true
+    }
+    ContactRequest = {
+      allowCreate = false
+      allowDelete = false
+      allowEdit = false
+      allowRead = true
+      modifyAllRecords = false
+      object = "ContactRequest"
+      viewAllRecords = true
+    }
+    CreditMemoInvApplication = {
+      allowCreate = false
+      allowDelete = false
+      allowEdit = false
+      allowRead = true
+      modifyAllRecords = false
+      object = "CreditMemoInvApplication"
+      viewAllRecords = true
+    }
+    EngagementChannelType = {
+      allowCreate = false
+      allowDelete = false
+      allowEdit = false
+      allowRead = true
+      modifyAllRecords = false
+      object = "EngagementChannelType"
+      viewAllRecords = true
+    }
+    Image = {
+      allowCreate = false
+      allowDelete = false
+      allowEdit = false
+      allowRead = true
+      modifyAllRecords = false
+      object = "Image"
+      viewAllRecords = true
+    }
+    Incident = {
+      allowCreate = false
+      allowDelete = false
+      allowEdit = false
+      allowRead = true
+      modifyAllRecords = false
+      object = "Incident"
+      viewAllRecords = true
+    }
+    LocationGroup = {
+      allowCreate = false
+      allowDelete = false
+      allowEdit = false
+      allowRead = true
+      modifyAllRecords = false
+      object = "LocationGroup"
+      viewAllRecords = true
+    }
+    LocationGroupAssignment = {
+      allowCreate = false
+      allowDelete = false
+      allowEdit = false
+      allowRead = true
+      modifyAllRecords = false
+      object = "LocationGroupAssignment"
+      viewAllRecords = true
+    }
+    MessagingEndUser = {
+      allowCreate = false
+      allowDelete = false
+      allowEdit = false
+      allowRead = true
+      modifyAllRecords = false
+      object = "MessagingEndUser"
+      viewAllRecords = true
+    }
+    MessagingSession = {
+      allowCreate = false
+      allowDelete = false
+      allowEdit = false
+      allowRead = true
+      modifyAllRecords = false
+      object = "MessagingSession"
+      viewAllRecords = true
+    }
+    PartyConsent = {
+      allowCreate = false
+      allowDelete = false
+      allowEdit = false
+      allowRead = true
+      modifyAllRecords = false
+      object = "PartyConsent"
+      viewAllRecords = true
+    }
+    Problem = {
+      allowCreate = false
+      allowDelete = false
+      allowEdit = false
+      allowRead = true
+      modifyAllRecords = false
+      object = "Problem"
+      viewAllRecords = true
+    }
+    Scorecard = {
+      allowCreate = false
+      allowDelete = false
+      allowEdit = false
+      allowRead = true
+      modifyAllRecords = false
+      object = "Scorecard"
+      viewAllRecords = true
+    }
+    ScorecardAssociation = {
+      allowCreate = false
+      allowDelete = false
+      allowEdit = false
+      allowRead = true
+      modifyAllRecords = false
+      object = "ScorecardAssociation"
+      viewAllRecords = true
+    }
+    ScorecardMetric = {
+      allowCreate = false
+      allowDelete = false
+      allowEdit = false
+      allowRead = true
+      modifyAllRecords = false
+      object = "ScorecardMetric"
+      viewAllRecords = true
+    }
+    UserExternalCredential = {
+      allowCreate = false
+      allowDelete = false
+      allowEdit = false
+      allowRead = true
+      modifyAllRecords = false
+      object = "UserExternalCredential"
+      viewAllRecords = true
+    }
+    WorkPlan = {
+      allowCreate = false
+      allowDelete = false
+      allowEdit = false
+      allowRead = true
+      modifyAllRecords = false
+      object = "WorkPlan"
+      viewAllRecords = true
+    }
+    WorkPlanTemplate = {
+      allowCreate = false
+      allowDelete = false
+      allowEdit = false
+      allowRead = true
+      modifyAllRecords = false
+      object = "WorkPlanTemplate"
+      viewAllRecords = true
+    }
+    WorkStepTemplate = {
+      allowCreate = false
+      allowDelete = false
+      allowEdit = false
+      allowRead = true
+      modifyAllRecords = false
+      object = "WorkStepTemplate"
+      viewAllRecords = true
+    }
   }
 }

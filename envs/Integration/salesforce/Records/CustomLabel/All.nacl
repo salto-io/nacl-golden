@@ -4,4 +4,5 @@ salesforce.CustomLabel Github_username {
   protected = true
   shortDescription = "Github username"
   value = "trailheadapps"
+  _alias = "Github_username"
 }

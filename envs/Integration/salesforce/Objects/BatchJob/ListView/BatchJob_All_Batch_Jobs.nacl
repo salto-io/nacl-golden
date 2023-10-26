@@ -5,4 +5,5 @@ salesforce.ListView BatchJob_All_Batch_Jobs {
   _parent = [
     salesforce.BatchJob,
   ]
+  _alias = "All Batch Jobs"
 }

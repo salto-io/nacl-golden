@@ -3,4 +3,5 @@ salesforce.ApexClass MetadataTriggerService {
   status = "Active"
   fullName = "MetadataTriggerService"
   content = file("salesforce/Records/ApexClass/MetadataTriggerService.cls")
+  _alias = "MetadataTriggerService"
 }

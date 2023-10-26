@@ -151,4 +151,14 @@ type salesforce.EventRelayConfig {
   metadataType = "EventRelayConfig"
   string label {
   }
+  string usageType {
+    _restriction = {
+      enforce_value = false
+      values = [
+        "AMAZON_EVENTBRIDGE",
+        "INTERNAL_MANAGED_SUBSCRIPTIONS",
+        "INTERNAL_REPLICATION",
+      ]
+    }
+  }
 }

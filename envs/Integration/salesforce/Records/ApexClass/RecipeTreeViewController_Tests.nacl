@@ -8,4 +8,5 @@ salesforce.ApexClass RecipeTreeViewController_Tests {
       reference = salesforce.ApexClass.instance.RecipeTreeViewController
     },
   ]
+  _alias = "RecipeTreeViewController_Tests"
 }

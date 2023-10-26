@@ -8,4 +8,5 @@ salesforce.NamedCredential MockBin {
   principalType = "Anonymous"
   protocol = "NoAuthentication"
   calloutStatus = "Enabled"
+  _alias = "MockBin"
 }

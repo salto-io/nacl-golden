@@ -3,4 +3,5 @@ salesforce.ApexClass LDVRecipes {
   status = "Active"
   fullName = "LDVRecipes"
   content = file("salesforce/Records/ApexClass/LDVRecipes.cls")
+  _alias = "LDVRecipes"
 }

@@ -37,6 +37,7 @@ type salesforce.ExternalServiceRegistration {
         "Custom",
         "MuleSoft",
         "SchemaInferred",
+        "Standard",
       ]
     }
   }

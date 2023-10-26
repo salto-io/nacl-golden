@@ -8,4 +8,5 @@ salesforce.ApexClass ApiServiceRecipesDataModel_Tests {
       reference = salesforce.ApexClass.instance.ApiServiceRecipesDataModel
     },
   ]
+  _alias = "ApiServiceRecipesDataModel_Tests"
 }

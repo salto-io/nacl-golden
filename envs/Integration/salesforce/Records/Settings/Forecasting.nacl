@@ -255,6 +255,14 @@ salesforce.ForecastingSettings {
           field = "Opportunity.TrackingNumber__c"
           label = "Tracking Number"
         },
+        {
+          field = "OPPORTUNITY.LAST_STAGE_CHANGE"
+          label = "Last Stage Change Date"
+        },
+        {
+          field = "OPPORTUNITY.PUSH_COUNT"
+          label = "Push Count"
+        },
       ]
       opportunityListFieldsSelectedSettings = {
         field = [
@@ -296,6 +304,8 @@ salesforce.ForecastingSettings {
           "Opportunity.MainCompetitors__c",
           "Opportunity.OrderNumber__c",
           "Opportunity.TrackingNumber__c",
+          "OPPORTUNITY.LAST_STAGE_CHANGE",
+          "OPPORTUNITY.PUSH_COUNT",
         ]
       }
     },
@@ -457,6 +467,14 @@ salesforce.ForecastingSettings {
           field = "Opportunity.TrackingNumber__c"
           label = "Tracking Number"
         },
+        {
+          field = "OPPORTUNITY.LAST_STAGE_CHANGE"
+          label = "Last Stage Change Date"
+        },
+        {
+          field = "OPPORTUNITY.PUSH_COUNT"
+          label = "Push Count"
+        },
       ]
       opportunityListFieldsSelectedSettings = {
         field = [
@@ -498,6 +516,8 @@ salesforce.ForecastingSettings {
           "Opportunity.MainCompetitors__c",
           "Opportunity.OrderNumber__c",
           "Opportunity.TrackingNumber__c",
+          "OPPORTUNITY.LAST_STAGE_CHANGE",
+          "OPPORTUNITY.PUSH_COUNT",
         ]
       }
     },
@@ -663,6 +683,14 @@ salesforce.ForecastingSettings {
           field = "Opportunity.TrackingNumber__c"
           label = "Tracking Number"
         },
+        {
+          field = "OPPORTUNITY.LAST_STAGE_CHANGE"
+          label = "Last Stage Change Date"
+        },
+        {
+          field = "OPPORTUNITY.PUSH_COUNT"
+          label = "Push Count"
+        },
       ]
       opportunityListFieldsSelectedSettings = {
         field = [
@@ -705,6 +733,8 @@ salesforce.ForecastingSettings {
           "Opportunity.MainCompetitors__c",
           "Opportunity.OrderNumber__c",
           "Opportunity.TrackingNumber__c",
+          "OPPORTUNITY.LAST_STAGE_CHANGE",
+          "OPPORTUNITY.PUSH_COUNT",
         ]
       }
     },
@@ -866,6 +896,14 @@ salesforce.ForecastingSettings {
           field = "Opportunity.TrackingNumber__c"
           label = "Tracking Number"
         },
+        {
+          field = "OPPORTUNITY.LAST_STAGE_CHANGE"
+          label = "Last Stage Change Date"
+        },
+        {
+          field = "OPPORTUNITY.PUSH_COUNT"
+          label = "Push Count"
+        },
       ]
       opportunityListFieldsSelectedSettings = {
         field = [
@@ -907,6 +945,8 @@ salesforce.ForecastingSettings {
           "Opportunity.MainCompetitors__c",
           "Opportunity.OrderNumber__c",
           "Opportunity.TrackingNumber__c",
+          "OPPORTUNITY.LAST_STAGE_CHANGE",
+          "OPPORTUNITY.PUSH_COUNT",
         ]
       }
     },
@@ -1072,6 +1112,14 @@ salesforce.ForecastingSettings {
           field = "Opportunity.TrackingNumber__c"
           label = "Tracking Number"
         },
+        {
+          field = "OPPORTUNITY.LAST_STAGE_CHANGE"
+          label = "Last Stage Change Date"
+        },
+        {
+          field = "OPPORTUNITY.PUSH_COUNT"
+          label = "Push Count"
+        },
       ]
       opportunityListFieldsSelectedSettings = {
         field = [
@@ -1114,6 +1162,8 @@ salesforce.ForecastingSettings {
           "Opportunity.MainCompetitors__c",
           "Opportunity.OrderNumber__c",
           "Opportunity.TrackingNumber__c",
+          "OPPORTUNITY.LAST_STAGE_CHANGE",
+          "OPPORTUNITY.PUSH_COUNT",
         ]
       }
     },
@@ -1275,6 +1325,14 @@ salesforce.ForecastingSettings {
           field = "Opportunity.TrackingNumber__c"
           label = "Tracking Number"
         },
+        {
+          field = "OPPORTUNITY.LAST_STAGE_CHANGE"
+          label = "Last Stage Change Date"
+        },
+        {
+          field = "OPPORTUNITY.PUSH_COUNT"
+          label = "Push Count"
+        },
       ]
       opportunityListFieldsSelectedSettings = {
         field = [
@@ -1316,6 +1374,8 @@ salesforce.ForecastingSettings {
           "Opportunity.MainCompetitors__c",
           "Opportunity.OrderNumber__c",
           "Opportunity.TrackingNumber__c",
+          "OPPORTUNITY.LAST_STAGE_CHANGE",
+          "OPPORTUNITY.PUSH_COUNT",
         ]
       }
     },
@@ -1481,6 +1541,14 @@ salesforce.ForecastingSettings {
           field = "Opportunity.TrackingNumber__c"
           label = "Tracking Number"
         },
+        {
+          field = "OPPORTUNITY.LAST_STAGE_CHANGE"
+          label = "Last Stage Change Date"
+        },
+        {
+          field = "OPPORTUNITY.PUSH_COUNT"
+          label = "Push Count"
+        },
       ]
       opportunityListFieldsSelectedSettings = {
         field = [
@@ -1523,6 +1591,8 @@ salesforce.ForecastingSettings {
           "Opportunity.MainCompetitors__c",
           "Opportunity.OrderNumber__c",
           "Opportunity.TrackingNumber__c",
+          "OPPORTUNITY.LAST_STAGE_CHANGE",
+          "OPPORTUNITY.PUSH_COUNT",
         ]
       }
     },
@@ -1684,6 +1754,14 @@ salesforce.ForecastingSettings {
           field = "Opportunity.TrackingNumber__c"
           label = "Tracking Number"
         },
+        {
+          field = "OPPORTUNITY.LAST_STAGE_CHANGE"
+          label = "Last Stage Change Date"
+        },
+        {
+          field = "OPPORTUNITY.PUSH_COUNT"
+          label = "Push Count"
+        },
       ]
       opportunityListFieldsSelectedSettings = {
         field = [
@@ -1725,6 +1803,8 @@ salesforce.ForecastingSettings {
           "Opportunity.MainCompetitors__c",
           "Opportunity.OrderNumber__c",
           "Opportunity.TrackingNumber__c",
+          "OPPORTUNITY.LAST_STAGE_CHANGE",
+          "OPPORTUNITY.PUSH_COUNT",
         ]
       }
     },
@@ -1890,6 +1970,14 @@ salesforce.ForecastingSettings {
           field = "Opportunity.TrackingNumber__c"
           label = "Tracking Number"
         },
+        {
+          field = "OPPORTUNITY.LAST_STAGE_CHANGE"
+          label = "Last Stage Change Date"
+        },
+        {
+          field = "OPPORTUNITY.PUSH_COUNT"
+          label = "Push Count"
+        },
       ]
       opportunityListFieldsSelectedSettings = {
         field = [
@@ -1932,6 +2020,8 @@ salesforce.ForecastingSettings {
           "Opportunity.MainCompetitors__c",
           "Opportunity.OrderNumber__c",
           "Opportunity.TrackingNumber__c",
+          "OPPORTUNITY.LAST_STAGE_CHANGE",
+          "OPPORTUNITY.PUSH_COUNT",
         ]
       }
     },
@@ -2093,6 +2183,14 @@ salesforce.ForecastingSettings {
           field = "Opportunity.TrackingNumber__c"
           label = "Tracking Number"
         },
+        {
+          field = "OPPORTUNITY.LAST_STAGE_CHANGE"
+          label = "Last Stage Change Date"
+        },
+        {
+          field = "OPPORTUNITY.PUSH_COUNT"
+          label = "Push Count"
+        },
       ]
       opportunityListFieldsSelectedSettings = {
         field = [
@@ -2134,6 +2232,8 @@ salesforce.ForecastingSettings {
           "Opportunity.MainCompetitors__c",
           "Opportunity.OrderNumber__c",
           "Opportunity.TrackingNumber__c",
+          "OPPORTUNITY.LAST_STAGE_CHANGE",
+          "OPPORTUNITY.PUSH_COUNT",
         ]
       }
     },
@@ -2299,6 +2399,14 @@ salesforce.ForecastingSettings {
           field = "Opportunity.TrackingNumber__c"
           label = "Tracking Number"
         },
+        {
+          field = "OPPORTUNITY.LAST_STAGE_CHANGE"
+          label = "Last Stage Change Date"
+        },
+        {
+          field = "OPPORTUNITY.PUSH_COUNT"
+          label = "Push Count"
+        },
       ]
       opportunityListFieldsSelectedSettings = {
         field = [
@@ -2341,6 +2449,8 @@ salesforce.ForecastingSettings {
           "Opportunity.MainCompetitors__c",
           "Opportunity.OrderNumber__c",
           "Opportunity.TrackingNumber__c",
+          "OPPORTUNITY.LAST_STAGE_CHANGE",
+          "OPPORTUNITY.PUSH_COUNT",
         ]
       }
     },
@@ -2502,6 +2612,14 @@ salesforce.ForecastingSettings {
           field = "Opportunity.TrackingNumber__c"
           label = "Tracking Number"
         },
+        {
+          field = "OPPORTUNITY.LAST_STAGE_CHANGE"
+          label = "Last Stage Change Date"
+        },
+        {
+          field = "OPPORTUNITY.PUSH_COUNT"
+          label = "Push Count"
+        },
       ]
       opportunityListFieldsSelectedSettings = {
         field = [
@@ -2543,6 +2661,8 @@ salesforce.ForecastingSettings {
           "Opportunity.MainCompetitors__c",
           "Opportunity.OrderNumber__c",
           "Opportunity.TrackingNumber__c",
+          "OPPORTUNITY.LAST_STAGE_CHANGE",
+          "OPPORTUNITY.PUSH_COUNT",
         ]
       }
     },
@@ -2559,4 +2679,5 @@ salesforce.ForecastingSettings {
   globalQuotasSettings = {
     showQuotas = false
   }
+  _alias = "Forecasting"
 }
