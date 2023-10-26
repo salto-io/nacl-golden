@@ -1,0 +1,7 @@
+salesforce.ApexClass EncryptionRecipes {
+  apiVersion = 58
+  status = "Active"
+  fullName = "EncryptionRecipes"
+  content = file("salesforce/Records/ApexClass/EncryptionRecipes.cls")
+  _alias = "EncryptionRecipes"
+}
