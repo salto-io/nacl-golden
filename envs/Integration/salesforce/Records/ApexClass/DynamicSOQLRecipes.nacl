@@ -1,0 +1,15 @@
+salesforce.ApexClass DynamicSOQLRecipes {
+  apiVersion = 58
+  status = "Active"
+  fullName = "DynamicSOQLRecipes"
+  content = file("salesforce/Records/ApexClass/DynamicSOQLRecipes.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.Account
+    },
+    {
+      reference = salesforce.ApexClass.instance.QuiddityGuard
+    },
+  ]
+  _alias = "DynamicSOQLRecipes"
+}

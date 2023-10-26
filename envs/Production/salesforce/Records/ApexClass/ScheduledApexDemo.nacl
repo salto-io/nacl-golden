@@ -1,0 +1,6 @@
+salesforce.ApexClass ScheduledApexDemo {
+  apiVersion = 58
+  status = "Active"
+  fullName = "ScheduledApexDemo"
+  content = file("salesforce/Records/ApexClass/ScheduledApexDemo.cls")
+}

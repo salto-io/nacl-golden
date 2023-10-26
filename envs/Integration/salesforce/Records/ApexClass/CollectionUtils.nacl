@@ -1,0 +1,7 @@
+salesforce.ApexClass CollectionUtils {
+  apiVersion = 58
+  status = "Active"
+  fullName = "CollectionUtils"
+  content = file("salesforce/Records/ApexClass/CollectionUtils.cls")
+  _alias = "CollectionUtils"
+}

@@ -1,0 +1,15 @@
+salesforce.ApexClass SOSLRecipes {
+  apiVersion = 58
+  status = "Active"
+  fullName = "SOSLRecipes"
+  content = file("salesforce/Records/ApexClass/SOSLRecipes.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.Account
+    },
+    {
+      reference = salesforce.Contact
+    },
+  ]
+  _alias = "SOSLRecipes"
+}
