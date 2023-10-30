@@ -1,0 +1,18 @@
+salesforce.ApexClass StripInaccessibleRecipes {
+  apiVersion = 58
+  status = "Active"
+  fullName = "StripInaccessibleRecipes"
+  content = file("salesforce/Records/ApexClass/StripInaccessibleRecipes.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.Account
+    },
+    {
+      reference = salesforce.Campaign
+    },
+    {
+      reference = salesforce.Contact
+    },
+  ]
+  _alias = "StripInaccessibleRecipes"
+}

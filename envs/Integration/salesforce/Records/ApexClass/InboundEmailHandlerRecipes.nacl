@@ -1,0 +1,21 @@
+salesforce.ApexClass InboundEmailHandlerRecipes {
+  apiVersion = 58
+  status = "Active"
+  fullName = "InboundEmailHandlerRecipes"
+  content = file("salesforce/Records/ApexClass/InboundEmailHandlerRecipes.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.ApexClass.instance.FilesRecipes
+    },
+    {
+      reference = salesforce.ApexClass.instance.Safely
+    },
+    {
+      reference = salesforce.Contact
+    },
+    {
+      reference = salesforce.EmailMessage
+    },
+  ]
+  _alias = "InboundEmailHandlerRecipes"
+}
