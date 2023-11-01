@@ -346,4 +346,13 @@ salesforce.Layout Account_Account_Layout@bs {
     salesforce.Account,
   ]
   _alias = "Account-Account Layout"
+  relatedContent = {
+    relatedContentItems = [
+      {
+        layoutItem = {
+          component = "runtime_sales_social:socialPanel"
+        }
+      },
+    ]
+  }
 }
