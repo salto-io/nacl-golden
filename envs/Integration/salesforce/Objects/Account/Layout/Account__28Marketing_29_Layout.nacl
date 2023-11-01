@@ -346,4 +346,13 @@ salesforce.Layout Account_Account__28Marketing_29_Layout@bspps {
     salesforce.Account,
   ]
   _alias = "Account-Account %28Marketing%29 Layout"
+  relatedContent = {
+    relatedContentItems = [
+      {
+        layoutItem = {
+          component = "runtime_sales_social:socialPanel"
+        }
+      },
+    ]
+  }
 }
