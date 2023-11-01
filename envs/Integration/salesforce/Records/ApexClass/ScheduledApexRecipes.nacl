@@ -1,0 +1,12 @@
+salesforce.ApexClass ScheduledApexRecipes {
+  apiVersion = 58
+  status = "Active"
+  fullName = "ScheduledApexRecipes"
+  content = file("salesforce/Records/ApexClass/ScheduledApexRecipes.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.ApexClass.instance.ScheduledApexDemo
+    },
+  ]
+  _alias = "ScheduledApexRecipes"
+}

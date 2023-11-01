@@ -1,0 +1,12 @@
+salesforce.ApexClass RecipeTreeViewController_Tests {
+  apiVersion = 58
+  status = "Active"
+  fullName = "RecipeTreeViewController_Tests"
+  content = file("salesforce/Records/ApexClass/RecipeTreeViewController_Tests.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.ApexClass.instance.RecipeTreeViewController
+    },
+  ]
+  _alias = "RecipeTreeViewController_Tests"
+}

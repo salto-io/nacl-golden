@@ -1,0 +1,6 @@
+salesforce.Profile Admin {
+  fullName = "Admin"
+  custom = false
+  userLicense = "Salesforce"
+  _alias = "Admin"
+}
