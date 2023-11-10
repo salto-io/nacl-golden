@@ -179,9 +179,10 @@ type salesforce.Account {
     label = "no one can see me"
     length = 200
     unique = false
-    createable = true
-    updateable = true
-    caseSensitive = false
-    queryable = true
+    
+    
+    
+    
+    _hidden_value = true
   }
 }
