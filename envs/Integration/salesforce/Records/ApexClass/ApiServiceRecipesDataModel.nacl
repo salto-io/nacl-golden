@@ -1,0 +1,7 @@
+salesforce.ApexClass ApiServiceRecipesDataModel {
+  apiVersion = 58
+  status = "Active"
+  fullName = "ApiServiceRecipesDataModel"
+  content = file("salesforce/Records/ApexClass/ApiServiceRecipesDataModel.cls")
+  _alias = "ApiServiceRecipesDataModel"
+}
