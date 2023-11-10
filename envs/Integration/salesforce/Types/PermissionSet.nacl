@@ -60,4 +60,6 @@ type salesforce.PermissionSet {
   suffix = "permissionset"
   dirName = "permissionsets"
   metadataType = "PermissionSet"
+  salesforce.PermissionSetExternalCredentialPrincipalAccess externalCredentialPrincipalAccesses {
+  }
 }

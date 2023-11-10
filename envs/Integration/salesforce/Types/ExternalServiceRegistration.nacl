@@ -80,4 +80,6 @@ type salesforce.ExternalServiceRegistration {
   suffix = "externalServiceRegistration"
   dirName = "externalServiceRegistrations"
   metadataType = "ExternalServiceRegistration"
+  string serviceDescriptor {
+  }
 }

@@ -1085,4 +1085,10 @@ type salesforce.FlowStageStep {
   string stepSubtype {
   }
   metadataType = "FlowStageStep"
+  string exitConditionLogic {
+  }
+  salesforce.FlowCondition exitConditions {
+  }
+  boolean runAsUser {
+  }
 }

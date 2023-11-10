@@ -97,4 +97,17 @@ type salesforce.FlowStart {
     }
   }
   metadataType = "FlowStart"
+  string entryType {
+    _restriction = {
+      enforce_value = false
+      values = [
+        "AfterCompletion",
+        "Always",
+      ]
+    }
+  }
+  string form {
+  }
+  string landingPage {
+  }
 }

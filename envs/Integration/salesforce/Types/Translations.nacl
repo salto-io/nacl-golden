@@ -48,4 +48,8 @@ type salesforce.Translations {
   suffix = "translation"
   dirName = "translations"
   metadataType = "Translations"
+  salesforce.BotBlockTranslation botBlocks {
+  }
+  salesforce.BotTemplateTranslation botTemplates {
+  }
 }

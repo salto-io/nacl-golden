@@ -19,4 +19,7 @@ salesforce.MyDomainSettings {
   useStabilizedSandboxMyDomainHostnames = true
   enableEdgeDuringRollout = "true"
   _alias = "MyDomain"
+  doesWarnOnForceComRedirect = "false"
+  doesWarnOnRedirect = "false"
+  instancedUrlRedirectHandling = "NoRedirect"
 }

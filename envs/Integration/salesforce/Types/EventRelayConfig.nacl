@@ -104,6 +104,8 @@ type salesforce.EventRelayConfig {
         "ProblemChangeEvent",
         "ProblemIncidentChangeEvent",
         "ProblemRelatedItemChangeEvent",
+        "ProcessInstanceChangeEvent",
+        "ProcessInstanceStepChangeEvent",
         "Product2ChangeEvent",
         "QuickTextChangeEvent",
         "RecommendationChangeEvent",

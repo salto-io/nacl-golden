@@ -142,6 +142,14 @@ type salesforce.IncidentRelatedItem {
   }
   salesforce.Lookup Product2Id {
     apiName = "IncidentRelatedItem.Product2Id"
-    _hidden_value = true
+    
+    relationshipName = "Product2"
+    referenceTo = [
+      salesforce.Product2,
+    ]
+    label = "Product ID"
+    createable = true
+    updateable = false
+    queryable = true
   }
 }

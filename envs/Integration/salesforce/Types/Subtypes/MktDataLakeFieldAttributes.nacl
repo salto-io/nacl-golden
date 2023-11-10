@@ -22,6 +22,7 @@ type salesforce.MktDataLakeFieldAttributes {
         "ADG",
         "Activation_Audience",
         "Bridge",
+        "Calculated_Insight",
         "Curated",
         "Custom",
         "Derived",

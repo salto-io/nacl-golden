@@ -20,6 +20,7 @@ type salesforce.MktDataModelAttributes {
         "ADG",
         "Activation_Audience",
         "Bridge",
+        "Calculated_Insight",
         "Curated",
         "Custom",
         "Derived",
@@ -51,4 +52,8 @@ type salesforce.MktDataModelAttributes {
   string referenceEntitySubjectArea {
   }
   metadataType = "MktDataModelAttributes"
+  string dataSpaceName {
+  }
+  string dataSpacePrefix {
+  }
 }

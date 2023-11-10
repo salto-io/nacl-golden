@@ -54,7 +54,7 @@ type salesforce.EmbeddedServiceFlow {
       ]
     }
     foreignKeyDomain = [
-      "FlowDefinition",
+      salesforce.FlowDefinition,
     ]
   }
   string flowType {

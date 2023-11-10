@@ -26,4 +26,6 @@ type salesforce.FlowTranslation {
   "List<salesforce.FlowTextTemplateTranslation>" textTemplates {
   }
   metadataType = "FlowTranslation"
+  salesforce.FlowCustomErrorMessageTranslation customErrorMessages {
+  }
 }

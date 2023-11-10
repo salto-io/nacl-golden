@@ -218,6 +218,12 @@ type salesforce.AlternativePaymentMethod {
         default = false
       },
       {
+        fullName = "SepaDebit"
+        isActive = true
+        label = "SEPA Debit"
+        default = false
+      },
+      {
         fullName = "DinersClub"
         isActive = true
         label = "Diners Club"
@@ -281,12 +287,6 @@ type salesforce.AlternativePaymentMethod {
         fullName = "PayPal"
         isActive = true
         label = "Paypal"
-        default = false
-      },
-      {
-        fullName = "SepaDebit"
-        isActive = true
-        label = "SEPA Debit"
         default = false
       },
       {

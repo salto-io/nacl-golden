@@ -16,4 +16,5 @@ salesforce.EmailIntegrationSettings {
   enableProductivityFeatures = false
   enableSupplementalContactInfoInMobile = false
   _alias = "EmailIntegration"
+  enableContextualEverywhere = "true"
 }

@@ -195,6 +195,12 @@ type salesforce.DigitalWallet {
         default = false
       },
       {
+        fullName = "SepaDebit"
+        isActive = true
+        label = "SEPA Debit"
+        default = false
+      },
+      {
         fullName = "DinersClub"
         isActive = true
         label = "Diners Club"
@@ -258,12 +264,6 @@ type salesforce.DigitalWallet {
         fullName = "PayPal"
         isActive = true
         label = "Paypal"
-        default = false
-      },
-      {
-        fullName = "SepaDebit"
-        isActive = true
-        label = "SEPA Debit"
         default = false
       },
       {

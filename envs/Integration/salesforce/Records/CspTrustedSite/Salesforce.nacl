@@ -10,4 +10,6 @@ salesforce.CspTrustedSite Salesforce {
   isApplicableToMediaSrc = true
   isApplicableToStyleSrc = false
   _alias = "Salesforce"
+  canAccessCamera = false
+  canAccessMicrophone = false
 }

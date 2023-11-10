@@ -23,7 +23,8 @@ salesforce.FlowSettings {
   isFlowBlockAccessToSessionIDEnabled = "true"
   isManageFlowRequiredForAutomationCharts = false
   isSupportRollbackOnErrorForApexInvocableActionsEnabled = "false"
-  isTimeResumedInSameRunContext = "true"
+  
   enableEmailSimpleRespectProfiles = "false"
   _alias = "Flow"
+  enableFlowReactiveDisplayText = "false"
 }

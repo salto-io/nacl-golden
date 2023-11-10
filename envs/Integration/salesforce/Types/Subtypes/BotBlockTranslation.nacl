@@ -1,4 +1,4 @@
-settings salesforce.ArchiveSettings {
+type salesforce.BotBlockTranslation {
   annotations {
     serviceid metadataType {
     }
@@ -13,13 +13,9 @@ settings salesforce.ArchiveSettings {
     string dirName {
     }
   }
+  salesforce.BotBlockVersionTranslation botBlockVersions {
+  }
   serviceid fullName {
   }
-  string internalId {
-    _hidden_value = true
-    localOnly = true
-  }
-  suffix = "settings"
-  dirName = "settings"
-  metadataType = "ArchiveSettings"
+  metadataType = "BotBlockTranslation"
 }

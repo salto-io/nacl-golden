@@ -119,4 +119,6 @@ type salesforce.AuthProvider {
   metadataType = "AuthProvider"
   boolean requireMfa {
   }
+  boolean isPkceEnabled {
+  }
 }

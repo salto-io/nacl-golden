@@ -85,4 +85,8 @@ settings salesforce.FieldServiceSettings {
   }
   boolean canStoreMobileAnalytics {
   }
+  boolean doesAvlCalcInclOvertime {
+  }
+  boolean doesAvlCalcInclPrimOnly {
+  }
 }

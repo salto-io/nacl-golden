@@ -243,11 +243,6 @@ salesforce.Layout Lead_Lead__28Marketing_29_Layout@bspps {
           field = salesforce.Lead.field.CampaignId
         }
       },
-      {
-        layoutItem = {
-          component = "runtime_sales_social:socialPanel"
-        }
-      },
     ]
   }
   relatedLists = [

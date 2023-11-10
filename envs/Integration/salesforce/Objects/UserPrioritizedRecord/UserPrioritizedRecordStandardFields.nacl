@@ -79,6 +79,8 @@ type salesforce.UserPrioritizedRecord {
     apiName = "UserPrioritizedRecord.TargetId"
     relationshipName = "Target"
     referenceTo = [
+      salesforce.Contact,
+      salesforce.Lead,
       salesforce.Opportunity,
     ]
     _required = true
