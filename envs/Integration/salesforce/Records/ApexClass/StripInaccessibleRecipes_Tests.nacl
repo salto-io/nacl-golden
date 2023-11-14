@@ -1,0 +1,27 @@
+salesforce.ApexClass StripInaccessibleRecipes_Tests {
+  apiVersion = 58
+  status = "Active"
+  fullName = "StripInaccessibleRecipes_Tests"
+  content = file("salesforce/Records/ApexClass/StripInaccessibleRecipes_Tests.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.Account
+    },
+    {
+      reference = salesforce.ApexClass.instance.StripInaccessibleRecipes
+    },
+    {
+      reference = salesforce.ApexClass.instance.TestFactory
+    },
+    {
+      reference = salesforce.Campaign
+    },
+    {
+      reference = salesforce.Contact
+    },
+    {
+      reference = salesforce.User
+    },
+  ]
+  _alias = "StripInaccessibleRecipes_Tests"
+}

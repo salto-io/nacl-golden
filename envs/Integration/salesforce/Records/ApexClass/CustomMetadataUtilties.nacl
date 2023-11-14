@@ -1,0 +1,7 @@
+salesforce.ApexClass CustomMetadataUtilties {
+  apiVersion = 58
+  status = "Active"
+  fullName = "CustomMetadataUtilties"
+  content = file("salesforce/Records/ApexClass/CustomMetadataUtilties.cls")
+  _alias = "CustomMetadataUtilties"
+}

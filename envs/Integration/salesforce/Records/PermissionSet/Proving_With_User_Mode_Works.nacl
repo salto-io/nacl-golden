@@ -1,0 +1,17 @@
+salesforce.PermissionSet Proving_With_User_Mode_Works {
+  hasActivationRequired = false
+  label = "Proving With User Mode works"
+  objectPermissions = {
+    Account = {
+      allowCreate = false
+      allowDelete = false
+      allowEdit = false
+      allowRead = true
+      modifyAllRecords = false
+      object = salesforce.Account
+      viewAllRecords = false
+    }
+  }
+  fullName = "Proving_With_User_Mode_Works"
+  _alias = "Proving With User Mode works"
+}

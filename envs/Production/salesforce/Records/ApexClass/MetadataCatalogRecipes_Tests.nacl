@@ -1,0 +1,11 @@
+salesforce.ApexClass MetadataCatalogRecipes_Tests {
+  apiVersion = 47
+  status = "Active"
+  fullName = "MetadataCatalogRecipes_Tests"
+  content = file("salesforce/Records/ApexClass/MetadataCatalogRecipes_Tests.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.ApexClass.instance.MetadataCatalogRecipes
+    },
+  ]
+}
