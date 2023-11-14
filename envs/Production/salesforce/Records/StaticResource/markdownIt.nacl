@@ -1,0 +1,6 @@
+salesforce.StaticResource markdownIt {
+  cacheControl = "Public"
+  contentType = "text/javascript"
+  fullName = "markdownIt"
+  content = file("salesforce/Records/StaticResource/markdownIt.resource")
+}

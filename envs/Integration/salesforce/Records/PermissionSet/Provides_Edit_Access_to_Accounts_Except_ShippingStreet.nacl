@@ -1,0 +1,22 @@
+salesforce.PermissionSet Provides_Edit_Access_to_Accounts_Except_ShippingStreet {
+  fieldPermissions = {
+    Account = {
+      ShippingAddress = "ReadWrite"
+    }
+  }
+  hasActivationRequired = false
+  label = "Provides edit access to Accounts except shippingStreet"
+  objectPermissions = {
+    Account = {
+      allowCreate = false
+      allowDelete = false
+      allowEdit = true
+      allowRead = true
+      modifyAllRecords = false
+      object = salesforce.Account
+      viewAllRecords = false
+    }
+  }
+  fullName = "Provides_Edit_Access_to_Accounts_Except_ShippingStreet"
+  _alias = "Provides edit access to Accounts except shippingStreet"
+}

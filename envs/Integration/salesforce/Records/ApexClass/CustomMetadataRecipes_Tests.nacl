@@ -1,0 +1,21 @@
+salesforce.ApexClass CustomMetadataRecipes_Tests {
+  apiVersion = 58
+  status = "Active"
+  fullName = "CustomMetadataRecipes_Tests"
+  content = file("salesforce/Records/ApexClass/CustomMetadataRecipes_Tests.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.ApexClass.instance.CustomMetadataUtilties
+    },
+    {
+      reference = salesforce.ApexClass.instance.TestFactory
+    },
+    {
+      reference = salesforce.Contact
+    },
+    {
+      reference = salesforce.Contact.field.AttendanceStatus__c
+    },
+  ]
+  _alias = "CustomMetadataRecipes_Tests"
+}

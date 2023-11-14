@@ -1,0 +1,6 @@
+salesforce.Profile Force_2Ecom___Free_User@psbss {
+  fullName = "Force%2Ecom - Free User"
+  custom = false
+  userLicense = "Force.com - Free"
+  _alias = "Force%2Ecom - Free User"
+}

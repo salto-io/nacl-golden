@@ -1,0 +1,36 @@
+type salesforce.Junction__c {
+  salesforce.MasterDetail Parent2__c {
+    apiName = "Junction__c.Parent2__c"
+    externalId = false
+    label = "Parent 2"
+    referenceTo = [
+      salesforce.Junction_Demo_2__c,
+    ]
+    relationshipLabel = "Junctions2"
+    relationshipName = "Junctions2"
+    relationshipOrder = 1
+    reparentableMasterDetail = false
+    trackTrending = false
+    writeRequiresMasterRead = false
+    createable = true
+    updateable = false
+    queryable = true
+  }
+  salesforce.MasterDetail parent1__c {
+    apiName = "Junction__c.parent1__c"
+    externalId = false
+    label = "Parent1"
+    referenceTo = [
+      salesforce.Junction_Demo_1__c,
+    ]
+    relationshipLabel = "Junctions1"
+    relationshipName = "Junctions1"
+    relationshipOrder = 0
+    reparentableMasterDetail = false
+    trackTrending = false
+    writeRequiresMasterRead = false
+    createable = true
+    updateable = false
+    queryable = true
+  }
+}
