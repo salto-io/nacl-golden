@@ -1,0 +1,30 @@
+salesforce.ApexClass Safely_Tests {
+  apiVersion = 58
+  status = "Active"
+  fullName = "Safely_Tests"
+  content = file("salesforce/Records/ApexClass/Safely_Tests.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.Account
+    },
+    {
+      reference = salesforce.ApexClass.instance.CanTheUser
+    },
+    {
+      reference = salesforce.ApexClass.instance.Safely
+    },
+    {
+      reference = salesforce.ApexClass.instance.TestFactory
+    },
+    {
+      reference = salesforce.ApexClass.instance.TriggerHandler
+    },
+    {
+      reference = salesforce.Case
+    },
+    {
+      reference = salesforce.User
+    },
+  ]
+  _alias = "Safely_Tests"
+}
