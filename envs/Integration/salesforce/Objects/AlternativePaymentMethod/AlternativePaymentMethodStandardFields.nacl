@@ -194,6 +194,12 @@ type salesforce.AlternativePaymentMethod {
         default = false
       },
       {
+        fullName = "Other"
+        isActive = true
+        label = "Other"
+        default = false
+      },
+      {
         fullName = "ApplePay"
         isActive = true
         label = "Apple Pay"
@@ -215,12 +221,6 @@ type salesforce.AlternativePaymentMethod {
         fullName = "BECS"
         isActive = true
         label = "Becs"
-        default = false
-      },
-      {
-        fullName = "SepaDebit"
-        isActive = true
-        label = "SEPA Debit"
         default = false
       },
       {
@@ -278,15 +278,15 @@ type salesforce.AlternativePaymentMethod {
         default = false
       },
       {
-        fullName = "Other"
-        isActive = true
-        label = "Other"
-        default = false
-      },
-      {
         fullName = "PayPal"
         isActive = true
         label = "Paypal"
+        default = false
+      },
+      {
+        fullName = "SepaDebit"
+        isActive = true
+        label = "SEPA Debit"
         default = false
       },
       {
