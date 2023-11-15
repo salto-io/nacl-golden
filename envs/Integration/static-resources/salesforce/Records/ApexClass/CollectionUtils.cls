@@ -41,8 +41,6 @@ public with sharing class CollectionUtils {
         Map<Id, SObject> returnValues = (Map<Id, SObject>) dynamicMapType.newInstance();
         for (SObject current : incomingList) {
             if (current.get(key) != null) {
-                System.debug(true);
-                System.debug('Im here!');
                 returnValues.put((Id) current.get(key), current);
             }
         }
@@ -60,8 +58,6 @@ public with sharing class CollectionUtils {
      * @example
      * Contact[] contacts = [SELECT AccountId, firstName, lastName FROM Contact LIMIT 50];
      * Map<String, Contact> contactsByAccountId = (Map<String, Contact>) CollectionUtils.StringMapFromCollectionByKey('shippingStreet', contacts);
-     
-     This is a brand new comment
      */
     public static Map<String, SObject> stringMapFromCollectionByKey(
         String key,
