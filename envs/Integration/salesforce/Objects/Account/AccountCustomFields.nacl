@@ -180,8 +180,9 @@ type salesforce.Account {
     length = 200
     unique = false
     createable = true
-    updateable = true
+    
     caseSensitive = false
-    queryable = true
+    
+    _hidden_value = true
   }
 }

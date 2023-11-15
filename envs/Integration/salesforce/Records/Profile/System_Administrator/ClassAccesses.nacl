@@ -500,5 +500,13 @@ salesforce.Profile Admin {
       apexClass = "TriggerHandler_Test"
       enabled = true
     }
+    FeatureFlagsTests = {
+      apexClass = "FeatureFlagsTests"
+      enabled = true
+    }
+    FeatureFlags = {
+      apexClass = "FeatureFlags"
+      enabled = true
+    }
   }
 }
