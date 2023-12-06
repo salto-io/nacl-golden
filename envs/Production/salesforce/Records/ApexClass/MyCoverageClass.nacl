@@ -1,0 +1,18 @@
+salesforce.ApexClass MyCoverageClass {
+  apiVersion = 59
+  status = "Active"
+  fullName = "MyCoverageClass"
+  content = file("salesforce/Records/ApexClass/MyCoverageClass.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.Account
+    },
+    {
+      reference = salesforce.Case
+    },
+    {
+      reference = salesforce.Lead
+    },
+  ]
+  _alias = "MyCoverageClass"
+}

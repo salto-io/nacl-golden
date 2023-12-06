@@ -1,0 +1,12 @@
+salesforce.ApexClass MyCoverageClassTests {
+  apiVersion = 59
+  status = "Active"
+  fullName = "MyCoverageClassTests"
+  content = file("salesforce/Records/ApexClass/MyCoverageClassTests.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.ApexClass.instance.MyCoverageClass
+    },
+  ]
+  _alias = "MyCoverageClassTests"
+}
