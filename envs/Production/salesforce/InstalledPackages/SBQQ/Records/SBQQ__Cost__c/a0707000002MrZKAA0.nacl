@@ -1,0 +1,6 @@
+salesforce.SBQQ__Cost__c a0707000002MrZKAA0 {
+  SBQQ__Active__c = true
+  SBQQ__UnitCost__c = 1350
+  SBQQ__Product__c = salesforce.Product2.instance.LAPTOP15
+  _alias = "COST-000012"
+}
