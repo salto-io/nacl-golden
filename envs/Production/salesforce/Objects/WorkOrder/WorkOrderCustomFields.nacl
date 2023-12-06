@@ -1,0 +1,75 @@
+type salesforce.WorkOrder {
+  salesforce.Checkbox FSL__IsFillInCandidate__c {
+    apiName = "WorkOrder.FSL__IsFillInCandidate__c"
+    defaultValue = true
+    deprecated = false
+    externalId = false
+    label = "Is Fill In Candidate"
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+  salesforce.Checkbox FSL__Prevent_Geocoding_For_Chatter_Actions__c {
+    apiName = "WorkOrder.FSL__Prevent_Geocoding_For_Chatter_Actions__c"
+    defaultValue = false
+    deprecated = false
+    externalId = false
+    label = "Prevent Geocoding For Chatter Actions"
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+  salesforce.FormulaNumber FSL__Scheduling_Priority__c {
+    apiName = "WorkOrder.FSL__Scheduling_Priority__c"
+    deprecated = false
+    externalId = false
+    formula = "CASE(TEXT(Priority), 'Critical' , 1 ,'High' ,2,'Medium' ,3 , 'Low', 4, null)"
+    formulaTreatBlanksAs = "BlankAsZero"
+    label = "Scheduling Priority"
+    precision = 18
+    scale = 0
+    unique = false
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+      {
+        reference = salesforce.WorkOrder.field.Priority
+      },
+    ]
+  }
+  salesforce.Lookup FSL__VisitingHours__c {
+    apiName = "WorkOrder.FSL__VisitingHours__c"
+    deleteConstraint = "SetNull"
+    deprecated = false
+    externalId = false
+    label = "Visiting Hours"
+    referenceTo = [
+      salesforce.OperatingHours,
+    ]
+    relationshipLabel = "Work Orders"
+    relationshipName = "Work_Orders"
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+}

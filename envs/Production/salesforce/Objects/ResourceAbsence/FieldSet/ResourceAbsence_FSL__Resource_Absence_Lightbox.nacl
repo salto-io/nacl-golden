@@ -1,0 +1,178 @@
+salesforce.FieldSet ResourceAbsence_FSL__Resource_Absence_Lightbox {
+  fullName = "ResourceAbsence.FSL__Resource_Absence_Lightbox"
+  availableFields = [
+    {
+      field = salesforce.ResourceAbsence.field.FSL__Approved__c
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = "City"
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = "Country"
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ResourceAbsence.field.CreatedById
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ResourceAbsence.field.CreatedDate
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ResourceAbsence.field.Description
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ResourceAbsence.field.FSL__Duration_In_Minutes__c
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ResourceAbsence.field.FSL__EstimatedTravelDistanceFrom__c
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ResourceAbsence.field.FSL__EstimatedTravelDistanceTo__c
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ResourceAbsence.field.FSL__Estimated_Travel_Time_From_Source__c
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ResourceAbsence.field.FSL__Estimated_Travel_Time_To_Source__c
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ResourceAbsence.field.FSL__Gantt_Color__c
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ResourceAbsence.field.Id
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ResourceAbsence.field.LastModifiedById
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ResourceAbsence.field.LastModifiedDate
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ResourceAbsence.field.FSL__Last_Updated_Epoch__c
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = "Latitude"
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = "FSL__InternalSLRGeolocation__Latitude__s"
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = "Longitude"
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = "FSL__InternalSLRGeolocation__Longitude__s"
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = "PostalCode"
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ResourceAbsence.field.FSL__Scheduling_Policy_Used__c
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = "State"
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = "Street"
+      isFieldManaged = false
+      isRequired = false
+    },
+  ]
+  description = "Resource absence lightbox fields"
+  displayedFields = [
+    {
+      field = salesforce.ResourceAbsence.field.AbsenceNumber
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ResourceAbsence.field.ResourceId
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ResourceAbsence.field.Type
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ResourceAbsence.field.FSL__GanttLabel__c
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ResourceAbsence.field.Start
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ResourceAbsence.field.End
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ResourceAbsence.field.FSL__EstTravelTime__c
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ResourceAbsence.field.FSL__EstTravelTimeFrom__c
+      isFieldManaged = false
+      isRequired = false
+    },
+  ]
+  label = "Resource Absence Lightbox"
+  _parent = [
+    salesforce.ResourceAbsence,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.FSL
+    },
+  ]
+  _alias = "Resource Absence Lightbox (FSL)"
+}

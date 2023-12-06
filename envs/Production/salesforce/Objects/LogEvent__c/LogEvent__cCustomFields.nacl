@@ -1,0 +1,60 @@
+type salesforce.LogEvent__c {
+  salesforce.LongTextArea Log_Data__c {
+    apiName = "LogEvent__c.Log_Data__c"
+    externalId = false
+    label = "Log Data"
+    length = 32768
+    trackTrending = false
+    visibleLines = 5
+    _hidden_value = true
+  }
+  salesforce.Text Quiddity__c {
+    apiName = "LogEvent__c.Quiddity__c"
+    externalId = false
+    label = "Quiddity"
+    length = 255
+    trackTrending = false
+    unique = false
+    _hidden_value = true
+  }
+  salesforce.Text Request_Id__c {
+    apiName = "LogEvent__c.Request_Id__c"
+    externalId = false
+    label = "Request Id"
+    length = 255
+    trackTrending = false
+    unique = false
+    _hidden_value = true
+  }
+  salesforce.Picklist Severity__c {
+    apiName = "LogEvent__c.Severity__c"
+    externalId = false
+    label = "Severity"
+    trackTrending = false
+    valueSet = [
+      {
+        fullName = "DEBUG"
+        default = false
+        label = "DEBUG"
+      },
+      {
+        fullName = "INFO"
+        default = false
+        label = "INFO"
+      },
+      {
+        fullName = "WARN"
+        default = false
+        label = "WARN"
+      },
+      {
+        fullName = "ERROR"
+        default = false
+        label = "ERROR"
+      },
+    ]
+    sorted = false
+    restricted = true
+    _hidden_value = true
+  }
+}

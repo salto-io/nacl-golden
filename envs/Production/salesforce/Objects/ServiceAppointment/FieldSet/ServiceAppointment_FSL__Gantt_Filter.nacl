@@ -1,0 +1,353 @@
+salesforce.FieldSet ServiceAppointment_FSL__Gantt_Filter {
+  fullName = "ServiceAppointment.FSL__Gantt_Filter"
+  availableFields = [
+    {
+      field = salesforce.ServiceAppointment.field.ActualDuration
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceAppointment.field.ActualEndTime
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceAppointment.field.ActualStartTime
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceAppointment.field.FSL__Appointment_Grade__c
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceAppointment.field.ArrivalWindowEndTime
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceAppointment.field.ArrivalWindowStartTime
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceAppointment.field.FSL__Auto_Schedule__c
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = "City"
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceAppointment.field.ContactId
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = "Country"
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceAppointment.field.CreatedById
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceAppointment.field.CreatedDate
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceAppointment.field.Description
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceAppointment.field.DurationType
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceAppointment.field.FSL__Duration_In_Minutes__c
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceAppointment.field.EarliestStartTime
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceAppointment.field.FSL__GanttIcon__c
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceAppointment.field.FSL__GanttLabel__c
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceAppointment.field.FSL__Gantt_Display_Date__c
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceAppointment.field.Id
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceAppointment.field.FSL__InJeopardy__c
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceAppointment.field.FSL__IsFillInCandidate__c
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceAppointment.field.FSL__IsMultiDay__c
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceAppointment.field.LastModifiedById
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceAppointment.field.LastModifiedDate
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceAppointment.field.FSL__Last_Updated_Epoch__c
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = "Latitude"
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = "FSL__InternalSLRGeolocation__Latitude__s"
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = "Longitude"
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = "FSL__InternalSLRGeolocation__Longitude__s"
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceAppointment.field.FSL__MDS_Calculated_length__c
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceAppointment.field.FSL__MDT_Operational_Time__c
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceAppointment.field.OwnerId
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceAppointment.field.ParentRecordId
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceAppointment.field.ParentRecordStatusCategory
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceAppointment.field.ParentRecordType
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceAppointment.field.FSL__Pinned__c
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = "PostalCode"
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceAppointment.field.FSL__Prevent_Geocoding_For_Chatter_Actions__c
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceAppointment.field.FSL__Related_Service__c
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceAppointment.field.FSL__Same_Day__c
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceAppointment.field.FSL__Same_Resource__c
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceAppointment.field.SchedEndTime
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceAppointment.field.SchedStartTime
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceAppointment.field.FSL__Schedule_Mode__c
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceAppointment.field.FSL__Schedule_over_lower_priority_appointment__c
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceAppointment.field.FSL__Scheduling_Policy_Used__c
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceAppointment.field.ServiceNote
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceAppointment.field.ServiceTerritoryId
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = "State"
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceAppointment.field.StatusCategory
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = "Street"
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceAppointment.field.Subject
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceAppointment.field.FSL__Time_Dependency__c
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceAppointment.field.FSL__UpdatedByOptimization__c
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceAppointment.field.FSL__Use_Async_Logic__c
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceAppointment.field.FSL__Virtual_Service_For_Chatter_Action__c
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceAppointment.field.WorkTypeId
+      isFieldManaged = false
+      isRequired = false
+    },
+  ]
+  description = "Gantt Filter"
+  displayedFields = [
+    {
+      field = salesforce.ServiceAppointment.field.AccountId
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceAppointment.field.DueDate
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceAppointment.field.Duration
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceAppointment.field.FSL__GanttColor__c
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceAppointment.field.FSL__Emergency__c
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceAppointment.field.Status
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceAppointment.field.FSL__InJeopardyReason__c
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceAppointment.field.IsBundle
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceAppointment.field.IsBundleMember
+      isFieldManaged = false
+      isRequired = false
+    },
+  ]
+  label = "Gantt Filter"
+  _parent = [
+    salesforce.ServiceAppointment,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.FSL
+    },
+  ]
+  _alias = "Gantt Filter (FSL)"
+}

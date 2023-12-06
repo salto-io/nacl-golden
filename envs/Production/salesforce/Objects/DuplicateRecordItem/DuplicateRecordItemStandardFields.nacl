@@ -1,0 +1,128 @@
+type salesforce.DuplicateRecordItem {
+  salesforce.MasterDetail DuplicateRecordSetId {
+    apiName = "DuplicateRecordItem.DuplicateRecordSetId"
+    relationshipName = "DuplicateRecordSet"
+    referenceTo = [
+      salesforce.DuplicateRecordSet,
+    ]
+    _required = true
+    label = "Duplicate Record Set ID"
+    createable = true
+    updateable = false
+    queryable = true
+  }
+  salesforce.Lookup RecordId {
+    apiName = "DuplicateRecordItem.RecordId"
+    relationshipName = "Record"
+    referenceTo = [
+      salesforce.Account,
+      salesforce.Contact,
+      "FSL__Crew_Management_User_Settings_Territory__c",
+      "FSL__Crew_Management_User_Settings__c",
+      "FSL__Criteria__c",
+      "FSL__FSL_Operation__c",
+      "FSL__GanttPalette__c",
+      "FSL__Gantt_Filter__c",
+      "FSL__Optimization_Data__c",
+      "FSL__Optimization_Request_Queue__c",
+      "FSL__Optimization_Request__c",
+      "FSL__Polygon__c",
+      "FSL__SLR_Cache__c",
+      "FSL__SchedulingRecipe__c",
+      "FSL__Scheduling_Policy_Goal__c",
+      "FSL__Scheduling_Policy_Work_Rule__c",
+      "FSL__Scheduling_Policy__c",
+      "FSL__Service_Goal__c",
+      "FSL__Territory_Optimization_Request__c",
+      "FSL__Time_Dependency__c",
+      "FSL__UserSetting__c",
+      "FSL__User_Setting_Territory__c",
+      "FSL__User_Territory__c",
+      "FSL__Work_Rule_Entry__c",
+      "FSL__Work_Rule__c",
+      salesforce.Individual,
+      salesforce.Junction_Demo_1__c,
+      salesforce.Junction_Demo_2__c,
+      salesforce.Junction__c,
+      salesforce.Lead,
+      salesforce.LogEvent__c,
+      salesforce.Sample__c,
+    ]
+    _required = true
+    label = "Record ID"
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  serviceid Id {
+    apiName = "DuplicateRecordItem.Id"
+    label = "Duplicate Record Item ID"
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Checkbox IsDeleted {
+    apiName = "DuplicateRecordItem.IsDeleted"
+    defaultValue = false
+    label = "Deleted"
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.AutoNumber Name {
+    apiName = "DuplicateRecordItem.Name"
+    label = "Duplicate Record Item Name"
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.DateTime CreatedDate {
+    apiName = "DuplicateRecordItem.CreatedDate"
+    label = "Created Date"
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Lookup CreatedById {
+    apiName = "DuplicateRecordItem.CreatedById"
+    relationshipName = "CreatedBy"
+    referenceTo = [
+      salesforce.User,
+    ]
+    label = "Created By ID"
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.DateTime LastModifiedDate {
+    apiName = "DuplicateRecordItem.LastModifiedDate"
+    label = "Last Modified Date"
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Lookup LastModifiedById {
+    apiName = "DuplicateRecordItem.LastModifiedById"
+    relationshipName = "LastModifiedBy"
+    referenceTo = [
+      salesforce.User,
+    ]
+    label = "Last Modified By ID"
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.DateTime SystemModstamp {
+    apiName = "DuplicateRecordItem.SystemModstamp"
+    label = "System Modstamp"
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+  }
+}

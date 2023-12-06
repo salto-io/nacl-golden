@@ -1,0 +1,5 @@
+salesforce.Skill Boilerrepair {
+  fullName = "Boilerrepair"
+  label = "Boiler repair"
+  _alias = "Boiler repair"
+}

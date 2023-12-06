@@ -1,0 +1,108 @@
+type salesforce.FieldRestrictionRule {
+  annotations {
+    serviceid metadataType {
+    }
+    boolean hasMetaFile {
+    }
+    string folderType {
+    }
+    string folderContentType {
+    }
+    string suffix {
+    }
+    string dirName {
+    }
+  }
+  serviceid fullName {
+  }
+  boolean active {
+  }
+  string classification {
+  }
+  string classificationType {
+    _restriction = {
+      enforce_value = false
+      values = [
+        "ComplianceCategory",
+        "FieldSet",
+      ]
+    }
+  }
+  string description {
+  }
+  string enforcementType {
+    _restriction = {
+      enforce_value = false
+      values = [
+        "D360_Restrict",
+        "FieldRestrict",
+        "Restrict",
+        "Scoping",
+      ]
+    }
+  }
+  string masterLabel {
+  }
+  string recordFilter {
+  }
+  string targetEntity {
+    _restriction = {
+      enforce_value = false
+      values = [
+        "Account",
+        "AssetAttribute",
+        "Case",
+        "Contact",
+        "Contract",
+        "Event",
+        "FSL__Crew_Management_User_Settings_Territory__c",
+        "FSL__Crew_Management_User_Settings__c",
+        "FSL__Criteria__c",
+        "FSL__FSL_Operation__c",
+        "FSL__GanttPalette__c",
+        "FSL__Gantt_Filter__c",
+        "FSL__Optimization_Data__c",
+        "FSL__Optimization_Request_Queue__c",
+        "FSL__Optimization_Request__c",
+        "FSL__Polygon__c",
+        "FSL__SLR_Cache__c",
+        "FSL__SchedulingRecipe__c",
+        "FSL__Scheduling_Policy_Goal__c",
+        "FSL__Scheduling_Policy_Work_Rule__c",
+        "FSL__Scheduling_Policy__c",
+        "FSL__Service_Goal__c",
+        "FSL__Territory_Optimization_Request__c",
+        "FSL__Time_Dependency__c",
+        "FSL__UserSetting__c",
+        "FSL__User_Setting_Territory__c",
+        "FSL__User_Territory__c",
+        "FSL__Work_Rule_Entry__c",
+        "FSL__Work_Rule__c",
+        "Junction_Demo_1__c",
+        "Junction_Demo_2__c",
+        "Junction__c",
+        "Lead",
+        "LogEvent__c",
+        "Opportunity",
+        "ProcessInstanceStep",
+        "ProcessInstanceWorkitem",
+        "Sample__c",
+        "Task",
+        "TimeSheet",
+        "TimeSheetEntry",
+        "User",
+      ]
+    }
+  }
+  string userCriteria {
+  }
+  number version {
+  }
+  string internalId {
+    _hidden_value = true
+    localOnly = true
+  }
+  suffix = "rule"
+  dirName = "fieldRestrictionRules"
+  metadataType = "FieldRestrictionRule"
+}

@@ -1,0 +1,29 @@
+salesforce.LightningComponentBundle errorPanel {
+  apiVersion = 58
+  isExposed = false
+  fullName = "errorPanel"
+  lwcResources = {
+    lwcResource = {
+      
+      
+      errorPanel_js@v = {
+        source = file("salesforce/Records/LightningComponentBundle/errorPanel/errorPanel.js")
+        filePath = "lwc/errorPanel/errorPanel.js"
+      }
+      templates_noDataIllustration_html@dv = {
+        source = file("salesforce/Records/LightningComponentBundle/errorPanel/templates/noDataIllustration.html")
+        filePath = "lwc/errorPanel/templates/noDataIllustration.html"
+      }
+      templates_inlineMessage_html@dv = {
+        source = file("salesforce/Records/LightningComponentBundle/errorPanel/templates/inlineMessage.html")
+        filePath = "lwc/errorPanel/templates/inlineMessage.html"
+      }
+    }
+  }
+  _generated_dependencies = [
+    {
+      reference = salesforce.LightningComponentBundle.instance.ldsUtils
+    },
+  ]
+  _alias = "errorPanel"
+}

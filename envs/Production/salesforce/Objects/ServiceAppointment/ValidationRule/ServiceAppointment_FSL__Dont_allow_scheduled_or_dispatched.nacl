@@ -1,0 +1,16 @@
+salesforce.ValidationRule ServiceAppointment_FSL__Dont_allow_scheduled_or_dispatched {
+  fullName = "ServiceAppointment.FSL__Dont_allow_scheduled_or_dispatched"
+  active = true
+  description = "Don't allow creation of service with status scheduled or  dispatched"
+  errorConditionFormula = "AND($Setup.FSL__Service_Creation_Validation_Rules__c.FSL__Service_Creation_Status_Validation__c,AND(ISNEW(),(OR(ISPICKVAL(StatusCategory, \"Scheduled\"),ISPICKVAL(StatusCategory, \"Dispatched\")))))"
+  errorMessage = "New service appointment cannot be created in scheduled or  dispatched statuses."
+  _parent = [
+    salesforce.ServiceAppointment,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.FSL
+    },
+  ]
+  _alias = "ServiceAppointment.FSL__Dont_allow_scheduled_or_dispatched"
+}

@@ -1,0 +1,64 @@
+type salesforce.Event {
+  salesforce.FormulaNumber FSL__Count_of_Events__c {
+    apiName = "Event.FSL__Count_of_Events__c"
+    formula = "IF( IsTask,0,1)"
+    label = "Count of Events"
+    precision = 18
+    scale = 0
+    inlineHelpText = "Count of all events"
+    createable = false
+    updateable = false
+    unique = false
+    queryable = true
+    _hidden_value = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+  salesforce.FormulaNumber FSL__Count_of_Tasks__c {
+    apiName = "Event.FSL__Count_of_Tasks__c"
+    formula = "IF( IsTask,1,0)"
+    label = "Count of Tasks"
+    precision = 18
+    scale = 0
+    createable = false
+    updateable = false
+    unique = false
+    queryable = true
+    _hidden_value = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+  salesforce.Picklist FSL__Event_Type__c {
+    apiName = "Event.FSL__Event_Type__c"
+    valueSet = [
+      {
+        fullName = "Service Appointment"
+        isActive = true
+        label = "Service Appointment"
+        default = false
+      },
+      {
+        fullName = "Resource Absence"
+        isActive = true
+        label = "Resource Absence"
+        default = false
+      },
+    ]
+    restricted = false
+    label = "Event Type"
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+}

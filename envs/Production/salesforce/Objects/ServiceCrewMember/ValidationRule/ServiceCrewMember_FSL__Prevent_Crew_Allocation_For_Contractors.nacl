@@ -1,0 +1,15 @@
+salesforce.ValidationRule ServiceCrewMember_FSL__Prevent_Crew_Allocation_For_Contractors {
+  fullName = "ServiceCrewMember.FSL__Prevent_Crew_Allocation_For_Contractors"
+  active = true
+  errorConditionFormula = "ServiceResource.IsCapacityBased = true"
+  errorMessage = "Capacity Based Service Resource Cannot Have Crew Member Allocations"
+  _parent = [
+    salesforce.ServiceCrewMember,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.FSL
+    },
+  ]
+  _alias = "ServiceCrewMember.FSL__Prevent_Crew_Allocation_For_Contractors"
+}

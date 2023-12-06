@@ -1,0 +1,15 @@
+salesforce.ValidationRule ServiceResource_FSL__Capacity_Resource_of_Type_Crew {
+  fullName = "ServiceResource.FSL__Capacity_Resource_of_Type_Crew"
+  active = true
+  errorConditionFormula = "AND(IsCapacityBased,ISPICKVAL(ResourceType, 'C'))"
+  errorMessage = "Capacity Resource Can't Be of Type Crew"
+  _parent = [
+    salesforce.ServiceResource,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.FSL
+    },
+  ]
+  _alias = "ServiceResource.FSL__Capacity_Resource_of_Type_Crew"
+}

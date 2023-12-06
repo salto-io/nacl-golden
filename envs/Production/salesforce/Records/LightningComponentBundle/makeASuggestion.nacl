@@ -1,0 +1,18 @@
+salesforce.LightningComponentBundle makeASuggestion {
+  apiVersion = 58
+  isExposed = false
+  fullName = "makeASuggestion"
+  lwcResources = {
+    lwcResource = {
+      makeASuggestion_html@v = {
+        source = file("salesforce/Records/LightningComponentBundle/makeASuggestion/makeASuggestion.html")
+        filePath = "lwc/makeASuggestion/makeASuggestion.html"
+      }
+      makeASuggestion_js@v = {
+        source = file("salesforce/Records/LightningComponentBundle/makeASuggestion/makeASuggestion.js")
+        filePath = "lwc/makeASuggestion/makeASuggestion.js"
+      }
+    }
+  }
+  _alias = "makeASuggestion"
+}

@@ -1,0 +1,269 @@
+type salesforce.EventRelayConfig {
+  annotations {
+    serviceid metadataType {
+    }
+    boolean hasMetaFile {
+    }
+    string folderType {
+    }
+    string folderContentType {
+    }
+    string suffix {
+    }
+    string dirName {
+    }
+  }
+  serviceid fullName {
+  }
+  string destinationResourceName {
+  }
+  string eventChannel {
+    _restriction = {
+      enforce_value = false
+      values = [
+        "AccountChangeEvent",
+        "AccountContactRoleChangeEvent",
+        "ActivityEngagementVirtualChannel",
+        "AppExtensionChangeEvent",
+        "AssetAttributeChangeEvent",
+        "AssetChangeEvent",
+        "AssetTechnicalAttributesCDCEventChannel",
+        "AssetWarrantyChangeEvent",
+        "AssignedResourceChangeEvent",
+        "AttributeValueStoreChangeEvent",
+        "AuthorizationFormConsentChangeEvent",
+        "BriefcaseAssignmentChangeEvent",
+        "BriefcaseDefinitionChangeEvent",
+        "CampaignChangeEvent",
+        "CampaignMemberChangeEvent",
+        "CampaignMemberStatusChangeEvent",
+        "CaseChangeEvent",
+        "CaseRelatedIssueChangeEvent",
+        "ChangeDataCaptureDiffeoStandard",
+        "ChangeDataStandardSales",
+        "ChangeEvents",
+        "ChangeRequestChangeEvent",
+        "ChangeRequestRelatedIssueChangeEvent",
+        "ChangeRequestRelatedItemChangeEvent",
+        "CommSubscriptionConsentChangeEvent",
+        "CommerceChangeEvents",
+        "CommerceSearchIncrementalIndex",
+        "ConsentCDCChannel",
+        "ConsentCDCStandardChannel",
+        "ContactChangeEvent",
+        "ContactPointAddressChangeEvent",
+        "ContactPointConsentChangeEvent",
+        "ContactPointEmailChangeEvent",
+        "ContactPointPhoneChangeEvent",
+        "ContactPointTypeConsentChangeEvent",
+        "ContentDocumentChangeEvent",
+        "ContentDocumentLinkChangeEvent",
+        "ContentVersionChangeEvent",
+        "ContractChangeEvent",
+        "ContractLineItemChangeEvent",
+        "ContractLineOutcomeDataChangeEvent",
+        "ConversationIntelligenceVirtualChannel",
+        "CreChangeEvents",
+        "DataCloudEntities",
+        "DigitalSignatureChangeEvent",
+        "EinsteinDiscoveryWBChannel",
+        "EinsteinPlatformStandardChannel",
+        "EmailMessageChangeEvent",
+        "EmailTemplateChangeEvent",
+        "EntitlementChangeEvent",
+        "EventBusRelayChangeEventChannel",
+        "EventChangeEvent",
+        "EventRelationChangeEvent",
+        "EventRelayConfigChangeEvent",
+        "ExpenseChangeEvent",
+        "FSL__Apex_Limits__ChangeEvent",
+        "FSL__AppointmentBookingSettings__ChangeEvent",
+        "FSL__Authorization_Info__ChangeEvent",
+        "FSL__Automation_Info__ChangeEvent",
+        "FSL__Automator_Config__ChangeEvent",
+        "FSL__Cognito_Authorization_Info__ChangeEvent",
+        "FSL__Crew_Management_User_Settings_Territory__ChangeEvent",
+        "FSL__Crew_Management_User_Settings__ChangeEvent",
+        "FSL__Criteria__ChangeEvent",
+        "FSL__Custom_Gantt_Action__ChangeEvent",
+        "FSL__Dictionaries__ChangeEvent",
+        "FSL__Drip_Feed_Config__ChangeEvent",
+        "FSL__Dynamic_Gantt__ChangeEvent",
+        "FSL__ESO_Settings__ChangeEvent",
+        "FSL__EmergencySettings__ChangeEvent",
+        "FSL__FSL_Operation__ChangeEvent",
+        "FSL__FS_Logger__ChangeEvent",
+        "FSL__Feature_Tracking__ChangeEvent",
+        "FSL__Fixed_Time_Rules__ChangeEvent",
+        "FSL__GanttPalette__ChangeEvent",
+        "FSL__Gantt_Filter__ChangeEvent",
+        "FSL__General_Config__ChangeEvent",
+        "FSL__Geocode_Settings__ChangeEvent",
+        "FSL__Logic_Settings__ChangeEvent",
+        "FSL__MapReport__ChangeEvent",
+        "FSL__ObjectMapping__ChangeEvent",
+        "FSL__OptimizationSettings__ChangeEvent",
+        "FSL__Optimization_Data__ChangeEvent",
+        "FSL__Optimization_Request_Queue__ChangeEvent",
+        "FSL__Optimization_Request__ChangeEvent",
+        "FSL__Organization_Info__ChangeEvent",
+        "FSL__Polygon__ChangeEvent",
+        "FSL__SLR_Cache__ChangeEvent",
+        "FSL__SO_Fields_Mapping__ChangeEvent",
+        "FSL__SchedulingRecipe__ChangeEvent",
+        "FSL__Scheduling_Policy_Goal__ChangeEvent",
+        "FSL__Scheduling_Policy_Work_Rule__ChangeEvent",
+        "FSL__Scheduling_Policy__ChangeEvent",
+        "FSL__Service_Creation_Validation_Rules__ChangeEvent",
+        "FSL__Service_Goal__ChangeEvent",
+        "FSL__Service_Legal_Statuses__ChangeEvent",
+        "FSL__Synchronize__ChangeEvent",
+        "FSL__Territory_Optimization_Request__ChangeEvent",
+        "FSL__Time_Dependency__ChangeEvent",
+        "FSL__Time_Measurement__ChangeEvent",
+        "FSL__Trigger_Configurations__ChangeEvent",
+        "FSL__UserSetting__ChangeEvent",
+        "FSL__User_Setting_Territory__ChangeEvent",
+        "FSL__User_Territory__ChangeEvent",
+        "FSL__Work_Rule_Entry__ChangeEvent",
+        "FSL__Work_Rule__ChangeEvent",
+        "FTestStandardChannel",
+        "FTestStandardInternalChannel",
+        "FieldServiceMobileSettingsChangeEvent",
+        "FinanceBalanceSnapshotChangeEvent",
+        "FinanceTransactionChangeEvent",
+        "FlowBuilderChangeData",
+        "FlowRecordChangeListenerChannel",
+        "GlobalIdentityStandard",
+        "HighVolumePriming",
+        "IncidentChangeEvent",
+        "IncidentRelatedItemChangeEvent",
+        "IndividualChangeEvent",
+        "IsotopeStandardChangeEvents",
+        "Junction_Demo_1__ChangeEvent",
+        "Junction_Demo_2__ChangeEvent",
+        "Junction__ChangeEvent",
+        "LeadChangeEvent",
+        "LearningItemProgress",
+        "ListEmailChangeEvent",
+        "ListEmailSentResultChangeEvent",
+        "LocationChangeEvent",
+        "LogEvent__ChangeEvent",
+        "MacroChangeEvent",
+        "MacroInstructionChangeEvent",
+        "MaintenanceAssetChangeEvent",
+        "MaintenancePlanChangeEvent",
+        "MaintenanceWorkRuleChangeEvent",
+        "ManagedContentVariantChangeEvent",
+        "Merchandising",
+        "OperatingHoursChangeEvent",
+        "OpportunityChangeEvent",
+        "OpportunityContactRoleChangeEvent",
+        "OrderChangeEvent",
+        "OrderItemChangeEvent",
+        "PardotSyncStdChannel",
+        "PartyConsentChangeEvent",
+        "Pricebook2ChangeEvent",
+        "PricebookEntryChangeEvent",
+        "ProblemChangeEvent",
+        "ProblemIncidentChangeEvent",
+        "ProblemRelatedItemChangeEvent",
+        "ProcessInstanceChangeEvent",
+        "ProcessInstanceStepChangeEvent",
+        "Product2ChangeEvent",
+        "ProductConsumedChangeEvent",
+        "ProductItemChangeEvent",
+        "ProductItemTransactionChangeEvent",
+        "ProductRequestChangeEvent",
+        "ProductRequestLineItemChangeEvent",
+        "ProductRequiredChangeEvent",
+        "ProductTransferChangeEvent",
+        "QuickTextChangeEvent",
+        "RecommendationChangeEvent",
+        "RecommendationReactionChangeEvent",
+        "RecordsetFilterCriteriaChangeEvent",
+        "RecordsetFilterCriteriaRuleChangeEvent",
+        "RecordsetFltrCritMonitorChangeEvent",
+        "ResourceAbsenceChangeEvent",
+        "ResourcePreferenceChangeEvent",
+        "ReturnOrderChangeEvent",
+        "ReturnOrderLineItemChangeEvent",
+        "Sample__ChangeEvent",
+        "ServiceAppointmentChangeEvent",
+        "ServiceContractChangeEvent",
+        "ServiceCrewChangeEvent",
+        "ServiceCrewMemberChangeEvent",
+        "ServiceReportChangeEvent",
+        "ServiceReportLayoutChangeEvent",
+        "ServiceResourceCapacityChangeEvent",
+        "ServiceResourceChangeEvent",
+        "ServiceResourceSkillChangeEvent",
+        "ServiceTerritoryChangeEvent",
+        "ServiceTerritoryLocationChangeEvent",
+        "ServiceTerritoryMemberChangeEvent",
+        "ShiftChangeEvent",
+        "ShiftPatternChangeEvent",
+        "ShiftPatternEntryChangeEvent",
+        "ShiftTemplateChangeEvent",
+        "ShipmentChangeEvent",
+        "SkillChangeEvent",
+        "SkillRequirementChangeEvent",
+        "SlackAlertsEventChannel",
+        "TaskChangeEvent",
+        "TaskRelationChangeEvent",
+        "TimeSheetChangeEvent",
+        "TimeSheetEntryChangeEvent",
+        "TimeSlotChangeEvent",
+        "UnitOfMeasureChangeEvent",
+        "UserChangeEvent",
+        "VideoCall",
+        "WarrantyTermChangeEvent",
+        "WorkOrderChangeEvent",
+        "WorkOrderLineItemChangeEvent",
+        "WorkPlanChangeEvent",
+        "WorkPlanSelectionRuleChangeEvent",
+        "WorkPlanTemplateChangeEvent",
+        "WorkPlanTemplateEntryChangeEvent",
+        "WorkPlansCDCEventChannel",
+        "WorkStepChangeEvent",
+        "WorkStepTemplateChangeEvent",
+        "WorkTypeChangeEvent",
+      ]
+    }
+    foreignKeyDomain = [
+      "CustomObject",
+      salesforce.PlatformEventChannel,
+    ]
+  }
+  string relayOption {
+  }
+  string state {
+    _restriction = {
+      enforce_value = false
+      values = [
+        "PAUSE",
+        "RUN",
+        "STOP",
+      ]
+    }
+  }
+  string internalId {
+    _hidden_value = true
+    localOnly = true
+  }
+  suffix = "eventRelay"
+  dirName = "eventRelays"
+  metadataType = "EventRelayConfig"
+  string label {
+  }
+  string usageType {
+    _restriction = {
+      enforce_value = false
+      values = [
+        "AMAZON_EVENTBRIDGE",
+        "INTERNAL_MANAGED_SUBSCRIPTIONS",
+        "INTERNAL_REPLICATION",
+      ]
+    }
+  }
+}
