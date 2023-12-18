@@ -1,0 +1,16 @@
+salesforce.ValidationRule ServiceAppointment_FSL__Schedule_Start_Required {
+  fullName = "ServiceAppointment.FSL__Schedule_Start_Required"
+  active = true
+  errorConditionFormula = "ISNULL(SchedStartTime) && NOT(ISNULL(SchedEndTime))"
+  errorDisplayField = salesforce.ServiceAppointment.field.SchedStartTime
+  errorMessage = "Both scheduled start and end are required"
+  _parent = [
+    salesforce.ServiceAppointment,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.FSL
+    },
+  ]
+  _alias = "ServiceAppointment.FSL__Schedule_Start_Required"
+}

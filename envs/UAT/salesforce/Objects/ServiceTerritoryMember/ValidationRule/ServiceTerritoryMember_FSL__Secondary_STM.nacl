@@ -1,0 +1,27 @@
+salesforce.ValidationRule ServiceTerritoryMember_FSL__Secondary_STM {
+  fullName = "ServiceTerritoryMember.FSL__Secondary_STM"
+  active = true
+  errorConditionFormula = '''
+(ISPICKVAL(TerritoryType, "Secondary") && 
+    ( ( ( ISCHANGED(Longitude) || ISCHANGED(Latitude) ) && ( (NOT(ISBLANK(Longitude))) || (NOT(ISBLANK(Latitude))) )) || 
+      (NOT(ISBLANK(FSL__Internal_SLR_HomeAddress_Geolocation__Latitude__s))) || 
+      (NOT(ISBLANK(FSL__Internal_SLR_HomeAddress_Geolocation__Longitude__s))) || 
+      (NOT(ISBLANK( Street ))) || 
+      (NOT(ISBLANK( City ))) ||
+      (NOT(ISBLANK( Country ))) ||
+      (NOT(ISBLANK( State ))) || 
+      (NOT(ISBLANK(  PostalCode  )))
+    )
+ )
+'''
+  errorMessage = "Cannot save Service Territory Member of type secondary with Operating Hours or Address"
+  _parent = [
+    salesforce.ServiceTerritoryMember,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.FSL
+    },
+  ]
+  _alias = "ServiceTerritoryMember.FSL__Secondary_STM"
+}

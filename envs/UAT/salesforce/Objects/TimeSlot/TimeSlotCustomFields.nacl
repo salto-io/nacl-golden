@@ -1,0 +1,124 @@
+type salesforce.TimeSlot {
+  salesforce.MultiselectPicklist FSL__Designated_Work_Boolean_Fields__c {
+    apiName = "TimeSlot.FSL__Designated_Work_Boolean_Fields__c"
+    deprecated = false
+    externalId = false
+    label = "Designated Work Boolean Fields"
+    valueSet = [
+      {
+        fullName = "None"
+        default = false
+        label = "None"
+      },
+    ]
+    sorted = false
+    restricted = false
+    visibleLines = 4
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+  salesforce.Picklist FSL__Slot_Color__c {
+    apiName = "TimeSlot.FSL__Slot_Color__c"
+    deprecated = false
+    externalId = false
+    label = "Slot Color"
+    valueSet = [
+      {
+        fullName = "Red"
+        default = false
+        label = "Red"
+      },
+      {
+        fullName = "Pink"
+        default = false
+        label = "Pink"
+      },
+      {
+        fullName = "Purple"
+        default = false
+        label = "Purple"
+      },
+      {
+        fullName = "Indigo"
+        default = false
+        label = "Indigo"
+      },
+      {
+        fullName = "Blue"
+        default = false
+        label = "Blue"
+      },
+      {
+        fullName = "Cyan"
+        default = false
+        label = "Cyan"
+      },
+      {
+        fullName = "Teal"
+        default = false
+        label = "Teal"
+      },
+      {
+        fullName = "Green"
+        default = false
+        label = "Green"
+      },
+      {
+        fullName = "Lime"
+        default = false
+        label = "Lime"
+      },
+      {
+        fullName = "Yellow"
+        default = false
+        label = "Yellow"
+      },
+      {
+        fullName = "Amber"
+        default = false
+        label = "Amber"
+      },
+      {
+        fullName = "Orange"
+        default = false
+        label = "Orange"
+      },
+      {
+        fullName = "Brown"
+        default = false
+        label = "Brown"
+      },
+      {
+        fullName = "Grey"
+        default = false
+        label = "Grey"
+      },
+      {
+        fullName = "Asphalt"
+        default = false
+        label = "Asphalt"
+      },
+      {
+        fullName = "Black"
+        default = false
+        label = "Black"
+      },
+    ]
+    sorted = false
+    restricted = true
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+}

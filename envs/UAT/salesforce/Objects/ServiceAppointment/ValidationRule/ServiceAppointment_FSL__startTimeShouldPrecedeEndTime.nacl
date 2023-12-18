@@ -1,0 +1,16 @@
+salesforce.ValidationRule ServiceAppointment_FSL__startTimeShouldPrecedeEndTime {
+  fullName = "ServiceAppointment.FSL__startTimeShouldPrecedeEndTime"
+  active = false
+  errorConditionFormula = "SchedEndTime <=  SchedStartTime"
+  errorDisplayField = salesforce.ServiceAppointment.field.SchedStartTime
+  errorMessage = "The Scheduled Start must be earlier than the Scheduled End."
+  _parent = [
+    salesforce.ServiceAppointment,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.FSL
+    },
+  ]
+  _alias = "ServiceAppointment.FSL__startTimeShouldPrecedeEndTime"
+}

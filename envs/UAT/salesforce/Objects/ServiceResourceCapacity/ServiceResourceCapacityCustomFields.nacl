@@ -1,0 +1,76 @@
+type salesforce.ServiceResourceCapacity {
+  salesforce.FormulaNumber FSL__HoursInUse__c {
+    apiName = "ServiceResourceCapacity.FSL__HoursInUse__c"
+    deprecated = false
+    externalId = false
+    formula = "FSL__MinutesUsed__c / 60"
+    formulaTreatBlanksAs = "BlankAsZero"
+    label = "Hours In Use"
+    precision = 18
+    scale = 2
+    unique = false
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+      {
+        reference = salesforce.ServiceResourceCapacity.field.FSL__MinutesUsed__c
+      },
+    ]
+  }
+  salesforce.Number FSL__Last_Updated_Epoch__c {
+    apiName = "ServiceResourceCapacity.FSL__Last_Updated_Epoch__c"
+    deprecated = false
+    externalId = false
+    label = "Last Updated Epoch"
+    precision = 18
+    scale = 0
+    unique = false
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+  salesforce.Number FSL__MinutesUsed__c {
+    apiName = "ServiceResourceCapacity.FSL__MinutesUsed__c"
+    deprecated = false
+    externalId = false
+    label = "Minutes Used"
+    precision = 14
+    scale = 0
+    unique = false
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+  salesforce.Number FSL__Work_Items_Allocated__c {
+    apiName = "ServiceResourceCapacity.FSL__Work_Items_Allocated__c"
+    deprecated = false
+    externalId = false
+    label = "Work Items Allocated"
+    precision = 8
+    scale = 0
+    unique = false
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+}

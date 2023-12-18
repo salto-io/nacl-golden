@@ -1,0 +1,16 @@
+salesforce.ValidationRule ServiceAppointment_FSL__Same_Resource_Same_Start {
+  fullName = "ServiceAppointment.FSL__Same_Resource_Same_Start"
+  active = true
+  description = "Can't be same start and same reosurce"
+  errorConditionFormula = "TEXT(FSL__Time_Dependency__c) = \"Same Start\" && FSL__Same_Resource__c"
+  errorMessage = "Resource dependency is invalid. Time Dependency can't be Same Start when same resource is required."
+  _parent = [
+    salesforce.ServiceAppointment,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.FSL
+    },
+  ]
+  _alias = "ServiceAppointment.FSL__Same_Resource_Same_Start"
+}

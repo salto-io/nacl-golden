@@ -1,0 +1,16 @@
+salesforce.ValidationRule ResourceAbsence_FSL__Absence_Color_HEX_Format {
+  fullName = "ResourceAbsence.FSL__Absence_Color_HEX_Format"
+  active = true
+  errorConditionFormula = "(!ISBLANK(FSL__Gantt_Color__c)) && (NOT(REGEX(FSL__Gantt_Color__c, \"#[a-fA-F0-9]{6}\")))"
+  errorDisplayField = salesforce.ResourceAbsence.field.FSL__Gantt_Color__c
+  errorMessage = "Gantt color must be in hexadecimal format: (for example: #ffffff)"
+  _parent = [
+    salesforce.ResourceAbsence,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.FSL
+    },
+  ]
+  _alias = "ResourceAbsence.FSL__Absence_Color_HEX_Format"
+}
