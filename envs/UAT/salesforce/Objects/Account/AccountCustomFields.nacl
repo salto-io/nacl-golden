@@ -54,7 +54,11 @@ type salesforce.Account {
     label = "External Salesforce Id"
     length = 18
     unique = false
-    _hidden_value = true
+    
+    createable = true
+    updateable = true
+    caseSensitive = false
+    queryable = true
   }
   salesforce.Number NumberofLocations__c {
     apiName = "Account.NumberofLocations__c"
@@ -145,13 +149,7 @@ type salesforce.Account {
     updateable = true
     queryable = true
   }
-  salesforce.Checkbox deploy_me__c {
-    apiName = "Account.deploy_me__c"
-    defaultValue = false
-    externalId = false
-    label = "deploy me"
-    _hidden_value = true
-  }
+  
   salesforce.Checkbox testttt__c {
     apiName = "Account.testttt__c"
     defaultValue = false

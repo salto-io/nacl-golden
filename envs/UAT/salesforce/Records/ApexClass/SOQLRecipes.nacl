@@ -1,0 +1,33 @@
+salesforce.ApexClass SOQLRecipes {
+  apiVersion = 56
+  status = "Active"
+  fullName = "SOQLRecipes"
+  content = file("salesforce/Records/ApexClass/SOQLRecipes.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.Account
+    },
+    {
+      reference = salesforce.Contact
+    },
+    {
+      reference = salesforce.Junction_Demo_1__c
+    },
+    {
+      reference = salesforce.Junction_Demo_2__c
+    },
+    {
+      reference = salesforce.Junction__c
+    },
+    {
+      reference = salesforce.Junction__c.field.Parent2__c
+    },
+    {
+      reference = salesforce.Junction__c.field.parent1__c
+    },
+    {
+      reference = salesforce.Opportunity
+    },
+  ]
+  _alias = "SOQLRecipes"
+}

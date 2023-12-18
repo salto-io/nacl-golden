@@ -83,52 +83,131 @@ type salesforce.Campaign {
     precision = 18
     queryable = true
   }
-  salesforce.Unknown HierarchyActualCost {
+  salesforce.Currency HierarchyActualCost {
     apiName = "Campaign.HierarchyActualCost"
+    label = "Actual Cost in Hierarchy"
+    createable = false
+    updateable = false
+    scale = 0
+    precision = 18
+    queryable = true
     _hidden_value = true
   }
-  salesforce.Unknown HierarchyAmountAllOpportunities {
+  salesforce.Currency HierarchyAmountAllOpportunities {
     apiName = "Campaign.HierarchyAmountAllOpportunities"
+    label = "Value Opportunities in Hierarchy"
+    createable = false
+    updateable = false
+    scale = 0
+    precision = 18
+    queryable = true
     _hidden_value = true
   }
-  salesforce.Unknown HierarchyAmountWonOpportunities {
+  salesforce.Currency HierarchyAmountWonOpportunities {
     apiName = "Campaign.HierarchyAmountWonOpportunities"
+    label = "Value Won Opportunities in Hierarchy"
+    createable = false
+    updateable = false
+    scale = 0
+    precision = 18
+    queryable = true
     _hidden_value = true
   }
-  salesforce.Unknown HierarchyBudgetedCost {
+  salesforce.Currency HierarchyBudgetedCost {
     apiName = "Campaign.HierarchyBudgetedCost"
+    label = "Budgeted Cost in Hierarchy"
+    createable = false
+    updateable = false
+    scale = 0
+    precision = 18
+    queryable = true
     _hidden_value = true
   }
-  salesforce.Unknown HierarchyExpectedRevenue {
+  salesforce.Currency HierarchyExpectedRevenue {
     apiName = "Campaign.HierarchyExpectedRevenue"
+    label = "Expected Revenue in Hierarchy"
+    createable = false
+    updateable = false
+    scale = 0
+    precision = 18
+    queryable = true
     _hidden_value = true
   }
-  salesforce.Unknown HierarchyNumberOfContacts {
+  salesforce.Number HierarchyNumberOfContacts {
     apiName = "Campaign.HierarchyNumberOfContacts"
+    label = "Contacts in Hierarchy"
+    precision = 9
+    createable = false
+    updateable = false
+    scale = 0
+    unique = false
+    queryable = true
     _hidden_value = true
   }
-  salesforce.Unknown HierarchyNumberOfConvertedLeads {
+  salesforce.Number HierarchyNumberOfConvertedLeads {
     apiName = "Campaign.HierarchyNumberOfConvertedLeads"
+    label = "Converted Leads in Hierarchy"
+    precision = 9
+    createable = false
+    updateable = false
+    scale = 0
+    unique = false
+    queryable = true
     _hidden_value = true
   }
-  salesforce.Unknown HierarchyNumberOfLeads {
+  salesforce.Number HierarchyNumberOfLeads {
     apiName = "Campaign.HierarchyNumberOfLeads"
+    label = "Leads in Hierarchy"
+    precision = 9
+    createable = false
+    updateable = false
+    scale = 0
+    unique = false
+    queryable = true
     _hidden_value = true
   }
-  salesforce.Unknown HierarchyNumberOfOpportunities {
+  salesforce.Number HierarchyNumberOfOpportunities {
     apiName = "Campaign.HierarchyNumberOfOpportunities"
+    label = "Opportunities in Hierarchy"
+    precision = 9
+    createable = false
+    updateable = false
+    scale = 0
+    unique = false
+    queryable = true
     _hidden_value = true
   }
-  salesforce.Unknown HierarchyNumberOfResponses {
+  salesforce.Number HierarchyNumberOfResponses {
     apiName = "Campaign.HierarchyNumberOfResponses"
+    label = "Responses in Hierarchy"
+    precision = 9
+    createable = false
+    updateable = false
+    scale = 0
+    unique = false
+    queryable = true
     _hidden_value = true
   }
-  salesforce.Unknown HierarchyNumberOfWonOpportunities {
+  salesforce.Number HierarchyNumberOfWonOpportunities {
     apiName = "Campaign.HierarchyNumberOfWonOpportunities"
+    label = "Won Opportunities in Hierarchy"
+    precision = 9
+    createable = false
+    updateable = false
+    scale = 0
+    unique = false
+    queryable = true
     _hidden_value = true
   }
-  salesforce.Unknown HierarchyNumberSent {
+  salesforce.Number HierarchyNumberSent {
     apiName = "Campaign.HierarchyNumberSent"
+    label = "Num Sent in Hierarchy"
+    precision = 18
+    scale = 0
+    createable = false
+    updateable = false
+    unique = false
+    queryable = true
     _hidden_value = true
   }
   salesforce.Checkbox IsActive {

@@ -239,18 +239,6 @@ type salesforce.Macro {
         default = false
       },
       {
-        fullName = "enxootr__Class__c"
-        isActive = true
-        label = "Class"
-        default = false
-      },
-      {
-        fullName = "enxootr__Class_Coverage__c"
-        isActive = true
-        label = "Class Coverage"
-        default = false
-      },
-      {
         fullName = "CollaborationRoom"
         isActive = true
         label = "Collaboration Room"
@@ -623,12 +611,6 @@ type salesforce.Macro {
         default = false
       },
       {
-        fullName = "enxootr__Organization__c"
-        isActive = true
-        label = "Organization"
-        default = false
-      },
-      {
         fullName = "PartyConsent"
         isActive = true
         label = "Party Consent"
@@ -992,36 +974,6 @@ type salesforce.Macro {
         fullName = "FSL__Territory_Optimization_Request__c"
         isActive = true
         label = "Territory Optimization Request"
-        default = false
-      },
-      {
-        fullName = "enxootr__Method__c"
-        isActive = true
-        label = "Test Method"
-        default = false
-      },
-      {
-        fullName = "enxootr__Test_Result__c"
-        isActive = true
-        label = "Test Result"
-        default = false
-      },
-      {
-        fullName = "enxootr__Test_Run__c"
-        isActive = true
-        label = "Test Run"
-        default = false
-      },
-      {
-        fullName = "enxootr__Test_Suite__c"
-        isActive = true
-        label = "Test Suite"
-        default = false
-      },
-      {
-        fullName = "enxootr__Test_Suite_Member__c"
-        isActive = true
-        label = "Test Suite Member"
         default = false
       },
       {

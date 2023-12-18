@@ -148,14 +148,6 @@ type salesforce.FinanceTransaction {
       salesforce.Refund,
       salesforce.RefundLinePayment,
       salesforce.Sample__c,
-      "enxootr__Class_Coverage__c",
-      "enxootr__Class__c",
-      "enxootr__Method__c",
-      "enxootr__Organization__c",
-      "enxootr__Test_Result__c",
-      "enxootr__Test_Run__c",
-      "enxootr__Test_Suite_Member__c",
-      "enxootr__Test_Suite__c",
     ]
     label = "DestinationEntity ID"
     createable = true
@@ -628,14 +620,6 @@ type salesforce.FinanceTransaction {
       salesforce.LegalEntity,
       salesforce.LogEvent__c,
       salesforce.Sample__c,
-      "enxootr__Class_Coverage__c",
-      "enxootr__Class__c",
-      "enxootr__Method__c",
-      "enxootr__Organization__c",
-      "enxootr__Test_Result__c",
-      "enxootr__Test_Run__c",
-      "enxootr__Test_Suite_Member__c",
-      "enxootr__Test_Suite__c",
     ]
     label = "Legal Entity ID"
     createable = true
@@ -865,14 +849,6 @@ type salesforce.FinanceTransaction {
       salesforce.Refund,
       salesforce.RefundLinePayment,
       salesforce.Sample__c,
-      "enxootr__Class_Coverage__c",
-      "enxootr__Class__c",
-      "enxootr__Method__c",
-      "enxootr__Organization__c",
-      "enxootr__Test_Result__c",
-      "enxootr__Test_Run__c",
-      "enxootr__Test_Suite_Member__c",
-      "enxootr__Test_Suite__c",
     ]
     label = "ParentReferenceEntity ID"
     createable = true
@@ -921,14 +897,6 @@ type salesforce.FinanceTransaction {
       salesforce.Refund,
       salesforce.RefundLinePayment,
       salesforce.Sample__c,
-      "enxootr__Class_Coverage__c",
-      "enxootr__Class__c",
-      "enxootr__Method__c",
-      "enxootr__Organization__c",
-      "enxootr__Test_Result__c",
-      "enxootr__Test_Run__c",
-      "enxootr__Test_Suite_Member__c",
-      "enxootr__Test_Suite__c",
     ]
     label = "ReferenceEntity ID"
     createable = true
@@ -1159,14 +1127,6 @@ type salesforce.FinanceTransaction {
       salesforce.Refund,
       salesforce.RefundLinePayment,
       salesforce.Sample__c,
-      "enxootr__Class_Coverage__c",
-      "enxootr__Class__c",
-      "enxootr__Method__c",
-      "enxootr__Organization__c",
-      "enxootr__Test_Result__c",
-      "enxootr__Test_Run__c",
-      "enxootr__Test_Suite_Member__c",
-      "enxootr__Test_Suite__c",
     ]
     label = "SourceEntity ID"
     createable = true

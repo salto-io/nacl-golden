@@ -1,12 +1,11 @@
-salesforce.NamedCredential MockBin {
-  fullName = "MockBin"
+salesforce.NamedCredential HappySoup {
+  fullName = "HappySoup"
   allowMergeFieldsInBody = false
   allowMergeFieldsInHeader = false
-  endpoint = "http://mockbin.org/bin/"
+  endpoint = "https://dev-happysoup.io/auth"
   generateAuthorizationHeader = true
-  label = "MockBin"
+  label = "HappySoup"
   principalType = "Anonymous"
   protocol = "NoAuthentication"
-  
-  _alias = "MockBin"
+  _alias = "HappySoup"
 }

@@ -1,5 +1,0 @@
-salesforce.InstalledPackage enxootr {
-  versionNumber = "1.42"
-  fullName = "enxootr"
-  _alias = "enxootr"
-}

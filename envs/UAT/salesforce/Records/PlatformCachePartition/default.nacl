@@ -4,18 +4,18 @@ salesforce.PlatformCachePartition default {
   masterLabel = "default"
   platformCachePartitionTypes = [
     {
-      allocatedCapacity = 2
-      allocatedPartnerCapacity = 0
-      allocatedPurchasedCapacity = 0
-      allocatedTrialCapacity = 0
-      cacheType = "Session"
-    },
-    {
       allocatedCapacity = 1
       allocatedPartnerCapacity = 0
       allocatedPurchasedCapacity = 0
       allocatedTrialCapacity = 0
       cacheType = "Organization"
+    },
+    {
+      allocatedCapacity = 2
+      allocatedPartnerCapacity = 0
+      allocatedPurchasedCapacity = 0
+      allocatedTrialCapacity = 0
+      cacheType = "Session"
     },
   ]
   _alias = "default"

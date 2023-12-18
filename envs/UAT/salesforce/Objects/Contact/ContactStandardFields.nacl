@@ -110,9 +110,13 @@ type salesforce.Contact {
     updateable = true
     queryable = true
   }
-  salesforce.Unknown DoNotCall {
+  salesforce.Checkbox DoNotCall {
     apiName = "Contact.DoNotCall"
-    _hidden_value = true
+    defaultValue = false
+    label = "Do Not Call"
+    createable = true
+    updateable = true
+    queryable = true
   }
   salesforce.Email Email {
     apiName = "Contact.Email"
@@ -133,13 +137,21 @@ type salesforce.Contact {
     apiName = "Contact.GenderIdentity"
     _hidden_value = true
   }
-  salesforce.Unknown HasOptedOutOfEmail {
+  salesforce.Checkbox HasOptedOutOfEmail {
     apiName = "Contact.HasOptedOutOfEmail"
-    _hidden_value = true
+    defaultValue = false
+    label = "Email Opt Out"
+    createable = true
+    updateable = true
+    queryable = true
   }
-  salesforce.Unknown HasOptedOutOfFax {
+  salesforce.Checkbox HasOptedOutOfFax {
     apiName = "Contact.HasOptedOutOfFax"
-    _hidden_value = true
+    defaultValue = false
+    label = "Fax Opt Out"
+    createable = true
+    updateable = true
+    queryable = true
   }
   salesforce.Phone HomePhone {
     apiName = "Contact.HomePhone"
