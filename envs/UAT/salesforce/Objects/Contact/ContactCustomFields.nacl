@@ -33,7 +33,10 @@ type salesforce.Contact {
     ]
     sorted = false
     restricted = true
-    _hidden_value = true
+    
+    createable = true
+    updateable = true
+    queryable = true
   }
   salesforce.Text ExternalSalesforceId__c {
     apiName = "Contact.ExternalSalesforceId__c"
@@ -41,7 +44,11 @@ type salesforce.Contact {
     label = "External Salesforce Id"
     length = 18
     unique = false
-    _hidden_value = true
+    
+    createable = true
+    updateable = true
+    caseSensitive = false
+    queryable = true
   }
   salesforce.Text Languages__c {
     apiName = "Contact.Languages__c"

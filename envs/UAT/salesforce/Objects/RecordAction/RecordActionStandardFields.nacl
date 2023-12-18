@@ -659,14 +659,6 @@ type salesforce.RecordAction {
       salesforce.WorkOrderLineItem,
       salesforce.WorkType,
       salesforce.WorkTypeGroup,
-      "enxootr__Class_Coverage__c",
-      "enxootr__Class__c",
-      "enxootr__Method__c",
-      "enxootr__Organization__c",
-      "enxootr__Test_Result__c",
-      "enxootr__Test_Run__c",
-      "enxootr__Test_Suite_Member__c",
-      "enxootr__Test_Suite__c",
     ]
     _required = true
     label = "Parent Record ID"

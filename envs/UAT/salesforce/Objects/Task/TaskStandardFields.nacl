@@ -232,7 +232,13 @@ type salesforce.Task {
   }
   salesforce.Picklist Type {
     apiName = "Task.Type"
-    _hidden_value = true
+    
+    restricted = false
+    label = "Type"
+    createable = true
+    updateable = true
+    queryable = true
+    valueSetName = salesforce.StandardValueSet.instance.TaskType
   }
   salesforce.Lookup WhatId {
     apiName = "Task.WhatId"

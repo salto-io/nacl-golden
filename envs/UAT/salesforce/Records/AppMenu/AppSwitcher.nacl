@@ -122,19 +122,15 @@ salesforce.AppMenu AppSwitcher {
       type = "CustomApplication"
     },
     {
+      name = salesforce.ConnectedApp.instance.SaltoApp
+      type = "ConnectedApp"
+    },
+    {
       name = "FSL__FieldService"
       type = "CustomApplication"
     },
     {
       name = "FSL__FieldService_Admin"
-      type = "CustomApplication"
-    },
-    {
-      name = "enxootr__Test_Runner"
-      type = "CustomApplication"
-    },
-    {
-      name = "enxootr__Test_Runner_Lightning"
       type = "CustomApplication"
     },
   ]

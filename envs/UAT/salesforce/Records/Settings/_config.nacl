@@ -1163,6 +1163,15 @@ salesforce.AddressSettings {
       },
       {
         active = true
+        integrationValue = "Cuba"
+        isoCode = "CU"
+        label = "Cuba"
+        orgDefault = false
+        standard = true
+        visible = true
+      },
+      {
+        active = true
         integrationValue = "Cape Verde"
         isoCode = "CV"
         label = "Cape Verde"
@@ -1199,9 +1208,9 @@ salesforce.AddressSettings {
       },
       {
         active = true
-        integrationValue = "Czechia"
+        integrationValue = "Czech Republic"
         isoCode = "CZ"
-        label = "Czechia"
+        label = "Czech Republic"
         orgDefault = false
         standard = true
         visible = true
@@ -2134,6 +2143,15 @@ salesforce.AddressSettings {
         integrationValue = "Iraq"
         isoCode = "IQ"
         label = "Iraq"
+        orgDefault = false
+        standard = true
+        visible = true
+      },
+      {
+        active = true
+        integrationValue = "Iran, Islamic Republic of"
+        isoCode = "IR"
+        label = "Iran, Islamic Republic of"
         orgDefault = false
         standard = true
         visible = true
@@ -3508,6 +3526,15 @@ salesforce.AddressSettings {
       },
       {
         active = true
+        integrationValue = "Korea, Democratic People's Republic of"
+        isoCode = "KP"
+        label = "Korea, Democratic People's Republic of"
+        orgDefault = false
+        standard = true
+        visible = true
+      },
+      {
+        active = true
         integrationValue = "Korea, Republic of"
         isoCode = "KR"
         label = "Korea, Republic of"
@@ -3697,9 +3724,9 @@ salesforce.AddressSettings {
       },
       {
         active = true
-        integrationValue = "North Macedonia"
+        integrationValue = "Macedonia, the former Yugoslav Republic of"
         isoCode = "MK"
-        label = "North Macedonia"
+        label = "Macedonia, the former Yugoslav Republic of"
         orgDefault = false
         standard = true
         visible = true
@@ -4396,6 +4423,15 @@ salesforce.AddressSettings {
       },
       {
         active = true
+        integrationValue = "Sudan"
+        isoCode = "SD"
+        label = "Sudan"
+        orgDefault = false
+        standard = true
+        visible = true
+      },
+      {
+        active = true
         integrationValue = "Sweden"
         isoCode = "SE"
         label = "Sweden"
@@ -4531,9 +4567,18 @@ salesforce.AddressSettings {
       },
       {
         active = true
-        integrationValue = "Eswatini"
+        integrationValue = "Syrian Arab Republic"
+        isoCode = "SY"
+        label = "Syrian Arab Republic"
+        orgDefault = false
+        standard = true
+        visible = true
+      },
+      {
+        active = true
+        integrationValue = "Swaziland"
         isoCode = "SZ"
-        label = "Eswatini"
+        label = "Swaziland"
         orgDefault = false
         standard = true
         visible = true
@@ -4639,9 +4684,9 @@ salesforce.AddressSettings {
       },
       {
         active = true
-        integrationValue = "Türkiye"
+        integrationValue = "Turkey"
         isoCode = "TR"
-        label = "Türkiye"
+        label = "Turkey"
         orgDefault = false
         standard = true
         visible = true
@@ -5307,15 +5352,6 @@ salesforce.AddressSettings {
       },
       {
         active = true
-        integrationValue = "Kosovo"
-        isoCode = "XK"
-        label = "Kosovo"
-        orgDefault = false
-        standard = true
-        visible = true
-      },
-      {
-        active = true
         integrationValue = "Yemen"
         isoCode = "YE"
         label = "Yemen"
@@ -5500,16 +5536,7 @@ salesforce.BusinessHoursSettings {
       wednesdayStartTime = "00:00:00.000Z"
     }
   }
-  holidays = [
-    {
-      isRecurring = "true"
-      name = "New Year"
-      recurrenceDayOfMonth = "1"
-      recurrenceMonthOfYear = "January"
-      recurrenceStartDate = "2023-01-01"
-      recurrenceType = "RecursYearly"
-    },
-  ]
+  
   _alias = "BusinessHours"
 }
 salesforce.CampaignSettings {
@@ -5535,9 +5562,9 @@ salesforce.CaseSettings {
   caseMergeInLightning = "false"
   closeCaseThroughStatusChange = false
   defaultCaseFeedLayoutOn = true
-  defaultCaseOwner = "pgonzaleznetwork@wise-moose-swplx.com"
+  defaultCaseOwner = "pgonzaleznetwork@empathetic-wolf-gxzqxd.com"
   defaultCaseOwnerType = "User"
-  defaultCaseUser = "pgonzaleznetwork@wise-moose-swplx.com"
+  defaultCaseUser = "pgonzaleznetwork@empathetic-wolf-gxzqxd.com"
   emailToCase = {
     enableEmailToCase = false
   }
@@ -5881,7 +5908,7 @@ salesforce.FieldServiceSettings {
   isGeoCodeSyncEnabled = false
   isLocationHistoryEnabled = false
   o2EngineEnabled = "false"
-  optimizationServiceAccess = "true"
+  optimizationServiceAccess = "false"
   serviceAppointmentsDueDateOffsetOrgValue = 7
   workOrderLineItemSearchFields = "Subject"
   workOrderSearchFields = "Subject"
@@ -6214,6 +6241,10 @@ salesforce.ForecastingSettings {
           label = "Owner Full Name"
         },
         {
+          field = "CONTRACT.CONTRACT_NUMBER"
+          label = "Contract Number"
+        },
+        {
           field = "CORE.USERS.ALIAS"
           label = "Opportunity Owner Alias"
         },
@@ -6340,6 +6371,7 @@ salesforce.ForecastingSettings {
       }
       opportunityListFieldsUnselectedSettings = {
         field = [
+          "CONTRACT.CONTRACT_NUMBER",
           "CORE.USERS.ALIAS",
           "CORE.USERS.FIRST_NAME",
           "CORE.USERS.LAST_NAME",
@@ -6424,6 +6456,10 @@ salesforce.ForecastingSettings {
         {
           field = "FULL_NAME"
           label = "Owner Full Name"
+        },
+        {
+          field = "CONTRACT.CONTRACT_NUMBER"
+          label = "Contract Number"
         },
         {
           field = "OPPORTUNITY.AMOUNT"
@@ -6552,6 +6588,7 @@ salesforce.ForecastingSettings {
       }
       opportunityListFieldsUnselectedSettings = {
         field = [
+          "CONTRACT.CONTRACT_NUMBER",
           "OPPORTUNITY.AMOUNT",
           "CORE.USERS.ALIAS",
           "CORE.USERS.FIRST_NAME",
@@ -6636,6 +6673,10 @@ salesforce.ForecastingSettings {
         {
           field = "FULL_NAME"
           label = "Owner Full Name"
+        },
+        {
+          field = "CONTRACT.CONTRACT_NUMBER"
+          label = "Contract Number"
         },
         {
           field = "OPPORTUNITY.AMOUNT"
@@ -6768,6 +6809,7 @@ salesforce.ForecastingSettings {
       }
       opportunityListFieldsUnselectedSettings = {
         field = [
+          "CONTRACT.CONTRACT_NUMBER",
           "OPPORTUNITY.AMOUNT",
           "CORE.USERS.ALIAS",
           "CORE.USERS.FIRST_NAME",
@@ -6855,6 +6897,10 @@ salesforce.ForecastingSettings {
           label = "Owner Full Name"
         },
         {
+          field = "CONTRACT.CONTRACT_NUMBER"
+          label = "Contract Number"
+        },
+        {
           field = "OPPORTUNITY.AMOUNT"
           label = "Amount"
         },
@@ -6981,6 +7027,7 @@ salesforce.ForecastingSettings {
       }
       opportunityListFieldsUnselectedSettings = {
         field = [
+          "CONTRACT.CONTRACT_NUMBER",
           "OPPORTUNITY.AMOUNT",
           "CORE.USERS.ALIAS",
           "CORE.USERS.FIRST_NAME",
@@ -7065,6 +7112,10 @@ salesforce.ForecastingSettings {
         {
           field = "FULL_NAME"
           label = "Owner Full Name"
+        },
+        {
+          field = "CONTRACT.CONTRACT_NUMBER"
+          label = "Contract Number"
         },
         {
           field = "OPPORTUNITY.AMOUNT"
@@ -7197,6 +7248,7 @@ salesforce.ForecastingSettings {
       }
       opportunityListFieldsUnselectedSettings = {
         field = [
+          "CONTRACT.CONTRACT_NUMBER",
           "OPPORTUNITY.AMOUNT",
           "CORE.USERS.ALIAS",
           "CORE.USERS.FIRST_NAME",
@@ -7284,6 +7336,10 @@ salesforce.ForecastingSettings {
           label = "Owner Full Name"
         },
         {
+          field = "CONTRACT.CONTRACT_NUMBER"
+          label = "Contract Number"
+        },
+        {
           field = "OPPORTUNITY.AMOUNT"
           label = "Amount"
         },
@@ -7410,6 +7466,7 @@ salesforce.ForecastingSettings {
       }
       opportunityListFieldsUnselectedSettings = {
         field = [
+          "CONTRACT.CONTRACT_NUMBER",
           "OPPORTUNITY.AMOUNT",
           "CORE.USERS.ALIAS",
           "CORE.USERS.FIRST_NAME",
@@ -7494,6 +7551,10 @@ salesforce.ForecastingSettings {
         {
           field = "FULL_NAME"
           label = "Owner Full Name"
+        },
+        {
+          field = "CONTRACT.CONTRACT_NUMBER"
+          label = "Contract Number"
         },
         {
           field = "OPPORTUNITY.AMOUNT"
@@ -7626,6 +7687,7 @@ salesforce.ForecastingSettings {
       }
       opportunityListFieldsUnselectedSettings = {
         field = [
+          "CONTRACT.CONTRACT_NUMBER",
           "OPPORTUNITY.AMOUNT",
           "CORE.USERS.ALIAS",
           "CORE.USERS.FIRST_NAME",
@@ -7713,6 +7775,10 @@ salesforce.ForecastingSettings {
           label = "Owner Full Name"
         },
         {
+          field = "CONTRACT.CONTRACT_NUMBER"
+          label = "Contract Number"
+        },
+        {
           field = "OPPORTUNITY.AMOUNT"
           label = "Amount"
         },
@@ -7839,6 +7905,7 @@ salesforce.ForecastingSettings {
       }
       opportunityListFieldsUnselectedSettings = {
         field = [
+          "CONTRACT.CONTRACT_NUMBER",
           "OPPORTUNITY.AMOUNT",
           "CORE.USERS.ALIAS",
           "CORE.USERS.FIRST_NAME",
@@ -7923,6 +7990,10 @@ salesforce.ForecastingSettings {
         {
           field = "FULL_NAME"
           label = "Owner Full Name"
+        },
+        {
+          field = "CONTRACT.CONTRACT_NUMBER"
+          label = "Contract Number"
         },
         {
           field = "OPPORTUNITY.AMOUNT"
@@ -8055,6 +8126,7 @@ salesforce.ForecastingSettings {
       }
       opportunityListFieldsUnselectedSettings = {
         field = [
+          "CONTRACT.CONTRACT_NUMBER",
           "OPPORTUNITY.AMOUNT",
           "CORE.USERS.ALIAS",
           "CORE.USERS.FIRST_NAME",
@@ -8142,6 +8214,10 @@ salesforce.ForecastingSettings {
           label = "Owner Full Name"
         },
         {
+          field = "CONTRACT.CONTRACT_NUMBER"
+          label = "Contract Number"
+        },
+        {
           field = "OPPORTUNITY.AMOUNT"
           label = "Amount"
         },
@@ -8268,6 +8344,7 @@ salesforce.ForecastingSettings {
       }
       opportunityListFieldsUnselectedSettings = {
         field = [
+          "CONTRACT.CONTRACT_NUMBER",
           "OPPORTUNITY.AMOUNT",
           "CORE.USERS.ALIAS",
           "CORE.USERS.FIRST_NAME",
@@ -8352,6 +8429,10 @@ salesforce.ForecastingSettings {
         {
           field = "FULL_NAME"
           label = "Owner Full Name"
+        },
+        {
+          field = "CONTRACT.CONTRACT_NUMBER"
+          label = "Contract Number"
         },
         {
           field = "OPPORTUNITY.AMOUNT"
@@ -8484,6 +8565,7 @@ salesforce.ForecastingSettings {
       }
       opportunityListFieldsUnselectedSettings = {
         field = [
+          "CONTRACT.CONTRACT_NUMBER",
           "OPPORTUNITY.AMOUNT",
           "CORE.USERS.ALIAS",
           "CORE.USERS.FIRST_NAME",
@@ -8569,6 +8651,10 @@ salesforce.ForecastingSettings {
         {
           field = "FULL_NAME"
           label = "Owner Full Name"
+        },
+        {
+          field = "CONTRACT.CONTRACT_NUMBER"
+          label = "Contract Number"
         },
         {
           field = "OPPORTUNITY.AMOUNT"
@@ -8697,6 +8783,7 @@ salesforce.ForecastingSettings {
       }
       opportunityListFieldsUnselectedSettings = {
         field = [
+          "CONTRACT.CONTRACT_NUMBER",
           "OPPORTUNITY.AMOUNT",
           "CORE.USERS.ALIAS",
           "CORE.USERS.FIRST_NAME",
@@ -8944,7 +9031,7 @@ salesforce.MyDomainSettings {
   enableShareBrowserSessionAndroidForAuth = "false"
   enableShareBrowserSessionIOSForAuth = "false"
   logRedirections = "false"
-  myDomainName = "wise-moose-swplx-dev-ed"
+  myDomainName = "empathetic-wolf-gxzqxd-dev-ed"
   myDomainSuffix = "MySalesforce"
   redirectForceComSiteUrls = "true"
   redirectPriorMyDomain = "true"
@@ -10229,54 +10316,6 @@ salesforce.SearchSettings {
         lookupAutoCompleteEnabled = false
         name = salesforce.WorkTypeGroup
         resultsPerPageCount = 25
-      },
-      {
-        enhancedLookupEnabled = false
-        lookupAutoCompleteEnabled = false
-        name = "enxootr__Class_Coverage__c"
-        resultsPerPageCount = 0
-      },
-      {
-        enhancedLookupEnabled = false
-        lookupAutoCompleteEnabled = false
-        name = "enxootr__Class__c"
-        resultsPerPageCount = 0
-      },
-      {
-        enhancedLookupEnabled = false
-        lookupAutoCompleteEnabled = false
-        name = "enxootr__Method__c"
-        resultsPerPageCount = 0
-      },
-      {
-        enhancedLookupEnabled = false
-        lookupAutoCompleteEnabled = false
-        name = "enxootr__Organization__c"
-        resultsPerPageCount = 25
-      },
-      {
-        enhancedLookupEnabled = false
-        lookupAutoCompleteEnabled = false
-        name = "enxootr__Test_Result__c"
-        resultsPerPageCount = 0
-      },
-      {
-        enhancedLookupEnabled = false
-        lookupAutoCompleteEnabled = false
-        name = "enxootr__Test_Run__c"
-        resultsPerPageCount = 0
-      },
-      {
-        enhancedLookupEnabled = false
-        lookupAutoCompleteEnabled = false
-        name = "enxootr__Test_Suite_Member__c"
-        resultsPerPageCount = 0
-      },
-      {
-        enhancedLookupEnabled = false
-        lookupAutoCompleteEnabled = false
-        name = "enxootr__Test_Suite__c"
-        resultsPerPageCount = 0
       },
     ]
   }

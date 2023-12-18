@@ -6,9 +6,9 @@ salesforce.SamlSsoConfig trailhead_SAML_SSO_Setting {
   issuer = "https://trailhead.my.salesforce.com"
   loginUrl = "https://trailhead.my.salesforce.com/idp/endpoint/HttpPost"
   name = "trailhead SAML SSO Setting"
-  oauthTokenEndpoint = "https://wise-moose-swplx-dev-ed.trailblaze.my.salesforce.com/services/oauth2/token"
+  oauthTokenEndpoint = "https://empathetic-wolf-gxzqxd-dev-ed.trailblaze.my.salesforce.com/services/oauth2/token"
   redirectBinding = false
-  salesforceLoginUrl = "https://wise-moose-swplx-dev-ed.trailblaze.my.salesforce.com"
+  salesforceLoginUrl = "https://empathetic-wolf-gxzqxd-dev-ed.trailblaze.my.salesforce.com"
   samlEntityId = "https://saml.salesforce.com/00D41000000F47YEAS"
   samlVersion = "SAML2_0"
   useConfigRequestMethod = false

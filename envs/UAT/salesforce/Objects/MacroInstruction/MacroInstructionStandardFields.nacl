@@ -2472,54 +2472,6 @@ type salesforce.MacroInstruction {
         label = "Active Work Type Group Member Tab"
         default = false
       },
-      {
-        fullName = "Tab.enxootr__Class_Coverage__c"
-        isActive = true
-        label = "Active Class Coverage Tab"
-        default = false
-      },
-      {
-        fullName = "Tab.enxootr__Class__c"
-        isActive = true
-        label = "Active Class Tab"
-        default = false
-      },
-      {
-        fullName = "Tab.enxootr__Method__c"
-        isActive = true
-        label = "Active Test Method Tab"
-        default = false
-      },
-      {
-        fullName = "Tab.enxootr__Organization__c"
-        isActive = true
-        label = "Active Organization Tab"
-        default = false
-      },
-      {
-        fullName = "Tab.enxootr__Test_Result__c"
-        isActive = true
-        label = "Active Test Result Tab"
-        default = false
-      },
-      {
-        fullName = "Tab.enxootr__Test_Run__c"
-        isActive = true
-        label = "Active Test Run Tab"
-        default = false
-      },
-      {
-        fullName = "Tab.enxootr__Test_Suite_Member__c"
-        isActive = true
-        label = "Active Test Suite Member Tab"
-        default = false
-      },
-      {
-        fullName = "Tab.enxootr__Test_Suite__c"
-        isActive = true
-        label = "Active Test Suite Tab"
-        default = false
-      },
     ]
     restricted = true
     label = "Target"

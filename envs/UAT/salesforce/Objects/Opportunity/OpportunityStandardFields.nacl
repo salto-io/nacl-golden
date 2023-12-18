@@ -45,7 +45,15 @@ type salesforce.Opportunity {
   salesforce.Lookup ContractId {
     apiName = "Opportunity.ContractId"
     trackTrending = false
-    _hidden_value = true
+    
+    relationshipName = "Contract"
+    referenceTo = [
+      salesforce.Contract,
+    ]
+    label = "Contract ID"
+    createable = true
+    updateable = true
+    queryable = true
   }
   salesforce.LongTextArea Description {
     apiName = "Opportunity.Description"
