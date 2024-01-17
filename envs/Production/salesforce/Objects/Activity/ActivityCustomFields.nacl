@@ -1,0 +1,10 @@
+type salesforce.Activity {
+  salesforce.Text Activity_Source__c {
+    apiName = "Activity.Activity_Source__c"
+    externalId = false
+    label = "Activity Source"
+    length = 50
+    unique = false
+    _hidden_value = true
+  }
+}

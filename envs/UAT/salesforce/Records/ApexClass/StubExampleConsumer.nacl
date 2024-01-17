@@ -1,0 +1,12 @@
+salesforce.ApexClass StubExampleConsumer {
+  apiVersion = 58
+  status = "Active"
+  fullName = "StubExampleConsumer"
+  content = file("salesforce/Records/ApexClass/StubExampleConsumer.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.ApexClass.instance.StubExample
+    },
+  ]
+  _alias = "StubExampleConsumer"
+}

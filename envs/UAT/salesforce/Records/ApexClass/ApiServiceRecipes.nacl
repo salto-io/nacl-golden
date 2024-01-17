@@ -1,0 +1,15 @@
+salesforce.ApexClass ApiServiceRecipes {
+  apiVersion = 58
+  status = "Active"
+  fullName = "ApiServiceRecipes"
+  content = file("salesforce/Records/ApexClass/ApiServiceRecipes.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.ApexClass.instance.ApiServiceRecipesDataModel
+    },
+    {
+      reference = salesforce.ApexClass.instance.RestClient
+    },
+  ]
+  _alias = "ApiServiceRecipes"
+}

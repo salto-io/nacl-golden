@@ -1,0 +1,37 @@
+type salesforce.WorkOrderLineItem {
+  salesforce.Checkbox FSL__IsFillInCandidate__c {
+    apiName = "WorkOrderLineItem.FSL__IsFillInCandidate__c"
+    defaultValue = true
+    deprecated = false
+    externalId = false
+    label = "Is Fill In Candidate"
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+  salesforce.Lookup FSL__VisitingHours__c {
+    apiName = "WorkOrderLineItem.FSL__VisitingHours__c"
+    deleteConstraint = "SetNull"
+    deprecated = false
+    externalId = false
+    label = "Visiting Hours"
+    referenceTo = [
+      salesforce.OperatingHours,
+    ]
+    relationshipLabel = "Work Order Line Items"
+    relationshipName = "Work_Order_Line_Items"
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+}

@@ -1,0 +1,153 @@
+type salesforce.ServiceTerritory {
+  salesforce.Checkbox FSL__Hide_Emergency_Map__c {
+    apiName = "ServiceTerritory.FSL__Hide_Emergency_Map__c"
+    defaultValue = false
+    deprecated = false
+    description = "Determines if the map will be shown on the emergency wizard"
+    externalId = false
+    label = "Hide Emergency Map"
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+  salesforce.Geolocation FSL__Internal_SLR_Geolocation__c {
+    apiName = "ServiceTerritory.FSL__Internal_SLR_Geolocation__c"
+    deprecated = false
+    displayLocationInDecimal = true
+    externalId = false
+    label = "Internal SLR HomeAddress Geolocation"
+    scale = 6
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+  salesforce.Number FSL__NumberOfServicesToDripFeed__c {
+    apiName = "ServiceTerritory.FSL__NumberOfServicesToDripFeed__c"
+    deprecated = false
+    externalId = false
+    label = "Number Of Services To Drip Feed"
+    precision = 7
+    scale = 0
+    unique = false
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+  salesforce.Checkbox FSL__O2_Enabled__c {
+    apiName = "ServiceTerritory.FSL__O2_Enabled__c"
+    defaultValue = false
+    deprecated = false
+    description = "Determines if enhanced scheduling and optimization engine is used"
+    externalId = false
+    label = "Use enhanced scheduling and optimization"
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+  salesforce.Number FSL__Service_Cluster_Min_Size__c {
+    apiName = "ServiceTerritory.FSL__Service_Cluster_Min_Size__c"
+    deprecated = false
+    externalId = false
+    label = "Service Cluster Min Size (Closed Pilot)"
+    precision = 18
+    scale = 0
+    unique = false
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+  salesforce.Number FSL__Service_Cluster_Proximity__c {
+    apiName = "ServiceTerritory.FSL__Service_Cluster_Proximity__c"
+    deprecated = false
+    externalId = false
+    label = "Service Cluster Proximity (Closed Pilot)"
+    precision = 6
+    scale = 3
+    unique = false
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+  salesforce.MultiselectPicklist FSL__System_Jobs__c {
+    apiName = "ServiceTerritory.FSL__System_Jobs__c"
+    deprecated = false
+    externalId = false
+    label = "System Jobs"
+    valueSet = [
+      {
+        fullName = "BATCH_ServicesInJeopardy"
+        default = false
+        label = "BATCH_ServicesInJeopardy"
+      },
+      {
+        fullName = "BATCH_ServicesDispatched"
+        default = false
+        label = "BATCH_ServicesDispatched"
+      },
+      {
+        fullName = "ChatterNotification"
+        default = false
+        label = "ChatterNotification"
+      },
+    ]
+    sorted = false
+    restricted = false
+    visibleLines = 4
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+  salesforce.Number FSL__TerritoryLevel__c {
+    apiName = "ServiceTerritory.FSL__TerritoryLevel__c"
+    deprecated = false
+    externalId = false
+    label = "Territory Level"
+    precision = 14
+    scale = 0
+    unique = false
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+}

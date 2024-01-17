@@ -1,0 +1,178 @@
+type salesforce.AssignedResource {
+  salesforce.Number FSL__EstimatedTravelDistanceFrom__c {
+    apiName = "AssignedResource.FSL__EstimatedTravelDistanceFrom__c"
+    deprecated = false
+    externalId = false
+    label = "Approximate Travel Distance From"
+    precision = 18
+    scale = 2
+    unique = false
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+  salesforce.Number FSL__EstimatedTravelDistanceTo__c {
+    apiName = "AssignedResource.FSL__EstimatedTravelDistanceTo__c"
+    deprecated = false
+    externalId = false
+    label = "Approximate Travel Distance To"
+    precision = 18
+    scale = 2
+    unique = false
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+  salesforce.Number FSL__EstimatedTravelTimeFrom__c {
+    apiName = "AssignedResource.FSL__EstimatedTravelTimeFrom__c"
+    deprecated = false
+    externalId = false
+    label = "Approximate Travel Time From (Minutes)"
+    precision = 18
+    scale = 2
+    unique = false
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+  salesforce.Picklist FSL__Estimated_Travel_Time_From_Source__c {
+    apiName = "AssignedResource.FSL__Estimated_Travel_Time_From_Source__c"
+    deprecated = false
+    externalId = false
+    label = "Estimated Travel Time From Source"
+    valueSet = [
+      {
+        fullName = "None"
+        default = false
+        label = "None"
+      },
+      {
+        fullName = "Aerial"
+        default = false
+        label = "Aerial"
+      },
+      {
+        fullName = "SLR"
+        default = false
+        label = "SLR"
+      },
+      {
+        fullName = "Predictive"
+        default = false
+        label = "Predictive"
+      },
+    ]
+    sorted = false
+    restricted = true
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+  salesforce.Picklist FSL__Estimated_Travel_Time_To_Source__c {
+    apiName = "AssignedResource.FSL__Estimated_Travel_Time_To_Source__c"
+    deprecated = false
+    externalId = false
+    label = "Estimated Travel Time To Source"
+    valueSet = [
+      {
+        fullName = "None"
+        default = false
+        label = "None"
+      },
+      {
+        fullName = "Aerial"
+        default = false
+        label = "Aerial"
+      },
+      {
+        fullName = "SLR"
+        default = false
+        label = "SLR"
+      },
+      {
+        fullName = "Predictive"
+        default = false
+        label = "Predictive"
+      },
+    ]
+    sorted = false
+    restricted = true
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+  salesforce.Number FSL__Last_Updated_Epoch__c {
+    apiName = "AssignedResource.FSL__Last_Updated_Epoch__c"
+    deprecated = false
+    externalId = false
+    label = "Last Updated Epoch"
+    precision = 18
+    scale = 0
+    unique = false
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+  salesforce.Checkbox FSL__UpdatedByOptimization__c {
+    apiName = "AssignedResource.FSL__UpdatedByOptimization__c"
+    defaultValue = false
+    deprecated = false
+    externalId = false
+    label = "UpdatedByOptimization"
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+  salesforce.Number FSL__calculated_duration__c {
+    apiName = "AssignedResource.FSL__calculated_duration__c"
+    deprecated = false
+    externalId = false
+    label = "calculated duration (Minutes)"
+    precision = 18
+    scale = 0
+    unique = false
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+}
