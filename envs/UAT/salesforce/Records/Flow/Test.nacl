@@ -29,7 +29,7 @@ salesforce.Flow Test {
       name = "getAccount"
       label = "getAccount"
       locationX = 176
-      locationY = 158
+      locationY = 134
       assignNullValuesIfNoRecordsFound = false
       filterLogic = "and"
       filters = [
@@ -44,6 +44,10 @@ salesforce.Flow Test {
       getFirstRecordOnly = false
       object = salesforce.Account
       storeOutputAutomatically = true
+      queriedFields = [
+        salesforce.Account.field.Id,
+        "BillingCity",
+      ]
     },
   ]
   start = {
@@ -64,4 +68,6 @@ salesforce.Flow Test {
       objectType = salesforce.Account
     },
   ]
+  _alias = "Test"
+  environments = "Default"
 }
