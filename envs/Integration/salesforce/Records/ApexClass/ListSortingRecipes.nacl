@@ -1,0 +1,21 @@
+salesforce.ApexClass ListSortingRecipes {
+  apiVersion = 58
+  status = "Active"
+  fullName = "ListSortingRecipes"
+  content = file("salesforce/Records/ApexClass/ListSortingRecipes.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.Account
+    },
+    {
+      reference = salesforce.ApexClass.instance.ListUtils
+    },
+    {
+      reference = salesforce.ApexClass.instance.SObjectStringFieldComparator
+    },
+    {
+      reference = salesforce.ApexClass.instance.SortableAccount
+    },
+  ]
+  _alias = "ListSortingRecipes"
+}

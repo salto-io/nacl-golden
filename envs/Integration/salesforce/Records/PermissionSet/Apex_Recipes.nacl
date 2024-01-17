@@ -1,0 +1,222 @@
+salesforce.PermissionSet Apex_Recipes {
+  applicationVisibilities = {
+    Apex_Recipes = {
+      application = "Apex_Recipes"
+      visible = true
+    }
+  }
+  classAccesses = {
+    AuraEnabledRecipes = {
+      apexClass = "AuraEnabledRecipes"
+      enabled = true
+    }
+    FormattedRecipeDisplayController = {
+      apexClass = "FormattedRecipeDisplayController"
+      enabled = true
+    }
+    RecipeTreeViewController = {
+      apexClass = "RecipeTreeViewController"
+      enabled = true
+    }
+    RelatedCodeTabsController = {
+      apexClass = "RelatedCodeTabsController"
+      enabled = true
+    }
+  }
+  fieldPermissions = {
+    Event = {
+      Description = "ReadWrite"
+      Type = "ReadWrite"
+      WhatId = "ReadWrite"
+      WhoId = "ReadWrite"
+    }
+    Campaign = {
+      ActualCost = "ReadWrite"
+      AmountAllOpportunities = "ReadOnly"
+      AmountWonOpportunities = "ReadOnly"
+      BudgetedCost = "ReadWrite"
+      Description = "ReadWrite"
+      EndDate = "ReadWrite"
+      ExpectedResponse = "ReadWrite"
+      ExpectedRevenue = "ReadWrite"
+      HierarchyActualCost = "ReadOnly"
+      HierarchyAmountAllOpportunities = "ReadOnly"
+      HierarchyAmountWonOpportunities = "ReadOnly"
+      HierarchyBudgetedCost = "ReadOnly"
+      HierarchyExpectedRevenue = "ReadOnly"
+      HierarchyNumberOfContacts = "ReadOnly"
+      HierarchyNumberOfConvertedLeads = "ReadOnly"
+      HierarchyNumberOfLeads = "ReadOnly"
+      HierarchyNumberOfOpportunities = "ReadOnly"
+      HierarchyNumberOfResponses = "ReadOnly"
+      HierarchyNumberOfWonOpportunities = "ReadOnly"
+      HierarchyNumberSent = "ReadOnly"
+      IsActive = "ReadWrite"
+      NumberOfContacts = "ReadOnly"
+      NumberOfConvertedLeads = "ReadOnly"
+      NumberOfLeads = "ReadOnly"
+      NumberOfOpportunities = "ReadOnly"
+      NumberOfResponses = "ReadOnly"
+      NumberOfWonOpportunities = "ReadOnly"
+      NumberSent = "ReadWrite"
+      ParentId = "ReadWrite"
+      StartDate = "ReadWrite"
+      Status = "ReadWrite"
+      Type = "ReadWrite"
+    }
+    Account = {
+      AccountNumber = "ReadWrite"
+      AccountSource = "ReadWrite"
+      AnnualRevenue = "ReadWrite"
+      BillingAddress = "ReadWrite"
+      Description = "ReadWrite"
+      ExternalSalesforceId__c = "ReadWrite"
+      Fax = "ReadWrite"
+      Industry = "ReadWrite"
+      NumberOfEmployees = "ReadWrite"
+      Ownership = "ReadWrite"
+      ParentId = "ReadWrite"
+      Phone = "ReadWrite"
+      Rating = "ReadWrite"
+      ShippingAddress = "ReadWrite"
+      Sic = "ReadWrite"
+      SicDesc = "ReadWrite"
+      Site = "ReadWrite"
+      TickerSymbol = "ReadWrite"
+      Type = "ReadWrite"
+      Website = "ReadWrite"
+    }
+    Contact = {
+      AccountId = "ReadWrite"
+      AssistantName = "ReadWrite"
+      AssistantPhone = "ReadWrite"
+      AttendanceStatus__c = "ReadWrite"
+      Birthdate = "ReadWrite"
+      Department = "ReadWrite"
+      Description = "ReadWrite"
+      DoNotCall = "ReadWrite"
+      Email = "ReadWrite"
+      ExternalSalesforceId__c = "ReadWrite"
+      Fax = "ReadWrite"
+      HasOptedOutOfEmail = "ReadWrite"
+      HasOptedOutOfFax = "ReadWrite"
+      HomePhone = "ReadWrite"
+      LeadSource = "ReadWrite"
+      MailingAddress = "ReadWrite"
+      MobilePhone = "ReadWrite"
+      OtherAddress = "ReadWrite"
+      OtherPhone = "ReadWrite"
+      Phone = "ReadWrite"
+      ReportsToId = "ReadWrite"
+      Title = "ReadWrite"
+    }
+    Opportunity = {
+      AccountId = "ReadWrite"
+      Amount = "ReadWrite"
+      CampaignId = "ReadWrite"
+      ContractId = "ReadWrite"
+      Description = "ReadWrite"
+      IsPrivate = "ReadWrite"
+      LeadSource = "ReadWrite"
+      NextStep = "ReadWrite"
+      Probability = "ReadWrite"
+      TotalOpportunityQuantity = "ReadWrite"
+      Type = "ReadWrite"
+    }
+    Task = {
+      ActivityDate = "ReadWrite"
+      Description = "ReadWrite"
+      Type = "ReadWrite"
+      WhatId = "ReadWrite"
+      WhoId = "ReadWrite"
+    }
+  }
+  hasActivationRequired = false
+  label = "Apex Recipes"
+  objectPermissions = {
+    Account = {
+      allowCreate = true
+      allowDelete = true
+      allowEdit = true
+      allowRead = true
+      modifyAllRecords = false
+      object = salesforce.Account
+      viewAllRecords = false
+    }
+    Campaign = {
+      allowCreate = true
+      allowDelete = true
+      allowEdit = true
+      allowRead = true
+      modifyAllRecords = false
+      object = salesforce.Campaign
+      viewAllRecords = false
+    }
+    Contact = {
+      allowCreate = true
+      allowDelete = true
+      allowEdit = true
+      allowRead = true
+      modifyAllRecords = false
+      object = salesforce.Contact
+      viewAllRecords = false
+    }
+    Event_Recipes_Demo__e = {
+      allowCreate = true
+      allowDelete = false
+      allowEdit = false
+      allowRead = true
+      modifyAllRecords = false
+      object = salesforce.Event_Recipes_Demo__e
+      viewAllRecords = false
+    }
+    Junction_Demo_1__c = {
+      allowCreate = true
+      allowDelete = true
+      allowEdit = true
+      allowRead = true
+      modifyAllRecords = false
+      object = salesforce.Junction_Demo_1__c
+      viewAllRecords = false
+    }
+    Junction_Demo_2__c = {
+      allowCreate = true
+      allowDelete = true
+      allowEdit = true
+      allowRead = true
+      modifyAllRecords = false
+      object = salesforce.Junction_Demo_2__c
+      viewAllRecords = false
+    }
+    Junction__c = {
+      allowCreate = true
+      allowDelete = true
+      allowEdit = true
+      allowRead = true
+      modifyAllRecords = false
+      object = salesforce.Junction__c
+      viewAllRecords = false
+    }
+    Opportunity = {
+      allowCreate = true
+      allowDelete = true
+      allowEdit = true
+      allowRead = true
+      modifyAllRecords = false
+      object = salesforce.Opportunity
+      viewAllRecords = false
+    }
+  }
+  tabSettings = [
+    {
+      tab = "Apex_Recipes"
+      visibility = "Visible"
+    },
+    {
+      tab = "standard-Campaign"
+      visibility = "Visible"
+    },
+  ]
+  fullName = "Apex_Recipes"
+  _alias = "Apex Recipes"
+}
