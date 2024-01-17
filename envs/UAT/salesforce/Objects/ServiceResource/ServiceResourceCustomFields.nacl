@@ -1,0 +1,102 @@
+type salesforce.ServiceResource {
+  salesforce.Number FSL__Efficiency__c {
+    apiName = "ServiceResource.FSL__Efficiency__c"
+    deprecated = false
+    externalId = false
+    label = "Efficiency"
+    precision = 18
+    scale = 2
+    unique = false
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+  salesforce.Text FSL__GanttLabel__c {
+    apiName = "ServiceResource.FSL__GanttLabel__c"
+    deprecated = false
+    externalId = false
+    label = "Gantt Label"
+    length = 80
+    unique = false
+    createable = true
+    updateable = true
+    caseSensitive = false
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+  salesforce.Number FSL__Online_Offset__c {
+    apiName = "ServiceResource.FSL__Online_Offset__c"
+    deprecated = false
+    description = "Online offset in minutes"
+    externalId = false
+    label = "Online Offset"
+    precision = 4
+    scale = 0
+    unique = false
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+  salesforce.Url FSL__Picture_Link__c {
+    apiName = "ServiceResource.FSL__Picture_Link__c"
+    deprecated = false
+    externalId = false
+    label = "Picture Link"
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+  salesforce.Number FSL__Priority__c {
+    apiName = "ServiceResource.FSL__Priority__c"
+    deprecated = false
+    externalId = false
+    label = "Priority"
+    precision = 4
+    scale = 0
+    unique = false
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+  salesforce.Number FSL__Travel_Speed__c {
+    apiName = "ServiceResource.FSL__Travel_Speed__c"
+    deprecated = false
+    externalId = false
+    label = "Travel Speed"
+    precision = 4
+    scale = 0
+    unique = false
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+}

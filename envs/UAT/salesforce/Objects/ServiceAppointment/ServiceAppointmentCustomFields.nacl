@@ -1,0 +1,546 @@
+type salesforce.ServiceAppointment {
+  salesforce.Number FSL__Appointment_Grade__c {
+    apiName = "ServiceAppointment.FSL__Appointment_Grade__c"
+    deprecated = false
+    externalId = false
+    label = "Appointment Grade"
+    precision = 5
+    scale = 2
+    unique = false
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+  salesforce.Checkbox FSL__Auto_Schedule__c {
+    apiName = "ServiceAppointment.FSL__Auto_Schedule__c"
+    defaultValue = false
+    deprecated = false
+    externalId = false
+    label = "Auto Schedule"
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+  salesforce.FormulaNumber FSL__Duration_In_Minutes__c {
+    apiName = "ServiceAppointment.FSL__Duration_In_Minutes__c"
+    deprecated = false
+    externalId = false
+    formula = "IF (ISBLANK(SchedStartTime), 0, (SchedEndTime - SchedStartTime)*24*60)"
+    formulaTreatBlanksAs = "BlankAsZero"
+    label = "Scheduled Duration"
+    precision = 18
+    scale = 2
+    unique = false
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+      {
+        reference = salesforce.ServiceAppointment.field.SchedEndTime
+      },
+      {
+        reference = salesforce.ServiceAppointment.field.SchedStartTime
+      },
+    ]
+  }
+  salesforce.Checkbox FSL__Emergency__c {
+    apiName = "ServiceAppointment.FSL__Emergency__c"
+    defaultValue = false
+    deprecated = false
+    externalId = false
+    label = "Emergency"
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+  salesforce.Text FSL__GanttColor__c {
+    apiName = "ServiceAppointment.FSL__GanttColor__c"
+    deprecated = false
+    externalId = false
+    label = "Gantt Color"
+    length = 7
+    unique = false
+    createable = true
+    updateable = true
+    caseSensitive = false
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+  salesforce.LongTextArea FSL__GanttIcon__c {
+    apiName = "ServiceAppointment.FSL__GanttIcon__c"
+    deprecated = false
+    externalId = false
+    inlineHelpText = "Enter a URL for an icon. The URL must end in an image suffix, such as .png."
+    label = "Gantt Icon"
+    length = 2048
+    visibleLines = 3
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+  salesforce.Text FSL__GanttLabel__c {
+    apiName = "ServiceAppointment.FSL__GanttLabel__c"
+    deprecated = false
+    externalId = false
+    label = "Gantt Label"
+    length = 255
+    unique = false
+    createable = true
+    updateable = true
+    caseSensitive = false
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+  salesforce.DateTime FSL__Gantt_Display_Date__c {
+    apiName = "ServiceAppointment.FSL__Gantt_Display_Date__c"
+    deprecated = false
+    externalId = false
+    label = "Gantt Display Date"
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+  salesforce.Picklist FSL__InJeopardyReason__c {
+    apiName = "ServiceAppointment.FSL__InJeopardyReason__c"
+    deprecated = false
+    externalId = false
+    label = "In Jeopardy Reason"
+    valueSet = [
+      {
+        fullName = "Delayed Start"
+        default = false
+        label = "Delayed Start"
+      },
+      {
+        fullName = "Delayed Finish"
+        default = false
+        label = "Delayed Finish"
+      },
+      {
+        fullName = "No Response"
+        default = false
+        label = "No Response"
+      },
+      {
+        fullName = "Due Date Approaching"
+        default = false
+        label = "Due Date Approaching"
+      },
+    ]
+    sorted = false
+    restricted = true
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+  salesforce.Checkbox FSL__InJeopardy__c {
+    apiName = "ServiceAppointment.FSL__InJeopardy__c"
+    defaultValue = false
+    deprecated = false
+    externalId = false
+    label = "In Jeopardy"
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+  salesforce.Geolocation FSL__InternalSLRGeolocation__c {
+    apiName = "ServiceAppointment.FSL__InternalSLRGeolocation__c"
+    deprecated = false
+    displayLocationInDecimal = true
+    externalId = false
+    label = "Internal SLR Geolocation"
+    scale = 6
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+  salesforce.Checkbox FSL__IsFillInCandidate__c {
+    apiName = "ServiceAppointment.FSL__IsFillInCandidate__c"
+    defaultValue = true
+    deprecated = false
+    externalId = false
+    label = "Is Fill In Candidate"
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+  salesforce.Checkbox FSL__IsMultiDay__c {
+    apiName = "ServiceAppointment.FSL__IsMultiDay__c"
+    defaultValue = false
+    deprecated = false
+    externalId = false
+    label = "Is MultiDay"
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+  salesforce.Number FSL__Last_Updated_Epoch__c {
+    apiName = "ServiceAppointment.FSL__Last_Updated_Epoch__c"
+    deprecated = false
+    externalId = false
+    label = "Last Updated Epoch"
+    precision = 18
+    scale = 0
+    unique = false
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+  salesforce.Number FSL__MDS_Calculated_length__c {
+    apiName = "ServiceAppointment.FSL__MDS_Calculated_length__c"
+    deprecated = false
+    externalId = false
+    label = "Multiday Work Calculated length"
+    precision = 10
+    scale = 0
+    unique = false
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+  salesforce.LongTextArea FSL__MDT_Operational_Time__c {
+    apiName = "ServiceAppointment.FSL__MDT_Operational_Time__c"
+    deprecated = false
+    externalId = false
+    label = "Multiday Work Operational Time"
+    length = 131072
+    visibleLines = 3
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+  salesforce.Checkbox FSL__Pinned__c {
+    apiName = "ServiceAppointment.FSL__Pinned__c"
+    defaultValue = false
+    deprecated = false
+    externalId = false
+    label = "Pinned"
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+  salesforce.Checkbox FSL__Prevent_Geocoding_For_Chatter_Actions__c {
+    apiName = "ServiceAppointment.FSL__Prevent_Geocoding_For_Chatter_Actions__c"
+    defaultValue = false
+    deprecated = false
+    externalId = false
+    label = "Prevent Geocoding For Chatter Actions"
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+  salesforce.Lookup FSL__Related_Service__c {
+    apiName = "ServiceAppointment.FSL__Related_Service__c"
+    deleteConstraint = "SetNull"
+    deprecated = false
+    externalId = false
+    label = "Related Service"
+    referenceTo = [
+      salesforce.ServiceAppointment,
+    ]
+    relationshipLabel = "Service Appointments"
+    relationshipName = "Service_Appointments"
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+  salesforce.Checkbox FSL__Same_Day__c {
+    apiName = "ServiceAppointment.FSL__Same_Day__c"
+    defaultValue = false
+    deprecated = false
+    externalId = false
+    label = "Same Day"
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+  salesforce.Checkbox FSL__Same_Resource__c {
+    apiName = "ServiceAppointment.FSL__Same_Resource__c"
+    defaultValue = false
+    deprecated = false
+    externalId = false
+    label = "Same Resource"
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+  salesforce.Picklist FSL__Schedule_Mode__c {
+    apiName = "ServiceAppointment.FSL__Schedule_Mode__c"
+    deprecated = false
+    externalId = false
+    label = "Schedule Mode"
+    valueSet = [
+      {
+        fullName = "Manual"
+        default = false
+        label = "Manual"
+      },
+      {
+        fullName = "Automatic"
+        default = false
+        label = "Automatic"
+      },
+      {
+        fullName = "Optimization"
+        default = false
+        label = "Optimization"
+      },
+      {
+        fullName = "None"
+        default = true
+        label = "None"
+      },
+      {
+        fullName = "Drag and Drop"
+        default = false
+        label = "Drag and Drop"
+      },
+      {
+        fullName = "Schedule"
+        default = false
+        label = "Schedule"
+      },
+      {
+        fullName = "Global Optimization"
+        default = false
+        label = "Global Optimization"
+      },
+      {
+        fullName = "In Day Optimization"
+        default = false
+        label = "In Day Optimization"
+      },
+      {
+        fullName = "Resource Optimization"
+        default = false
+        label = "Resource Optimization"
+      },
+    ]
+    sorted = false
+    restricted = false
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+  salesforce.Checkbox FSL__Schedule_over_lower_priority_appointment__c {
+    apiName = "ServiceAppointment.FSL__Schedule_over_lower_priority_appointment__c"
+    defaultValue = false
+    deprecated = false
+    externalId = false
+    label = "Schedule Over Lower Priority Appointment"
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+  salesforce.Lookup FSL__Scheduling_Policy_Used__c {
+    apiName = "ServiceAppointment.FSL__Scheduling_Policy_Used__c"
+    deleteConstraint = "SetNull"
+    deprecated = false
+    externalId = false
+    label = "Scheduling Policy Used"
+    referenceTo = [
+      "FSL__Scheduling_Policy__c",
+    ]
+    relationshipLabel = "Service Appointments"
+    relationshipName = "Service_Appointments"
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+  salesforce.Picklist FSL__Time_Dependency__c {
+    apiName = "ServiceAppointment.FSL__Time_Dependency__c"
+    deprecated = false
+    externalId = false
+    label = "Time Dependency"
+    valueSet = [
+      {
+        fullName = "Same Start"
+        default = false
+        label = "Same Start"
+      },
+      {
+        fullName = "Start After Finish"
+        default = false
+        label = "Start After Finish"
+      },
+      {
+        fullName = "Finish Before Start"
+        default = false
+        label = "Finish Before Start"
+      },
+    ]
+    sorted = false
+    restricted = true
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+  salesforce.Checkbox FSL__UpdatedByOptimization__c {
+    apiName = "ServiceAppointment.FSL__UpdatedByOptimization__c"
+    defaultValue = false
+    deprecated = false
+    externalId = false
+    label = "UpdatedByOptimization"
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+  salesforce.Checkbox FSL__Use_Async_Logic__c {
+    apiName = "ServiceAppointment.FSL__Use_Async_Logic__c"
+    defaultValue = false
+    deprecated = false
+    externalId = false
+    label = "Use Async Logic"
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+  salesforce.Checkbox FSL__Virtual_Service_For_Chatter_Action__c {
+    apiName = "ServiceAppointment.FSL__Virtual_Service_For_Chatter_Action__c"
+    defaultValue = false
+    deprecated = false
+    externalId = false
+    label = "Virtual Service For Chatter Action (SLR)"
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+}

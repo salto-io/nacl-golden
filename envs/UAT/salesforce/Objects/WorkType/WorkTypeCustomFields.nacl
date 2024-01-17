@@ -1,0 +1,36 @@
+type salesforce.WorkType {
+  salesforce.Number FSL__Due_Date_Offset__c {
+    apiName = "WorkType.FSL__Due_Date_Offset__c"
+    deprecated = false
+    description = "Minutes"
+    externalId = false
+    inlineHelpText = "Calculates the Due Date by adding Minutes to the Service creation time, reflecting the organisation's internal SLA"
+    label = "Due Date Offset"
+    precision = 9
+    scale = 0
+    unique = false
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+  salesforce.Checkbox FSL__Exact_Appointments__c {
+    apiName = "WorkType.FSL__Exact_Appointments__c"
+    defaultValue = false
+    deprecated = false
+    externalId = false
+    label = "Exact Appointments"
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+}

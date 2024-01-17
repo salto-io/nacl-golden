@@ -1,0 +1,16 @@
+salesforce.ValidationRule ServiceAppointment_FSL__Time_dependency_with_related_service {
+  fullName = "ServiceAppointment.FSL__Time_dependency_with_related_service"
+  active = true
+  errorConditionFormula = "( ISBLANK(FSL__Related_Service__c) && ( !ISBLANK(TEXT(FSL__Time_Dependency__c)) ||  FSL__Same_Day__c || FSL__Same_Resource__c ) )"
+  errorDisplayField = salesforce.ServiceAppointment.field.FSL__Related_Service__c
+  errorMessage = "Please select Related Service."
+  _parent = [
+    salesforce.ServiceAppointment,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.FSL
+    },
+  ]
+  _alias = "ServiceAppointment.FSL__Time_dependency_with_related_service"
+}

@@ -1,0 +1,16 @@
+salesforce.ValidationRule ServiceResource_FSL__Resource_travel {
+  fullName = "ServiceResource.FSL__Resource_travel"
+  active = true
+  errorConditionFormula = "FSL__Travel_Speed__c <= 0"
+  errorDisplayField = salesforce.ServiceResource.field.FSL__Travel_Speed__c
+  errorMessage = "Resource travel speed must be greater than 0."
+  _parent = [
+    salesforce.ServiceResource,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.FSL
+    },
+  ]
+  _alias = "ServiceResource.FSL__Resource_travel"
+}
