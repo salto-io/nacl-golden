@@ -41,6 +41,11 @@ type salesforce.Account {
         default = false
         label = "Medium"
       },
+      {
+        fullName = "Too low"
+        default = false
+        label = "Too low"
+      },
     ]
     sorted = false
     restricted = false
