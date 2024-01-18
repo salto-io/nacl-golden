@@ -1,0 +1,57 @@
+salesforce.Layout RecordsetFltrCritMonitor_Recordset_Filter_Criteria_Monitor_Layout@bssss {
+  layoutSections = [
+    {
+      customLabel = false
+      detailHeading = true
+      editHeading = true
+      label = "Information"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Required"
+              field = salesforce.RecordsetFltrCritMonitor.field.Name
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.RecordsetFltrCritMonitor.field.Description
+            },
+            {
+              behavior = "Required"
+              field = salesforce.RecordsetFltrCritMonitor.field.AssetId
+            },
+            {
+              behavior = "Required"
+              field = salesforce.RecordsetFltrCritMonitor.field.RecordsetFilterCriteriaId
+            },
+            {
+              behavior = "Readonly"
+              field = salesforce.RecordsetFltrCritMonitor.field.IsWithinThreshold
+            },
+          ]
+        },
+        {
+        },
+      ]
+      style = "TwoColumnsLeftToRight"
+    },
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = false
+      layoutColumns = [
+        {
+        },
+      ]
+      style = "CustomLinks"
+    },
+  ]
+  showEmailCheckbox = false
+  showRunAssignmentRulesCheckbox = false
+  showSubmitAndAttachButton = false
+  fullName = "RecordsetFltrCritMonitor-Recordset Filter Criteria Monitor Layout"
+  _parent = [
+    salesforce.RecordsetFltrCritMonitor,
+  ]
+  _alias = "RecordsetFltrCritMonitor-Recordset Filter Criteria Monitor Layout"
+}

@@ -1,0 +1,15 @@
+salesforce.ApexClass CanTheUser {
+  apiVersion = 58
+  status = "Active"
+  fullName = "CanTheUser"
+  content = file("salesforce/Records/ApexClass/CanTheUser.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.ApexClass.instance.OrgShape
+    },
+    {
+      reference = salesforce.ApexClass.instance.PlatformCacheRecipes
+    },
+  ]
+  _alias = "CanTheUser"
+}

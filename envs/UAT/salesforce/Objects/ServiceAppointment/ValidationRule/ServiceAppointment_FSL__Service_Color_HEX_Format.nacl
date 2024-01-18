@@ -1,0 +1,16 @@
+salesforce.ValidationRule ServiceAppointment_FSL__Service_Color_HEX_Format {
+  fullName = "ServiceAppointment.FSL__Service_Color_HEX_Format"
+  active = true
+  errorConditionFormula = "(!ISBLANK(FSL__GanttColor__c)) && (NOT(REGEX(FSL__GanttColor__c, \"#[a-fA-F0-9]{6}\")))"
+  errorDisplayField = salesforce.ServiceAppointment.field.FSL__GanttColor__c
+  errorMessage = "Gantt color must be in hexadecimal format: (for example: #ffffff)"
+  _parent = [
+    salesforce.ServiceAppointment,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.FSL
+    },
+  ]
+  _alias = "ServiceAppointment.FSL__Service_Color_HEX_Format"
+}

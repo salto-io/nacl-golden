@@ -1,0 +1,228 @@
+salesforce.FieldSet WorkOrderLineItem_FSL__CrewManagment_Lightbox {
+  fullName = "WorkOrderLineItem.FSL__CrewManagment_Lightbox"
+  availableFields = [
+    {
+      field = "City"
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = "Country"
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrderLineItem.field.CreatedById
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrderLineItem.field.CreatedDate
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrderLineItem.field.Description
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrderLineItem.field.Discount
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrderLineItem.field.Duration
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrderLineItem.field.DurationType
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrderLineItem.field.EndDate
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrderLineItem.field.Id
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrderLineItem.field.IsClosed
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrderLineItem.field.FSL__IsFillInCandidate__c
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrderLineItem.field.LastModifiedById
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrderLineItem.field.LastModifiedDate
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = "Latitude"
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrderLineItem.field.ListPrice
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = "Longitude"
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrderLineItem.field.ParentWorkOrderLineItemId
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = "PostalCode"
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrderLineItem.field.PricebookEntryId
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrderLineItem.field.Quantity
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrderLineItem.field.RootWorkOrderLineItemId
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrderLineItem.field.ServiceAppointmentCount
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrderLineItem.field.ServiceReportTemplateId
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrderLineItem.field.ServiceTerritoryId
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrderLineItem.field.StartDate
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = "State"
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrderLineItem.field.Status
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrderLineItem.field.StatusCategory
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = "Street"
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrderLineItem.field.Subtotal
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrderLineItem.field.TotalPrice
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrderLineItem.field.UnitPrice
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrderLineItem.field.FSL__VisitingHours__c
+      isFieldManaged = false
+      isRequired = false
+    },
+  ]
+  description = "Crew Managment Lightbox"
+  displayedFields = [
+    {
+      field = salesforce.WorkOrderLineItem.field.Priority
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrderLineItem.field.WorkOrderId
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrderLineItem.field.Subject
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrderLineItem.field.RecommendedCrewSize
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrderLineItem.field.LocationId
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrderLineItem.field.MinimumCrewSize
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrderLineItem.field.AssetId
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.WorkOrderLineItem.field.WorkTypeId
+      isFieldManaged = false
+      isRequired = false
+    },
+  ]
+  label = "Crew Managment Lightbox"
+  _parent = [
+    salesforce.WorkOrderLineItem,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.FSL
+    },
+  ]
+  _alias = "Crew Managment Lightbox (FSL)"
+}

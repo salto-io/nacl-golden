@@ -1,0 +1,7 @@
+salesforce.RemoteSiteSetting soap {
+  fullName = "soap"
+  disableProtocolSecurity = false
+  isActive = true
+  url = "https://wise-moose-swplx-dev-ed--enxootr.trailblaze.vf.force.com"
+  _alias = "soap"
+}

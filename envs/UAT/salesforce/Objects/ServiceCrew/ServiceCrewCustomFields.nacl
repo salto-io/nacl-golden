@@ -1,0 +1,19 @@
+type salesforce.ServiceCrew {
+  salesforce.Text FSL__GanttColor__c {
+    apiName = "ServiceCrew.FSL__GanttColor__c"
+    deprecated = false
+    externalId = false
+    label = "Gantt Color"
+    length = 7
+    unique = false
+    createable = true
+    updateable = true
+    caseSensitive = false
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.FSL
+      },
+    ]
+  }
+}

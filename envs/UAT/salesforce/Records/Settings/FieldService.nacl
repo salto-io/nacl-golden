@@ -1,0 +1,27 @@
+salesforce.FieldServiceSettings {
+  fullName = "FieldService"
+  enableWorkOrders = false
+  fieldServiceOrgPref = true
+  _alias = "FieldService"
+  canPopulateGoogleAddress = true
+  canSendAppCenterCrashReports = true
+  canStoreMobileAnalytics = true
+  doesAllowEditSaForCrew = false
+  doesShareSaParentWoWithAr = false
+  doesShareSaWithAr = false
+  enableBatchWindow = "false"
+  enableFloatingWorkOrder = "false"
+  enablePopulateWorkOrderAddress = "false"
+  enableWorkPlansAutoGeneration = "false"
+  enableWorkStepManualStatusUpdate = "false"
+  fieldServiceNotificationsOrgPref = false
+  isGeoCodeSyncEnabled = false
+  isLocationHistoryEnabled = false
+  o2EngineEnabled = "false"
+  optimizationServiceAccess = "true"
+  serviceAppointmentsDueDateOffsetOrgValue = 7
+  workOrderLineItemSearchFields = "Subject"
+  workOrderSearchFields = "Subject"
+  doesAvlCalcInclOvertime = false
+  doesAvlCalcInclPrimOnly = false
+}

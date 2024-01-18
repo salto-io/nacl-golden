@@ -1,0 +1,456 @@
+type salesforce.WorkCapacityLimit {
+  salesforce.Text Description {
+    apiName = "WorkCapacityLimit.Description"
+    length = 255
+    label = "Description"
+    createable = true
+    updateable = true
+    unique = false
+    caseSensitive = false
+    queryable = true
+  }
+  salesforce.Date EndDate {
+    apiName = "WorkCapacityLimit.EndDate"
+    label = "End Date"
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Checkbox IsActive {
+    apiName = "WorkCapacityLimit.IsActive"
+    inlineHelpText = "Save the record and then activate it. You can't update fields in an active record."
+    defaultValue = false
+    label = "Active"
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Checkbox IsFriday {
+    apiName = "WorkCapacityLimit.IsFriday"
+    defaultValue = false
+    label = "Friday"
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Checkbox IsMonday {
+    apiName = "WorkCapacityLimit.IsMonday"
+    defaultValue = false
+    label = "Monday"
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Checkbox IsSaturday {
+    apiName = "WorkCapacityLimit.IsSaturday"
+    defaultValue = false
+    label = "Saturday"
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Checkbox IsSunday {
+    apiName = "WorkCapacityLimit.IsSunday"
+    defaultValue = false
+    label = "Sunday"
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Checkbox IsThursday {
+    apiName = "WorkCapacityLimit.IsThursday"
+    defaultValue = false
+    label = "Thursday"
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Checkbox IsTuesday {
+    apiName = "WorkCapacityLimit.IsTuesday"
+    defaultValue = false
+    label = "Tuesday"
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Checkbox IsWednesday {
+    apiName = "WorkCapacityLimit.IsWednesday"
+    defaultValue = false
+    label = "Wednesday"
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Picklist LimitationUnits {
+    apiName = "WorkCapacityLimit.LimitationUnits"
+    valueSet = [
+      {
+        fullName = "Hours"
+        isActive = true
+        label = "Hours"
+        default = true
+      },
+      {
+        fullName = "Percentage"
+        isActive = true
+        label = "Percentage"
+        default = false
+      },
+    ]
+    restricted = true
+    _required = true
+    label = "Limitation Units"
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Number LimitationValue {
+    apiName = "WorkCapacityLimit.LimitationValue"
+    inlineHelpText = "Enter the number of hours or a percentage as a whole number."
+    _required = true
+    label = "Limitation Value"
+    precision = 18
+    scale = 2
+    createable = true
+    updateable = true
+    unique = false
+    queryable = true
+  }
+  salesforce.Lookup OwnerId {
+    apiName = "WorkCapacityLimit.OwnerId"
+    relationshipName = "Owner"
+    referenceTo = [
+      salesforce.Group,
+      salesforce.User,
+    ]
+    label = "Owner ID"
+    createable = true
+    updateable = true
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Lookup ServiceTerritoryId {
+    apiName = "WorkCapacityLimit.ServiceTerritoryId"
+    relationshipName = "ServiceTerritory"
+    referenceTo = [
+      salesforce.ServiceTerritory,
+    ]
+    label = "Territory ID"
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Date StartDate {
+    apiName = "WorkCapacityLimit.StartDate"
+    _required = true
+    label = "Start Date"
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Picklist SvcApptField {
+    apiName = "WorkCapacityLimit.SvcApptField"
+    inlineHelpText = "You can only select a service appointment field in the first work capacity limit instance."
+    valueSet = [
+      {
+        fullName = "ServiceAppointment.AccountId"
+        isActive = true
+        label = "Account ID"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.ActualDuration"
+        isActive = true
+        label = "Actual Duration (Minutes)"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.FSL__Appointment_Grade__c"
+        isActive = true
+        label = "Appointment Grade"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.FSL__Auto_Schedule__c"
+        isActive = true
+        label = "Auto Schedule"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.Duration"
+        isActive = true
+        label = "Duration"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.DurationInMinutes"
+        isActive = true
+        label = "Duration in Minutes"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.FSL__Emergency__c"
+        isActive = true
+        label = "Emergency"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.FSL__GanttColor__c"
+        isActive = true
+        label = "Gantt Color"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.FSL__GanttLabel__c"
+        isActive = true
+        label = "Gantt Label"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.FSL__InJeopardy__c"
+        isActive = true
+        label = "In Jeopardy"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.FSL__InJeopardyReason__c"
+        isActive = true
+        label = "In Jeopardy Reason"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.FSL__IsFillInCandidate__c"
+        isActive = true
+        label = "Is Fill In Candidate"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.FSL__IsMultiDay__c"
+        isActive = true
+        label = "Is MultiDay"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.FSL__Last_Updated_Epoch__c"
+        isActive = true
+        label = "Last Updated Epoch"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.FSL__MDS_Calculated_length__c"
+        isActive = true
+        label = "Multiday Work Calculated length"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.IsOffsiteAppointment"
+        isActive = true
+        label = "Offsite Appointment"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.FSL__Pinned__c"
+        isActive = true
+        label = "Pinned"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.FSL__Prevent_Geocoding_For_Chatter_Actions__c"
+        isActive = true
+        label = "Prevent Geocoding For Chatter Actions"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.FSL__Related_Service__c"
+        isActive = true
+        label = "Related Service"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.FSL__Same_Day__c"
+        isActive = true
+        label = "Same Day"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.FSL__Same_Resource__c"
+        isActive = true
+        label = "Same Resource"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.FSL__Duration_In_Minutes__c"
+        isActive = true
+        label = "Scheduled Duration"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.FSL__Schedule_Mode__c"
+        isActive = true
+        label = "Schedule Mode"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.FSL__Schedule_over_lower_priority_appointment__c"
+        isActive = true
+        label = "Schedule Over Lower Priority Appointment"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.FSL__Scheduling_Policy_Used__c"
+        isActive = true
+        label = "Scheduling Policy Used"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.Subject"
+        isActive = true
+        label = "Subject"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.FSL__Time_Dependency__c"
+        isActive = true
+        label = "Time Dependency"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.FSL__UpdatedByOptimization__c"
+        isActive = true
+        label = "UpdatedByOptimization"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.FSL__Use_Async_Logic__c"
+        isActive = true
+        label = "Use Async Logic"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.FSL__Virtual_Service_For_Chatter_Action__c"
+        isActive = true
+        label = "Virtual Service For Chatter Action (SLR)"
+        default = false
+      },
+      {
+        fullName = "ServiceAppointment.WorkTypeId"
+        isActive = true
+        label = "Work Type ID"
+        default = false
+      },
+    ]
+    restricted = true
+    label = "Service Appointment Field"
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Text SvcApptFieldValDplyNm {
+    apiName = "WorkCapacityLimit.SvcApptFieldValDplyNm"
+    length = 255
+    label = "Field Value Display Name"
+    createable = true
+    updateable = true
+    unique = false
+    caseSensitive = false
+    queryable = true
+  }
+  salesforce.Text SvcApptFieldValue {
+    apiName = "WorkCapacityLimit.SvcApptFieldValue"
+    length = 255
+    label = "Field Value"
+    createable = true
+    updateable = true
+    unique = false
+    caseSensitive = false
+    queryable = true
+  }
+  salesforce.Picklist TimePeriod {
+    apiName = "WorkCapacityLimit.TimePeriod"
+    valueSet = [
+      {
+        fullName = "Day"
+        isActive = true
+        label = "Day"
+        default = true
+      },
+    ]
+    restricted = true
+    _required = true
+    label = "Time Period"
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  serviceid Id {
+    apiName = "WorkCapacityLimit.Id"
+    label = "Work Capacity Limit ID"
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Checkbox IsDeleted {
+    apiName = "WorkCapacityLimit.IsDeleted"
+    defaultValue = false
+    label = "Deleted"
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.AutoNumber WorkCapacityLimitNumber {
+    apiName = "WorkCapacityLimit.WorkCapacityLimitNumber"
+    label = "Limit Number"
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.DateTime CreatedDate {
+    apiName = "WorkCapacityLimit.CreatedDate"
+    label = "Created Date"
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Lookup CreatedById {
+    apiName = "WorkCapacityLimit.CreatedById"
+    relationshipName = "CreatedBy"
+    referenceTo = [
+      salesforce.User,
+    ]
+    label = "Created By ID"
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.DateTime LastModifiedDate {
+    apiName = "WorkCapacityLimit.LastModifiedDate"
+    label = "Last Modified Date"
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Lookup LastModifiedById {
+    apiName = "WorkCapacityLimit.LastModifiedById"
+    relationshipName = "LastModifiedBy"
+    referenceTo = [
+      salesforce.User,
+    ]
+    label = "Last Modified By ID"
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.DateTime SystemModstamp {
+    apiName = "WorkCapacityLimit.SystemModstamp"
+    label = "System Modstamp"
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+  }
+}

@@ -1,0 +1,18 @@
+salesforce.ValidationRule ServiceTerritoryMember_FSL__Limit_STM_End_Date {
+  fullName = "ServiceTerritoryMember.FSL__Limit_STM_End_Date"
+  active = true
+  errorConditionFormula = '''
+AND( NOT(ISBLANK(EffectiveEndDate)),
+                                EffectiveEndDate > ADDMONTHS(NOW(),36) )
+'''
+  errorMessage = "End Date must be within 3 years from today"
+  _parent = [
+    salesforce.ServiceTerritoryMember,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.FSL
+    },
+  ]
+  _alias = "ServiceTerritoryMember.FSL__Limit_STM_End_Date"
+}

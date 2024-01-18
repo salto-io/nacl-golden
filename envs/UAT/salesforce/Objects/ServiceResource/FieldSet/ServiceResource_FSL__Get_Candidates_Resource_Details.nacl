@@ -1,0 +1,123 @@
+salesforce.FieldSet ServiceResource_FSL__Get_Candidates_Resource_Details {
+  fullName = "ServiceResource.FSL__Get_Candidates_Resource_Details"
+  availableFields = [
+    {
+      field = salesforce.ServiceResource.field.CreatedById
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceResource.field.CreatedDate
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceResource.field.Description
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceResource.field.FSL__Efficiency__c
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceResource.field.Id
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceResource.field.IsActive
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceResource.field.IsOptimizationCapable
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceResource.field.LastModifiedById
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceResource.field.LastModifiedDate
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceResource.field.LocationId
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceResource.field.FSL__Online_Offset__c
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceResource.field.OwnerId
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceResource.field.FSL__Picture_Link__c
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceResource.field.FSL__Priority__c
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceResource.field.RelatedRecordId
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceResource.field.ResourceType
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceResource.field.ServiceCrewId
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceResource.field.FSL__Travel_Speed__c
+      isFieldManaged = false
+      isRequired = false
+    },
+  ]
+  description = "Used in get candidates quick action and get candidates from the gantt"
+  displayedFields = [
+    {
+      field = salesforce.ServiceResource.field.Name
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceResource.field.FSL__GanttLabel__c
+      isFieldManaged = false
+      isRequired = false
+    },
+    {
+      field = salesforce.ServiceResource.field.IsCapacityBased
+      isFieldManaged = false
+      isRequired = false
+    },
+  ]
+  label = "Get Candidates Resource Details"
+  _parent = [
+    salesforce.ServiceResource,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.FSL
+    },
+  ]
+  _alias = "Get Candidates Resource Details (FSL)"
+}
