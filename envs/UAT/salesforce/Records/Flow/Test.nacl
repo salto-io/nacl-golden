@@ -40,14 +40,22 @@ salesforce.Flow Test {
             stringValue = "0018A00000buJJrQAM"
           }
         },
+        {
+          field = salesforce.Account.field.AccountNumber
+          operator = "EqualTo"
+          value = {
+            stringValue = "\"\""
+          }
+        },
       ]
-      getFirstRecordOnly = false
+      
       object = salesforce.Account
-      storeOutputAutomatically = true
+      
       queriedFields = [
         salesforce.Account.field.Id,
         "BillingCity",
       ]
+      outputReference = "accountsVar"
     },
   ]
   start = {
@@ -59,6 +67,22 @@ salesforce.Flow Test {
   }
   status = "Draft"
   variables = [
+    {
+      name = "accountsVar"
+      dataType = "SObject"
+      isCollection = true
+      isInput = false
+      isOutput = false
+      objectType = salesforce.Account
+    },
+    {
+      name = "AccountVar"
+      dataType = "SObject"
+      isCollection = false
+      isInput = false
+      isOutput = false
+      objectType = salesforce.Account
+    },
     {
       name = "getAccountOutput"
       dataType = "SObject"
