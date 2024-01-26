@@ -1,0 +1,17 @@
+salesforce.ValidationRule ServiceAppointment_FSL__isDueDateExist {
+  fullName = "ServiceAppointment.FSL__isDueDateExist"
+  active = false
+  description = "Check if DueDate field exist on service appointment."
+  errorConditionFormula = "ISNULL(  DueDate )"
+  errorDisplayField = salesforce.ServiceAppointment.field.DueDate
+  errorMessage = "DueDate field is required"
+  _parent = [
+    salesforce.ServiceAppointment,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.FSL
+    },
+  ]
+  _alias = "ServiceAppointment.FSL__isDueDateExist"
+}

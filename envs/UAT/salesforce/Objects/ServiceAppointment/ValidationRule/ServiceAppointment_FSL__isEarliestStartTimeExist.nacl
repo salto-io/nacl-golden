@@ -1,0 +1,17 @@
+salesforce.ValidationRule ServiceAppointment_FSL__isEarliestStartTimeExist {
+  fullName = "ServiceAppointment.FSL__isEarliestStartTimeExist"
+  active = false
+  description = "Check if EarliestStartTime field exist on service appointment."
+  errorConditionFormula = "ISNULL( EarliestStartTime )"
+  errorDisplayField = salesforce.ServiceAppointment.field.EarliestStartTime
+  errorMessage = "EarliestStartTime field is required"
+  _parent = [
+    salesforce.ServiceAppointment,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.FSL
+    },
+  ]
+  _alias = "ServiceAppointment.FSL__isEarliestStartTimeExist"
+}

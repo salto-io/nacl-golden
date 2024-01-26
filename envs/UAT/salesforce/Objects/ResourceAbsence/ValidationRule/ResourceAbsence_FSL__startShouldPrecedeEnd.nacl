@@ -1,0 +1,16 @@
+salesforce.ValidationRule ResourceAbsence_FSL__startShouldPrecedeEnd {
+  fullName = "ResourceAbsence.FSL__startShouldPrecedeEnd"
+  active = true
+  errorConditionFormula = "End <=  Start"
+  errorDisplayField = salesforce.ResourceAbsence.field.Start
+  errorMessage = "The Start Time must be earlier than the End Time."
+  _parent = [
+    salesforce.ResourceAbsence,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.FSL
+    },
+  ]
+  _alias = "ResourceAbsence.FSL__startShouldPrecedeEnd"
+}

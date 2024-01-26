@@ -1,0 +1,73 @@
+salesforce.Layout ServiceAppointmentCapacityUsage_Service_Appointment_Capacity_Usage_Layout@bssss {
+  layoutSections = [
+    {
+      customLabel = false
+      detailHeading = true
+      editHeading = true
+      label = "Information"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Readonly"
+              field = salesforce.ServiceAppointmentCapacityUsage.field.ServiceAppointmentId
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.ServiceAppointmentCapacityUsage.field.EstimatedUsageInMinutes
+            },
+          ]
+        },
+        {
+          layoutItems = [
+            {
+              behavior = "Edit"
+              field = salesforce.ServiceAppointmentCapacityUsage.field.UsageDate
+            },
+          ]
+        },
+      ]
+      style = "TwoColumnsLeftToRight"
+    },
+    {
+      customLabel = false
+      detailHeading = true
+      editHeading = true
+      label = "System Information"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Edit"
+              field = salesforce.ServiceAppointmentCapacityUsage.field.CreatedById
+            },
+          ]
+        },
+        {
+          layoutItems = [
+            {
+              behavior = "Edit"
+              field = salesforce.ServiceAppointmentCapacityUsage.field.LastModifiedById
+            },
+          ]
+        },
+      ]
+      style = "TwoColumnsLeftToRight"
+    },
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = false
+      label = "Custom Links"
+      style = "CustomLinks"
+    },
+  ]
+  showEmailCheckbox = false
+  showRunAssignmentRulesCheckbox = false
+  showSubmitAndAttachButton = false
+  fullName = "ServiceAppointmentCapacityUsage-Service Appointment Capacity Usage Layout"
+  _parent = [
+    salesforce.ServiceAppointmentCapacityUsage,
+  ]
+  _alias = "ServiceAppointmentCapacityUsage-Service Appointment Capacity Usage Layout"
+}

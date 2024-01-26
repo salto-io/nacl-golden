@@ -1,0 +1,198 @@
+type salesforce.TopicAssignment {
+  serviceid Id {
+    apiName = "TopicAssignment.Id"
+    label = "Topic Assignment ID"
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Lookup TopicId {
+    apiName = "TopicAssignment.TopicId"
+    relationshipName = "Topic"
+    referenceTo = [
+      salesforce.Topic,
+    ]
+    _required = true
+    label = "Topic ID"
+    createable = true
+    updateable = false
+    queryable = true
+  }
+  salesforce.Lookup EntityId {
+    apiName = "TopicAssignment.EntityId"
+    relationshipName = "Entity"
+    referenceTo = [
+      salesforce.Account,
+      salesforce.ApptBundleAggrDurDnscale,
+      salesforce.ApptBundleAggrPolicy,
+      salesforce.ApptBundleConfig,
+      salesforce.ApptBundlePolicy,
+      salesforce.ApptBundlePolicySvcTerr,
+      salesforce.ApptBundlePropagatePolicy,
+      salesforce.ApptBundleRestrictPolicy,
+      salesforce.ApptBundleSortPolicy,
+      salesforce.Asset,
+      salesforce.AssetWarranty,
+      salesforce.Campaign,
+      salesforce.Case,
+      salesforce.ChangeRequest,
+      salesforce.Contact,
+      "ContentDocument",
+      salesforce.Contract,
+      salesforce.ContractLineOutcomeData,
+      salesforce.Event,
+      salesforce.Expense,
+      salesforce.ExpenseReport,
+      salesforce.ExpenseReportEntry,
+      "FSL__Crew_Management_User_Settings_Territory__c",
+      "FSL__Crew_Management_User_Settings__c",
+      "FSL__Criteria__c",
+      "FSL__FSL_Operation__c",
+      "FSL__GanttPalette__c",
+      "FSL__Gantt_Filter__c",
+      "FSL__Optimization_Data__c",
+      "FSL__Optimization_Request_Queue__c",
+      "FSL__Optimization_Request__c",
+      "FSL__Polygon__c",
+      "FSL__SLR_Cache__c",
+      "FSL__SchedulingRecipe__c",
+      "FSL__Scheduling_Policy_Goal__c",
+      "FSL__Scheduling_Policy_Work_Rule__c",
+      "FSL__Scheduling_Policy__c",
+      "FSL__Service_Goal__c",
+      "FSL__Territory_Optimization_Request__c",
+      "FSL__Time_Dependency__c",
+      "FSL__UserSetting__c",
+      "FSL__User_Setting_Territory__c",
+      "FSL__User_Territory__c",
+      "FSL__Work_Rule_Entry__c",
+      "FSL__Work_Rule__c",
+      salesforce.FeedItem,
+      salesforce.Incident,
+      salesforce.JobProfile,
+      salesforce.Junction_Demo_1__c,
+      salesforce.Junction_Demo_2__c,
+      salesforce.Junction__c,
+      salesforce.Lead,
+      salesforce.LogEvent__c,
+      salesforce.MaintenanceAsset,
+      salesforce.MaintenancePlan,
+      salesforce.Opportunity,
+      salesforce.Order,
+      salesforce.Problem,
+      salesforce.ProductConsumed,
+      salesforce.ProductItem,
+      salesforce.ProductItemTransaction,
+      salesforce.ProductRequest,
+      salesforce.ProductRequestLineItem,
+      salesforce.ProductRequired,
+      salesforce.ProductServiceCampaign,
+      salesforce.ProductServiceCampaignItem,
+      salesforce.ProductTransfer,
+      salesforce.ResourceAbsence,
+      salesforce.ResourcePreference,
+      salesforce.ReturnOrder,
+      salesforce.ReturnOrderLineItem,
+      salesforce.Sample__c,
+      salesforce.ServiceAppointment,
+      salesforce.ServiceCrew,
+      salesforce.ServiceCrewMember,
+      salesforce.ServiceResource,
+      salesforce.ServiceResourceCapacity,
+      salesforce.ServiceResourceSkill,
+      salesforce.ServiceTerritory,
+      salesforce.ServiceTerritoryMember,
+      salesforce.Shift,
+      salesforce.Shipment,
+      salesforce.Solution,
+      salesforce.Task,
+      salesforce.TimeSheet,
+      salesforce.TimeSheetEntry,
+      salesforce.TravelMode,
+      salesforce.WarrantyTerm,
+      salesforce.WorkCapacityAvailability,
+      salesforce.WorkCapacityLimit,
+      salesforce.WorkCapacityUsage,
+      salesforce.WorkOrder,
+      salesforce.WorkOrderLineItem,
+      salesforce.WorkPlan,
+      salesforce.WorkPlanSelectionRule,
+      salesforce.WorkPlanTemplate,
+      salesforce.WorkPlanTemplateEntry,
+      salesforce.WorkStep,
+      salesforce.WorkStepTemplate,
+      "enxootr__Class_Coverage__c",
+      "enxootr__Class__c",
+      "enxootr__Method__c",
+      "enxootr__Organization__c",
+      "enxootr__Test_Result__c",
+      "enxootr__Test_Run__c",
+      "enxootr__Test_Suite_Member__c",
+      "enxootr__Test_Suite__c",
+    ]
+    _required = true
+    label = "Entity ID"
+    createable = true
+    updateable = false
+    queryable = true
+  }
+  salesforce.Text EntityKeyPrefix {
+    apiName = "TopicAssignment.EntityKeyPrefix"
+    length = 3
+    _required = true
+    label = "Record Key Prefix"
+    createable = false
+    updateable = false
+    unique = false
+    caseSensitive = false
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Text EntityType {
+    apiName = "TopicAssignment.EntityType"
+    length = 80
+    label = "Object Type"
+    createable = false
+    updateable = false
+    unique = false
+    caseSensitive = false
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.DateTime CreatedDate {
+    apiName = "TopicAssignment.CreatedDate"
+    label = "Created Date"
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Lookup CreatedById {
+    apiName = "TopicAssignment.CreatedById"
+    relationshipName = "CreatedBy"
+    referenceTo = [
+      salesforce.User,
+    ]
+    label = "Created By ID"
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Checkbox IsDeleted {
+    apiName = "TopicAssignment.IsDeleted"
+    defaultValue = false
+    label = "Deleted"
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.DateTime SystemModstamp {
+    apiName = "TopicAssignment.SystemModstamp"
+    label = "System Modstamp"
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+  }
+}

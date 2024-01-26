@@ -1,0 +1,7 @@
+salesforce.ApexClass TestDouble {
+  apiVersion = 58
+  status = "Active"
+  fullName = "TestDouble"
+  content = file("salesforce/Records/ApexClass/TestDouble.cls")
+  _alias = "TestDouble"
+}

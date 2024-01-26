@@ -1,0 +1,15 @@
+salesforce.ApexClass MDTSecondAccountTriggerHandler {
+  apiVersion = 58
+  status = "Active"
+  fullName = "MDTSecondAccountTriggerHandler"
+  content = file("salesforce/Records/ApexClass/MDTSecondAccountTriggerHandler.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.Account
+    },
+    {
+      reference = salesforce.ApexClass.instance.TriggerHandler
+    },
+  ]
+  _alias = "MDTSecondAccountTriggerHandler"
+}

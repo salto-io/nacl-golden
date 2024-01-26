@@ -1,0 +1,5 @@
+salesforce.InstalledPackage FSL {
+  versionNumber = "244.0.66"
+  fullName = "FSL"
+  _alias = "FSL"
+}

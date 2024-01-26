@@ -1,0 +1,21 @@
+salesforce.ApexClass AccountTriggerHandler_Tests {
+  apiVersion = 58
+  status = "Active"
+  fullName = "AccountTriggerHandler_Tests"
+  content = file("salesforce/Records/ApexClass/AccountTriggerHandler_Tests.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.Account
+    },
+    {
+      reference = salesforce.ApexClass.instance.AccountTriggerHandler
+    },
+    {
+      reference = salesforce.ApexClass.instance.TestFactory
+    },
+    {
+      reference = salesforce.Task
+    },
+  ]
+  _alias = "AccountTriggerHandler_Tests"
+}
