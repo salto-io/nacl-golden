@@ -53,7 +53,7 @@ salesforce.Flow Test {
       
       queriedFields = [
         salesforce.Account.field.Id,
-        salesforce.Account.field.AnnualRevenue,
+        "BillingCity",
       ]
       outputReference = "accountsVar"
     },
