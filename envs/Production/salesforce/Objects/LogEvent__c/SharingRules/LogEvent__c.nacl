@@ -1,0 +1,6 @@
+salesforce.SharingRules LogEvent__c {
+  fullName = "LogEvent__c"
+  _parent = [
+    salesforce.LogEvent__c,
+  ]
+}
