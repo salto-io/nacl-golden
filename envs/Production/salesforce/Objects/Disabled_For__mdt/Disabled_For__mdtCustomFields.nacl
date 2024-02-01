@@ -1,0 +1,23 @@
+type salesforce.Disabled_For__mdt {
+  salesforce.MetadataRelationship Metadata_Driven_Trigger__c {
+    apiName = "Disabled_For__mdt.Metadata_Driven_Trigger__c"
+    externalId = false
+    fieldManageability = "DeveloperControlled"
+    label = "Metadata Driven Trigger"
+    referenceTo = [
+      "Metadata_Driven_Trigger__mdt",
+    ]
+    relationshipLabel = "Disabled For"
+    relationshipName = "Disabled_For"
+    _required = true
+    unique = false
+  }
+  salesforce.Email User_Email__c {
+    apiName = "Disabled_For__mdt.User_Email__c"
+    externalId = false
+    fieldManageability = "DeveloperControlled"
+    label = "User Email"
+    _required = true
+    unique = false
+  }
+}

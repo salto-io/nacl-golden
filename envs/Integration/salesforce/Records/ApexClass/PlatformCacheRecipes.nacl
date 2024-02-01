@@ -1,0 +1,7 @@
+salesforce.ApexClass PlatformCacheRecipes {
+  apiVersion = 58
+  status = "Active"
+  fullName = "PlatformCacheRecipes"
+  content = file("salesforce/Records/ApexClass/PlatformCacheRecipes.cls")
+  _alias = "PlatformCacheRecipes"
+}
