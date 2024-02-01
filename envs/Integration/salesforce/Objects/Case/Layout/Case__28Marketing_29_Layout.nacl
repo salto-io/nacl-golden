@@ -95,6 +95,10 @@ salesforce.Layout Case_Case__28Marketing_29_Layout@bspps {
               behavior = "Edit"
               field = salesforce.Case.field.Reason
             },
+            {
+              behavior = "Edit"
+              field = salesforce.Case.field.My_Date__c
+            },
           ]
         },
         {
